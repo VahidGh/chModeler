@@ -1,3 +1,6 @@
+<script type="text/javascript" async src="//cdn.bootcss.com/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
 # chModeler
 
 [![Build Status](https://travis-ci.org/vahidgh/chModeler.svg)](https://travis-ci.org/vahidgh/chModeler)
@@ -112,3 +115,10 @@ python chModeler.py "@args.txt"
 # Run the wizard
 python chModeler.py -w 
 ```
+
+
+## TODOs:
+
+ * **Model Validation**: Because these models are based on digitized data from literature, voltage traces are dependent to the related experiment. So. in order to verify each model to a wide range of voltages there is a need to validate final models against a wider range of voltages.
+ * **Temperature and Calcium concentration dependency**: Although the *c* constant can cover the calcium concentration dependency, it's needed to be validated.
+ * **Standard data support**: This package needs to be updated to support data analysis from patch clamp machines.
