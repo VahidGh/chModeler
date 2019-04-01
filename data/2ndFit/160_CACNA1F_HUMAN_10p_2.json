@@ -1,0 +1,158 @@
+{
+    "time": "2019-02-22 01:42:07.108714",
+    "ion_channel": {
+        "create_date": "2017-01-04T07:14:42.413169Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/83, http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=531&familyId=80&familyType=IC",
+        "sequence": "MSESEGGKDTTPEPSPANGAGPGPEWGLCPGPPAVEGESSGASGLGTPKRRNQHSKHKTVAVASAQRSPRALFCLTLANPLRRSCISIVEWKPFDILILLTIFANCVALGVYIPFPEDDSNTANHNLEQVEYVFLVIFTVETVLKIVAYGLVLHPSAYIRNGWNLLDFIIVVVGLFSVLLEQGPGRPGDAPHTGGKPGGFDVKALRAFRVLRPLRLVSGVPSLHIVLNSIMKALVPLLHIALLVLFVIIIYAIIGLELFLGRMHKTCYFLGSDMEAEEDPSPCASSGSGRACTLNQTECRGRWPGPNGGITNFDNFFFAMLTVFQCVTMEGWTDVLYWMQDAMGYELPWVYFVSLVIFGSFFVLNLVLGVLSGEFSKEREKAKARGDFQKQREKQQMEEDLRGYLDWITQAEELDMEDPSADDNLGSMAEEGRAGHRPQLAELTNRRRGRLRWFSHSTRSTHSTSSHASLPASDTGSMTETQGDEDEEEGALASCTRCLNKIMKTRVCRRLRRANRVLRARCRRAVKSNACYWAVLLLVFLNTLTIASEHHGQPVWLTQIQEYANKVLLCLFTVEMLLKLYGLGPSAYVSSFFNRFDCFVVCGGILETTLVEVGAMQPLGISVLRCVRLLRIFKVTRHWASLSNLVASLLNSMKSIASLLLLLFLFIIIFSLLGMQLFGGKFNFDQTHTKRSTFDTFPQALLTVFQILTGEDWNVVMYDGIMAYGGPFFPGMLVCIYFIILFICGNYILLNVFLAIAVDNLASGDAGTAKDKGGEKSNEKDLPQENEGLVPGVEKEEEEGARREGADMEEEEEEEEEEEEEEEEEGAGGVELLQEVVPKEKVVPIPEGSAFFCLSQTNPLRKGCHTLIHHHVFTNLILVFIILSSVSLAAEDPIRAHSFRNHILGYFDYAFTSIFTVEILLKMTVFGAFLHRGSFCRSWFNMLDLLVVSVSLISFGIHSSAISVVKILRVLRVLRPLRAINRAKGLKHVVQCVFVAIRTIGNIMIVTTLLQFMFACIGVQLFKGKFYTCTDEAKHTPQECKGSFLVYPDGDVSRPLVRERLWVNSDFNFDNVLSAMMALFTVSTFEGWPALLYKAIDAYAEDHGPIYNYRVEISVFFIVYIIIIAFFMMNIFVGFVIITFRAQGEQEYQNCELDKNQRQCVEYALKAQPLRRYIPKNPHQYRVWATVNSAAFEYLMFLLILLNTVALAMQHYEQTAPFNYAMDILNMVFTGLFTIEMVLKIIAFKPKHYFTDAWNTFDALIVVGSIVDIAVTEVNNGGHLGESSEDSSRISITFFRLFRVMRLVKLLSKGEGIRTLLWTFIKSFQALPYVALLIAMIFFIYAVIGMQMFGKVALQDGTQINRNNNFQTFPQAVLLLFRCATGEAWQEIMLASLPGNRCDPESDFGPGEEFTCGSNFAIAYFISFFMLCAFLIINLFVAVIMDNFDYLTRDWSILGPHHLDEFKRIWSEYDPGAKGRIKHLDVVALLRRIQPPLGFGKLCPHRVACKRLVAMNMPLNSDGTVTFNATLFALVRTSLKIKTEGNLEQANQELRIVIKKIWKRMKQKLLDEVIPPPDEEEVTVGKFYATFLIQDYFRKFRRRKEKGLLGNDAAPSTSSALQAGLRSLQDLGPEMRQALTCDTEEEEEEGQEGVEEEDEKDLETNKATMVSQPSARRGSGISVSLPVGDRLPDSLSFGPSDDDRGTPTSSQPSVPQAGSNTHRRGSGALIFTIPEEGNSQPKGTKGQNKQDEDEEVPDRLSYLDEQAGTPPCSVLLPPHRAQRYMDGHLVPRRRLLPPTPAGRKPSFTIQCLQRQGSCEDLPIPGTYHRGRNSGPNRAQGSWATPPQRGRLLYAPLLLVEEGAAGEGYLGRSSGPLRTFTCLHVPGTHSDPSHGKRGSADSLVEAVLISEGLGLFARDPRFVALAKQEIADACRLTLDEMDNAASDLLAQGTSSLYSDEESILSRFDEEDLGDEMACVHAL",
+        "uniprot_id": "O60840-1",
+        "conductance": null,
+        "references": [
+            136,
+            137,
+            138
+        ],
+        "refSeq_id": "NP_005174",
+        "full_name": "CACNA1F calcium voltage-gated channel subunit alpha1 F [ Homo sapiens (human) ]",
+        "id": 148,
+        "aliases": "JM8, OA2, AIED, COD3, COD4, JMC8, CORDX, CSNB2, CORDX3, CSNB2A, CSNBX2, hCav1.4, hCav1.4alpha1",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-17T12:28:59.119983Z",
+        "member": "1F",
+        "gene_symbol": "CACNA1F",
+        "animal": "Homo sapiens (Human)",
+        "username": 1,
+        "ion_type": "Ca2+",
+        "gene_id": "778",
+        "current_type": "A-type",
+        "subfamily": "NA",
+        "class_symbol": "Cav1.4",
+        "channel_type": "Voltage-gated calcium channels",
+        "channel_name": "CACNA1F_HUMAN"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/160/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 120,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/160/t_vs_i.pickle",
+        "reference": 138,
+        "y_axis_toSI": 1e-06,
+        "comments": "10 mM Ca, 2.b I/V",
+        "figure_ref_address": "2.b-2",
+        "x_axis_unit": "ms",
+        "ion_channel": 148,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/17/CACNA1F_HUMAN.png",
+        "figure_ref_caption": "Activation properties of mutants R508Q and L1364H compared with WT. Normalized I\u00e2\u20ac\u201cV curves for Cav1.4 WT and mutant R508Q and L1364H \u00ce\u00b11 co-expressed with \u00ce\u00b23 and \u00ce\u00b12\u00ce\u00b41 subunits in X. laevis oocytes are shown. Either 10 mm Ba2+ (a) or Ca2+ (b) was used as charge carrier with 10 \u00c2\u00b5m BayK present in the bath. Representative experiments are shown. For statistical analysis see Table 1. Representative original traces of Cav1.4 WT Ca2+ currents elicited by depolarizing pulses of 2 s from \u00e2\u02c6\u2019\u00e2\u20ac\u016080 to + 60 mV are shown in the inset.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 160
+    },
+    "params": {
+        "v_half": -0.016452641754816966,
+        "slope": 0.0033473452415917295,
+        "e_rev": 0.05557163343066851,
+        "g": 4.487039697782058e-05,
+        "ra": 1.8923128390175195,
+        "sa": 2.2394045320097673,
+        "rb": 1.3490737172539957,
+        "vb": -0.01720238421271251,
+        "sb": 0.0010000000000000002,
+        "rc": 8.190357157488734
+    },
+    "x0": [
+        1.8435772020268533,
+        -3.2956307490541787,
+        0.2145308275318209,
+        -0.07581754939820874,
+        0.0010645773044422131,
+        5.907207817658212
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.05,
+            0.03,
+            0.01,
+            0.0,
+            -0.01,
+            -0.02,
+            -0.03
+        ],
+        "v_hold": -0.08,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            3,
+            2,
+            2,
+            2,
+            2,
+            6,
+            7
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.016452641754816966,
+        "slope": 0.0033473452415917295,
+        "e_rev": 0.05557163343066851,
+        "g": 4.487039697782058e-05
+    },
+    "error": {
+        "r2": 0.9937861565555821,
+        "rmse": 2.7926952048738637e-08
+    },
+    "equation": "4.49E-05 * 1/(1+exp(-(v--16.45)/3.35)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - 55.57)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 1.89*exp(-2.24*v), b = 1.35/(1+exp(-(v--17.20)/1.00)), c = 8.190"
+}

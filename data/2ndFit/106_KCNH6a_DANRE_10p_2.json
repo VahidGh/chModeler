@@ -1,0 +1,146 @@
+{
+    "time": "2019-02-22 01:29:28.310714",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.087092Z",
+        "links": "",
+        "sequence": "MPVRRGHVALQNTYLDTIIRKFDGQNRKFLIANAQMKNCGIIYCNEGFCQMFGFSRAEIMQQSCTCQFLVGPGTMKSALGQLAQALLGSEERKVEILYYSKEGTCRPCLIDVIPVKNEEGVVIMFILNFQELLDPSMKKGGLKQRMANSWLRAGQRRRMHLRMPSLRVKRQPSLPKDHFEGVVVDYLQPSHEEVALKDLQMSPDSCLKSETQALIQQTPSSCELSPPPSRPSDRLEPSGPLLKHSHSRESMHSLRRASSLHDIDGMRDQWSDLKPSNLNSTSDSDLMRHRTIGRIPQVTISFGSDRLRPPSPTEIEIIAPSKIKDRSQNVSEKVTQVTQVLSLGADVLPEYKLQAPRIHKWTILHYSPFKAVWDWIILLLVLYTAVFTPYSAAFLLNEQEDERRRTCGYTCNPLNVVDLVVDVMFIIDILINFRTTYVNHNDEVVSNPARIAQHYFKGWFLIDIVAAIPFDLLIFRSGSDEPQTTTLIGLLKTARLLRLVRVARKLDRYSEYGAAVLFLLMCTFALIAHWLACIWYAIGNMERTSSARIGGMKIGWLDNLADQIGKQYNDSNSFSGPSIKDKYVTALYFTFSSLTSVGFGNVSPNTNPEKIFSICVMLIGSLMYASIFGNVSAIIQRLYSGTARYHTQMLRVKEFIRFHQIPGGLRQRLEEYFQHAWPYTNGIDMNAVLKGFPECLQADICLHLNRSLLQSCKAFRGASKGCLRALAMRFRTTHAPPGDTLVHSGDVLTALYFISRGSIEILRDDVVVAILGKNDIFGEPISLYARPGKSSADVRALTYCDLHKILRDDLLEVLDMYPDFSDNFWSNLEITFNLRDVDRIMHPTPSEDSDCGYRRPRHRRNPLRRNRPDGMDRDGMDTYPVQPCSPVGNHRGAIPLSQWDELCSDGSPASLSSEEDMKPLVSGQGDMYSLGTEMQEFSPSAVSLMPSAHSTASAMAGPLTGAHQYTAAPLNISGVYSYLSDRRASEYSESQRRSSAVQACYHHHSPCVGDRPNQLQARLELLQSQLNRLETRMTADINVILQLLQRQMAPVPPAYSAVSPDPLAHPVPPAHPTSLYTTAAHNTTPSLQITDASSPGKSPDVDSLKEKSPDSLSSGIHLTVASTDTMSMSPETELSVPSAGPLLQPPGLLCSSLRFPSLPDSLEGPGTLEGSPEIQRHVSDPVLPGS",
+        "uniprot_id": "Q8JH78-1",
+        "conductance": null,
+        "references": [
+            90
+        ],
+        "refSeq_id": "NP_998002",
+        "full_name": "kcnh6a potassium voltage-gated channel, subfamily H (eag-related), member 6a [ Danio rerio (zebrafish) ]",
+        "id": 94,
+        "aliases": "ERG2, zERG2, zERG, zKv11.2",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-12T17:19:48.864007Z",
+        "member": "6",
+        "gene_symbol": "kcnh6a",
+        "animal": "Danio rerio (zebrafish)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "405763",
+        "current_type": "Delayed rectifier",
+        "subfamily": "H",
+        "class_symbol": "Kv11.2",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCNH6a_DANRE"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/106/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 82,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/106/t_vs_i.pickle",
+        "reference": 90,
+        "y_axis_toSI": 1e-06,
+        "comments": "1.D I_norm/V, 3. Inactivation. Deactivated to: -50",
+        "figure_ref_address": "1.B",
+        "x_axis_unit": "ms",
+        "ion_channel": 94,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/13/KCNH6a_DANRE.png",
+        "figure_ref_caption": "Heterologous expression of cloned zERG channels. (A) An exemplary family of hERG currents elicited by a standard outward voltage protocol (inset). Only every second current trace is displayed to achieve a clearer presentation. (B) Injection of zERG mRNA resulted in similar currents, showing typical activation currents and rapidly deactivating outward tail currents. Mean peak tail current amplitude did not differ significantly between heterologously expressed hERG (1.08 \u00c2\u00b1 0.37 uA) and zERG (1.03 \u00c2\u00b1 0.12 uA) channels (p > 0.05, n = 6\u00e2\u20ac\u201c8)",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 106
+    },
+    "params": {
+        "v_half": -0.015969612516202263,
+        "slope": -0.02645587334517267,
+        "e_rev": -0.04628279501488588,
+        "g": 7.586822456488898e-05,
+        "ra": 0.3360561234104529,
+        "sa": -62.029686864826445,
+        "rb": 8.917273165714,
+        "vb": 0.02266064544404378,
+        "sb": 0.006617396080675179,
+        "rc": 0.406968589171334
+    },
+    "x0": [
+        0.33612157504134976,
+        -62.036009189397156,
+        8.927477842212408,
+        0.022672236485681525,
+        0.006620189627836321,
+        0.4069377157837936
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.04,
+            0.02,
+            0.0,
+            -0.02,
+            -0.04
+        ],
+        "v_hold": -0.05,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            5,
+            6,
+            6,
+            6,
+            6
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.015969612516202263,
+        "slope": -0.02645587334517267,
+        "e_rev": -0.04628279501488588,
+        "g": 7.586822456488898e-05
+    },
+    "error": {
+        "r2": 0.9161156097615178,
+        "rmse": 3.6741239238357604e-08
+    },
+    "equation": "7.59E-05 * 1/(1+exp(-(v--15.97)/-26.46)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -46.28)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 0.34*exp(--62.03*v), b = 8.92/(1+exp(-(v-22.66)/6.62)), c = 0.407"
+}

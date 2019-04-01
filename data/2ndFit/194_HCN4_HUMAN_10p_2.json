@@ -1,0 +1,146 @@
+{
+    "time": "2019-02-22 02:02:17.876713",
+    "ion_channel": {
+        "create_date": "2017-01-04T07:14:42.525389Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/64, http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=403&familyId=71&familyType=IC",
+        "sequence": "MDKLPPSMRKRLYSLPQQVGAKAWIMDEEEDAEEEGAGGRQDPSRRSIRLRPLPSPSPSAAAGGTESRSSALGAADSEGPARGAGKSSTNGDCRRFRGSLASLGSRGGGSGGTGSGSSHGHLHDSAEERRLIAEGDASPGEDRTPPGLAAEPERPGASAQPAASPPPPQQPPQPASASCEQPSVDTAIKVEGGAAAGDQILPEAEVRLGQAGFMQRQFGAMLQPGVNKFSLRMFGSQKAVEREQERVKSAGFWIIHPYSDFRFYWDLTMLLLMVGNLIIIPVGITFFKDENTTPWIVFNVVSDTFFLIDLVLNFRTGIVVEDNTEIILDPQRIKMKYLKSWFMVDFISSIPVDYIFLIVETRIDSEVYKTARALRIVRFTKILSLLRLLRLSRLIRYIHQWEEIFHMTYDLASAVVRIVNLIGMMLLLCHWDGCLQFLVPMLQDFPDDCWVSINNMVNNSWGKQYSYALFKAMSHMLCIGYGRQAPVGMSDVWLTMLSMIVGATCYAMFIGHATALIQSLDSSRRQYQEKYKQVEQYMSFHKLPPDTRQRIHDYYEHRYQGKMFDEESILGELSEPLREEIINFNCRKLVASMPLFANADPNFVTSMLTKLRFEVFQPGDYIIREGTIGKKMYFIQHGVVSVLTKGNKETKLADGSYFGEICLLTRGRRTASVRADTYCRLYSLSVDNFNEVLEEYPMMRRAFETVALDRLDRIGKKNSILLHKVQHDLNSGVFNYQENEIIQQIVQHDREMAHCAHRVQAAASATPTPTPVIWTPLIQAPLQAAAATTSVAIALTHHPRLPAAIFRPPPGSGLGNLGAGQTPRHLKRLQSLIPSALGSASPASSPSQVDTPSSSSFHIQQLAGFSAPAGLSPLLPSSSSSPPPGACGSPSAPTPSAGVAATTIAGFGHFHKALGGSLSSSDSPLLTPLQPGARSPQAAQPSPAPPGARGGLGLPEHFLPPPPSSRSPSSSPGQLGQPPGELSLGLATGPLSTPETPPRQPEPPSLVAGASGGASPVGFTPRGGLSPPGHSPGPPRTFPSAPPRASGSHGSLLLPPASSPPPPQVPQRRGTPPLTPGRLTQDLKLISASQPALPQDGAQTLRRASPHSSGESMAAFPLFPRAGGGSGGSGSSGGLGPPGRPYGAIPGQHVTLPRKTSSGSLPPPLSLFGARATSSGGPPLTAGPQREPGARPEPVRSKLPSNL",
+        "uniprot_id": "Q9Y3Q4-1",
+        "conductance": null,
+        "references": [
+            179
+        ],
+        "refSeq_id": "CAB42604",
+        "full_name": "HCN4 hyperpolarization activated cyclic nucleotide gated potassium channel 4 [ Homo sapiens (human) ]",
+        "id": 182,
+        "aliases": "BCNG3, HAC4, SSS2, hHCN4",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-22T12:59:01.767052Z",
+        "member": "",
+        "gene_symbol": "HCN4",
+        "animal": "Homo sapiens (Human)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "10021",
+        "current_type": "Delayed rectifier",
+        "subfamily": "",
+        "class_symbol": "Hcn4",
+        "channel_type": "Cyclic nucleotide gated channels",
+        "channel_name": "HCN4_HUMAN"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/194/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 146,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/194/t_vs_i.pickle",
+        "reference": 179,
+        "y_axis_toSI": 1e-06,
+        "comments": "1.G G/V, 3. +KCNE1-4. Deactivated to: -140 mV",
+        "figure_ref_address": "1.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 182,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/22/HCN4_HUMAN.png",
+        "figure_ref_caption": "Co-expression of KCNE2 with HCN4 in Xenopus oocytes. A Currents recorded from oocytes injected with water (control) or HCN4, 3\u00e2\u20ac\u201c6 days after injection. The extracellular solution contained 32 mM K+. Holding potential was -35 mV and currents were elicited by 3-s hyperpolarizing voltage steps between -60 and -140 mV in 10-mV increments, followed by a 500-ms step to -140 mV.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 194
+    },
+    "params": {
+        "v_half": -0.10540412090135912,
+        "slope": -0.013416582452389263,
+        "e_rev": 0.03425098907919631,
+        "g": 3.010491455994553e-05,
+        "ra": 0.03625380327243819,
+        "sa": 19.767914327455763,
+        "rb": 83.27748239807688,
+        "vb": -0.027928315155026563,
+        "sb": 0.0011530542847820633,
+        "rc": 1.0790618170862203
+    },
+    "x0": [
+        15.8846593418054,
+        -24.003636978609283,
+        153.50813296210427,
+        -0.05577054751423785,
+        0.001032263415783082,
+        1.039360422136518
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            -0.06,
+            -0.08,
+            -0.1,
+            -0.12,
+            -0.14
+        ],
+        "v_hold": -0.035,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            3,
+            6,
+            6,
+            6,
+            6
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.10540412090135912,
+        "slope": -0.013416582452389263,
+        "e_rev": 0.03425098907919631,
+        "g": 3.010491455994553e-05
+    },
+    "error": {
+        "r2": 0.9896417736588717,
+        "rmse": 6.12568635406937e-08
+    },
+    "equation": "3.01E-05 * 1/(1+exp(-(v--105.40)/-13.42)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - 34.25)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 0.04*exp(-19.77*v), b = 83.28/(1+exp(-(v--27.93)/1.15)), c = 1.079"
+}

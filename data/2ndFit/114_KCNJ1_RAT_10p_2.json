@@ -1,0 +1,146 @@
+{
+    "time": "2019-02-22 01:30:41.402720",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.111331Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/41",
+        "sequence": "MGASERSVFRVLIRALTERMFKHLRRWFITHIFGRSRQRARLVSKEGRCNIEFGNVDAQSRFIFFVDIWTTVLDLKWRYKMTVFITAFLGSWFLFGLLWYVVAYVHKDLPEFYPPDNRTPCVENINGMTSAFLFSLETQVTIGYGFRFVTEQCATAIFLLIFQSILGVIINSFMCGAILAKISRPKKRAKTITFSKNAVISKRGGKLCLLIRVANLRKSLLIGSHIYGKLLKTTITPEGETIILDQTNINFVVDAGNENLFFISPLTIYHIIDHNSPFFHMAAETLSQQDFELVVFLDGTVESTSATCQVRTSYVPEEVLWGYRFVPIVSKTKEGKYRVDFHNFGKTVEVETPHCAMCLYNEKDARARMKRGYDNPNFVLSEVDETDDTQM",
+        "uniprot_id": "P35560-1",
+        "conductance": 38.0,
+        "references": [
+            94
+        ],
+        "refSeq_id": "CAA51068",
+        "full_name": "Kcnj1 potassium voltage-gated channel subfamily J member 1 [ Rattus norvegicus (Norway rat) ]",
+        "id": 102,
+        "aliases": "ROMK1, rKir1.1, KAB-1",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-13T15:02:55.302628Z",
+        "member": "1",
+        "gene_symbol": "Kcnj1",
+        "animal": "Rattus norvegicus (Rat)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "24521",
+        "current_type": "Inwardly-rectifying",
+        "subfamily": "J",
+        "class_symbol": "Kir1.1",
+        "channel_type": "Inwardly rectifying potassium channels",
+        "channel_name": "KCNJ1_RAT"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/114/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 89,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/114/t_vs_i.pickle",
+        "reference": 94,
+        "y_axis_toSI": 1e-06,
+        "comments": "1.b I/V",
+        "figure_ref_address": "1.a-1",
+        "x_axis_unit": "ms",
+        "ion_channel": 102,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/13/kcnj1_rat.jpg",
+        "figure_ref_caption": "None",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 114
+    },
+    "params": {
+        "v_half": -0.032857054440646016,
+        "slope": -0.03784610056862408,
+        "e_rev": -0.061693199809566834,
+        "g": 0.00011442424495964294,
+        "ra": 15.885017688641696,
+        "sa": -24.001144735926175,
+        "rb": 153.50902027729254,
+        "vb": -0.05578135412042538,
+        "sb": 0.0010296417888767517,
+        "rc": 1.039737731268119
+    },
+    "x0": [
+        13.702653526571831,
+        5.295973814705274,
+        149.6751629008614,
+        -0.015056106892695409,
+        0.013295047805793726,
+        3.1065301021440754e-19
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.0,
+            -0.02,
+            -0.04,
+            -0.06,
+            -0.08
+        ],
+        "v_hold": -0.06,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            2,
+            2,
+            2,
+            5,
+            2
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.032857054440646016,
+        "slope": -0.03784610056862408,
+        "e_rev": -0.061693199809566834,
+        "g": 0.00011442424495964294
+    },
+    "error": {
+        "r2": 0.9647713006543392,
+        "rmse": 7.597339889278169e-08
+    },
+    "equation": "1.14E-04 * 1/(1+exp(-(v--32.86)/-37.85)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -61.69)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 15.89*exp(--24.00*v), b = 153.51/(1+exp(-(v--55.78)/1.03)), c = 1.040"
+}

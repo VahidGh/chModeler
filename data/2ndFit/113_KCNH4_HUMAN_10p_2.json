@@ -1,0 +1,151 @@
+{
+    "time": "2019-02-22 01:30:22.954714",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.108565Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/40, http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=577&familyId=81&familyType=IC",
+        "sequence": "MPVMKGLLAPQNTFLDTIATRFDGTHSNFLLANAQGTRGFPIVYCSDGFCELTGYGRTEVMQKTCSCRFLYGPETSEPALQRLHKALEGHQEHRAEICFYRKDGSAFWCLLDMMPIKNEMGEVVLFLFSFKDITQSGSPGLGPQGGRGDSNHENSLGRRGATWKFRSARRRSRTVLHRLTGHFGRRGQGGMKANNNVFEPKPSVPEYKVASVGGSRCLLLHYSVSKAIWDGLILLATFYVAVTVPYNVCFSGDDDTPITSRHTLVSDIAVEMLFILDIILNFRTTYVSQSGQVISAPRSIGLHYLATWFFIDLIAALPFDLLYIFNITVTSLVHLLKTVRLLRLLRLLQKLERYSQCSAVVLTLLMSVFALLAHWMACIWYVIGRREMEANDPLLWDIGWLHELGKRLEVPYVNGSVGGPSRRSAYIAALYFTLSSLTSVGFGNVCANTDAEKIFSICTMLIGALMHAVVFGNVTAIIQRMYSRRSLYHSRMKDLKDFIRVHRLPRPLKQRMLEYFQTTWAVNSGIDANELLRDFPDELRADIAMHLNREILQLPLFGAASRGCLRALSLHIKTSFCAPGEYLLRRGDALQAHYYVCSGSLEVLRDNMVLAILGKGDLIGADIPEPGQEPGLGADPNFVLKTSADVKALTYCGLQQLSSRGLAEVLRLYPEYGAAFRAGLPRDLTFNLRQGSDTSGLSRFSRSPRLSQPRSESLGSSSDKTLPSITEAESGAEPGGGPRPRRPLLLPNLSPARPRGSLVSLLGEELPPFSALVSSPSLSPSLSPALAGQGHSASPHGPPRCSAAWKPPQLLIPPLGTFGPPDLSPRIVDGIEDSGSTAEAPSFRFSRRPELPRPRSQAPPTGTRPSPELASEAEEVKEKVCRLNQEISRLNQEVSQLSRELRHIMGLLQARLGPPGHPAGSAWTPDPPCPQLRPPCLSPCASRPPPSLQDTTLAEVHCPASVGTMETGTALLDLRPSILPPYPSEPDPLGPSPVPEASPPTPSLLRHSFQSRSDTFH",
+        "uniprot_id": "Q9UQ05-1",
+        "conductance": null,
+        "references": [
+            83
+        ],
+        "refSeq_id": "NP_036417",
+        "full_name": "KCNH4 potassium voltage-gated channel subfamily H member 4 [ Homo sapiens (human) ]",
+        "id": 101,
+        "aliases": "BEC2, ELK3, HsElk3, ELK1, hKv12.3",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-13T14:46:47.761283Z",
+        "member": "4",
+        "gene_symbol": "KCNH4",
+        "animal": "Homo sapiens (Human)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "23415",
+        "current_type": "Delayed rectifier",
+        "subfamily": "H",
+        "class_symbol": "Kv12.3",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCNH4_HUMAN"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/113/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 88,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/113/t_vs_i.pickle",
+        "reference": 83,
+        "y_axis_toSI": 1e-06,
+        "comments": "7.B G/V. Deactivated to: -40 mV.",
+        "figure_ref_address": "7.A-right",
+        "x_axis_unit": "ms",
+        "ion_channel": 101,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/13/KCNH4_HUMAN.png",
+        "figure_ref_caption": "Comparison of NvElk and mammalian Elk currents. (A) Current traces recorded from Xenopus oocytes expressing NvElk (black), HsElk3 (red) and HsElk1 (blue) at pH 7 in response to a series of 1 s voltage steps from a holding potential of \u00e2\u02c6\u2019100 mV. The voltage steps range from \u00e2\u02c6\u2019160 mV to 20 mV for NvElk and from \u00e2\u02c6\u2019120 mV to 20 mV for both HsElk3 and HsElk1 in 20 mV increments. Tail currents were taken at \u00e2\u02c6\u201960 mV for NvElk and at \u00e2\u02c6\u201940 mV for HsElk3 and HsElk1.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 113
+    },
+    "params": {
+        "v_half": -0.04257118084151163,
+        "slope": 0.021495289571538286,
+        "e_rev": -0.08981255166069028,
+        "g": 0.0004856831423298628,
+        "ra": 0.9675303929626538,
+        "sa": -36.90482538241647,
+        "rb": 4.2728856649838445,
+        "vb": 0.004338364008063473,
+        "sb": 0.006553519865795326,
+        "rc": 0.9374850837608412
+    },
+    "x0": [
+        0.9675300986275525,
+        -36.90484769070851,
+        4.27290730141678,
+        0.004338486113779435,
+        0.006553636011430536,
+        0.9374830198455448
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.02,
+            0.0,
+            -0.02,
+            -0.04,
+            -0.06,
+            -0.08
+        ],
+        "v_hold": -0.1,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.04257118084151163,
+        "slope": 0.021495289571538286,
+        "e_rev": -0.08981255166069028,
+        "g": 0.0004856831423298628
+    },
+    "error": {
+        "r2": 0.9962658028852237,
+        "rmse": 4.0425766901918266e-07
+    },
+    "equation": "4.86E-04 * 1/(1+exp(-(v--42.57)/21.50)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -89.81)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 0.97*exp(--36.90*v), b = 4.27/(1+exp(-(v-4.34)/6.55)), c = 0.937"
+}

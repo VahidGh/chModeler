@@ -1,0 +1,158 @@
+{
+    "time": "2019-02-22 01:52:39.959713",
+    "ion_channel": {
+        "create_date": "2017-01-04T07:14:42.431033Z",
+        "links": "http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=536&familyId=80&familyType=IC",
+        "sequence": "MTEGARAADEVRVPLGAPPPGPAALVGASPESPGAPGREAERGSELGVSPSESPAAERGAELGADEEQRVPYPALAATVFFCLGQTTRPRSWCLRLVCNPWFEHVSMLVIMLNCVTLGMFRPCEDVECGSERCNILEAFDAFIFAFFAVEMVIKMVALGLFGQKCYLGDTWNRLDFFIVVAGMMEYSLDGHNVSLSAIRTVRVLRPLRAINRVPSMRILVTLLLDTLPMLGNVLLLCFFVFFIFGIVGVQLWAGLLRNRCFLDSAFVRNNNLTFLRPYYQTEEGEENPFICSSRRDNGMQKCSHIPGRRELRMPCTLGWEAYTQPQAEGVGAARNACINWNQYYNVCRSGDSNPHNGAINFDNIGYAWIAIFQVITLEGWVDIMYYVMDAHSFYNFIYFILLIIVGSFFMINLCLVVIATQFSETKQRESQLMREQRARHLSNDSTLASFSEPGSCYEELLKYVGHIFRKVKRRSLRLYARWQSRWRKKVDPSAVQGQGPGHRQRRAGRHTASVHHLVYHHHHHHHHHYHFSHGSPRRPGPEPGACDTRLVRAGAPPSPPSPGRGPPDAESVHSIYHADCHIEGPQERARVAHAAATAAASLRLATGLGTMNYPTILPSGVGSGKGSTSPGPKGKWAGGPPGTGGHGPLSLNSPDPYEKIPHVVGEHGLGQAPGHLSGLSVPCPLPSPPAGTLTCELKSCPYCTRALEDPEGELSGSESGDSDGRGVYEFTQDVRHGDRWDPTRPPRATDTPGPGPGSPQRRAQQRAAPGEPGWMGRLWVTFSGKLRRIVDSKYFSRGIMMAILVNTLSMGVEYHEQPEELTNALEISNIVFTSMFALEMLLKLLACGPLGYIRNPYNIFDGIIVVISVWEIVGQADGGLSVLRTFRLLRVLKLVRFLPALRRQLVVLVKTMDNVATFCTLLMLFIFIFSILGMHLFGCKFSLKTDTGDTVPDRKNFDSLLWAIVTVFQILTQEDWNVVLYNGMASTSSWAALYFVALMTFGNYVLFNLLVAILVEGFQAEGDANRSDTDEDKTSVHFEEDFHKLRELQTTELKMCSLAVTPNGHLEGRGSLSPPLIMCTAATPMPTPKSSPFLDAAPSLPDSRRGSSSSGDPPLGDQKPPASLRSSPCAPWGPSGAWSSRRSSWSSLGRAPSLKRRGQCGERESLLSGEGKGSTDDEAEDGRAAPGPRATPLRRAESLDPRPLRPAALPPTKCRDRDGQVVALPSDFFLRIDSHREDAAELDDDSEDSCCLRLHKVLEPYKPQWCRSREAWALYLFSPQNRFRVSCQKVITHKMFDHVVLVFIFLNCVTIALERPDIDPGSTERVFLSVSNYIFTAIFVAEMMVKVVALGLLSGEHAYLQSSWNLLDGLLVLVSLVDIVVAMASAGGAKILGVLRVLRLLRTLRPLRVISRAPGLKLVVETLISSLRPIGNIVLICCAFFIIFGILGVQLFKGKFYYCEGPDTRNISTKAQCRAAHYRWVRRKYNFDNLGQALMSLFVLSSKDGWVNIMYDGLDAVGVDQQPVQNHNPWMLLYFISFLLIVSFFVLNMFVGVVVENFHKCRQHQEAEEARRREEKRLRRLERRRRSTFPSPEAQRRPYYADYSPTRRSIHSLCTSHYLDLFITFIICVNVITMSMEHYNQPKSLDEALKYCNYVFTIVFVFEAALKLVAFGFRRFFKDRWNQLDLAIVLLSLMGITLEEIEMSAALPINPTIIRIMRVLRIARVLKLLKMATGMRALLDTVVQALPQVGNLGLLFMLLFFIYAALGVELFGRLECSEDNPCEGLSRHATFSNFGMAFLTLFRVSTGDNWNGIMKDTLRECSREDKHCLSYLPALSPVYFVTFVLVAQFVLVNVVVAVLMKHLEESNKEAREDAELDAEIELEMAQGPGSARRVDADRPPLPQESPGARDAPNLVARKVSVSRMLSLPNDSYMFRPVVPASAPHPRPLQEVEMETYGAGTPLGSVASVHSPPAESCASLQIPLAVSSPARSGEPLHALSPRGTARSPSLSRLLCRQEAVHTDSLEGKIDSPRDTLDPAEPGEKTPVRPVTQGGSLQSPPRSPRPASVRTRKHTFGQRCVSSRPAAPGGEEAEASDPADEEVSHITSSACPWQPTAEPHGPEASPVAGGERDLRRLYSVDAQGFLDKPGRADEQWRPSAELGSGEPGEAKAWGPEAEPALGARRKKKMSPPCISVEPPAEDEGSARPSAAEGGSTTLRRRTPSCEATPHRDSLEPTEGSGAGGDPAAKGERWGQASCRAEHLTVPSFAFEPLDLGVPSGDPFLDGSHSVTPESRASSSGAIVPLEPPESEPPMPVGDPPEKRRGLYLTVPQCPLEKPGSPSATPAPGGGADDPV",
+        "uniprot_id": "O95180-1",
+        "conductance": null,
+        "references": [
+            151,
+            152,
+            153
+        ],
+        "refSeq_id": "NP_066921",
+        "full_name": "CACNA1H calcium voltage-gated channel subunit alpha1 H [ Homo sapiens (human) ]",
+        "id": 154,
+        "aliases": "ECA6, EIG6, HALD4, hCav3.2, CACNA1HB",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-18T08:20:57.231864Z",
+        "member": "1H",
+        "gene_symbol": "CACNA1H",
+        "animal": "Homo sapiens (Human)",
+        "username": 1,
+        "ion_type": "Ca2+",
+        "gene_id": "8912",
+        "current_type": "A-type",
+        "subfamily": "NA",
+        "class_symbol": "Cav3.2",
+        "channel_type": "Voltage-gated calcium channels",
+        "channel_name": "CACNA1H_HUMAN"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/166/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 126,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/166/t_vs_i.pickle",
+        "reference": 153,
+        "y_axis_toSI": 1e-06,
+        "comments": "aux: a2d, 40 mM Ba, 1.F I/V, 1.H G/V",
+        "figure_ref_address": "1.E",
+        "x_axis_unit": "ms",
+        "ion_channel": 154,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/18/CACNA1H_HUMAN.png",
+        "figure_ref_caption": "Zinc transporter-1 (ZnT-1) enhances the activity of voltage-gated calcium channel (CaV) 3 expressed in Xenopus oocytes. E: representative current traces from single oocytes.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 166
+    },
+    "params": {
+        "v_half": -0.03118490925206804,
+        "slope": 0.004320871001039692,
+        "e_rev": 0.05584088855462801,
+        "g": 8.200265024528212e-05,
+        "ra": 0.1276180730880886,
+        "sa": 47.33609539772056,
+        "rb": 374.96174411018785,
+        "vb": -0.005539978331211139,
+        "sb": 0.017304128135406414,
+        "rc": 2.3889569063446366e-13
+    },
+    "x0": [
+        0.1276261398765427,
+        47.33443424815798,
+        374.9485144980254,
+        -0.005541277670223234,
+        0.01730368562241461,
+        8.331970128198972e-15
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.04,
+            0.02,
+            0.0,
+            -0.01,
+            -0.02,
+            -0.03,
+            -0.04
+        ],
+        "v_hold": -0.08,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            1,
+            2,
+            2,
+            3,
+            3,
+            4,
+            4
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.03118490925206804,
+        "slope": 0.004320871001039692,
+        "e_rev": 0.05584088855462801,
+        "g": 8.200265024528212e-05
+    },
+    "error": {
+        "r2": 0.9101197668268678,
+        "rmse": 2.132272912025174e-07
+    },
+    "equation": "8.20E-05 * 1/(1+exp(-(v--31.18)/4.32)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - 55.84)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 0.13*exp(-47.34*v), b = 374.96/(1+exp(-(v--5.54)/17.30)), c = 0.000"
+}

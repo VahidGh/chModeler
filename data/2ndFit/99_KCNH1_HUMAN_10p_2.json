@@ -1,0 +1,146 @@
+{
+    "time": "2019-02-22 01:22:03.123720",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.051222Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/33",
+        "sequence": "MTMAGGRRGLVAPQNTFLENIVRRSNDTNFVLGNAQIVDWPIVYSNDGFCKLSGYHRAEVMQKSSTCSFMYGELTDKDTIEKVRQTFENYEMNSFEILMYKKNRTPVWFFVKIAPIRNEQDKVVLFLCTFSDITAFKQPIEDDSCKGWGKFARLTRALTSSRGVLQQLAPSVQKGENVHKHSRLAEVLQLGSDILPQYKQEAPKTPPHIILHYCVFKTTWDWIILILTFYTAILVPYNVSFKTRQNNVAWLVVDSIVDVIFLVDIVLNFHTTFVGPAGEVISDPKLIRMNYLKTWFVIDLLSCLPYDVINAFENVDEGISSLFSSLKVVRLLRLGRVARKLDHYIEYGAAVLVLLVCVFGLAAHWMACIWYSIGDYEIFDEDTKTIRNNSWLYQLAMDIGTPYQFNGSGSGKWEGGPSKNSVYISSLYFTMTSLTSVGFGNIAPSTDIEKIFAVAIMMIGSLLYATIFGNVTTIFQQMYANTNRYHEMLNSVRDFLKLYQVPKGLSERVMDYIVSTWSMSRGIDTEKVLQICPKDMRADICVHLNRKVFKEHPAFRLASDGCLRALAMEFQTVHCAPGDLIYHAGESVDSLCFVVSGSLEVIQDDEVVAILGKGDVFGDVFWKEATLAQSCANVRALTYCDLHVIKRDALQKVLEFYTAFSHSFSRNLILTYNLRKRIVFRKISDVKREEEERMKRKNEAPLILPPDHPVRRLFQRFRQQKEARLAAERGGRDLDDLDVEKGNVLTEHASANHSLVKASVVTVRESPATPVSFQAASTSGVPDHAKLQAPGSECLGPKGGGGDCAKRKSWARFKDACGKSEDWNKVSKAESMETLPERTKASGEATLKKTDSCDSGITKSDLRLDNVGEARSPQDRSPILAEVKHSFYPIPEQTLQATVLEVRHELKEDIKALNAKMTNIEKQLSEILRILTSRRSSQSPQELFEISRPQSPESERDIFGAS",
+        "uniprot_id": "O95259-2",
+        "conductance": null,
+        "references": [
+            85
+        ],
+        "refSeq_id": "NP_002229",
+        "full_name": "KCNH1 potassium voltage-gated channel subfamily H member 1, isoform 2 [ Homo sapiens (human) ]",
+        "id": 87,
+        "aliases": "EAG1, h-eag, hEAG1, hKv10.1",
+        "isoform": "2",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-12T08:19:56.795634Z",
+        "member": "1",
+        "gene_symbol": "KCNH1",
+        "animal": "Homo sapiens (Human)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "3756",
+        "current_type": "Delayed rectifier",
+        "subfamily": "H",
+        "class_symbol": "Kv10.1",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCNH1_HUMAN"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/99/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 77,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/99/t_vs_i.pickle",
+        "reference": 85,
+        "y_axis_toSI": 1e-06,
+        "comments": "",
+        "figure_ref_address": "1.A-1",
+        "x_axis_unit": "ms",
+        "ion_channel": 87,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/12/KCNH1_HUMAN.png",
+        "figure_ref_caption": "Current\u00e2\u20ac\u201cvoltage relationships of hEAG1 and hEAG2 channels expressed in Xenopus oocytes. A: Activation time courses of hEAG1 (\u00e2\u2014\u2039) and hEAG2 (\u00e2\u2014\ufffd) in response to 2-s depolarizing pulses from a holding potential of \u00e2\u02c6\u2019100 mV. The extracellular solution contained 5 mM Mg2+. The superimposed curves indicate data fits according to Eq. 1.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 99
+    },
+    "params": {
+        "v_half": -0.007576460265617528,
+        "slope": 0.019427893258262437,
+        "e_rev": -0.04428787291110532,
+        "g": 0.0005078817944582525,
+        "ra": 1.3471743992592815,
+        "sa": -10.436787517125584,
+        "rb": 7.6456206856693205,
+        "vb": 0.019208997328104827,
+        "sb": 0.028896735263016785,
+        "rc": 3.5555583148767626e-21
+    },
+    "x0": [
+        1.3471771224922637,
+        -10.436777999197554,
+        7.64562631183375,
+        0.019208970762556045,
+        0.028896726674672087,
+        1.8464118761095088e-20
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.06,
+            0.04,
+            0.02,
+            0.0,
+            -0.02
+        ],
+        "v_hold": -0.1,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.007576460265617528,
+        "slope": 0.019427893258262437,
+        "e_rev": -0.04428787291110532,
+        "g": 0.0005078817944582525
+    },
+    "error": {
+        "r2": 0.9966213499294041,
+        "rmse": 3.839716980881837e-07
+    },
+    "equation": "5.08E-04 * 1/(1+exp(-(v--7.58)/19.43)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -44.29)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 1.35*exp(--10.44*v), b = 7.65/(1+exp(-(v-19.21)/28.90)), c = 0.000"
+}

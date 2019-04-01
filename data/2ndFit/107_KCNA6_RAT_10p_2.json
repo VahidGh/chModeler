@@ -1,0 +1,161 @@
+{
+    "time": "2019-02-22 01:25:00.654714",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:24.760635Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC19, http://channelpedia.epfl.ch/ionchannels/6",
+        "sequence": "MRSEKSLTLAAPGEVRGPEGEQQDAGEFQEAEGGGGCCSSERLVINISGLRYETQLRTLSLFPDTLLGDPGRRVRFFDPLRNEYFFDRNRPSFDAILYYYQSGGRLRRPVNVPLDIFMEEIRFYQLGDEALAAFREDEGCLPEGGEDEKPLPSQPFQRQVWLLFEYPESSGPARGIAIVSVLVILISIVIFCLETLPQFRADGRGGSNEGSGTRMSPASRGSHEEEDEDEDSYAFPGSIPSGGLGTGGTSSFSTLGGSFFTDPFFLVETLCIVWFTFELLVRFSACPSKAAFFRNIMNIIDLVAIFPYFITLGTELVQRHEQQPVSGGSGQNRQQAMSLAILRVIRLVRVFRIFKLSRHSKGLQILGKTLQASMRELGLLIFFLFIGVILFSSAVYFAEADDVDSLFPSIPDAFWWAVVTMTTVGYGDMYPMTVGGKIVGSLCAIAGVLTIALPVPVIVSNFNYFYHRETEQEEQGQYTHVTCGQPTPDLKATDNGLGKPDFAEASRERRSSYLPTPHRAYAEKRMLTEV",
+        "uniprot_id": "P17659-1",
+        "conductance": 8.2,
+        "references": [
+            36
+        ],
+        "refSeq_id": "NP_076444",
+        "full_name": "Kcna6 potassium voltage-gated channel subfamily A member 6 [ Rattus norvegicus (Norway rat) ]",
+        "id": 34,
+        "aliases": "RCK2, rKv1.6",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-08T14:15:41.173740Z",
+        "member": "6",
+        "gene_symbol": "Kcna6",
+        "animal": "Rattus norvegicus (Rat)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "64358.0",
+        "current_type": "Delayed rectifier",
+        "subfamily": "A",
+        "class_symbol": "Kv1.6",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCNA6_RAT"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/107/t_vs_i.png",
+        "y_axis_unit": "nA",
+        "patch_clamp": 81,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/107/t_vs_i.pickle",
+        "reference": 89,
+        "y_axis_toSI": 1e-09,
+        "comments": "7.A I_norm/V, 7.C I/V",
+        "figure_ref_address": "5.A-2,B-2",
+        "x_axis_unit": "ms",
+        "ion_channel": 34,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/13/KCNH6_RAT.png",
+        "figure_ref_caption": "Activation rates of the erg1,erg2, and erg3 channels.A, B, Current traces showing channel activation and deactivation in response to voltage steps to various potentials from a holding potential of \u00e2\u02c6\u201990 mV. Tail currents were recorded at \u00e2\u02c6\u201970 mV. Note the much faster time scale forerg3 as compared with the erg1 anderg2 channels. Current records were leakage-subtracted.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 107
+    },
+    "params": {
+        "v_half": 0.03679934273475814,
+        "slope": -0.009918046408139576,
+        "e_rev": -0.05417370775636115,
+        "g": 4.93000622919278e-06,
+        "ra": 0.1898916726749417,
+        "sa": -38.73950047785968,
+        "rb": 1.5575767143718906,
+        "vb": 0.022539813221514812,
+        "sb": 0.0047746686674433,
+        "rc": 0.5014373259525109
+    },
+    "x0": [
+        0.08841438244148517,
+        -39.9946868621937,
+        0.646011965146836,
+        0.02162751107852797,
+        0.0012939236869623791,
+        0.320843873806974
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.04,
+            0.03,
+            0.02,
+            0.01,
+            0.0,
+            -0.02,
+            -0.04,
+            -0.06
+        ],
+        "v_hold": -0.09,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42,
+            49,
+            56
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            3
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": 0.03679934273475814,
+        "slope": -0.009918046408139576,
+        "e_rev": -0.05417370775636115,
+        "g": 4.93000622919278e-06
+    },
+    "error": {
+        "r2": 0.9855191043388806,
+        "rmse": 5.131248291453675e-09
+    },
+    "equation": "4.93E-06 * 1/(1+exp(-(v-36.80)/-9.92)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -54.17)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 0.19*exp(--38.74*v), b = 1.56/(1+exp(-(v-22.54)/4.77)), c = 0.501"
+}

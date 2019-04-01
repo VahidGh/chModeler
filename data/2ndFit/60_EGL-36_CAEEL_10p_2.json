@@ -1,0 +1,156 @@
+{
+    "time": "2019-02-22 01:12:11.750713",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:24.808782Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC152",
+        "sequence": "MLDACSFNRFDSNRSSARRFSRRGSDYFGDKGISMDERIVLNVGGVRHETYQATLKKIPATRLSRLTPSLANFDPLLNEYFFDRHPAVFAMILNYYRTGKLHYPTDVCGPLFEEELQYWGLDASDTEPCCWMQLLHAKDTQETLAVLDRMDADHEDDPQLREQDTMKKFGWEEDYFQGKRTRWMKLKPQMWSLFDEPYSSQAAKLIAGISVLFIFISIFSFCLKTHQSFRLPVLIGQNITMPGGVVQPSIERVSTEPLPIFGQIEMLCNIWFTLELIIRFVFCPSKIRFFKSPLNMIDLVATLSFYADAMMVRVVEDEPKDVVEFLSMIRIFRLFKLTQHHQGLQILIHTFRASAKELILLVFFLILGIVIFAALVYYAEKMEANPNNQFQSIPLGLWWAICTMTTVGYGDMTPHTSFGRLVGSLCAVMGVLTIALPVPVIVSNFAMFYSHNQARDKLPKRRRRVLPVEQIRLQARRHAAVLEPSASQGGLGGGQAIRRRNMPILIDQNCCDEENHNHKHREKSENSDEGTNSSSTTGVDTVVKLGPSETAITTTIIS",
+        "uniprot_id": "G5EFC3-1",
+        "conductance": null,
+        "references": [
+            50
+        ],
+        "refSeq_id": "NP_509795",
+        "full_name": "egl-36 Potassium voltage-gated channel protein egl-36 [ Caenorhabditis elegans ]",
+        "id": 48,
+        "aliases": "egl-36, Shaw",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-09T12:18:26.742813Z",
+        "member": "",
+        "gene_symbol": "egl-36",
+        "animal": "Caenorhabditis elegans (C. elegans)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "181269",
+        "current_type": "Delayed rectifier",
+        "subfamily": "C",
+        "class_symbol": "Kv3",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "EGL-36_CAEEL"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/60/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 43,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/60/t_vs_i.pickle",
+        "reference": 50,
+        "y_axis_toSI": 1e-06,
+        "comments": "2.B I_norm/V",
+        "figure_ref_address": "2.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 48,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/09/EGL-36_CAEEL.jpg",
+        "figure_ref_caption": "Electrophysiological Properties of WT and Mutant EGL-36 Potassium Channels Expressed in Xenopus Oocytes. (A) Two-electrode voltage-clamp current records. Currents were evoked by a family of 1 s voltage steps from \u00e2\u02c6\u201980 mV to +70 mV (WT and E142K), or from \u00e2\u02c6\u201980 mV to +50 mV (P439S) in 10 mV increments, from a holding potential of \u00e2\u02c6\u201990 mV. For the double mutant (P439S, E142K), current records in response to 1 s voltage steps from \u00e2\u02c6\u2019100 mV to +50 mV, in 10 mV increments, from a holding potential of \u00e2\u02c6\u2019110 mV are displayed.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 60
+    },
+    "params": {
+        "v_half": 0.07246197442425963,
+        "slope": 0.01845892986945935,
+        "e_rev": -0.19999999999999998,
+        "g": 0.00010424073386663314,
+        "ra": 4.201671465848211,
+        "sa": 1.2825822254102026,
+        "rb": 3.224652458886316,
+        "vb": -0.034863842282101126,
+        "sb": 0.0010738664740930816,
+        "rc": 3.098202306003841
+    },
+    "x0": [
+        8.229517884669535,
+        12.691513510895525,
+        217.99100653296063,
+        -0.01165638974954565,
+        0.019080092289009927,
+        3.688362809732517e-11
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.07,
+            0.06,
+            0.05,
+            0.04,
+            0.03,
+            0.02,
+            0.01
+        ],
+        "v_hold": -0.09,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42,
+            49
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            6,
+            6,
+            6,
+            5,
+            5,
+            3
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": 0.07246197442425963,
+        "slope": 0.01845892986945935,
+        "e_rev": -0.19999999999999998,
+        "g": 0.00010424073386663314
+    },
+    "error": {
+        "r2": 0.9971753644427915,
+        "rmse": 7.830743336760294e-08
+    },
+    "equation": "1.04E-04 * 1/(1+exp(-(v-72.46)/18.46)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -200.00)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 4.20*exp(-1.28*v), b = 3.22/(1+exp(-(v--34.86)/1.07)), c = 3.098"
+}

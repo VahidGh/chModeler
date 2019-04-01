@@ -1,0 +1,153 @@
+{
+    "time": "2019-02-22 01:56:54.528714",
+    "ion_channel": {
+        "create_date": "2017-01-04T07:14:42.453764Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/123, http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=581&familyId=82&familyType=IC",
+        "sequence": "MASSSLPNLVPPGPHCLRPFTPESLAAIEQRAVEEEARLQRNKQMEIEEPERKPRSDLEAGKNLPLIYGDPPPEVIGIPLEDLDPYYSDKKTFIVLNKGKAIFRFSATPALYLLSPFSIVRRVAIKVLIHALFSMFIMITILTNCVFMTMSNPPSWSKHVEYTFTGIYTFESLIKMLARGFCIDDFTFLRDPWNWLDFSVITMAYVTEFVDLGNISALRTFRVLRALKTITVIPGLKTIVGALIQSVKKLSDVMILTVFCLSVFALVGLQLFMGNLRQKCVRWPPPMNDTNTTWYGNDTWYSNDTWYGNDTWYINDTWNSQESWAGNSTFDWEAYINDEGNFYFLEGSNDALLCGNSSDAGHCPEGYECIKAGRNPNYGYTSYDTFSWAFLALFRLMTQDYWENLFQLTLRAAGKTYMIFFVVIIFLGSFYLINLILAVVAMAYAEQNEATLAEDQEKEEEFQQMLEKYKKHQEELEKAKAAQALESGEEADGDPTHNKDCNGSLDASGEKGPPRPSCSADSAISDAMEELEEAHQKCPPWWYKCAHKVLIWNCCAPWVKFKHIIYLIVMDPFVDLGITICIVLNTLFMAMEHYPMTEHFDNVLSVGNLVFTGIFTAEMVLKLIAMDPYEYFQQGWNIFDSFIVTLSLVELGLANVQGLSVLRSFRLLRVFKLAKSWPTLNMLIKIIGNSVGALGNLTLVLAIIVFIFAVVGMQLFGKSYKECVCKIASDCNLPRWHMNDFFHSFLIVFRILCGEWIETMWDCMEVAGQAMCLTVFLMVMVIGNLVVLNLFLALLLSSFSADSLAASDEDGEMNNLQIAIGRIKWGIGFAKTFLLGLLRGKILSPKEIILSLGEPGGAGENAEESTPEDEKKEPPPEDKELKDNHILNHVGLTDGPRSSIELDHLNFINNPYLTIQVPIASEESDLEMPTEEETDAFSEPEDIKKPLQPLYDGNSSVCSTADYKPPEEDPEEQAEENPEGEQPEECFTEACVKRCPCLYVDISQGRGKMWWTLRRACFKIVEHNWFETFIVFMILLSSGALAFEDIYIEQRRVIRTILEYADKVFTYIFILEMLLKWVAYGFKVYFTNAWCWLDFLIVDVSIISLVANWLGYSELGPIKSLRTLRALRPLRALSRFEGMRVVVNALLGAIPSIMNVLLVCLIFWLIFSIMGVNLFAGKFYYCVNTTTSERFDISVVNNKSESESLMYTGQVRWMNVKVNYDNVGLGYLSLLQVATFKGWMDIMYAAVDSREKEEQPHYEVNLYMYLYFVIFIIFGSFFTLNLFIGVIIDNFNQQKKKFGGKDIFMTEEQKKYYNAMKKLGSKKPQKPIPRPQNKIQGMVYDFVTKQVFDISIMILICLNMVTMMVETDDQSQLKVDILYNINMVFIIIFTGECVLKMFALRHYYFTIGWNIFDFVVVILSIVGLALSDLIQKYFVSPTLFRVIRLARIGRVLRLIRGAKGIRTLLFALMMSLPALFNIGLLLFLVMFIYSIFGMSNFAYVKKESGIDDMFNFETFGNSIICLFEITTSAGWDGLLNPILNSGPPDCDPTLENPGTNVRGDCGNPSIGICFFCSYIIISFLIVVNMYIAIILENFNVATEESSEPLSEDDFEMFYETWEKFDPDATQFIDYSRLSDFVDTLQEPLKIAKPNKIKLITLDLPMVPGDKIHCLDILFALTKEVLGDSGEMDALKQTMEEKFMAANPSKVSYEPITTTLKRKQEEVCAIKIQRAYRRHLLQRSVKQASYMYRHSQDGNDDGAPEKEGLLANTMNKMYGHEKEGDGVQSQGEEEKASTEDAGPTVEPEPTSSSDTALTPSPPPLPPSSSPPQGQTVRPGVKESLV",
+        "uniprot_id": "P15390-1",
+        "conductance": 19.8,
+        "references": [
+            164,
+            165,
+            166
+        ],
+        "refSeq_id": "NP_037310",
+        "full_name": "Scn4a sodium voltage-gated channel alpha subunit 4 [ Rattus norvegicus (Norway rat) ]",
+        "id": 162,
+        "aliases": "\u03bc1, SkM1, HYKPP, HYPP, microI, mu-1, NCHVS, mH2, rNav1.4",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-20T08:59:03.504460Z",
+        "member": "",
+        "gene_symbol": "Scn4a",
+        "animal": "Rattus norvegicus (Rat)",
+        "username": 1,
+        "ion_type": "Na+",
+        "gene_id": "25722",
+        "current_type": "A-type",
+        "subfamily": "4A",
+        "class_symbol": "Nav1.4",
+        "channel_type": "Voltage-gated sodium channels",
+        "channel_name": "SCN4A_RAT"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/174/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 133,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/174/t_vs_i.pickle",
+        "reference": 166,
+        "y_axis_toSI": 1e-06,
+        "comments": "No aux, 2.B B1 aux, 2.C I/V, 2.D Ginact/V",
+        "figure_ref_address": "2.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 162,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/20/SCN4A_RAT.png",
+        "figure_ref_caption": "Effects of coexpression of the \u00ce\u00b21 subunit on SkM1 \u00ce\u00b1 subunit function. (A) Cut-open voltage clamp recordings of Na+ currents from Xenopus oocytes expressing the \u00ce\u00b1 subunit alone and (B) expressing both \u00ce\u00b1 and \u00ce\u00b21 subunits. In both oocytes the voltage was stepped from a holding potential of \u00e2\u02c6\u2019140 mV in increments of 5 mV, starting from \u00e2\u02c6\u201930 mV for A and \u00e2\u02c6\u201940 mV for B.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 174
+    },
+    "params": {
+        "v_half": -0.014514337345446346,
+        "slope": 0.004086525392985852,
+        "e_rev": 0.034570117174654316,
+        "g": 9.357265953930535e-05,
+        "ra": 437.1165145192148,
+        "sa": -56.47232615788384,
+        "rb": 320.5257356746373,
+        "vb": -0.008866415990369435,
+        "sb": 0.004511694508177289,
+        "rc": 21.009790270475914
+    },
+    "x0": [
+        437.11684069760435,
+        -56.47212366342448,
+        320.52514024608075,
+        -0.008866430134088846,
+        0.004511695924388735,
+        21.010552780196566
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            -0.005,
+            -0.01,
+            -0.015,
+            -0.02,
+            -0.025,
+            -0.03
+        ],
+        "v_hold": -0.14,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            3,
+            4,
+            4,
+            4,
+            3,
+            2
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.014514337345446346,
+        "slope": 0.004086525392985852,
+        "e_rev": 0.034570117174654316,
+        "g": 9.357265953930535e-05
+    },
+    "error": {
+        "r2": 0.9913698259724665,
+        "rmse": 4.0644287342944316e-08
+    },
+    "equation": "9.36E-05 * 1/(1+exp(-(v--14.51)/4.09)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - 34.57)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 437.12*exp(--56.47*v), b = 320.53/(1+exp(-(v--8.87)/4.51)), c = 21.010"
+}

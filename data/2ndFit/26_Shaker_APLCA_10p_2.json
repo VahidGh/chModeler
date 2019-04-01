@@ -1,0 +1,151 @@
+{
+    "time": "2019-02-22 00:58:28.378721",
+    "ion_channel": {
+        "create_date": "2016-08-05T16:50:21.819775Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC99",
+        "sequence": "MEVAMAGIEGNGGPAGYRDSYHSSQRPLLRSSNLPNSRSFPKLSEEDNANENGMGVPGSDYDCSCERVVINVSGLRFETQLKTLNQFPDTLLGNPQKRNRYYDPLRNEYFFDRNRPSFDAILYFYQSGGRLRRPVNVPLDVFSEEIKFYELGENAFERYREDEGFIKEEEKPLPQNEFQRRVWLLFEYPESSAAARLCAIFSVVIILLSIVIFCLETLPQFKHYRVVNSTANDSKESIEEDDIPKFNEPFFIIETCCIIWFTFELLVRFASCPEKLGFFKNIMNCIDIVAIIPYFITLGTVVADQSKSNNQAMSLAILRVIRLVRVFRIFKLSRHSKGLQILGQTLKASMRELGLLIFFLFIGVILFSSAVYFAEADADQTHFKSIPDAFWWAVVTMTTVGYGDMRPIGVWGKLVGSLCAIAGVLTIALPVPVIVSNFNYFYHREGESTDKGQYKHVQSCPNYPEKKDSLDSECGSDIMEMEEGNHSTPLTEKVKENHAIKANNPGSDYGLETDV",
+        "uniprot_id": "Q16968-1",
+        "conductance": null,
+        "references": [
+            18
+        ],
+        "refSeq_id": "NP_001191634.1",
+        "full_name": "LOC100533422 potassium channel [ Aplysia californica (California sea hare) ]",
+        "id": 14,
+        "aliases": "AK01a",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2016-08-05T16:50:21.820918Z",
+        "member": "",
+        "gene_symbol": "N/A",
+        "animal": "Aplysia californica (California sea hare)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "100533422",
+        "current_type": "A-type",
+        "subfamily": "A",
+        "class_symbol": "Kv1",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "Shaker_APLCA"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/26/t_vs_i.png",
+        "y_axis_unit": "nA",
+        "patch_clamp": 13,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/26/t_vs_i.pickle",
+        "reference": 18,
+        "y_axis_toSI": 1e-09,
+        "comments": "",
+        "figure_ref_address": "4A",
+        "x_axis_unit": "ms",
+        "ion_channel": 14,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2016/08/05/Selection_025.png",
+        "figure_ref_caption": "A, Membrane currents expressed in Xenopus  oocyte 2d after injection of in vitro transcribed AK01a RNA. Membrane potential was Stepped from -20 mV to 60 mV in 10-mV increments from the holding potential of - 80 mV.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 26
+    },
+    "params": {
+        "v_half": -0.012154459484486527,
+        "slope": 0.00995288642212689,
+        "e_rev": -0.024724081309163974,
+        "g": 0.0001215760343209994,
+        "ra": 3.2953380831086423,
+        "sa": 2.3668769249971873,
+        "rb": 60.909907776754835,
+        "vb": 0.002659073213018141,
+        "sb": 0.01048864816605732,
+        "rc": 12.407801118484965
+    },
+    "x0": [
+        3.2953328378891964,
+        2.366851759774543,
+        60.9100472254282,
+        0.00265908481225075,
+        0.010488654728096788,
+        12.407730891026583
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.06,
+            0.04,
+            0.02,
+            0.0,
+            -0.01,
+            -0.02
+        ],
+        "v_hold": -0.08,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            2,
+            2,
+            2,
+            3,
+            4,
+            9
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.012154459484486527,
+        "slope": 0.00995288642212689,
+        "e_rev": -0.024724081309163974,
+        "g": 0.0001215760343209994
+    },
+    "error": {
+        "r2": 0.9871021305323603,
+        "rmse": 1.1668264839696458e-07
+    },
+    "equation": "1.22E-04 * 1/(1+exp(-(v--12.15)/9.95)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -24.72)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 3.30*exp(-2.37*v), b = 60.91/(1+exp(-(v-2.66)/10.49)), c = 12.408"
+}

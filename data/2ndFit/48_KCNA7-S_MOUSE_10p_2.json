@@ -1,0 +1,161 @@
+{
+    "time": "2019-02-22 01:10:25.222713",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:24.765396Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC122, http://channelpedia.epfl.ch/ionchannels/7",
+        "sequence": "MEPRCPPPCGCCERLVLNVAGLRFETRARTLGRFPDTLLGDPVRRSRFYDGARREYFFDRHRPSFDAVLYYYQSGGRLRRPAHVPLDVFLEEVSFYGLGAAALARLREDEGCAVPPERPLPRRAFARQLWLLFEFPESSQAARVLAVVSVLVILVSIVVFCLETLPDFRDDRDDPGLAPVAAATGPFLARLNGSSPMPGAPPRQPFNDPFFVVETLCICWFSFELLVRLVACPSKAVFFKNVMNLIDFVAILPYFVALGTELARQRGVGQPAMSLAILRVIRLVRVFRIFKLSRHSKGLQILGQTLRASMRELGLLIFFLFIGVVLFSSAVYFAEVDRVDTHFTSIPESFWWAVVTMTTVGYGDMAPVTVGGKIVGSLCAIAGVLTISLPVPVIVSNFSYFYHRETEGEEAGMYSHVDTQPCGTLEGKANGGLVDSEVPELLPPLWPPAGKHMVTEV",
+        "uniprot_id": "Q17ST2-2",
+        "conductance": null,
+        "references": [
+            38
+        ],
+        "refSeq_id": "",
+        "full_name": "Kcna7 potassium voltage-gated channel, shaker-related subfamily, member 7 [ Mus musculus (house mouse) ]",
+        "id": 36,
+        "aliases": "mKv1.7S",
+        "isoform": "S",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-09T05:30:24.486463Z",
+        "member": "7",
+        "gene_symbol": "Kcna7",
+        "animal": "Mus musculus (Mouse)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "16495",
+        "current_type": "A-type",
+        "subfamily": "A",
+        "class_symbol": "Kv1.7",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCNA7-S_MOUSE"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/48/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 32,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/48/t_vs_i.pickle",
+        "reference": 38,
+        "y_axis_toSI": 1e-06,
+        "comments": "2.C I_norm/V, ref 9488722 different isoform",
+        "figure_ref_address": "2.B",
+        "x_axis_unit": "ms",
+        "ion_channel": 36,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/09/Kcna7-S_mouse.jpg",
+        "figure_ref_caption": "Activation of mKv1.7 channels. Representative outward currents in response to 500-ms depolarizing test potentials ranging from \u00e2\u02c6\u201960 to +80 mV in 10-mV increments, extracellular solution NFR, Vh= \u00e2\u02c6\u2019100 mV. mKv1.7L is shown in black (A) and mKv1.7S in gray (B).",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 48
+    },
+    "params": {
+        "v_half": -0.01335025267119714,
+        "slope": 0.01230586012823131,
+        "e_rev": -0.03490403760890022,
+        "g": 0.00010860103802034555,
+        "ra": 1.317964556766052,
+        "sa": -24.018800481173624,
+        "rb": 10.6169789423435,
+        "vb": 0.0703462214543948,
+        "sb": 0.013196630082071415,
+        "rc": 1.3142644823858312
+    },
+    "x0": [
+        1.3179689910528183,
+        -24.01870212836423,
+        10.616968131314316,
+        0.07034647834104539,
+        0.01319668559309486,
+        1.3142804023289005
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.08,
+            0.06,
+            0.04,
+            0.02,
+            0.0,
+            -0.01,
+            -0.02,
+            -0.03
+        ],
+        "v_hold": -0.1,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70,
+            80
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            4,
+            4,
+            5,
+            5,
+            6,
+            7,
+            7,
+            8
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.01335025267119714,
+        "slope": 0.01230586012823131,
+        "e_rev": -0.03490403760890022,
+        "g": 0.00010860103802034555
+    },
+    "error": {
+        "r2": 0.9881684185086078,
+        "rmse": 1.7078802245874111e-07
+    },
+    "equation": "1.09E-04 * 1/(1+exp(-(v--13.35)/12.31)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -34.90)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 1.32*exp(--24.02*v), b = 10.62/(1+exp(-(v-70.35)/13.20)), c = 1.314"
+}

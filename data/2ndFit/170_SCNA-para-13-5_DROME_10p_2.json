@@ -1,0 +1,147 @@
+{
+    "time": "2019-02-22 01:48:56.547713",
+    "ion_channel": {
+        "create_date": "2017-01-04T07:14:42.441165Z",
+        "links": "",
+        "sequence": "MTEDSDSISEEERSLFRPFTRESLVQIEQRIAAEHEKQKELERKRAEGEVPQYGRKKKQKEIRYDDEDEDEGPQPDPTLEQGVPIPVRLQGSFPPELASTPLEDIDPYYSNVLTFVVVSKGKDIFRFSASKAMWMLDPFNPIRRVAIYILVHPLFSLFIITTILVNCILMIMPTTPTVESTEVIFTGIYTFESAVKVMARGFILCPFTYLRDAWNWLDFVVIALAYVTMGIDLGNLAALRTFRVLRALKTVAIVPGLKTIVGAVIESVKNLRDVIILTMFSLSVFALMGLQIYMGVLTQKCIKKFPLDGSWGNLTDENWDYHNRNSSNWYSEDEGISFPLCGNISGAGQCDDDYVCLQGFGPNPNYGYTSFDSFGWAFLSAFRLMTQDFWEDLYQLVLRAAGPWHMLFFIVIIFLGSFYLVNLILAIVAMSYDELQKKAEEEEAAEEEAIREAEEAAAAKAAKLEERANAQAQAAADAAAAEEAALHPEMAKSPTYSCISYELFVGGEKGNDDNNKEKMSIRSVEVESESVSVIQRQPAPTTAHQATKVRKVSTYTIRNGRGRFGIPGSDRKPLVLSTYQDAQQHLPYADDSNAVTPMSEENGAIIVPVYYGNLGSRHSSYTSHQSRISYTSHGDLLGGMAVMGVSTMTKESKLRNRNTRNQSVGATNGGTTCLDTNHKLDHRDYEIGLECTDEAGKIKHHDNPFIEPVQTQTVVDMKDVMVLNDIIEQAAGRHSRASDRGVSVYYFPTEDDDEDGPTFKDKALEVILKGIDVFCVWDCCWVWLKFQEWVSLIVFDPFVELFITLCIVVNTMFMAMDHHDMNKEMERVLKSGNYFFTATFAIEATMKLMAMSPKYYFQEGWNIFDFIIVALSLLELGLEGVQGLSVLRSFRLLRVFKLAKSWPTLNLLISIMGRTMGALGNLTFVLCIIIFIFAVMGMQLFGKNYHDHKDRFPDGDLPRWNFTDFMHSFMIVFRVLCGEWIESMWDCMYVGDVSCIPFFLATVVIGNLVVLNLFLALLLSNFGSSSLSAPTADNDTNKIAEAFNRIGRFKSWVKRNIADCFKLIRNKLTNQISDQPSGERTNQISWIWSEEHGDNELELGHDEILADGLIKKGIKEQTQLEVAIGDRMEFTIHGDMKNNKPKKSKYLNNATDDDTASINSYGSHKNRPFKDESHKGSAETMEGEEKRDASKEDLGLDEELDEEGECEEGPLDGDIIIHAHDEDILDEYPADCCPDSYYKKFPILAGDDDSPFWQGWGNLRLKTFQLIENKYFETAVITMILMSSLALALEDVHLPQRPILQDILYYMDRIFTVIFFLEMLIKWLALGFKVYFTNAWCWLDFVIVMVSLINFVASLVGAGGIQAFKTMRTLRALRPLRAMSRMQGMRVVVNALVQAIPSIFNVLLVCLIFWLIFAIMGVQLFAGKYFKCEDMNGTKLSHEIIPNRNACESENYTWVNSAMNFDHVGNAYLCLFQVATFKGWIQIMNDAIDSREVDKQPIRETNIYMYLYFVFFIIFGSFFTLNLFIGVIIDNFNEQKKKAGGSLEMFMTEDQKKYYNAMKKMGSKKPLKAIPRPRWRPQAIVFEIVTDKKFDIIIMLFIGLNMFTMTLDRYDASDTYNAVLDYLNAIFVVIFSSECLLKIFALRYHYFIEPWNLFDVVVVILSILGLVLSDIIEKYFVSPTLLRVVRVAKVGRVLRLVKGAKGIRTLLFALAMSLPALFNICLLLFLVMFIFAIFGMSFFMHVKEKSGINDVYNFKTFGQSMILLFQMSTSAGWDGVLDAIINEEACDPPDNDKGYPGNCGSATVGITFLLSYLVISFLIVINMYIAVILENYSQATEDVQEGLTDDDYDMYYEIWQQFDPEGTQYIRYDQLSEFLDVLEPPLQIHKPNKYKIISMDIPICRGDLMYCVDILDALTKDFFARKGNPIEETGEIGEIAARPDTEGYEPVSSTLWRQREEYCARLIQHAWRKHKARGEGGGSFEPDTDHGDGGDPDAGDPAPDEATDGDAPAGGDGSVNGTAEGAADADESNVNSPGEDAAAAAAAAAAAAAAGTTTAGSPGAGSAGRQTAVLVESDGFVTKNGHKVVIHSRSPSITSRTADV",
+        "uniprot_id": "P35500",
+        "conductance": null,
+        "references": [
+            158,
+            159
+        ],
+        "refSeq_id": "",
+        "full_name": "para Sodium channel protein paralytic [ Drosophila melanogaster (fruit fly) ]",
+        "id": 158,
+        "aliases": "DmScna, DmNav1, Para 13-5",
+        "isoform": "para-13-5",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-19T16:15:47.218843Z",
+        "member": "",
+        "gene_symbol": "para",
+        "animal": "Drosophila melanogaster (Fruit fly)",
+        "username": 1,
+        "ion_type": "Na+",
+        "gene_id": "32619",
+        "current_type": "A-type",
+        "subfamily": "A",
+        "class_symbol": "Nav1",
+        "channel_type": "Voltage-gated sodium channels",
+        "channel_name": "SCNA-para-13-5_DROME"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/170/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 130,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/170/t_vs_i.pickle",
+        "reference": 159,
+        "y_axis_toSI": 1e-06,
+        "comments": "No aux, 2. TipE, 3.B I/V, 3.D G/V act/inact",
+        "figure_ref_address": "3.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 158,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/19/SCNA-para-13-5_DROME.png",
+        "figure_ref_caption": "Voltage dependence of activation and of inactivation of Para sodium channels expressed in a Xenopus oocyte without TipE. (A) Superimposed current records measured at test potentials (Vt) of \u00e2\u02c6\u201935, \u00e2\u02c6\u201920, \u00e2\u02c6\u201910, +5, and 20 mV from a holding potential of \u00e2\u02c6\u201960 mV. Blanking interval, 640 \u00ce\u00bcs.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 170
+    },
+    "params": {
+        "v_half": -0.010571080896931513,
+        "slope": 0.0057337886049652126,
+        "e_rev": 0.05281768846871417,
+        "g": 9.989593101530767e-05,
+        "ra": 2.5042828196318943,
+        "sa": 94.66058684143258,
+        "rb": 499.99999999999847,
+        "vb": -0.002594035606463314,
+        "sb": 0.0034311290886735154,
+        "rc": 499.99999999999864
+    },
+    "x0": [
+        2.504283865590028,
+        94.66058285682814,
+        499.99999999999994,
+        -0.0025940546478973327,
+        0.003431132107401913,
+        499.9999999999764
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.02,
+            0.005,
+            -0.01,
+            -0.02,
+            -0.035
+        ],
+        "v_hold": -0.06,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            2,
+            3,
+            3,
+            3,
+            7
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.010571080896931513,
+        "slope": 0.0057337886049652126,
+        "e_rev": 0.05281768846871417,
+        "g": 9.989593101530767e-05
+    },
+    "error": {
+        "r2": 0.9363144494138306,
+        "rmse": 1.3018750406905367e-07
+    },
+    "equation": "9.99E-05 * 1/(1+exp(-(v--10.57)/5.73)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - 52.82)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 2.50*exp(-94.66*v), b = 500.00/(1+exp(-(v--2.59)/3.43)), c = 500.000"
+}

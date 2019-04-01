@@ -1,0 +1,166 @@
+{
+    "time": "2019-02-22 01:41:32.125715",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.312267Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/68, http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=380&familyId=69&familyType=IC",
+        "sequence": "MELEHPKSPPYPSSSSSSSSSSVHEPKMDALIIPVTMEVPCDSRGQRMWWAFLASSMVTFFGGLFIILLWRTLKYLWTVCCHCGGKTKEAQKINNGSSQADGTLKPVDEKEEVVAAEVGWMTSVKDWAGVMISAQTLTGRVLVVLVFALSIGALVIYFIDSSNPIESCQNFYKDFTLQIDMAFNVFFLLYFGLRFIAANDKLWFWLEVNSVVDFFTVPPVFVSVYLNRSWLGLRFLRALRLIQFSEILQFLNILKTSNSIKLVNLLSIFISTWLTAAGFIHLVENSGDPWENFQNNQALTYWECVYLLMVTMSTVGYGDVYAKTTLGRLFMVFFILGGLAMFASYVPEIIELIGNRKKYGGSYSAVSGRKHIVVCGHITLESVSNFLKDFLHKDRDDVNVEIVFLHNISPNLELEALFKRHFTQVEFYQGSVLNPHDLARVKIESADACLILANKYCADPDAEDASNIMRVISIKNYHPKIRIITQMLQYHNKAHLLNIPSWNWKEGDDAICLAELKLGFIAQSCLAQGLSTMLANLFSMRSFIKIEEDTWQKYYLEGVSNEMYTEYLSSAFVGLSFPTVCELCFVKLKLLMIAIEYKSANRESRILINPGNHLKIQEGTLGFFIASDAKEVKRAFFYCKACHDDVTDPKRIKKCGCRRLIYFEDEQPPTLSPKKKQRNGGMRNSPNTSPKLMRHDPLLIPGNDQIDNMDSNVKKYDSTGMFHWCAPKEIEKVILTRSEAAMTVLSGHVVVCIFGDVSSALIGLRNLVMPLRASNFHYHELKHIVFVGSIEYLKREWETLHNFPKVSILPGTPLSRADLRAVNINLCDMCVILSANQNNIDDTSLQDKECILASLNIKSMQFDDSIGVLQANSQGFTPPGMDRSSPDNSPVHGMLRQPSITTGVNIPIITELVNDTNVQFLDQDDDDDPDTELYLTQPFACGTAFAVSVLDSLMSATYFNDNILTLIRTLVTGGATPELEALIAEENALRGGYSTPQTLANRDRCRVAQLALLDGPFADLGDGGCYGDLFCKALKTYNMLCFGIYRLRDAHLSTPSQCTKRYVITNPPYEFELVPTDLIFCLMQFDHNAGQSRASLSHSSHSSQSSSKKSSSVHSIPSTANRPNRPKSRESRDKQNATRMTRMGQAEKKWFTDEPDNAYPRNIQIKPMSTHMANQINQYKSTSSLIPPIREVEDEC",
+        "uniprot_id": "Q08460-2",
+        "conductance": 272.0,
+        "references": [
+            120
+        ],
+        "refSeq_id": "AAA39746",
+        "full_name": "Kcnma1 potassium large conductance calcium-activated channel, subfamily M, alpha member 1 [ Mus musculus (house mouse) ]",
+        "id": 134,
+        "aliases": "BKCa, Slo1, mSlo, MaxiK, mSlo1, mKCa1.1, mbr5",
+        "isoform": "2",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-16T06:23:39.100734Z",
+        "member": "1",
+        "gene_symbol": "Kcnma1",
+        "animal": "Mus musculus (Mouse)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "16531",
+        "current_type": "Delayed rectifier",
+        "subfamily": "MA",
+        "class_symbol": "KCa1.1",
+        "channel_type": "Calcium-activated potassium channels",
+        "channel_name": "KCMA1-2_MOUSE"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/146/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 109,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/146/t_vs_i.pickle",
+        "reference": 120,
+        "y_axis_toSI": 1e-06,
+        "comments": "3.B I/V, 2.D I_norm/V, 10 uM Ca",
+        "figure_ref_address": "3.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 134,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/16/KCMA1-2_MOUSE.jpg",
+        "figure_ref_caption": "(A) mbr5 whole cell currents measured in normal ND96 saline with two-electrode voltage clamp. Recording conditions were as previously described (26). Current records were leak subtracted, and capacitative transients were removed.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 146
+    },
+    "params": {
+        "v_half": 0.07967348403014653,
+        "slope": 0.024219143681691743,
+        "e_rev": -0.028645589026085973,
+        "g": 0.0002518344262802772,
+        "ra": 4.726294325716461,
+        "sa": -18.47591212453205,
+        "rb": 83.5896365557977,
+        "vb": 0.08968662880785905,
+        "sb": 0.02373466570399973,
+        "rc": 2.303390676584851
+    },
+    "x0": [
+        4.726280132670986,
+        -18.475892878898797,
+        83.58880838457812,
+        0.0896864624527995,
+        0.02373464252165815,
+        2.30339027622057
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.06,
+            0.05,
+            0.04,
+            0.03,
+            0.02,
+            0.01,
+            0.0,
+            -0.01,
+            -0.08
+        ],
+        "v_hold": -0.09,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70,
+            80,
+            90
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            2,
+            2,
+            2,
+            1,
+            1,
+            1,
+            1,
+            2,
+            8
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": 0.07967348403014653,
+        "slope": 0.024219143681691743,
+        "e_rev": -0.028645589026085973,
+        "g": 0.0002518344262802772
+    },
+    "error": {
+        "r2": 0.999698205015455,
+        "rmse": 1.5189579906369786e-08
+    },
+    "equation": "2.52E-04 * 1/(1+exp(-(v-79.67)/24.22)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -28.65)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 4.73*exp(--18.48*v), b = 83.59/(1+exp(-(v-89.69)/23.73)), c = 2.303"
+}

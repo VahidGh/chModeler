@@ -1,0 +1,157 @@
+{
+    "time": "2019-02-22 01:01:46.630715",
+    "ion_channel": {
+        "create_date": "2016-08-19T10:54:00.711588Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC2",
+        "sequence": "MTVATGDLTDGSVGFAGHPQDSYDPEPDHECCERVVINISGLRFETQLKTLSQFPETLLGDPKKRMRYFDPLRNEYFFDRNRPSFDAILYFYQSGGRLRRPVNVPLDIFSEEIRFYELGEEAMEIFREDEGFIKEEERPLPDNEFQKQVWLLFEYPESSGPARIIAIISVTVILISIVSFCLETLPVFRDENEDMHGSGGNYYSYPNSTVRFQKSNTFTDPFFIVETLCIIWFSFEFLVRFLACPSKAVFFTNLMNIIDIVAIIPYFITLGTELAEKTEDGQQGQQAMSLAILRVIRLVRVFRIFKLSRHSKGLQILGQTLNASMRELGLLIFFLFIGVILFSSAVFFAEADERDSQFPSIPDAFWWAVVSMTTVGYGDMVPTTIGGKIVGSLCAIAGVLTIALPVPVIVSNFNYFYHRETEGEEQAQYLQVTSCPKIPSSPDLQKSRSASTLSKSDYMEIQEGVNHSNEDFREKNLKTANCTLGNTNYVNITKMLTDV",
+        "uniprot_id": "P22739-1",
+        "conductance": 15.0,
+        "references": [
+            16,
+            25
+        ],
+        "refSeq_id": "AAA49933.1",
+        "full_name": "kcna2 potassium channel, voltage gated shaker related subfamily A, member 2 [ Xenopus laevis (African clawed frog) ]",
+        "id": 22,
+        "aliases": "xSHA2",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "Second isoform (kv1.2'): uniprot: Q98TW4, VKC61.",
+        "last_update": "2016-08-19T11:10:20.878842Z",
+        "member": "2",
+        "gene_symbol": "Kcna2",
+        "animal": "Xenopus laevis (African clawed frog)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "",
+        "current_type": "Delayed rectifier",
+        "subfamily": "A",
+        "class_symbol": "Kv1.2",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCNA2_XENLA"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/34/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 11,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/34/t_vs_i.pickle",
+        "reference": 16,
+        "y_axis_toSI": 1e-06,
+        "comments": "",
+        "figure_ref_address": "1A-2",
+        "x_axis_unit": "ms",
+        "ion_channel": 22,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2016/08/19/Selection_022.png",
+        "figure_ref_caption": "Characterization of the voltage-dependent potassium current induced by XSha1 transcripts. A, Currents induced by expression of XShal1 (top) or XSha2 (bottom) RNA in oocytes were elicited by depolarizing steps to voltage levels ranging between -50 to +60 mV from a holding potential of -80. The XSha1-induced current begins to activate at -40 mV and is sustained for the duration of the 60 msec pulse, indicating that is a delayed-rectifier-like current. XSha2 RNA induces a delayed-rectifier potassium current, which has a voltage dependence of activation that is depolarized with respect to XSha1. Calibration: 2 uA, 10 msec.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 34
+    },
+    "params": {
+        "v_half": -0.007028546157119792,
+        "slope": 0.009391388951015614,
+        "e_rev": -0.15975527697694555,
+        "g": 3.0093464666733247e-05,
+        "ra": 26.478414204622887,
+        "sa": -1.364437144527278,
+        "rb": 121.5212771182584,
+        "vb": 0.0032474603068210956,
+        "sb": 0.020946956519474275,
+        "rc": 4.3984232620823865e-15
+    },
+    "x0": [
+        26.479096610558855,
+        -1.3642358249634745,
+        121.52168288370402,
+        0.00324718719622048,
+        0.020947012756680494,
+        3.2503751737687013e-10
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.06,
+            0.04,
+            0.02,
+            0.0,
+            -0.01,
+            -0.02,
+            -0.05
+        ],
+        "v_hold": -0.08,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42,
+            49
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            6,
+            6,
+            6,
+            5,
+            6,
+            3
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.007028546157119792,
+        "slope": 0.009391388951015614,
+        "e_rev": -0.15975527697694555,
+        "g": 3.0093464666733247e-05
+    },
+    "error": {
+        "r2": 0.9785703678010584,
+        "rmse": 1.2536072836356515e-07
+    },
+    "equation": "3.01E-05 * 1/(1+exp(-(v--7.03)/9.39)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -159.76)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 26.48*exp(--1.36*v), b = 121.52/(1+exp(-(v-3.25)/20.95)), c = 0.000"
+}

@@ -1,0 +1,146 @@
+{
+    "time": "2019-02-22 01:59:42.130713",
+    "ion_channel": {
+        "create_date": "2017-01-04T07:14:42.477614Z",
+        "links": "",
+        "sequence": "MEGDNCNKSRHKSHNMINPNYASVRCTQPLPSVIQLRSRNKMIGITEDPSSDSEPVSSNQPLLLTNLSYEVHTFNDNNNHERPAPQEQSTQNTMISMQSEQKSDRFTASNLGMFQYMKFEIGEDGDDHEEEAILTNREKLRHILHSKPIHVAIIVLVVLDSFLVVGELLIDLKVIIVPHGNPAPEILHGFSLSILSIFMVEIALKIIADHRHFIHHKVEVLDAVVVVISFGVDIALIFVGESEALAAIGLLVILRLWRVFRIINGIIVTVKTKADDRVHEIKKKNSELELQIHNLEEKLSQKEQDMSRLHEILRCNNIDIPPTVPLTTSVQIHSTTTASADV",
+        "uniprot_id": "Q1JV40-1",
+        "conductance": null,
+        "references": [
+            173
+        ],
+        "refSeq_id": "NP_001071937",
+        "full_name": "hvcn1 voltage-gated hydrogen channel 1 [ Ciona intestinalis (vase tunicate) ]",
+        "id": 170,
+        "aliases": "CiHv, CiVSOP, vsx1",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-21T13:09:12.291791Z",
+        "member": "",
+        "gene_symbol": "hvcn1",
+        "animal": "Ciona intestinalis (vase tunicate)",
+        "username": 1,
+        "ion_type": "Cation",
+        "gene_id": "778897",
+        "current_type": "Delayed rectifier",
+        "subfamily": "",
+        "class_symbol": "Hv1",
+        "channel_type": "Voltage-gated proton channels",
+        "channel_name": "HVCN1_CIOIN"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/182/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 140,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/182/t_vs_i.pickle",
+        "reference": 173,
+        "y_axis_toSI": 1e-06,
+        "comments": "S1, 1.b mutants",
+        "figure_ref_address": "S1-1",
+        "x_axis_unit": "ms",
+        "ion_channel": 170,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/22/HVCN1_CIOIN.png",
+        "figure_ref_caption": "Accessibility to external MTSET. Currents from oocytes expressing wt, 246C, 248C, 252C, 256C, and 259C channels in response to voltage steps from \u00e2\u20ac\u201c60 mV to +60 mV (in 20 mV increments), before and after 0.1 mM MTSET application (1 mM MTSES for 246C) at both depolarized (+60 mV) and hyperpolarized potentials (\u00e2\u20ac\u201c60 mV). pHo = 7.5. Note that data shown in After MTS column are after MTS application at hyperpolarized potentials followed by MTS application at depolarized potentials.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 182
+    },
+    "params": {
+        "v_half": 0.0395813953530441,
+        "slope": 0.015710959785656623,
+        "e_rev": -0.19999999999999987,
+        "g": 1.5649354779626232e-05,
+        "ra": 0.6975928515943108,
+        "sa": 8.289678295185512,
+        "rb": 0.4993935764800102,
+        "vb": -0.027890036469030315,
+        "sb": 0.001000000000201892,
+        "rc": 0.4163549976999297
+    },
+    "x0": [
+        0.6975881805494202,
+        8.289336360230672,
+        0.49940869623871503,
+        -0.02357109207921774,
+        0.0010000000000000002,
+        0.41634323361564424
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.06,
+            0.04,
+            0.02,
+            0.0,
+            -0.06
+        ],
+        "v_hold": -0.06,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": 0.0395813953530441,
+        "slope": 0.015710959785656623,
+        "e_rev": -0.19999999999999987,
+        "g": 1.5649354779626232e-05
+    },
+    "error": {
+        "r2": 0.9916011028962902,
+        "rmse": 3.206738988601104e-08
+    },
+    "equation": "1.56E-05 * 1/(1+exp(-(v-39.58)/15.71)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -200.00)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 0.70*exp(-8.29*v), b = 0.50/(1+exp(-(v--27.89)/1.00)), c = 0.416"
+}

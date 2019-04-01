@@ -1,0 +1,161 @@
+{
+    "time": "2019-02-22 02:05:07.445725",
+    "ion_channel": {
+        "create_date": "2017-01-04T07:14:42.528891Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/103",
+        "sequence": "MEQSRSQQRGGEQSWWGSDPQYQYMPFEHCTSYGLPSENGGLQHRLRKDAGPRHNVHPTQIYGHHKEQFSDREQDIGMPKKTGSSSTVDSKDEDHYSKCQDCIHRLGQVVRRKLGEDWIFLVLLGLLMALVSWSMDYVSAKSLQAYKWSYAQMQPSLPLQFLVWVTFPLVLILFSALFCHLISPQAVGSGIPEMKTILRGVVLKEYLTMKAFVAKVVALTAGLGSGIPVGKEGPFVHIASICAAVLSKFMSVFCGVYEQPYYYSDILTVGCAVGVGCCFGTPLGGVLFSIEVTSTYFAVRNYWRGFFAATFSAFVFRVLAVWNKDAVTITALFRTNFRMDFPFDLKELPAFAAIGICCGLLGAVFVYLHRQVMLGVRKHKALSQFLAKHRLLYPGIVTFVIASFTFPPGMGQFMAGELMPREAISTLFDNNTWVKHAGDPESLGQSAVWIHPRVNVVIIIFLFFVMKFWMSIVATTMPIPCGGFMPVFVLGAAFGRLVGEIMAMLFPDGILFDDIIYKILPGGYAVIGAAALTGAVSHTVSTAVICFELTGQIAHILPMMVAVILANMVAQSLQPSLYDSIIQVKKLPYLPDLGWNQLSKYTIFVEDIMVRDVKFVSASYTYGELRTLLQTTTVKTLPLVDSKDSMILLGSVERSELQALLQRHLCPERRLRAAQEMARKLSELPYDGKARLAGEGPPGAPPGRPESFAFVDEDEDEDLSGKSELPPSLALHPSTTAPLSPEEPNGPLPGHKQQPEAPEPAGQRPSIFQSLLHCLLGRARPTKKKTTQDSTDLVDNMSPEEIEAWEQEQLSQPVCFDSCCIDQSPFQLVEQTTLHKTHTLFSLLGLHLAYVTSMGKLRGVLALEELQKAIEGHTKSGVQLRPPLASFRNTTSTRKSTGAPPSSAENWNLPEDRPGATGTGDVIAASPETPVPSPSPEPPLSLAPGKVEGELEELELVESPGLEEELADILQGPSLRSTDEEDEDELIL",
+        "uniprot_id": "P35523-1",
+        "conductance": null,
+        "references": [
+            180
+        ],
+        "refSeq_id": "CAA81103",
+        "full_name": "CLCN1 chloride voltage-gated channel 1 [ Homo sapiens (human) ]",
+        "id": 183,
+        "aliases": "CLC-1, CLC1, CLCN1, hCLC-1",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-23T07:45:06.383815Z",
+        "member": "",
+        "gene_symbol": "CLCN1",
+        "animal": "Homo sapiens (Human)",
+        "username": 1,
+        "ion_type": "Cl-",
+        "gene_id": "1180",
+        "current_type": "A-type",
+        "subfamily": "1",
+        "class_symbol": "Clv1",
+        "channel_type": "Voltage-gated chloride channels",
+        "channel_name": "CLCN1_HUMAN"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/195/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 147,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/195/t_vs_i.pickle",
+        "reference": 180,
+        "y_axis_toSI": 1e-06,
+        "comments": "2,3,4 mutants. Deactivated to: -60 mV",
+        "figure_ref_address": "2.2-right",
+        "x_axis_unit": "ms",
+        "ion_channel": 183,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/23/CLCN1_HUMAN.png",
+        "figure_ref_caption": "Currents expressed from WT CLC-1, truncated channel proteins, and channels split in the carboxyl-terminal cytosolic portion. Top, voltage protocol. Chloride currents were recorded in response to 150-ms voltage steps ranging from +80 to \u00e2\u02c6\u2019160 mV after a 25-ms prepulse to +80 mV from the resting potential of the individual oocyte. This prepulse opens the gate of CLC-1, which closes upon hyperpolarization. These test pulses were followed by a constant step to \u00e2\u02c6\u201960 mV and a return to the resting potential. Note the differing scales for individual recordings, as indicated by theangles. Capacitive transients were cut off for clarity infigures. For diagrams of constructs and nomenclature of truncated channels see Fig. 1 and \u00e2\u20ac\u0153Experimental Procedures.\u00e2\u20ac\ufffdWT, currents of the full-length channel protein. \u00ce\u201dN109, deletion of the cytoplasmic NH2 terminus. \u00ce\u201dC720, truncation of the COOH terminus at position 720.Bottom, different combinations of amino- and carboxyl-terminal portions. All current traces are representative examples from at least two batches of oocytes (n \u00e2\u2030\u00a5 6).",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 195
+    },
+    "params": {
+        "v_half": -0.02289631699232345,
+        "slope": -0.03742620783888056,
+        "e_rev": 0.1999999999999952,
+        "g": 7.365021689100746e-05,
+        "ra": 65.0523257866339,
+        "sa": -14.995253660216925,
+        "rb": 499.99999996621517,
+        "vb": -0.0033529095778560107,
+        "sb": 0.02124896365977904,
+        "rc": 64.22938260327253
+    },
+    "x0": [
+        0.8864664570918284,
+        21.289713677758474,
+        5.048167768661304,
+        -0.05995090518159157,
+        0.0010189438695679775,
+        18.178178689178544
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.06,
+            0.02,
+            -0.02,
+            -0.06,
+            -0.08,
+            -0.1,
+            -0.12,
+            -0.14
+        ],
+        "v_hold": 0.08,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70,
+            80
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.02289631699232345,
+        "slope": -0.03742620783888056,
+        "e_rev": 0.1999999999999952,
+        "g": 7.365021689100746e-05
+    },
+    "error": {
+        "r2": 0.9702825232134629,
+        "rmse": 5.179592729092918e-07
+    },
+    "equation": "7.37E-05 * 1/(1+exp(-(v--22.90)/-37.43)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - 200.00)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 65.05*exp(--15.00*v), b = 500.00/(1+exp(-(v--3.35)/21.25)), c = 64.229"
+}

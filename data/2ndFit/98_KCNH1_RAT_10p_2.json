@@ -1,0 +1,156 @@
+{
+    "time": "2019-02-22 01:25:57.783714",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.042716Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/33",
+        "sequence": "MTMAGGRRGLVAPQNTFLENIVRRSNDTNFVLGNAQIVDWPIVYSNDGFCKLSGYHRAEVMQKSSACSFMYGELTDKDTVEKVRQTFENYEMNSFEILMYKKNRTPVWFFVKIAPIRNEQDKVVLFLCTFSDITAFKQPIEDDSCKGWGKFARLTRALTSSRGVLQQLAPSVQKGENVHKHSRLAEVLQLGSDILPQYKQEAPKTPPHIILHYCVFKTTWDWIILILTFYTAILVPYNVSFKTRQNNVAWLVVDSIVDVIFLVDIVLNFHTTFVGPAGEVISDPKLIRMNYLKTWFVIDLLSCLPYDVINAFENVDEGISSLFSSLKVVRLLRLGRVARKLDHYIEYGAAVLVLLVCVFGLAAHWMACIWYSIGDYEIFDEDTKTIRNNSWLYQLALDIGTPYQFNGSGSGKWEGGPSKNSVYISSLYFTMTSLTSVGFGNIAPSTDIEKIFAVAIMMIGSLLYATIFGNVTTIFQQMYANTNRYHEMLNSVRDFLKLYQVPKGLSERVMDYIVSTWSMSRGIDTEKVLQICPKDMRADICVHLNRKVFKEHPAFRLASDGCLRALAMEFQTVHCAPGDLIYHAGESVDSLCFVVSGSLEVIQDDEVVAILGKGDVFGDVFWKEATLAQSCANVRALTYCDLHVIKRDALQKVLEFYTAFSHSFSRNLILTYNLRKRIVFRKISDVKREEEERMKRKNEAPLILPPDHPVRRLFQRFRQQKEARLAAERGGRDLDDLDVEKGNALTDHTSANHSLVKASVVTVRESPATPVSFQAASTSTVSDHAKLHAPGSECLGPKAGGGDPAKRKGWARFKDACGKGEDWNKVSKAESMETLPERTKASGEATLKKTDSCDSGITKSDLRLDNVGEARSPQDRSPILAEVKHSFYPIPEQTLQATVLEVKHELKEDIKALNAKMTSIEKQLSEILRILMSRGSSQSPQDTCEVSRPQSPESDRDIFGAS",
+        "uniprot_id": "Q63472-1",
+        "conductance": null,
+        "references": [
+            84
+        ],
+        "refSeq_id": "NP_113930",
+        "full_name": "Kcnh1 potassium voltage-gated channel subfamily H member 1 [ Rattus norvegicus (Norway rat) ]",
+        "id": 86,
+        "aliases": "R-eag, EAG1, rKv10.1",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-12T08:04:42.322211Z",
+        "member": "1",
+        "gene_symbol": "Kcnh1",
+        "animal": "Rattus norvegicus (Rat)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "65198",
+        "current_type": "Delayed rectifier",
+        "subfamily": "H",
+        "class_symbol": "Kv10.1",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCNH1_RAT"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/98/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 76,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/98/t_vs_i.pickle",
+        "reference": 84,
+        "y_axis_toSI": 1e-06,
+        "comments": "1.C I/V",
+        "figure_ref_address": "1.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 86,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/12/KCNH1_RAT.png",
+        "figure_ref_caption": "Comparison of the shape and amplitude of raw current traces (A, B) and the I\u00e2\u20ac\u201cV relationships (C) of R-eag before (A, open circles) and after (B, solid circles) the treatment with progesterone. Currents were elicited by depolarizing steps in Xenopus oocytes expressing R-eag mRNA, before (A) or during (B) treatment with 5 \u00ce\u00bcg/ml progesterone. The depolarizations ranged from \u00e2\u02c6\u201960 to +80 mV in increments of 20 mV from a holding potential of \u00e2\u02c6\u2019100 mV.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 98
+    },
+    "params": {
+        "v_half": 0.021518155273308574,
+        "slope": 0.01937717227731088,
+        "e_rev": -0.14602991661131182,
+        "g": 0.0007213626018416962,
+        "ra": 13.166713319680918,
+        "sa": -3.6965249986638873,
+        "rb": 36.670543648866605,
+        "vb": -0.05576414657395272,
+        "sb": 0.0260714532799628,
+        "rc": 9.616302891225652e-15
+    },
+    "x0": [
+        13.166566493881746,
+        -3.6965341586621543,
+        36.670229368559575,
+        -0.055764227203432236,
+        0.026071430022862684,
+        1.54074627018268e-16
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.08,
+            0.06,
+            0.04,
+            0.02,
+            0.0,
+            -0.02,
+            -0.04
+        ],
+        "v_hold": -0.1,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42,
+            49
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            5
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": 0.021518155273308574,
+        "slope": 0.01937717227731088,
+        "e_rev": -0.14602991661131182,
+        "g": 0.0007213626018416962
+    },
+    "error": {
+        "r2": 0.9958345660459106,
+        "rmse": 1.252773962326901e-06
+    },
+    "equation": "7.21E-04 * 1/(1+exp(-(v-21.52)/19.38)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -146.03)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 13.17*exp(--3.70*v), b = 36.67/(1+exp(-(v--55.76)/26.07)), c = 0.000"
+}

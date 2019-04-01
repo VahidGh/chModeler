@@ -1,0 +1,151 @@
+{
+    "time": "2019-02-22 01:22:48.277713",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:24.985808Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC41, http://channelpedia.epfl.ch/ionchannels/24",
+        "sequence": "MVQKSRNGGVYPGPSGEKKLKVGFVGLDPGAPDSTRDGALLIAGSEAPKRGSILSKPRAGGAGAGKPPKRNAFYRKLQNFLYNVLERPRGWAFIYHAYVFLLVFSCLVLSVFSTIKEYEKSSEGALYILEIVTIVVFGVEYFVRIWAAGCCCRYRGWRGRLKFARKPFCVIDIMVLIASIAVLAAGSQGNVFATSALRSLRFLQILRMIRMDRRGGTWKLLGSVVYAHSKELVTAWYIGFLCLILASFLVYLAEKGENDHFDTYADALWWGLITLTTIGYGDKYPQTWNGRLLAATFTLIGVSFFALPAGILGSGFALKVQEQHRQKHFEKRRNPAAGLIQSAWRFYATNLSRTDLHSTWQYYERTVTVPMYRLIPPLNQLELLRNLKSKSGLAFRKDPPPEPSPSQKVSLKDRVFSSPRGVAAKGKGSPQAQTVRRSPSADQSLEDSPSKVPKSWSFGDRSRARQAFRIKGAASRQNSEEASLPGEDIVDDKSCPCEFVTEDLTPGLKVSIRAVCVMRFLVSKRKFKESLRPYDVMDVIEQYSAGHLDMLSRIKSLQSRVDQIVGRGPAITDKDRTKGPAEAELPEDPSMMGRLGKVEKQVLSMEKKLDFLVNIYMQRMGIPPTETEAYFGAKEPEPAPPYHSPEDSREHVDRHGCIVKIVRSSSSTGQKNFSAPPAAPPVQCPPSTSWQPQSHPRQGHGTSPVGDHGSLVRIPPPPAHERSLSAYGGGNRASMEFLRQEDTPGCRPPEGNLRDSDTSISIPSVDHEELERSFSGFSISQSKENLDALNSCYAAVAPCAKVRPYIAEGESDTDSDLCTPCGPPPRSATGEGPFGDVGWAGPRK",
+        "uniprot_id": "O43526-3",
+        "conductance": null,
+        "references": [
+            76
+        ],
+        "refSeq_id": "NP_004509",
+        "full_name": "KCNQ2 potassium voltage-gated channel subfamily Q member 2 [ Homo sapiens (human) ]",
+        "id": 78,
+        "aliases": "KvLQT2, hKv7.2",
+        "isoform": "c",
+        "channelworm_gene": null,
+        "comments": "vkcdb: isoform e",
+        "last_update": "2017-01-11T11:57:13.398131Z",
+        "member": "2",
+        "gene_symbol": "KCNQ2",
+        "animal": "Homo sapiens (Human)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "3785",
+        "current_type": "Delayed rectifier",
+        "subfamily": "Q",
+        "class_symbol": "Kv7.2",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCNQ2-c_HUMAN"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/90/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 68,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/90/t_vs_i.pickle",
+        "reference": 76,
+        "y_axis_toSI": 1e-06,
+        "comments": "3.B I_norm/V. Deactivates to: -30 mV",
+        "figure_ref_address": "3.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 78,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/11/KCNQ2-c_HUMAN.png",
+        "figure_ref_caption": "Electrophysiological analysis of KCNQ2 and its mutant in Xenopus oocytes. (A) Two-electrode voltage clamp traces of an oocyte expressing KCNQ2. From a holding potential of \u00e2\u20ac\u201c80 mV, the oocyte was clamped  for 4s to values  between  \u00e2\u20ac\u201c80  and 140 mV in steps of 10 mV, followed by a constant pulse to \u00e2\u20ac\u201c30 mV.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 90
+    },
+    "params": {
+        "v_half": -0.03488741697449147,
+        "slope": 0.00940005143194544,
+        "e_rev": -0.12129077686334988,
+        "g": 3.445203179311365e-05,
+        "ra": 0.6051958176388937,
+        "sa": -50.21333039785492,
+        "rb": 395.168261579928,
+        "vb": 0.08307242490533488,
+        "sb": 0.01397529442217895,
+        "rc": 0.3483040455666764
+    },
+    "x0": [
+        8.129203437797628,
+        -36.66479926943948,
+        390.1450037099106,
+        0.10223381838220744,
+        0.01402572874106087,
+        10.659166675656339
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.04,
+            0.02,
+            0.0,
+            -0.02,
+            -0.04,
+            -0.06
+        ],
+        "v_hold": -0.08,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.03488741697449147,
+        "slope": 0.00940005143194544,
+        "e_rev": -0.12129077686334988,
+        "g": 3.445203179311365e-05
+    },
+    "error": {
+        "r2": 0.9928088821822865,
+        "rmse": 6.804862143169666e-08
+    },
+    "equation": "3.45E-05 * 1/(1+exp(-(v--34.89)/9.40)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -121.29)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 0.61*exp(--50.21*v), b = 395.17/(1+exp(-(v-83.07)/13.98)), c = 0.348"
+}

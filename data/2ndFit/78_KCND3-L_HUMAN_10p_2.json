@@ -1,0 +1,156 @@
+{
+    "time": "2019-02-22 01:16:26.833714",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:24.908136Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC178, http://channelpedia.epfl.ch/ionchannels/17",
+        "sequence": "MAAGVAAWLPFARAAAIGWMPVANCPMPLAPADKNKRQDELIVLNVSGRRFQTWRTTLERYPDTLLGSTEKEFFFNEDTKEYFFDRDPEVFRCVLNFYRTGKLHYPRYECISAYDDELAFYGILPEIIGDCCYEEYKDRKRENAERLMDDNDSENNQESMPSLSFRQTMWRAFENPHTSTLALVFYYVTGFFIAVSVITNVVETVPCGTVPGSKELPCGERYSVAFFCLDTACVMIFTVEYLLRLFAAPSRYRFIRSVMSIIDVVAIMPYYIGLVMTNNEDVSGAFVTLRVFRVFRIFKFSRHSQGLRILGYTLKSCASELGFLLFSLTMAIIIFATVMFYAEKGSSASKFTSIPASFWYTIVTMTTLGYGDMVPKTIAGKIFGSICSLSGVLVIALPVPVIVSNFSGIYHQNQRADKRRAQKKARLARIRVAKTGSSNAYLHSKRNGLLNGALELTGTPEEEHMGKTTSLIESQHHHLLHCLEKTTGLSYLVDDPLLSVRTSTIKNHEFIDEQMFEQNCMESSMQNYPSQRSPSLSSHPGLTTTCCSRRSKKTTHLPNSNLPDTRLRSMQELSTIHIQGSEQPSLTTSRSSLNLKADDGLRPNCKTSQITTAIISIPTPPALTPEGESRPPPASPGPNTNIPSIASNVVKVSVL",
+        "uniprot_id": "Q9UK17-1",
+        "conductance": 4.0,
+        "references": [
+            66
+        ],
+        "refSeq_id": "NP_004971",
+        "full_name": "KCND3 potassium voltage-gated channel subfamily D member 3, long [ Homo sapiens (human) ]",
+        "id": 66,
+        "aliases": "KCND3L, hKv4.3L",
+        "isoform": "L",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-10T20:08:08.782154Z",
+        "member": "3",
+        "gene_symbol": "KCND3",
+        "animal": "Homo sapiens (Human)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "3752",
+        "current_type": "A-type",
+        "subfamily": "D",
+        "class_symbol": "Kv4.3",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCND3-L_HUMAN"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/78/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 57,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/78/t_vs_i.pickle",
+        "reference": 66,
+        "y_axis_toSI": 1e-06,
+        "comments": "2.B I_norm act/inact",
+        "figure_ref_address": "2.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 66,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/10/KCND3-L_HUMAN.jpg",
+        "figure_ref_caption": "A: leak-subtracted current traces from both short and long forms of hKv4.3 expressed in Xenopus oocytes in response to voltage steps from \u00e2\u02c6\u201960 to +80 mV in 10-mV, 500-ms steps, holding potential = \u00e2\u02c6\u201980 mV.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 78
+    },
+    "params": {
+        "v_half": -0.03976568928384729,
+        "slope": 0.035131453693129595,
+        "e_rev": -0.04757259398854099,
+        "g": 0.0002471154725956511,
+        "ra": 2.6965057742316487,
+        "sa": 7.022282049910338,
+        "rb": 36.019535058404664,
+        "vb": -0.04275901772856082,
+        "sb": 0.018529020562610545,
+        "rc": 3.929783321601022
+    },
+    "x0": [
+        2.6965330666844296,
+        7.0223242764413,
+        36.01957198385761,
+        -0.04275946302910128,
+        0.018528908956444205,
+        3.929834798781922
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.08,
+            0.06,
+            0.04,
+            0.02,
+            0.0,
+            -0.02,
+            -0.04
+        ],
+        "v_hold": -0.08,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            9
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.03976568928384729,
+        "slope": 0.035131453693129595,
+        "e_rev": -0.04757259398854099,
+        "g": 0.0002471154725956511
+    },
+    "error": {
+        "r2": 0.9880476092287107,
+        "rmse": 3.5292265806583703e-07
+    },
+    "equation": "2.47E-04 * 1/(1+exp(-(v--39.77)/35.13)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -47.57)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 2.70*exp(-7.02*v), b = 36.02/(1+exp(-(v--42.76)/18.53)), c = 3.930"
+}

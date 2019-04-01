@@ -1,0 +1,146 @@
+{
+    "time": "2019-02-22 01:13:55.647713",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:24.832742Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC32, http://channelpedia.epfl.ch/ionchannels/11",
+        "sequence": "MGQGDESERIVINVGGTRHQTYRSTLRTLPGTRLAWLAEPDAHSHFDYDPRADEFFFDRHPGVFAHILNYYRTGKLHCPADVCGPLYEEELAFWGIDETDVEPCCWMTYRQHRDAEEALDSFGGAPLDNSADDADADGPGDSGDGEDELEMTKRLALSDSPDGRPGGFWRRWQPRIWALFEDPYSSRYARYVAFASLFFILVSITTFCLETHERFNPIVNKTEIENVRNGTQVRYYREAETEAFLTYIEGVCVVWFTFEFLMRVVFCPNKVEFIKNSLNIIDFVAILPFYLEVGLSGLSSKAAKDVLGFLRVVRFVRILRIFKLTRHFVGLRVLGHTLRASTNEFLLLIIFLALGVLIFATMIYYAERIGAQPNDPSASEHTHFKNIPIGFWWAVVTMTTLGYGDMYPQTWSGMLVGALCALAGVLTIAMPVPVIVNNFGMYYSLAMAKQKLPKKKKKHIPRPPQLGSPNYCKSVVNSPHHSTQSDTCPLAQEEILEINRAGRKPLRGMSI",
+        "uniprot_id": "P15388-1",
+        "conductance": 26.2,
+        "references": [
+            53
+        ],
+        "refSeq_id": "NP_032447",
+        "full_name": "Kcnc1 potassium voltage gated channel, Shaw-related subfamily, member 1 [ Mus musculus (house mouse) ]",
+        "id": 52,
+        "aliases": "NGK2, mKv3.1",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-10T08:49:50.506673Z",
+        "member": "1",
+        "gene_symbol": "Kcnc1",
+        "animal": "Mus musculus (Mouse)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "16502",
+        "current_type": "Delayed rectifier",
+        "subfamily": "C",
+        "class_symbol": "Kv3.1",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCNC1_MOUSE"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/64/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 46,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/64/t_vs_i.pickle",
+        "reference": 53,
+        "y_axis_toSI": 1e-06,
+        "comments": "4.C I/V",
+        "figure_ref_address": "4.B",
+        "x_axis_unit": "ms",
+        "ion_channel": 52,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/10/kcnc1_mouse.png",
+        "figure_ref_caption": "Properties of outward currents in Xenopus oocytes injected with the NGK1-specific and with the NGK2-specific mRNA. (A,B) Outward currents in response to depolarizing voltage steps in an oocyte injected with the NGK-1 specific mRNA (A) or with the NGK2-specific mRNA (B). The membrane potential was held at -60 mV and stepped to test potentials ranging from -40 mV to + 20 mV in IO-mV increments. In B, overlapping records were obtained upon depolarization to -40 mV, -30 mV and -20 mV.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 64
+    },
+    "params": {
+        "v_half": 0.010007314275784995,
+        "slope": 0.009891773919537977,
+        "e_rev": -0.04767720516896792,
+        "g": 0.0023192641769886335,
+        "ra": 24.61276624707251,
+        "sa": -34.70150409325568,
+        "rb": 228.29843649196556,
+        "vb": 0.018982777050231846,
+        "sb": 0.01374047248374577,
+        "rc": 1.1431022874297558e-15
+    },
+    "x0": [
+        24.61282353481658,
+        -34.70141837274268,
+        228.29836100930785,
+        0.018982755300048733,
+        0.013740485425365113,
+        3.608050721122474e-16
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.02,
+            0.01,
+            0.0,
+            -0.01,
+            -0.02
+        ],
+        "v_hold": -0.06,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": 0.010007314275784995,
+        "slope": 0.009891773919537977,
+        "e_rev": -0.04767720516896792,
+        "g": 0.0023192641769886335
+    },
+    "error": {
+        "r2": 0.9957974351223858,
+        "rmse": 1.0149698223635722e-06
+    },
+    "equation": "2.32E-03 * 1/(1+exp(-(v-10.01)/9.89)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -47.68)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 24.61*exp(--34.70*v), b = 228.30/(1+exp(-(v-18.98)/13.74)), c = 0.000"
+}

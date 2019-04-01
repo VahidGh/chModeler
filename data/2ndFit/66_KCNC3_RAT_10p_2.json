@@ -1,0 +1,151 @@
+{
+    "time": "2019-02-22 01:13:34.906713",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:24.837900Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC38, http://channelpedia.epfl.ch/ionchannels/13",
+        "sequence": "MLSSVCVWSFSGRQGTRKQHSQPAPTPQPPESSPPPLLPPPQQQCAQPGTAASPAGAPLSCGPGGRRAEPCSGLPAVAMGRHGGGGGDSGKIVINVGGVRHETYRSTLRTLPGTRLAGLTEPEAAARFDYDPGTDEFFFDRHPGVFAYVLNYYRTGKLHCPADVCGPLFEEELGFWGIDETDVEACCWMTYRQHRDAEEALDSFEAPDSSGNANANAGGAHDAGLDDEAGAGGGGLDGAGGELKRLCFQDAGGGAGGPAGGPGGAGGTWWRRWQPRVWALFEDPYSSRAARYVAFASLFFILISITTFCLETHEGFIHISNKTVTQASPIPGAPPENITNVEVETEPFLTYVEGVCVVWFTFEFLMRVTFCPDKVEFLKSSLNIIDCVAILPFYLEVGLSGLSSKAAKDVLGFLRVVRFVRILRIFKLTRHFVGLRVLGHTLRASTNEFLLLIIFLALGVLIFATMIYYAERIGADPDDILGSNHTYFKNIPIGFWWAVVTMTTLGYGDMYPKTWSGMLVGALCALAGVLTIAMPVPVIVNNFGMYYSLAMAKQKLPKKKNKHIPRPPQPGSPNYCKPDPPPPPPPHPHHGSGGISPPPPITPPSMGVTVAGAYPPGPHTHPGLLRGGAGGLGIMGLPPLPAPGEPCPLAQEEVIETNRAGNDLGVLEEGDPRPNGDPAAAALAHEDCPAIDQPAMSPEDKSPITPGSRGRYSRDRACFLVTDYAPSPDGSIRKATGAPPLPPHAGVSQAPPASCPTSTPTQQPGYPPSGRAPSPPQATPEAPAIFDVWLPPFHRSHQPPGKHQRGGRHPGVSPSPQQRACVGEPPSASHPQSLTLCISVPSSCHRLRPRETLGFPLSLPPRLATGNGGRECPRDPGLPFPSRHSSPAV",
+        "uniprot_id": "Q01956-1",
+        "conductance": 35.0,
+        "references": [
+            55
+        ],
+        "refSeq_id": "AAA73182",
+        "full_name": "KCNC3 potassium voltage-gated channel subfamily C member 3 [ Rattus norvegicus (Norway rat) ]",
+        "id": 54,
+        "aliases": "KSHIIID, rKv3.3",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-10T09:43:48.538977Z",
+        "member": "3",
+        "gene_symbol": "Kcnc3",
+        "animal": "Rattus norvegicus (Rat)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "",
+        "current_type": "A-type",
+        "subfamily": "C",
+        "class_symbol": "Kv3.3",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCNC3_RAT"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/66/t_vs_i.png",
+        "y_axis_unit": "nA",
+        "patch_clamp": 48,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/66/t_vs_i.pickle",
+        "reference": 55,
+        "y_axis_toSI": 1e-09,
+        "comments": "5.D I_norm/V",
+        "figure_ref_address": "5.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 54,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/10/kcnc3_rat.png",
+        "figure_ref_caption": "None",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 66
+    },
+    "params": {
+        "v_half": 0.00879315090407351,
+        "slope": 0.004262421458685753,
+        "e_rev": -0.19999999999999915,
+        "g": 3.3367839344567353e-06,
+        "ra": 2.264272284575652,
+        "sa": -33.34953577687071,
+        "rb": 1.5698841012501756,
+        "vb": 0.030003905837801534,
+        "sb": 0.0010000000000000525,
+        "rc": 2.104358958444566
+    },
+    "x0": [
+        1.3471771224922637,
+        -10.436777999197554,
+        7.64562631183375,
+        0.019208970762556045,
+        0.028896726674672087,
+        1.8464118761095088e-20
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.04,
+            0.03,
+            0.02,
+            0.01,
+            0.0,
+            -0.01
+        ],
+        "v_hold": -0.09,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            2,
+            3,
+            4,
+            4,
+            3,
+            9
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": 0.00879315090407351,
+        "slope": 0.004262421458685753,
+        "e_rev": -0.19999999999999915,
+        "g": 3.3367839344567353e-06
+    },
+    "error": {
+        "r2": 0.9798069564282792,
+        "rmse": 1.4913743811409552e-08
+    },
+    "equation": "3.34E-06 * 1/(1+exp(-(v-8.79)/4.26)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -200.00)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 2.26*exp(--33.35*v), b = 1.57/(1+exp(-(v-30.00)/1.00)), c = 2.104"
+}

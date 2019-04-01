@@ -1,0 +1,151 @@
+{
+    "time": "2019-02-22 01:20:05.315713",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:24.938068Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC268",
+        "sequence": "MSTPAVDCQSDRIPLTRPRTGAVPTLRARVKRQATSSYLGSAGCENTPTRLEQADVFVEDGGDERILLNVGGVRHETHVSTLRTVPNSRLSRLAETHLENGGGRQEYFFDRHPSVFNSIIDFYRTRELHVPLEVCGAVVKRELDFWQINELEIKACCWRHYRSYIENQHILDSFNHSLLSQAVDVDLNILTGWKKLQWRVWLVLEYPRTSRLAMIYGVTSFLFVVTSIAGFCLETLPELRPKFLNVTTECEGGHSRELGRVMTSHEALNTLDIICTVFFTLELILRFIFAPDKRKFIFSLMNVIDLLALVPLYVQVIFTKSDNMQACYLNERFVIEIMFILRIIRMFRIFHLVKHYQALKVLVYAIKASIQELLMLFIFLLIGMLIFSTMIYYAERKNTTEGGDMFSTIPMGFWWSIITMTTVGYGDVYPTTPVGYIVGTACSVSGVLLVALTIPVISNNFTLFYRHVQSRAAIPRSRGGDSSECDSNFNSEFERSVTRKTSNDSNVLTFVNGHVTGIHFSGSKSRSQQSGGRWSQTGESASSVSVKKSASDYMFQRNRSFRAYSDDGVMYKGETVV",
+        "uniprot_id": "Q16976-1",
+        "conductance": null,
+        "references": [
+            69
+        ],
+        "refSeq_id": "NP_001191593",
+        "full_name": "LOC100533376 noninactivating potassium channel [ Aplysia californica (California sea hare) ]",
+        "id": 70,
+        "aliases": "AKv5.1",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-11T06:52:52.371437Z",
+        "member": "1",
+        "gene_symbol": "N/A",
+        "animal": "Aplysia californica (California sea hare)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "100533376",
+        "current_type": "Delayed rectifier",
+        "subfamily": "E",
+        "class_symbol": "Kv5.1",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "aKv5.1_APLCA"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/82/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 60,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/82/t_vs_i.pickle",
+        "reference": 69,
+        "y_axis_toSI": 1e-06,
+        "comments": "3.A2 I_norm/V",
+        "figure_ref_address": "3.A1",
+        "x_axis_unit": "ms",
+        "ion_channel": 70,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/11/aKv5.1_APLCA.png",
+        "figure_ref_caption": "Expression of K+ Currents in Xenopus Oocytes Injected with aKv5.1 cRNA (A1) shows outward currents recorded in response to 1 s pulses ranging from -60 to +40 mV in 20 mV steps from a holding potential of -80 mV.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 82
+    },
+    "params": {
+        "v_half": -0.025711611047773458,
+        "slope": 0.009581947258525214,
+        "e_rev": -0.09744002089371703,
+        "g": 0.00012207690170181208,
+        "ra": 3.194311977912831,
+        "sa": -6.617229018230192,
+        "rb": 10.076596061920968,
+        "vb": -0.01967237678502285,
+        "sb": 0.01724438976015746,
+        "rc": 9.647264646450991e-15
+    },
+    "x0": [
+        3.194302468152831,
+        -6.617202309578034,
+        10.076570357590155,
+        -0.019672428043621897,
+        0.01724444587102854,
+        2.848937636552642e-19
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.04,
+            0.02,
+            0.0,
+            -0.02,
+            -0.04,
+            -0.06
+        ],
+        "v_hold": -0.08,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            2
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.025711611047773458,
+        "slope": 0.009581947258525214,
+        "e_rev": -0.09744002089371703,
+        "g": 0.00012207690170181208
+    },
+    "error": {
+        "r2": 0.992187334573845,
+        "rmse": 1.9294531168659826e-07
+    },
+    "equation": "1.22E-04 * 1/(1+exp(-(v--25.71)/9.58)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -97.44)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 3.19*exp(--6.62*v), b = 10.08/(1+exp(-(v--19.67)/17.24)), c = 0.000"
+}

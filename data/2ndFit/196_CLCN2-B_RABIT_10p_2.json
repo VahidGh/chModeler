@@ -1,0 +1,146 @@
+{
+    "time": "2019-02-22 02:00:45.769713",
+    "ion_channel": {
+        "create_date": "2017-01-04T07:14:42.533002Z",
+        "links": "",
+        "sequence": "MCSVRCHKFLVSRVGEDWIFLVLLGLLMALVSWAMDYAIAACLQAQQWMSRGLNTNLLLQYLAWVTYPVVLITFSAGFTQILAPQAVGSGIPEMKTILRGVVLKEYLTLKTFVAKVIGLTCALGSGMPLGKEGPFVHIASMCAALLSKFLSLFGGIYENESRNTEMLAAACAVGVGCCFAAPIGGVLFSIEVTSTFFAVRNYWRGFFAATFSAFIFRVLAVWNRDEETITALFKTRFRLDFPFDLQELPAFAVIGIASGFGGALFVYLNRKIVQVMRKQKTINRFLMRKRLLFPALVTLLISTLTFPPGFGQFMAGQLSQKETLVTLFDNRTWVRQGLVEELEPPSTSQAWSPPRANVFLTLVIFILMKFWMSALATTIPVPCGAFMPVFVIGAAFGRLVGESMAAWFPDGIHTDSSTYRIVPGGYAVVGAAALAGAVTHTVSTAVIVFELTGQIAHILPVMIAVILANAVAQSLQPSLYDSIIRIKKLPYLPELGWGRHQQYRVRVEDIMVRDVPHVALSCTFRDLRLALHRTKGRTLALVESPESMILLGSIERTQVVALLAAQLSPARRRQSKQKRRVAHTSPPSCQESPPSPETSVCFQVKAEDAQGEPHKPLKPALKRGCSNSVNLGESPTGHVESAGIALRSLFCGSPPPEAASESEKSESSEKRKSKRVRISLASDSDLEGEMSPEEILEWEEQQLDEPVNFSDCKIDPAPFQLVERTSLHKTHTIFSLLGVDHAYVTSIGRLIGIVTLKELRKAIEGSVTAQGVKVRPPLASFRDSATSSSDTETTEVHALWGPRSRHGLPREGSPSDSDDKCQ",
+        "uniprot_id": "Q6LD51-1",
+        "conductance": null,
+        "references": [
+            181
+        ],
+        "refSeq_id": "AAB35709",
+        "full_name": "CLCN2 chloride voltage-gated channel 2 [ Oryctolagus cuniculus (rabbit) ]",
+        "id": 184,
+        "aliases": "CLC-2, rabCLC-2B",
+        "isoform": "B",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-23T10:13:28.591273Z",
+        "member": "",
+        "gene_symbol": "CLCN2",
+        "animal": "Oryctolagus cuniculus (rabbit)",
+        "username": 1,
+        "ion_type": null,
+        "gene_id": "100009530",
+        "current_type": "Delayed rectifier",
+        "subfamily": "2",
+        "class_symbol": "Clv2",
+        "channel_type": "Voltage-gated chloride channels",
+        "channel_name": "CLCN2-B_RABIT"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/196/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 148,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/196/t_vs_i.pickle",
+        "reference": 181,
+        "y_axis_toSI": 1e-06,
+        "comments": "5.F I/V",
+        "figure_ref_address": "5.B",
+        "x_axis_unit": "ms",
+        "ion_channel": 184,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/23/CLCN2-B_RABIT.png",
+        "figure_ref_caption": "(A and B) Membrane currents recorded in Xenopus oocytes previously injected with water (A) or rabClC-2B cRNA (B). (Inset) Voltage clamp protocol.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 196
+    },
+    "params": {
+        "v_half": -0.1390022846844403,
+        "slope": 0.09999999999999999,
+        "e_rev": -0.026930399325685462,
+        "g": 0.00031396723798494237,
+        "ra": 28.11233548215181,
+        "sa": -19.906127494472234,
+        "rb": 346.3361808272535,
+        "vb": 0.0205346423116018,
+        "sb": 0.014958287642202807,
+        "rc": 10.24402084208162
+    },
+    "x0": [
+        28.028152189125464,
+        -19.894612369001834,
+        344.9269797247547,
+        0.020520374351286324,
+        0.014957478344888819,
+        10.224285352786039
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.06,
+            0.02,
+            -0.02,
+            -0.06,
+            -0.1
+        ],
+        "v_hold": -0.03,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            2,
+            1,
+            6,
+            1
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.1390022846844403,
+        "slope": 0.09999999999999999,
+        "e_rev": -0.026930399325685462,
+        "g": 0.00031396723798494237
+    },
+    "error": {
+        "r2": 0.997928357796447,
+        "rmse": 2.499712013587165e-07
+    },
+    "equation": "3.14E-04 * 1/(1+exp(-(v--139.00)/100.00)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -26.93)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 28.11*exp(--19.91*v), b = 346.34/(1+exp(-(v-20.53)/14.96)), c = 10.244"
+}

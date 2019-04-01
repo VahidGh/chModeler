@@ -1,0 +1,156 @@
+{
+    "time": "2019-02-22 01:28:09.141721",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.065329Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/33",
+        "sequence": "MTMAGGRRGLVAPQNTFLENIVRRSNDTNFVLGNAQIVDWPIVYSNDGFCKLSGYHRAEVMQKSSACSFMYGELTDKDTVEKVRQTFENYEMNSFEILMYKKNRTPVWFFVKIAPIRNEQDKVVLFLCTFSDITAFKQPIEDDSCKGWGKFARLTRALTSSRGVLQQLAPSVQKGENVHKHSRLAEVLQLGSDILPQYKQEAPKTPPHIILHYCVFKTTWDWIILILTFYTAILVPYNVSFKTRQNNVAWLVVDSIVDVIFLVDIVLNFHTTFVGPAGEVISDPKLIRMNYLKTWFVIDLLSCLPYDVINAFENVDEVSAFMGDPGKIGFADQIPPPLEGRESQGISSLFSSLKVVRLLRLGRVARKLDHYIEYGAAVLVLLVCVFGLAAHWMACIWYSIGDYEIFDEDTKTIRNNSWLYQLALDIGTPYQFNGSGSGKWEGGPSKNSVYISSLYFTMTSLTSVGFGNIAPSTDIEKIFAVAIMMIGSLLYATIFGNVTTIFQQMYANTNRYHEMLNSVRDFLKLYQVPKGLSERVMDYIVSTWSMSRGIDTEKVLQICPKDMRADICVHLNRKVFKEHPAFRLASDGCLRALAMEFQTVHCAPGDLIYHAGESVDSLCFVVSGSLEVIQDDEVVAILGKGDVFGDVFWKEATLAQSCANVRALTYCDLHVIKRDALQKVLEFYTAFSHSFSRNLILTYNLRKRIVFRKISDVKREEEERMKRKNEAPLILPPDHPVRRLFQRFRQQKEARLAAERGGRDLDDLDVEKGNALTDHTSANHSLVKASVVTVRESPATPVSFQAATTSTMSDHAKLHAPGSECLGPKAVSCDPAKRKGWARFKDACGKGEDWNKVSKAESMETLPERTKAPGEATLKKTDSCDSGITKSDLRLDNVGETRSPQDRSPILAEVKHSFYPIPEQTLQATVLEVKYELKEDIKALNAKMTSIEKQLSEILRILMSRGSAQSPQETGEISRPQSPESDRDIFGAS",
+        "uniprot_id": "Q60603-1",
+        "conductance": null,
+        "references": [
+            81
+        ],
+        "refSeq_id": "NP_034730",
+        "full_name": "Kcnh1 potassium voltage-gated channel, subfamily H (eag-related), member 1 [ Mus musculus (house mouse) ]",
+        "id": 89,
+        "aliases": "EAG1, M-eag, mKv10.1",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-12T08:51:53.514079Z",
+        "member": "1",
+        "gene_symbol": "Kcnh1",
+        "animal": "Mus musculus (Mouse)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "16510",
+        "current_type": "Delayed rectifier",
+        "subfamily": "H",
+        "class_symbol": "Kv10.1",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCNH1_MOUSE"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/101/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 78,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/101/t_vs_i.pickle",
+        "reference": 81,
+        "y_axis_toSI": 1e-06,
+        "comments": "3.B I_norm/V, 4. I_inact/V",
+        "figure_ref_address": "3.a-2",
+        "x_axis_unit": "ms",
+        "ion_channel": 89,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/12/KCNH1_MOUSE.png",
+        "figure_ref_caption": "Functional properties of wild-type and gain-of-function EGL-2 and MEAG K+ channels in Xenopus oocytes assayed by two-electrode voltage-clamp. a, Current records from oocytes injected with wild-type egl-2, gain-of-function egl-2(A478V), and corresponding meag and meag(A492V) cRNAs. Currents evoked by families of voltage steps from a holding potential of -100 mV, in 10 mV increments [-90 to +40 mV for egl-2 and egl-2(A478V)); -90 to +50  mV  for MEAG and MEAG(A492V)]. Outward tail currents observed from wild-type EGL-2 channels resulted from a repolarization step to +50 mV. A -100 mV repolarization step was used for all other channels.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 101
+    },
+    "params": {
+        "v_half": -0.0044514161743167985,
+        "slope": 0.019484685080691243,
+        "e_rev": -0.05157615028436201,
+        "g": 0.0007198874395196934,
+        "ra": 1.5466906807666416,
+        "sa": -4.90781537972485,
+        "rb": 4.8902683454926725,
+        "vb": -0.025120036384563445,
+        "sb": 0.036458884760486414,
+        "rc": 2.8803669700015253e-20
+    },
+    "x0": [
+        1.5466913371904845,
+        -4.907746576748394,
+        4.890254994136955,
+        -0.025120361159498596,
+        0.036458949137602295,
+        1.1761028929127022e-15
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.05,
+            0.04,
+            0.03,
+            0.01,
+            -0.01,
+            -0.03,
+            -0.05
+        ],
+        "v_hold": -0.1,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42,
+            49
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            5
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.0044514161743167985,
+        "slope": 0.019484685080691243,
+        "e_rev": -0.05157615028436201,
+        "g": 0.0007198874395196934
+    },
+    "error": {
+        "r2": 0.9974351916089138,
+        "rmse": 4.7611781151496533e-07
+    },
+    "equation": "7.20E-04 * 1/(1+exp(-(v--4.45)/19.48)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -51.58)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 1.55*exp(--4.91*v), b = 4.89/(1+exp(-(v--25.12)/36.46)), c = 0.000"
+}

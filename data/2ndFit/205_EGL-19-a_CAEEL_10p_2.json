@@ -1,0 +1,164 @@
+{
+    "time": "2019-02-22 02:11:04.764725",
+    "ion_channel": {
+        "create_date": "2017-12-27T10:06:04.454921Z",
+        "links": "",
+        "sequence": "MSVLASMMSSGEDEEQAAADEQERTDLWQQTLQAAVAASSSQDATKKRPAQRKPLRQTNVVERSERSLLCLSLNNPIRKLCISIVEWKPFEFLILFMICANCIALAIYQPYPAQDSDYKNTLLETIEYVFIVVFTIECVLKIVAMGFMFHPSAYLRNAWNILDFIIVVIGLVSTILSKMSIQGFDVKALRAFRVLRPLRLVSGVPSLQVVLNAILRAMIPLLHIALLVLFVILIYAIIGLELFCGKLHSTCIDPATGQLAQKDPTPCGTDTEGSAFKCQPSDSLTNMGVRWECSSNTTWPGPNNGITNFDNFGLAMLTVFQCVSLEGWTDVMYWVNDAVGREWPWIYFVTLVILGSFFVLNLVLGVLSGEFSKEREKARARGLFQKFREKQQLEEDLKGYLDWITQAEDIEPVNEDEQEDEPVAQTVVGEEADEEGEERVEDVRPSKWAARMKRLEKLNRRCRRACRRLVKSQTFYWLVILLVLLNTLVLTSEHYGQSEWLDHFQTMANLFFVILFSMEMLLKMYSLGFTTYTTSQFNRFDCFVVISSILEFVLVYFDLMKPLGVSVLRSARLLRIFKVTKYWTSLRNLVSSLLNSLRSIISLLLLLFLFIVIFALLGMQVFGGKFNFNPQQPKPRANFDTFVQALLTVFQILTGEDWNTVMYHGIESFGGVGTLGVIVCIYYIVLFICGNYILLNVFLAIAVDNLADADSLTNAEKEEEQQEIEGEDEEFEEGEDEGEEHGMDEPEGDEEMTSARPRRMSEVPAASTVKPIPKASSLFILSHTNSFRVFCNMVVNHSYFTNAVLFCILVSSAMLAAEDPLQANSTRNMILNYFDYFFTSVFTVEITLKVIVFGLVFHKGSFCRNAFNLLDILVVAVSLTSFVLRTDAMSVVKILRVLRVLRPLRAINRAKGLKHVVQCVIVAVKTIGNIMLVTFMLQFMFAIIGVQLFKGTFFLCNDLSKMTEAECRGEYIHYEDGDPTKPVSKKRVWSNNDFNFDNVGDAMISLFVVSTFEGWPQLLYVAIDSNEEDKGPIHNSRQAVALFFIAFIIVIAFFMMNIFVGFVIVTFQNEGEREYENCELDKNQRKCIEFALKAKPHRRYIPRNRLQYRVWWFVTSRAFEYVIFLIIVMNTVSLACKHYPSSRGFEDFLDVFNLIFTGVFAFEAVLKIVALNPKNYISDRWNVFDLLVVVGSFIDITYGKLNPGGTNLISINFFRLFRVMRLVKLLSRGEGIRTLLWTFMKSFQALPYVALLIVLLFFIYAVIGMQFFGKVALDDSTSIHRNNNFHSFPAAILVLFRSATGEAWQDIMLSCSDREDVRCDPMSDDYHKGGLNESRCGNNFAYPYFISFFMLCSFLVINLFVAVIMDNFDYLTRDWSILGPHHLEEFVRLWSEYDPDAKGRIKHLDVVTLLRKISPPLGFGKLCPHRLACKRLVSMNMPLNSDGTVCFNATLFALVRTNLKIYTEGNIDEANEQLRSAIKRIWKRTHKDLLDEVVPPAGKEDDVTVGKFYATFLIQDYFRRFKKRKEMEAKGVLPAQTPQAMALQAGLRTLHEIGPELKRAISGNLETDFNFDEPEPQHRRPHSLFNNLVHRLSGAGSKSPTEHERIEKGSTLLPFQPRSFSPTHSLAGAEGSPVPSQMHRGAPINQSINLPPVNGSARRLPALPPYANHIHDETDDGPRYRDTGDRAGYDQSSRMVVANRKYADARIVGAARREIEEAYSLGEQEIDLAADSLAPLMQHVGMHDIRDINENSRSALLRPAENSSRQHDSRGGSQEDLLLVTTL",
+        "uniprot_id": "G5EG02",
+        "conductance": null,
+        "references": [],
+        "refSeq_id": "NP_741442",
+        "full_name": "Voltage-dependent L-type calcium channel subunit alpha [Caenorhabditis elegans]",
+        "id": 193,
+        "aliases": "C48A7.1",
+        "isoform": "a",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-12-27T10:06:04.623442Z",
+        "member": "",
+        "gene_symbol": "egl-19",
+        "animal": "Caenorhabditis elegans (C. elegans)",
+        "username": 1,
+        "ion_type": "Ca2+",
+        "gene_id": "177513",
+        "current_type": "A-type",
+        "subfamily": "",
+        "class_symbol": "Cav1",
+        "channel_type": "Voltage-gated calcium channels",
+        "channel_name": "EGL-19-a_CAEEL"
+    },
+    "graph": {
+        "digitized_plot": null,
+        "y_axis_unit": "pA",
+        "patch_clamp": 158,
+        "digitized_plot_file": null,
+        "reference": 190,
+        "y_axis_toSI": 1e-12,
+        "comments": "",
+        "figure_ref_address": "3.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 193,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2018/03/24/EGL-19-a_CAEEL.png",
+        "figure_ref_caption": "Effect of Cd2+ on inward currents and on regenerative responses induced by current injection in the presence of K+ channel blockers. (A) Inward currents were evoked by voltage pulses in the presence of K+ channel blockers from a holding potential of \u201370 mV in 10-mV increments in control (left) and in the same cell after addition of Cd2+ (right).",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 205
+    },
+    "params": {
+        "v_half": -0.00021971554684649186,
+        "slope": 0.005585926799613569,
+        "e_rev": 0.05355503517182095,
+        "g": 2.0672451371911904e-08,
+        "ra": 22.7807782558536,
+        "sa": -33.10058750556385,
+        "rb": 404.88227093537415,
+        "vb": -0.01435773422854119,
+        "sb": 0.005903727011281618,
+        "rc": 8.405333643376312e-15
+    },
+    "x0": [
+        22.780846195407797,
+        -33.10016329832121,
+        404.8804063485884,
+        -0.014358019652281956,
+        0.005903655782825626,
+        1.5757911895666383e-13
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.05,
+            0.04,
+            0.03,
+            0.02,
+            0.01,
+            0.0,
+            -0.01,
+            -0.02,
+            -0.04
+        ],
+        "v_hold": -0.07,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70,
+            80,
+            90
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            8,
+            6,
+            4,
+            3,
+            3,
+            4,
+            5,
+            1,
+            1
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.00021971554684649186,
+        "slope": 0.005585926799613569,
+        "e_rev": 0.05355503517182095,
+        "g": 2.0672451371911904e-08
+    },
+    "error": {
+        "r2": 0.9683076811454351,
+        "rmse": 1.7590519679015604e-11
+    },
+    "equation": "2.07E-08 * 1/(1+exp(-(v--0.22)/5.59)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - 53.56)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 22.78*exp(--33.10*v), b = 404.88/(1+exp(-(v--14.36)/5.90)), c = 0.000"
+}

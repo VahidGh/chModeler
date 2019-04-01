@@ -1,0 +1,138 @@
+{
+    "time": "2019-02-22 00:54:42.205713",
+    "ion_channel": {
+        "create_date": "2016-07-16T06:34:27.713753Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC4,\r\nhttp://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=538&familyId=81&familyType=IC,\r\nhttp://channelpedia.epfl.ch/ionchannels/1,",
+        "sequence": "MTVMSGENADEASTAPGHPQDGSYPRQADHDDHECCERVVINISGLRFETQLKTLAQFPNTLLGNPKKRMRYFDPLRNEYFFDRNRPSFDAILYYYQSGGRLRRPVNVPLDMFSEEIKFYELGEEAMEKFREDEGFIKEEERPLPEKEYQRQVWLLFEYPESSGPARVIAIVSVMVILISIVIFCLETLPELKDDKDFTGTIHRIDNTTVIYTSNIFTDPFFIVETLCIIWFSFELVVRFFACPSKTDFFKNIMNFIDIVAIIPYFITLGTEIAEQEGNQKGEQATSLAILRVIRLVRVFRIFKLSRHSKGLQILGQTLKASMRELGLLIFFLFIGVILFSSAVYFAEAEEAESHFSSIPDAFWWAVVSMTTVGYGDMYPVTIGGKIVGSLCAIAGVLTIALPVPVIVSNFNYFYHRETEGEEQAQLLHVSSPNLASDSDLSRRSSSTISKSEYMEIEEDMNNSIAHYRQANIRTGNCTTADQNCVNKSKLLTDV",
+        "uniprot_id": "P16388",
+        "conductance": 10.0,
+        "references": [
+            12,
+            13,
+            14
+        ],
+        "refSeq_id": "NP_034725.3",
+        "full_name": "Kcna1 potassium voltage-gated channel, shaker-related subfamily, member 1 [ Mus musculus (house mouse) ]",
+        "id": 9,
+        "aliases": "MBK1, MKI",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2016-08-12T08:40:13.060215Z",
+        "member": "1",
+        "gene_symbol": "Kcna1",
+        "animal": "Mus musculus (Mouse)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "16485",
+        "current_type": "Delayed rectifier",
+        "subfamily": "A",
+        "class_symbol": "Kv1.1",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCNA1_MOUSE"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/21/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 9,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/21/t_vs_i.pickle",
+        "reference": 14,
+        "y_axis_toSI": 1e-06,
+        "comments": "Fig 2, Inactivation.",
+        "figure_ref_address": "1A-1",
+        "x_axis_unit": "ms",
+        "ion_channel": 9,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2016/07/16/Selection_018.png",
+        "figure_ref_caption": "Voltage dependence of activation for mKv1.1 and mKv1.2. A) Currents for mKv1.1 and mkv1.2 elicited by voltage pulses (250 ms) to -30 mV, 0 and 30 mV from a holding potential of -70 mV in Xenopus oocytes.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 21
+    },
+    "params": {
+        "v_half": -0.026019050060458685,
+        "slope": 0.015581047374509532,
+        "e_rev": -0.19882632998160515,
+        "g": 4.656211441615168e-05,
+        "ra": 29.029300045657237,
+        "sa": -12.309675222902143,
+        "rb": 148.0449763019104,
+        "vb": -0.015324053213502158,
+        "sb": 0.015378471949178506,
+        "rc": 1.681185314947409e-15
+    },
+    "x0": [
+        29.02922183377755,
+        -12.309721033672439,
+        148.0448350335502,
+        -0.015324003598499641,
+        0.015378477835117702,
+        7.545014920887296e-15
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.03,
+            0.0,
+            -0.03
+        ],
+        "v_hold": -0.07,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21
+        ],
+        "onset": [
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            5,
+            6
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.026019050060458685,
+        "slope": 0.015581047374509532,
+        "e_rev": -0.19882632998160515,
+        "g": 4.656211441615168e-05
+    },
+    "error": {
+        "r2": 0.996795286565463,
+        "rmse": 7.770337611582569e-08
+    },
+    "equation": "4.66E-05 * 1/(1+exp(-(v--26.02)/15.58)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -198.83)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 29.03*exp(--12.31*v), b = 148.04/(1+exp(-(v--15.32)/15.38)), c = 0.000"
+}

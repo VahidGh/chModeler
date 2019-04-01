@@ -1,0 +1,156 @@
+{
+    "time": "2019-02-22 00:57:20.023713",
+    "ion_channel": {
+        "create_date": "2016-07-16T13:58:47.128454Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC5,\r\nhttp://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=538&familyId=81&familyType=IC,\r\nhttp://channelpedia.epfl.ch/ionchannels/1,",
+        "sequence": "MTVMSGENVDEASAAPGHPQDGSYPRQADHDDHECCERVVINISGLRFETQLKTLAQFPNTLLGNPKKRMRYFDPLRNEYFFDRNRPSFDAILYYYQSGGRLRRPVNVPLDMFSEEIKFYELGEEAMEKFREDEGFIKEEERPLPEKEYQRQVWLLFEYPESSGPARVIAIVSVMVILISIVIFCLETLPELKDDKDFTGTVHRIDNTTVIYNSNIFTDPFFIVETLCIIWFSFELVVRFFACPSKTDFFKNIMNFIDIVAIIPYFITLGTEIAEQEGNQKGEQATSLAILRVIRLVRVFRIFKLSRHSKGLQILGQTLKASMRELGLLIFFLFIGVILFSSAVYFAEAEEAESHFSSIPDAFWWAVVSMTTVGYGDMYPVTIGGKIVGSLCAIAGVLTIALPVPVIVSNFNYFYHRETEGEEQAQLLHVSSPNLASDSDLSRRSSSTMSKYEYMEIEEDMNNSIAHYRQVNIRTANCTTANQNCVNKSKLLTDV",
+        "uniprot_id": "Q09470",
+        "conductance": null,
+        "references": [
+            15
+        ],
+        "refSeq_id": "NP_000208.2",
+        "full_name": "KCNA1 potassium voltage-gated channel subfamily A member 1 [ Homo sapiens (human) ]",
+        "id": 10,
+        "aliases": "HuKI, HBK1",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2016-08-12T08:40:29.660933Z",
+        "member": "1",
+        "gene_symbol": "KCNA1",
+        "animal": "Homo sapiens (Human)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "3736",
+        "current_type": "Delayed rectifier",
+        "subfamily": "A",
+        "class_symbol": "Kv1.1",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCNA1_HUMAN"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/22/t_vs_i.png",
+        "y_axis_unit": "nA",
+        "patch_clamp": 10,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/22/t_vs_i.pickle",
+        "reference": 15,
+        "y_axis_toSI": 1e-09,
+        "comments": "",
+        "figure_ref_address": "3A",
+        "x_axis_unit": "ms",
+        "ion_channel": 10,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2016/07/16/Selection_019.png",
+        "figure_ref_caption": "FIG. 3. Expression of human Kv currents in Xenopus oocytes. Macroscopic outward currents recorded by two-microelectrode voltage clamp from oocytes injected with in vitro transcribed RNA of (A) HuKI, (B) HuKII, and (C) HuKIV. The membrane potential was held at -90 mV, followed by a 1-s hyperpolarizing prepulse to -120 mV, and then stepped to test potentials from -80 mV in 10-mV increments. Test pulses for HuKI and HuKIV are 500 ms; for HuKII, 200 ms. The time between trials was 10 s.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 22
+    },
+    "params": {
+        "v_half": -0.0419956634461616,
+        "slope": 0.008045812814061042,
+        "e_rev": -0.06049764213718057,
+        "g": 5.992324573669662e-05,
+        "ra": 11.892566837148042,
+        "sa": -7.607065666342691,
+        "rb": 73.56487348203224,
+        "vb": -0.02220931450317665,
+        "sb": 0.020623794212597937,
+        "rc": 6.18576001824811e-23
+    },
+    "x0": [
+        11.89255496485156,
+        -7.6070839663888545,
+        73.56485080493617,
+        -0.022209283144794093,
+        0.020623795741947035,
+        3.3571253712606654e-19
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.04,
+            0.02,
+            0.0,
+            -0.02,
+            -0.04,
+            -0.05,
+            -0.08
+        ],
+        "v_hold": -0.09,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42,
+            49
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            3,
+            3,
+            4,
+            4,
+            5,
+            2,
+            1
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.0419956634461616,
+        "slope": 0.008045812814061042,
+        "e_rev": -0.06049764213718057,
+        "g": 5.992324573669662e-05
+    },
+    "error": {
+        "r2": 0.9975213455357743,
+        "rmse": 4.3960353885429885e-08
+    },
+    "equation": "5.99E-05 * 1/(1+exp(-(v--42.00)/8.05)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -60.50)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 11.89*exp(--7.61*v), b = 73.56/(1+exp(-(v--22.21)/20.62)), c = 0.000"
+}

@@ -1,0 +1,151 @@
+{
+    "time": "2019-02-22 01:17:54.679714",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:24.941574Z",
+        "links": "",
+        "sequence": "MDEESGSSTDQAAPSDEQQEAGSSSAIGQESRKTVVFQEPDIGFPSEHDQLTTLHDSEEGNRKMSLVGKPLTYKNYRTDQRFRRMQNKMHNFLERPRGWKAATYHLAVLFMVLMCLALSVFSTMPDFEVNATIVLYYLEIVFVIWLATEYICRVWSAGCRSRYRGISGRIRFATSAYCVIDIIVILASITVLCIGATGQVFAASAIRGLRFFQILRMLRIDRRAGTWKLLGSVVWAHRQELLTTVYIGFLGLIFSSFLVYLCEKNTNDKYQTFADALWWGVITLSTVGYGDKTPETWPGKIIAAFCALLGISFFALPAGILGSGFALKVQQHQRQKHLIRRRVPAAKLIQCLWRHYSAAPESTSLATWKIHLARELPPIVKLTPNGSNNATGLINRLRQSTKRTPNLNNQNLAVNSQATSKNLSVPRVHDTISLVSTSDISEIEQLGALGFSLGWKSKSKYGGSKKATDDSVLQSRMLAPSNAHLDEEEAVGYQPQTIEEFTPALKNCVRAIRRIQLLVARKKFKEALKPYDVKDVIEQYSAGHVDLQSRVKTVQAKLDFICGKNIEKIEPKISMFTRIATLETTVGKMDKKLDLMVEMLMGRQASQRVFSQNTSPRGEFSEPTSARQDLTRSRRSMVSTDMEMYTARSHSPGYHGDARPIIAQIDADDDDEDENVFDDSTPLNNGPGTSSC",
+        "uniprot_id": "G5EDN5-1",
+        "conductance": null,
+        "references": [
+            70
+        ],
+        "refSeq_id": "NP_741820",
+        "full_name": "kqt-1 potassium channel, KvQLT family [ Caenorhabditis elegans ]",
+        "id": 71,
+        "aliases": "KQT-1, Kv7",
+        "isoform": "a",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-11T08:13:02.125182Z",
+        "member": "",
+        "gene_symbol": "kqt-1",
+        "animal": "Caenorhabditis elegans (C. elegans)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "180933",
+        "current_type": "Delayed rectifier",
+        "subfamily": "Q",
+        "class_symbol": "Kv7",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "kqt-1_CAEEL"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/83/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 61,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/83/t_vs_i.pickle",
+        "reference": 70,
+        "y_axis_toSI": 1e-06,
+        "comments": "2.C I_norm/V, 2.D I_inact/V",
+        "figure_ref_address": "2.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 71,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/11/kqt-1_CAEEL.png",
+        "figure_ref_caption": "C. elegans KQT-1 and KQT-3 express functional M-currents in Xenopus oocytes. Current records are from oocytes expressing KQT-1 (A) and KQT-3 (B), under two-electrode voltage-clamp (\u00e2\u20ac\u201c90 to 60 mV steps for KQT-1, \u00e2\u20ac\u201c80 to 20 mV steps for KQT-3, in 10-mV increments for both voltage protocols).",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 83
+    },
+    "params": {
+        "v_half": -0.04409026857271775,
+        "slope": 0.010161425130869917,
+        "e_rev": -0.04659661018539839,
+        "g": 0.0005348582767909061,
+        "ra": 0.3436033836517425,
+        "sa": -11.86762139653301,
+        "rb": 2.0032281030622725,
+        "vb": 0.018667203913142142,
+        "sb": 0.026197296306990046,
+        "rc": 4.435099460204397e-20
+    },
+    "x0": [
+        0.3436062712161108,
+        -11.867521312065065,
+        2.00323240453284,
+        0.018667125577348762,
+        0.026197339429508183,
+        2.7833083370871415e-19
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.06,
+            0.04,
+            0.02,
+            0.0,
+            -0.02,
+            -0.04
+        ],
+        "v_hold": -0.09,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.04409026857271775,
+        "slope": 0.010161425130869917,
+        "e_rev": -0.04659661018539839,
+        "g": 0.0005348582767909061
+    },
+    "error": {
+        "r2": 0.9914730725822022,
+        "rmse": 7.015381879757455e-07
+    },
+    "equation": "5.35E-04 * 1/(1+exp(-(v--44.09)/10.16)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -46.60)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 0.34*exp(--11.87*v), b = 2.00/(1+exp(-(v-18.67)/26.20)), c = 0.000"
+}

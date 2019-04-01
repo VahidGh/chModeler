@@ -1,0 +1,157 @@
+{
+    "time": "2019-02-22 01:59:42.464713",
+    "ion_channel": {
+        "create_date": "2017-01-04T07:14:42.450584Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/122, http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=580&familyId=82&familyType=IC",
+        "sequence": "MAQALLVPPGPESFRLFTRESLAAIEKRAAEEKAKKPKKEQDIDDENKPKPNSDLEAGKNLPFIYGDIPPEMVSEPLEDLDPYYVSKKTFVVLNKGKAIFRFSATSALYILTPLNPVRKIAIKILVHSLFSMLIMCTILTNCVFMTLSNPPDWTKNVEYTFTGIYTFESLIKILARGFCLEDFTFLRDPWNWLDFSVIVMAYVTEFVDLGNVSALRTFRVLRALKTISVIPGLKTIVGALIQSVKKLSDVMILTVFCLSVFALIGLQLFMGNLRNKCSQWPPSDSAFETNTTSYFNGTMDSNGTFVNVTMSTFNWKDYIADDSHFYVLDGQKDPLLCGNGSDAGQCPEGYICVKAGRNPNYGYTSFDTFSWAFLSLFRLMTQDYWENLYQLTLRAAGKTYMIFFVLVIFLGSFYLVNLILAVVAMAYEEQNQATLEEAEQKEAEFQQMLEQLKKQQEEAQAVAAASAASRDFSGIGGLGELLESSSEASKLSSKSAKEWRNRRKKRRQREHLEGNHRADGDRFPKSESEDSVKRRSFLLSLDGNPLTGDKKLCSPHQSLLSIRGSLFSPRRNSKTSIFSFRGRAKDVGSENDFADDEHSTFEDSESRRDSLFVPHRPGERRNSNGTTTETEVRKRRLSSYQISMEMLEDSSGRQRSMSIASILTNTMEELEESRQKCPPCWYRFANVFLIWDCCDAWLKVKHLVNLIVMDPFVDLAITICIVLNTLFMAMEHYPMTQQFSSVLTVGNLVFTGIFTAEMVLKIIAMDPYYYFQEGWNIFDGIIVSLSLMELGLANVEGLSVLRSFRLLRVFKLAKSWPTLNMLIKIIGNSVGALGNLTLVLAIIVFIFAVVGMQLFGKSYKECVCKINVDCKLPRWHMNDFFHSFLIVFRVLCGEWIETMWDCMEVAGQTMCLIVFMLVMVIGNLVVLNLFLALLLSSFSSDNLAATDDDNEMNNLQIAVGRMQKGIDFVKNKIRECFRKAFFRKPKVIEIQEGNKIDSCMSNNTGIEISKELNYLKDGNGTTSGVGTGSSVEKYVIDENDYMSFINNPSLTVTVPIAVGESDFENLNTEEFSSESELEESKEKLNATSSSEGSTVDVAPPREGEQAEIEPEEDLKPEACFTEGCIKKFPFCQVSTEEGKGKIWWNLRKTCYSIVEHNWFETFIVFMILLSSGALAFEDIYIEQRKTIKTMLEYADKVFTYIFILEMLLKWVAYGFQTYFTNAWCWLDFLIVDVSLVSLVANALGYSELGAIKSLRTLRALRPLRALSRFEGMRVVVNALVGAIPSIMNVLLVCLIFWLIFSIMGVNLFAGKFYHCVNTTTGNMFEIKEVNNFSDCQALGKQARWKNVKVNFDNVGAGYLALLQVATFKGWMDIMYAAVDSRDVKLQPIYEENLYMYLYFVIFIIFGSFFTLNLFIGVIIDNFNQQKKKFGGQDIFMTEEQKKYYNAMKKLGSKKPQKPIPRPANKFQGMVFDFVTRQVFDISIMILICLNMVTMMVETDDQSKYMTLVLSRINLVFIVLFTGEFLLKLISLRYYYFTIGWNIFDFVVVILSIVGMFLAELIEKYFVSPTLFRVIRLARIGRILRLIKGAKGIRTLLFALMMSLPALFNIGLLLFLVMFIYAIFGMSNFAYVKKEAGIDDMFNFETFGNSMICLFQITTSAGWDGLLAPILNSAPPDCDPDAIHPGSSVKGDCGNPSVGIFFFVSYIIISFLVVVNMYIAVILENFSVATEESAEPLSEDDFEMFYEVWEKFDPDATQFIEFCKLSDFAAALDPPLLIAKPNKVQLIAMDLPMVSGDRIHCLDILFAFTKRVLGESGEMDALRIQMEDRFMASNPSKVSYEPITTTLKRKQEEVSAAIIQRNYRCYLLKQRLKNISSKYDKETIKGRIDLPIKGDMVIDKLNGNSTPEKTDGSSSTTSPPSYDSVTKPDKEKFEKDKPEKEIKGKEVRENQK",
+        "uniprot_id": "P08104-1",
+        "conductance": null,
+        "references": [
+            162,
+            163
+        ],
+        "refSeq_id": "NP_037251",
+        "full_name": "Scn3a sodium voltage-gated channel alpha subunit 3 [ Rattus norvegicus (Norway rat) ]",
+        "id": 161,
+        "aliases": "SCIII, Scn2a, rNav1.3",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-19T18:08:30.630570Z",
+        "member": "",
+        "gene_symbol": "Scn3a",
+        "animal": "Rattus norvegicus (Rat)",
+        "username": 1,
+        "ion_type": "Na+",
+        "gene_id": "497770",
+        "current_type": "A-type",
+        "subfamily": "3A",
+        "class_symbol": "Nav1.3",
+        "channel_type": "Voltage-gated sodium channels",
+        "channel_name": "SCN3A_RAT"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/173/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 132,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/173/t_vs_i.pickle",
+        "reference": 163,
+        "y_axis_toSI": 1e-06,
+        "comments": "no aux, peak: 0, 2. G/V",
+        "figure_ref_address": "1-left",
+        "x_axis_unit": "ms",
+        "ion_channel": 161,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/19/SCN3A_RAT.png",
+        "figure_ref_caption": "Effect of the \u00ce\u00b21 subunit on Nav1.3 sodium channel expressed in Xenopus ocytes.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 173
+    },
+    "params": {
+        "v_half": -0.009547198562109786,
+        "slope": 0.005278193783250679,
+        "e_rev": 0.03878511734491011,
+        "g": 0.00010183585270462822,
+        "ra": 4.18923903679618,
+        "sa": -1.8268191123149142,
+        "rb": 91.49890079161099,
+        "vb": -0.00271408017771694,
+        "sb": 0.009124324183629823,
+        "rc": 11.8866213369604
+    },
+    "x0": [
+        4.1892609879958265,
+        -1.8267822644330172,
+        91.49906458992245,
+        -0.0027140841769972782,
+        0.009124336474477841,
+        11.88670598484394
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.03,
+            0.02,
+            0.01,
+            0.0,
+            -0.01,
+            -0.02,
+            -0.03
+        ],
+        "v_hold": -0.1,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            1,
+            1,
+            1,
+            2,
+            2,
+            1,
+            2
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.009547198562109786,
+        "slope": 0.005278193783250679,
+        "e_rev": 0.03878511734491011,
+        "g": 0.00010183585270462822
+    },
+    "error": {
+        "r2": 0.9829800759852537,
+        "rmse": 4.777281000584768e-08
+    },
+    "equation": "1.02E-04 * 1/(1+exp(-(v--9.55)/5.28)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - 38.79)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 4.19*exp(--1.83*v), b = 91.50/(1+exp(-(v--2.71)/9.12)), c = 11.887"
+}

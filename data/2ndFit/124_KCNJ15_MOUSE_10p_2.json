@@ -1,0 +1,157 @@
+{
+    "time": "2019-02-22 01:35:35.689720",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.144530Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/51, http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=439&familyId=74",
+        "sequence": "MDAIHLGMSSAPLVKHTNGVGLKAHRPRVMSKSGHSNVRIDKVDGIYLLYLQDLWTTVIDMKWRYKLTLFAATFVMTWFLFGVVYYAIAFIHGDLQLGESNSNHTPCIMKVDSLTGAFLFSLESQTTIGYGVRSITEECPHAIFLLVAQLVITTLIEIFITGTFLAKIARPKKRAETIKFSHCAVISKQNGKLCLVIQVANMRKSLLIQCQLSGKLLQTHVTKEGERILLNQATVKFHVDSSSESPFLILPMTFYHVLDETSPLRDLTPQNLKEKEFELVVLLNATVESTSAVCQSRTSYIPEEIYWGFEFVPVVSLSKNGKYVADFSQFEQIRKSPDCTFYCADSEKQKLEEQYRQEDQRERELRSLLLQQSNV",
+        "uniprot_id": "O88932-1",
+        "conductance": 25.2,
+        "references": [
+            106,
+            107
+        ],
+        "refSeq_id": "NP_001034145",
+        "full_name": "Kcnj15 potassium inwardly-rectifying channel, subfamily J, member 15 [ Mus musculus (house mouse) ]",
+        "id": 112,
+        "aliases": "mKir4.2",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-14T07:37:55.259275Z",
+        "member": "15",
+        "gene_symbol": "Kcnj15",
+        "animal": "Mus musculus (Mouse)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "16516",
+        "current_type": "Inwardly-rectifying",
+        "subfamily": "J",
+        "class_symbol": "kir4.2",
+        "channel_type": "Inwardly rectifying potassium channels",
+        "channel_name": "KCNJ15_MOUSE"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/124/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 98,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/124/t_vs_i.pickle",
+        "reference": 107,
+        "y_axis_toSI": 1e-06,
+        "comments": "2.B I/V",
+        "figure_ref_address": "2.A-4",
+        "x_axis_unit": "ms",
+        "ion_channel": 112,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/14/KCNJ15_MOUSE.png",
+        "figure_ref_caption": "Properties of Kir4.2 currents expressed in Xenopus oocytes. A, currents recorded from Xenopus oocytes injected with H2O or cRNA encoding mKir4.2. H2O-injected oocytes displayed little inward current and a small time- and voltage-dependent outward current at depolarized potentials (probably a Ca2+-activated Cl\u00e2\u02c6\u2019 current). In contrast, mKir4.2-injected oocytes displayed a large inwardly rectifying current. Cells were held at -20 mV and stepped to potentials between -140 and 80 mV in 20 mV increments for 200 ms every 0.5 s.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 124
+    },
+    "params": {
+        "v_half": 0.04838744093092149,
+        "slope": -0.09976688188308824,
+        "e_rev": -0.01573058141248205,
+        "g": 0.0008669207580909603,
+        "ra": 46.404130669222035,
+        "sa": -0.9658298263260846,
+        "rb": 499.99999999999903,
+        "vb": 0.03969803354269956,
+        "sb": 0.03505418287916259,
+        "rc": 92.68687211003825
+    },
+    "x0": [
+        1.1050228678384377,
+        23.493959857499103,
+        2.8293887415269885,
+        -0.04378336130145978,
+        0.004407317630617446,
+        14.877519020622216
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.06,
+            0.04,
+            0.0,
+            -0.02,
+            -0.06,
+            -0.1,
+            -0.14
+        ],
+        "v_hold": -0.02,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            1,
+            1,
+            5,
+            3,
+            8,
+            7,
+            6
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": 0.04838744093092149,
+        "slope": -0.09976688188308824,
+        "e_rev": -0.01573058141248205,
+        "g": 0.0008669207580909603
+    },
+    "error": {
+        "r2": 0.9968454988540337,
+        "rmse": 8.802412588967037e-07
+    },
+    "equation": "8.67E-04 * 1/(1+exp(-(v-48.39)/-99.77)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -15.73)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 46.40*exp(--0.97*v), b = 500.00/(1+exp(-(v-39.70)/35.05)), c = 92.687"
+}

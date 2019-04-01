@@ -1,0 +1,151 @@
+{
+    "time": "2019-02-22 01:34:24.200714",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.131614Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/44, http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=432&familyId=74",
+        "sequence": "MHGHNRNGQAHVPRRKRRNRFVKKNGQCNVYFANLSNKSQRYMADIFTTCVDTRWRYMLMIFSAAFLVSWLFFGLLFWWIAFFHGDLEASPSVPAVGGPGGNGGESPNAPKPCIMHVNGFLGAFLFSVETQTTIGYGFRCVTEECPLAVIAVVVQSIVGCVIDSFMIGTIMAKMARPKKRAQTLLFSHHAVISVRDGKLCLMWRVGNLRKSHIVEAHVRAQLIKPYMTQEGEYLPLDQRDLNVGYDIGLDRIFLVSPIIIVHEIDEDSPLYGMGKEELESEDFEIVVILEGMVEATAMTTQARSSYLASEILWGHRFEPVVFEEKSHYKVDYSRFHKTYEVAGTPCCSARELQESKITVLPAPPPPPSAFCYENELALMSQEEEEMEEEAAAAAAVAAGLGLEAGSKEEAGIIRMLEFGSHLDLERMQAATLPLDNISYRRESRI",
+        "uniprot_id": "P52189-1",
+        "conductance": 13.4,
+        "references": [
+            101
+        ],
+        "refSeq_id": "NP_032453",
+        "full_name": "Kcnj4 potassium inwardly-rectifying channel, subfamily J, member 4 [ Mus musculus (house mouse) ]",
+        "id": 108,
+        "aliases": "IRK3, Kcnf2, MB-IRK3, mKir2.3",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-13T18:02:35.366740Z",
+        "member": "4",
+        "gene_symbol": "Kcnj4",
+        "animal": "Mus musculus (Mouse)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "16520",
+        "current_type": "Inwardly-rectifying",
+        "subfamily": "J",
+        "class_symbol": "Kir2.3",
+        "channel_type": "Inwardly rectifying potassium channels",
+        "channel_name": "KCNJ4_MOUSE"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/120/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 95,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/120/t_vs_i.pickle",
+        "reference": 101,
+        "y_axis_toSI": 1e-06,
+        "comments": "2.B I/V, scales: 2 uA, 500 ms",
+        "figure_ref_address": "2.A-1",
+        "x_axis_unit": "ms",
+        "ion_channel": 108,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/13/KCNJ4_MOUSE.jpg",
+        "figure_ref_caption": "Cell currents recorded from Xenopus oocytes expressing the MB-IRK3 clone. (A) The effect of varying external K+ concentration. The holding potential was set at the zero current level in each solution, i.e. at 0 mV in 90 mM K+, at -17.4 mV in 45 mM K+, at -37.9 mV in 20 mM K+, at -55.3 mV in 10 mM K+ and at -78.4 mV in 4 mM K+; the values correspond to the equilibrium potential for K+ at each concentration of external K+, with an assumption that the intraceUular K+ concentration of oocytes is 90 mM. Upper traces in each column show records obtained under control conditions. (A) The effect of external K+ on the MB-IRK3 induced current.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 120
+    },
+    "params": {
+        "v_half": 0.10210740666646284,
+        "slope": -0.09999999999999999,
+        "e_rev": 0.0026249422348730202,
+        "g": 9.728849201512197e-05,
+        "ra": 1.8435548570528042,
+        "sa": -3.295675718585926,
+        "rb": 0.21454104944778352,
+        "vb": -0.07566332893961444,
+        "sb": 0.0011040676414363435,
+        "rc": 5.907089924189508
+    },
+    "x0": [
+        1.8435772020268533,
+        -3.2956307490541787,
+        0.2145308275318209,
+        -0.07581754939820874,
+        0.0010645773044422131,
+        5.907207817658212
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.04,
+            0.02,
+            0.0,
+            -0.04,
+            -0.08,
+            -0.12
+        ],
+        "v_hold": 0.0,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            2,
+            2,
+            9,
+            1,
+            1,
+            1
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": 0.10210740666646284,
+        "slope": -0.09999999999999999,
+        "e_rev": 0.0026249422348730202,
+        "g": 9.728849201512197e-05
+    },
+    "error": {
+        "r2": 0.9994038020156881,
+        "rmse": 4.571148461027003e-08
+    },
+    "equation": "9.73E-05 * 1/(1+exp(-(v-102.11)/-100.00)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - 2.62)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 1.84*exp(--3.30*v), b = 0.21/(1+exp(-(v--75.66)/1.10)), c = 5.907"
+}

@@ -1,0 +1,159 @@
+{
+    "time": "2019-02-22 01:45:07.225720",
+    "ion_channel": {
+        "create_date": "2017-01-04T07:14:42.419404Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/79, http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=533&familyId=80&familyType=IC",
+        "sequence": "MVRFGDELGGRYGGTGGGERARGGGAGGAGGPGQGGLPPGQRVLYKQSIAQRARTMALYNPIPVKQNCFTVNRSLFVFSEDNVVRKYAKRITEWPPFEYMILATIIANCIVLALEQHLPDGDKTPMSERLDDTEPYFIGIFCFEAGIKIIALGFVFHKGSYLRNGWNVMDFVVVLTEILATAGTDFDLRTLRAVRVLRPLKLVSGIPSLQVVLKSIMKAMVPLLQIGLLLFFAILMFAIIGLEFYMGKFHKACFPNSTDAEPVGDFPCGKEAPARLCDSDTECREYWPGPNFGITNFDNILFAILTVFQCITMEGWTDILYNTNDAAGNTWNWLYFIPLIIIGSFFMLNLVLGVLSGEFAKERERVENRRAFLKLRRQQQIERELNGYLEWIFKAEEVMLAEEDKNAEEKSPLDAVLKRAATKKSRNDLIHAEEGEDRFVDLCAAGSPFARASLKSGKTESSSYFRRKEKMFRFLIRRMVKAQSFYWVVLCVVALNTLCVAMVHYNQPQRLTTALYFAEFVFLGLFLTEMSLKMYGLGPRSYFRSSFNCFDFGVIVGSIFEVVWAAIKPGTSFGISVLRALRLLRIFKVTKYWNSLRNLVVSLLNSMKSIISLLFLLFLFIVVFALLGMQLFGGQFNFQDETPTTNFDTFPAAILTVFQILTGEDWNAVMYHGIESQGGVSKGMFSSFYFIVLTLFGNYTLLNVFLAIAVDNLANAQELTKDEEEMEEAANQKLALQKAKEVAEVSPMSAANISIAARQQNSAKARSVWEQRASQLRLQNLRASCEALYSEMDPEERLRYASTRHVRPDMKTHMDRPLVVEPGRDGLRGPAGNKSKPEGTEATEGADPPRRHHRHRDRDKTSASTPAGGEQDRTDCPKAESTETGAREERARPRRSHSKEAPGADTQVRCERSRRHHRRGSPEEATEREPRRHRAHRHAQDSSKEGKEGTAPVLVPKGERRARHRGPRTGPRETENSEEPTRRHRAKHKVPPTLEPPEREVAEKESNVVEGDKETRNHQPKEPRCDLEAIAVTGVGSLHMLPSTCLQKVDEQPEDADNQRNVTRMGSQPSDPSTTVHVPVTLTGPPGEATVVPSANTDLEGQAEGKKEAEADDVLRRGPRPIVPYSSMFCLSPTNLLRRFCHYIVTMRYFEMVILVVIALSSIALAAEDPVRTDSFRNNALKYMDYIFTGVFTFEMVIKMIDLGLLLHPGAYFRDLWNILDFIVVSGALVAFAFSSFMGGSKGKDINTIKSLRVLRVLRPLKTIKRLPKLKAVFDCVVNSLKNVLNILIVYMLFMFIFAVIAVQLFKGKFFYCTDESKELERDCRGQYLDYEKEEVEAQPRQWKKYDFHYDNVLWALLTLFTVSTGEGWPMVLKHSVDATYEEQGPSPGFRMELSIFYVVYFVVFPFFFVNIFVALIIITFQEQGDKVMSECSLEKNERACIDFAISAKPLTRYMPQNKQSFQYKTWTFVVSPPFEYFIMAMIALNTVVLMMKFYDAPYEYELMLKCLNIVFTSMFSLECILKIIAFGVLNYFRDAWNVFDFVTVLGSITDILVTEIANNFINLSFLRLFRAARLIKLCRQGYTIRILLWTFVQSFKALPYVCLLIAMLFFIYAIIGMQVFGNIALDDGTSINRHNNFRTFLQALMLLFRSATGEAWHEIMLSCLGNRACDPHANASECGSDFAYFYFVSFIFLCSFLMLNLFVAVIMDNFEYLTRDSSILGPHHLDEFIRVWAEYDPAACGRISYNDMFEMLKHMSPPLGLGKKCPARVAYKRLVRMNMPISNEDMTVHFTSTLMALIRTALEIKLAPAGTKQHQCDAELRKEISSVWANLPQKTLDLLVPPHKPDEMTVGKVYAALMIFDFYKQNKTTRDQTHQAPGGLSQMGPVSLFHPLKATLEQTQPAVLRGARVFLRQKSATSLSNGGAIQTQESGIKESLSWGTQRTQDVLYEARAPLERGHSAEIPVGQPGALAVDVQMQNMTLRGPDGEPQPGLESQGRAASMPRLAAETQPAPNASPMKRSISTLAPRPHGTQLCNTVLDRPPPSQVSHHHHHRCHRRRDKKQRSLEKGPSLSVDTEGAPSTAAGSGLPHGEGSTGCRRERKQERGRSQERRQPSSSSSEKQRFYSCDRFGSREPPQPKPSLSSHPISPTAALEPGPHPQGSGSVNGSPLMSTSGASTPGRGGRRQLPQTPLTPRPSITYKTANSSPVHFAEGQSGLPAFSPGRLSRGLSEHNALLQKEPLSQPLASGSRIGSDPYLGQRLDSEASAHNLPEDTLTFEEAVATNSGRSSRTSYVSSLTSQSHPLRRVPNGYHCTLGLSTGVRARHSYHHPDQDHWC",
+        "uniprot_id": "Q02294-1",
+        "conductance": null,
+        "references": [
+            142,
+            143,
+            144,
+            145
+        ],
+        "refSeq_id": "AAA42014",
+        "full_name": "Cacna1b calcium voltage-gated channel subunit alpha1 B [ Rattus norvegicus (Norway rat) ]",
+        "id": 150,
+        "aliases": "Cach5, Cacnl1a5, BIII, alpha-1b, rCav2.2, rbB-I, alpha1B-d",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-17T12:40:50.094319Z",
+        "member": "1B",
+        "gene_symbol": "Cacna1b",
+        "animal": "Rattus norvegicus (Rat)",
+        "username": 1,
+        "ion_type": "Ca2+",
+        "gene_id": "257648",
+        "current_type": "A-type",
+        "subfamily": "NA",
+        "class_symbol": "Cav2.2",
+        "channel_type": "Voltage-gated calcium channels",
+        "channel_name": "CACNA1B_RAT"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/162/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 122,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/162/t_vs_i.pickle",
+        "reference": 145,
+        "y_axis_toSI": 1e-06,
+        "comments": "5 mm Ba, 9. 40 mM, 2.B-1 I/V, peak: 10, 2. other aux B3,\u00e2\u20ac\u00a6",
+        "figure_ref_address": "2.A-left",
+        "x_axis_unit": "ms",
+        "ion_channel": 150,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/17/CACNA1B_RAT.png",
+        "figure_ref_caption": "The \u00ce\u00b23 subunit caused a biphasic effect on N-type calcium channels at a physiological HP. Oocytes were injected with cRNAs encoding Cav2.2\u00ce\u00b11 (2.5 ng/cell) and \u00ce\u00b12\u00ce\u00b41 (2.5 ng/cell) in combination with various concentrations of \u00ce\u00b23 (0, 0.5, 1.25, 2.5, 5, or 12.5 ng/cell). (A) Examples of whole cell Ba2+ currents at HPs of \u00e2\u02c6\u201980 mV (left) and \u00e2\u02c6\u2019120 mV (right).",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 162
+    },
+    "params": {
+        "v_half": -0.0032719904018298183,
+        "slope": 0.005638407593011493,
+        "e_rev": 0.04007312926693085,
+        "g": 6.499701312661232e-05,
+        "ra": 18.33748123970806,
+        "sa": -44.4440150336603,
+        "rb": 81.59066084629903,
+        "vb": 0.025071196556328928,
+        "sb": 0.010344494944458564,
+        "rc": 4.480791440588212
+    },
+    "x0": [
+        18.337415928141468,
+        -44.44324094426326,
+        81.5853237369376,
+        0.02507069891872336,
+        0.0103443969987875,
+        4.481047633204261
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.04,
+            0.03,
+            0.02,
+            0.01,
+            0.0,
+            -0.01,
+            -0.02
+        ],
+        "v_hold": -0.08,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            1,
+            2,
+            2,
+            2,
+            3,
+            3,
+            2
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.0032719904018298183,
+        "slope": 0.005638407593011493,
+        "e_rev": 0.04007312926693085,
+        "g": 6.499701312661232e-05
+    },
+    "error": {
+        "r2": 0.9600650399562088,
+        "rmse": 4.1292085898283126e-08
+    },
+    "equation": "6.50E-05 * 1/(1+exp(-(v--3.27)/5.64)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - 40.07)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 18.34*exp(--44.44*v), b = 81.59/(1+exp(-(v-25.07)/10.34)), c = 4.481"
+}

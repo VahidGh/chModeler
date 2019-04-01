@@ -1,0 +1,166 @@
+{
+    "time": "2019-02-22 01:51:13.593714",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.349996Z",
+        "links": "",
+        "sequence": "MVNENTRMYIPEENHQGSNYGSPRPAHANMNANAAAGLAPEHIPTPGAALSWQAAIDAARQAKLMGSAGNATISTVSSTQRKRQQYGKPKKQGSTTATRPPRALLCLTLKNPIRRACISIVEWKPFEIIILLTIFANCVALAIYIPFPEDDSNATNSNLERVEYLFLIIFTVEAFLKVIAYGLLFHPNAYLRNGWNLLDFIIVVVGLFSAILEQATKADGANALGGKGAGFDVKALRAFRVLRPLRLVSGVPSLQVVLNSIIKAMVPLLHIALLVLFVIIIYAIIGLELFMGKMHKTCYNQEGVADVPAEDDPSPCALETGHGRQCQNGTVCKPGWDGPKHGITNFDNFAFAMLTVFQCITMEGWTDVLYWVNDAVGRDWPWIYFVTLIIIGSFFVLNLVLGVLSGEFSKEREKAKARGDFQKLREKQQLEEDLKGYLDWITQAEDIDPENEDEGMDEEKPRNRGTPAGLHAQKKGKFAWFSHSTETHVSMPTSETESVNTENVAGGDIEGENCGARLAHRISKSKFSRYWRRWNRFCRRKCRAAVKSNVFYWLVIFLVFLNTLTIASEHYNQPHWLTEVQDTANKALLALFTAEMLLKMYSLGLQAYFVSLFNRFDCFIVCGGILETILVETKVMSPLGISVLRCVRLLRIFKITRYWNSLSNLVASLLNSVRSIASLLLLLFLFIIIFSLLGMQLFGGKFNFDEMQTRRSTFDNFPQSLLTVFQILTGEDWNSVMYDGIMAYGGPSFPGMLVCIYFIILFICGNYILLNVFLAIAVDNLADAESLTSAQKEEEEEKERKKLARTASPEKKQEVVGKPALEEAKEEKIELKSITADGESPPTTKINMDDLQPNESEDKSPYPNPETTGEEDEEEPEMPVGPRPRPLSELHLKEKAVPMPEASAFFIFSPNNRFRLQCHRIVNDTIFTNLILFFILLSSISLAAEDPVQHTSFRNHILFYFDIVFTTIFTIEIALKMTAYGAFLHKGSFCRNYFNILDLLVVSVSLISFGIQSSAINVVKILRVLRVLRPLRAINRAKGLKHVVQCVFVAIRTIGNIVIVTTLLQFMFACIGVQLFKGKLYTCSDSSKQTEAECKGNYITYKDGEVDHPIIQPRSWENSKFDFDNVLAAMMALFTVSTFEGWPELLYRSIDSHTEDKGPIYNYRVEISIFFIIYIIIIAFFMMNIFVGFVIVTFQEQGEQEYKNCELDKNQRQCVEYALKARPLRRYIPKNQHQYKVWYVVNSTYFEYLMFVLILLNTICLAMQHYGQSCLFKIAMNILNMLFTGLFTVEMILKLIAFKPKHYFCDAWNTFDALIVVGSIVDIAITEVHPAEHTQCSPSMNAEENSRISITFFRLFRVMRLVKLLSRGEGIRTLLWTFIKSFQALPYVALLIVMLFFIYAVIGMQVFGKIALNDTTEINRNNNFQTFPQAVLLLFRCATGEAWQDIMLACMPGKKCAPESEPHNSTEGETPCGSSFAVFYFISFYMLCAFLIINLFVAVIMDNFDYLTRDWSILGPHHLDEFKRIWAEYDPEAKGRIKHLDVVTLLRRIQPPLGFGKLCPHRVACKRLVSMNMPLNSDGTVMFNATLFALVRTALRIKTEGNLEQANEELRAIIKKIWKRTSMKLLDQVVPPAGDDEVTVGKFYATFLIQEYFRKFKKRKEQGLVGKPSQRNALSLQAGLRTLHDIGPEIRRAISGDLTAEEELDKAMKEAVSAASEDDIFRRAGGLFGNHVSYYQSDSRSAFPQTFTTQRPLHISKAGNNQGDTESPSHEKLVDSTFTPSSYSSTGSNANINNANNTALGRLPRPAGYPSTVSTVEGHGSPLSPAVRAQEAAWKLSSKRCHSQESQIAMACQEGASQDDNYDVRIGEDAECCSEPSLLSTEMLSYQDDENRQLAPPEEEKRDIRLSPKKGFLRSASLGRRASFHLECLKRQKNQGGDISQKTVLPLHLVHHQALAVAGLSPLLQRSHSPTSLPRPCATPPATPGSRGWPPQPIPTLRLEGADSSEKLNSSFPSIHCGSWSGENSPCRGDSSAARRARPVSLTVPSQAGAQGRQFHGSASSLVEAVLISEGLGQFAQDPKFIEVTTQELADACDLTIEEMENAADDILSGGARQSPNGTLLPFVNRRDPGRDRAGQNEQDASGACAPGCGQSEEALADRRAGVSSL",
+        "uniprot_id": "P15381-4",
+        "conductance": null,
+        "references": [
+            132
+        ],
+        "refSeq_id": "CAA39289",
+        "full_name": "CACNA1C calcium voltage-gated channel subunit alpha1 C [ Oryctolagus cuniculus (rabbit) ]",
+        "id": 145,
+        "aliases": "CACH2, CACN2, CACNL1A1, CCHL1A1, CACB, rabCav1.2",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-17T09:14:54.759407Z",
+        "member": "1C",
+        "gene_symbol": "CACNA1C",
+        "animal": "Oryctolagus cuniculus (rabbit)",
+        "username": 1,
+        "ion_type": "Ca2+",
+        "gene_id": "100101555",
+        "current_type": "Delayed rectifier",
+        "subfamily": "NA",
+        "class_symbol": "Cav1.2",
+        "channel_type": "Voltage-gated calcium channels",
+        "channel_name": "CACNA1C_RABIT"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/157/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 117,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/157/t_vs_i.pickle",
+        "reference": 132,
+        "y_axis_toSI": 1e-06,
+        "comments": "40 mM Ba, 4-2. I/V",
+        "figure_ref_address": "4.1",
+        "x_axis_unit": "ms",
+        "ion_channel": 145,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/17/CACNA1C_RABIT.png",
+        "figure_ref_caption": "(A) Current responses (IBa) in Xenopus oocytes injected with mRNA specific for the lung CaCB-receptor. The depolarizations ranged from -30 to 50 mV in 10 mV steps from a holding potential of -80 mV.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 157
+    },
+    "params": {
+        "v_half": 0.003388474375891485,
+        "slope": 0.006139807987011947,
+        "e_rev": 0.053959529769864796,
+        "g": 2.8428337099696647e-05,
+        "ra": 7.631891911083747,
+        "sa": -24.414795360061618,
+        "rb": 44.16240696142553,
+        "vb": -0.0326691068555655,
+        "sb": 0.010549586793574836,
+        "rc": 2.987897328151055e-15
+    },
+    "x0": [
+        7.631868356194576,
+        -24.414721999829446,
+        44.16229809625542,
+        -0.032669202497722746,
+        0.010549582544322275,
+        1.2019985979563048e-16
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.05,
+            0.04,
+            0.03,
+            0.02,
+            0.01,
+            0.0,
+            -0.01,
+            -0.02,
+            -0.03
+        ],
+        "v_hold": -0.08,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42,
+            49,
+            56,
+            63
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            4,
+            6,
+            6,
+            5,
+            4,
+            4,
+            5,
+            2,
+            3
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": 0.003388474375891485,
+        "slope": 0.006139807987011947,
+        "e_rev": 0.053959529769864796,
+        "g": 2.8428337099696647e-05
+    },
+    "error": {
+        "r2": 0.9950846723875175,
+        "rmse": 9.299728398658058e-09
+    },
+    "equation": "2.84E-05 * 1/(1+exp(-(v-3.39)/6.14)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - 53.96)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 7.63*exp(--24.41*v), b = 44.16/(1+exp(-(v--32.67)/10.55)), c = 0.000"
+}

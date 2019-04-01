@@ -1,0 +1,171 @@
+{
+    "time": "2019-02-22 01:31:37.048713",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.096762Z",
+        "links": "",
+        "sequence": "MPMRRGRFAPQNTFLETIAQKFDHGNSNFVLGSAQEKNNYPIVYCSDGFCELTGFTRTELMRRTCACNFLYGLETNQEDVRNIQNALKTQKELKKEVIFYRKNGSHFFCLLDIVPIKNEKGTVVLFLVSHKDVTKRKQSGEATHDRDENASGRTGPGERKLTRSRSRKFSRDVLLHLSRQYQQSNSATKPQSRRPTKRSRRLPLYKRETTKKSKLLFLHYSNVKSLWDWWVLILTFYIAIMVPYNVAFSRHGKARDLIIVDMVIELFFILDIVVHFRTTFVNKAGRIVYEQKAIAIHYLKGWFILDFLAALPFEALYFINKSWGFLVQLLKCGRLLRLFRVVRKLHRYTEYSTVLLTLLMLAFAMVAHWLACIWYVIGLEEVSHNSTISWLYQFGETIQMPFIAFSPDTGPDEGSAYVTALYFILTSMTTVGFGNVSANTRAEKAFAVVVMLIGALMHAAIFGNVAAIIQKLYANRVRYHSRSNEIKQFIRVHHIEADLANRLEDCFHTTWSLSGGVDTREILTTFPYELQADVCMHLYRGLLDLPVFSQAPRGLFRMVSLKVSPVYIGPGEYLLTQNDVINSIYYIASGSMEVLQGESVAAILGKGDLFGEDISRKSPIRRSNGDVRALTYCDVYYITRDKLQEVMHLYPDFSYKFSEKLELTYDLGASEVGHK",
+        "uniprot_id": "A7RRU8-1",
+        "conductance": null,
+        "references": [
+            83
+        ],
+        "refSeq_id": "XP_001637951",
+        "full_name": "elk hypothetical protein [ Nematostella vectensis (starlet sea anemone) ]",
+        "id": 97,
+        "aliases": "NvElk, NvKv12",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "KO:KCNH8, JGI:91046",
+        "last_update": "2017-01-13T09:03:49.450234Z",
+        "member": "8",
+        "gene_symbol": "elk",
+        "animal": "Nematostella vectensis (starlet sea anemone)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "5517959",
+        "current_type": "Delayed rectifier",
+        "subfamily": "H",
+        "class_symbol": "Kv12",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "ELK_NEMVE"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/109/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 84,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/109/t_vs_i.pickle",
+        "reference": 83,
+        "y_axis_toSI": 1e-06,
+        "comments": "7.B G/V, 7.C G/V/ph. Deactivated to: -60 mV.",
+        "figure_ref_address": "7.A-left",
+        "x_axis_unit": "ms",
+        "ion_channel": 97,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/13/ELK_NEMVE.png",
+        "figure_ref_caption": "Comparison of NvElk and mammalian Elk currents. (A) Current traces recorded from Xenopus oocytes expressing NvElk (black), HsElk3 (red) and HsElk1 (blue) at pH 7 in response to a series of 1 s voltage steps from a holding potential of \u00e2\u02c6\u2019100 mV. The voltage steps range from \u00e2\u02c6\u2019160 mV to 20 mV for NvElk and from \u00e2\u02c6\u2019120 mV to 20 mV for both HsElk3 and HsElk1 in 20 mV increments. Tail currents were taken at \u00e2\u02c6\u201960 mV for NvElk and at \u00e2\u02c6\u201940 mV for HsElk3 and HsElk1.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 109
+    },
+    "params": {
+        "v_half": -0.015085437090582292,
+        "slope": 0.09960913938529492,
+        "e_rev": -0.10295788781243308,
+        "g": 0.0001162377456045626,
+        "ra": 5.679298655078607,
+        "sa": 0.87961900178712,
+        "rb": 6.997214210127375,
+        "vb": -0.0994920019326406,
+        "sb": 0.001000176188775537,
+        "rc": 2.86238266448123
+    },
+    "x0": [
+        5.679300717080423,
+        0.8796191893618964,
+        6.997214389816899,
+        -0.09949208487499134,
+        0.0010000118343800057,
+        2.862385004701314
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.02,
+            0.0,
+            -0.02,
+            -0.04,
+            -0.06,
+            -0.08,
+            -0.1,
+            -0.12,
+            -0.14,
+            -0.16
+        ],
+        "v_hold": -0.1,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42,
+            49,
+            56,
+            63,
+            70
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            4,
+            1,
+            1,
+            1
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.015085437090582292,
+        "slope": 0.09960913938529492,
+        "e_rev": -0.10295788781243308,
+        "g": 0.0001162377456045626
+    },
+    "error": {
+        "r2": 0.9973921884383059,
+        "rmse": 5.619904920838981e-08
+    },
+    "equation": "1.16E-04 * 1/(1+exp(-(v--15.09)/99.61)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -102.96)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 5.68*exp(-0.88*v), b = 7.00/(1+exp(-(v--99.49)/1.00)), c = 2.862"
+}

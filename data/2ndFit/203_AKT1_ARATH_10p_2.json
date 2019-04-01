@@ -1,0 +1,146 @@
+{
+    "time": "2019-02-22 02:06:34.586725",
+    "ion_channel": {
+        "create_date": "2017-01-04T07:14:42.562709Z",
+        "links": "",
+        "sequence": "MRGGALLCGQVQDEIEQLSRESSHFSLSTGILPSLGARSNRRVKLRRFVVSPYDHKYRIWEAFLVVLVVYTAWVSPFEFGFLRKPRPPLSITDNIVNAFFAIDIIMTFFVGYLDKSTYLIVDDRKQIAFKYLRSWFLLDLVSTIPSEAAMRISSQSYGLFNMLRLWRLRRVGALFARLEKDRNFNYFWVRCAKLVCVTLFAVHCAACFYYLIAARNSNPAKTWIGANVANFLEESLWMRYVTSMYWSITTLTTVGYGDLHPVNTKEMIFDIFYMLFNLGLTAYLIGNMTNLVVHGTSRTRNFRDTIQAASNFAHRNHLPPRLQDQMLAHLCLKYRTDSEGLQQQETLDALPKAIRSSISHFLFYSLMDKVYLFRGVSNDLLFQLVSEMKAEYFPPKEDVILQNEAPTDFYILVNGTADLVDVDTGTESIVREVKAGDIIGEIGVLCYRPQLFTVRTKRLCQLLRMNRTTFLNIIQANVGDGTIIMNNLLQHLKEMNDPVMTNVLLEIENMLARGKMDLPLNLCFAAIREDDLLLHQLLKRGLDPNESDNNGRTPLHIAASKGTLNCVLLLLEYHADPNCRDAEGSVPLWEAMVEGHEKVVKVLLEHGSTIDAGDVGHFACTAAEQGNLKLLKEIVLHGGDVTRPRATGTSALHTAVCEENIEMVKYLLEQGADVNKQDMHGWTPRDLAEQQGHEDIKALFREKLHERRVHIETSSSVPILKTGIRFLGRFTSEPNIRPASREVSFRIRETRARRKTNNFDNSLFGILANQSVPKNGLATVDEGRTGNPVRVTISCAEKDDIAGKLVLLPGSFKELLELGSNKFGIVATKVMNKDNNAEIDDVDVIRDGDHLIFATDS",
+        "uniprot_id": "Q38998-1",
+        "conductance": null,
+        "references": [
+            188
+        ],
+        "refSeq_id": "NP_180233",
+        "full_name": "AKT1 K+ transporter 1 [ Arabidopsis thaliana (thale cress) ]",
+        "id": 191,
+        "aliases": "AKT1, ATAKT1, F18A8.2",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-24T10:33:31.325111Z",
+        "member": "",
+        "gene_symbol": "AKT1",
+        "animal": "Arabidopsis thaliana (thale cress)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "817206",
+        "current_type": "Delayed rectifier",
+        "subfamily": "",
+        "class_symbol": "Kv",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "AKT1_ARATH"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/203/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 155,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/203/t_vs_i.pickle",
+        "reference": 188,
+        "y_axis_toSI": 1e-06,
+        "comments": "Aux: CIPK23+CBL1, 96 mM K, 7.A aux, 7.C I/V/K",
+        "figure_ref_address": "7.B",
+        "x_axis_unit": "ms",
+        "ion_channel": 191,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/24/AKT1_ARATH.jpg",
+        "figure_ref_caption": "AKT1-Mediated Inward Currents Are Activated by CIPK23 and CBL1 in X. laevis Oocytes and Are Regulated by CIPK23 in Arabidopsis Root Cells. (B) CIPK23/CBL1-activated AKT1 currents in oocytes were external K+ dependent. Currents were recorded from oocytes coinjected with the mixed cRNAs of AKT1, CIPK23, and CBL1. The changes of [K+] in the bath solutions were made by substitution of KCl with NaCl, and the total concentration of K+ and Na+ in the bath was maintained at 96 mM.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 203
+    },
+    "params": {
+        "v_half": -0.07611523175559591,
+        "slope": -0.02844842648030646,
+        "e_rev": -0.07357199977629882,
+        "g": 7.257172267491888e-05,
+        "ra": 6.713387568984017,
+        "sa": -1.51488742229249,
+        "rb": 29.034565175054368,
+        "vb": -0.07746214112107871,
+        "sb": 0.0010000368793378117,
+        "rc": 21.955059932827083
+    },
+    "x0": [
+        19.441493275522674,
+        -5.495965780168459,
+        71.18392187582678,
+        -0.13339066010532274,
+        0.0027760455876179235,
+        2.756008457112254
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            -0.08,
+            -0.1,
+            -0.12,
+            -0.14,
+            -0.16
+        ],
+        "v_hold": -0.06,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            5,
+            5,
+            6,
+            6,
+            6
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.07611523175559591,
+        "slope": -0.02844842648030646,
+        "e_rev": -0.07357199977629882,
+        "g": 7.257172267491888e-05
+    },
+    "error": {
+        "r2": 0.9939798132708058,
+        "rmse": 5.616846854014427e-08
+    },
+    "equation": "7.26E-05 * 1/(1+exp(-(v--76.12)/-28.45)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -73.57)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 6.71*exp(--1.51*v), b = 29.03/(1+exp(-(v--77.46)/1.00)), c = 21.955"
+}

@@ -1,0 +1,146 @@
+{
+    "time": "2019-02-22 01:03:56.524715",
+    "ion_channel": {
+        "create_date": "2017-01-03T07:31:24.906397Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC9",
+        "sequence": "MEVAMVSAESSGCNSHMPYGYAAQARARERERLAHSRAAAAAAVAAATAAVEGSGGSGGGSHHHHQSRGACTSHDPQGGRGSRRRRRQRPEKKKAHHRQSSFPHCSDLMPSGSEEKILRELSEEEEEEEDEEEEEEEGRFYYSEDDHGDECSYTDLLPQDDGGGGGYSSVRYSDCCERVVINVSGLRFETQMKTLAQFPETLLGDPEKRTQYFDPLRNEYFFDRNRPSFDAILYYYQSGGRLKRPVNVPFDIFTEEVKFYQLGEEALLKFREDEGFVREEEDRALPENEFKKQIWLLFEYPESSSPARGIAIVSVLVILISIVIFCLETLPEFRDDRDLIMALSAGGHSGLLNDTSAPHLENSGHTIFNDPFFIVETVCIVWFSFEFVVRCFACPSQALFFKNIMNIIDIVSILPYFITLGTDLAQQQGGGNGQQQQAMSFAILRIIRLVRVFRIFKLSRHSKGLQILGHTLRASMRELGLLIFFLFIGVILFSSAVYFAEADEPTTHFQSIPDAFWWAVVTMTTVGYGDMKPITVGGKIVGSLCAIAGVLTIALPVPVIVSNFNYFYHRETENEEQTQLTQNAVSCPYLPSNLLKKFRSSTSSSLGDKSEYLEMEEGVKESLCAKEGKCQGKGDDSETDKNNCSNAKAVETDV",
+        "uniprot_id": "Q28527-1",
+        "conductance": 9.0,
+        "references": [
+            29
+        ],
+        "refSeq_id": "XP_004755955",
+        "full_name": "KCNA4 potassium voltage-gated channel subfamily A member 4 [ Mustela putorius furo (domestic ferret) ]",
+        "id": 26,
+        "aliases": "FK1",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-08T11:40:35.985221Z",
+        "member": "4",
+        "gene_symbol": "KCNA4",
+        "animal": "Mustela putorius furo (domestic ferret)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "101689037.0",
+        "current_type": "A-type",
+        "subfamily": "A",
+        "class_symbol": "Kv1.4",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCNA4_MUSPF"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/38/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 23,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/38/t_vs_i.pickle",
+        "reference": 29,
+        "y_axis_toSI": 1e-06,
+        "comments": "Fig 4. Inactivation",
+        "figure_ref_address": "3.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 26,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/08/KCNA4_MUSPF.png",
+        "figure_ref_caption": "Activation characteristics of FK1. A: representative transient currents recorded from oocytes injected with FK1 and peak current-voltage (I-V) relationship obtained in ND 96 solution. Bottom inset: currents elicited in response to 500-ms pulses from -40 to +30 mV in 10-mV increments. Holding potential (HP) = -90 mV; frequency  =  0.1 Hz. Main diagram: mean peak FK1 I-V relationship (+SE, n = 3  oocytes) recorded in ND 96 solution. Top inset: reversal potential (Erev) of either FK1 tail currents [2-20 mM extracellular K+ concentration ([K+]0)] or FK1 macroscopic currents at depolarized potentials (50-100 mM [K+]0) as a  function of [K+]0 obtained from 3-4 oocytes. Erev data have been fit to the Goldman-Hodgkin-Katz constant field voltage equation with a  Na+-to-K+ permeability ratio (Pna/Pk) = 0.003 (dashed curve).",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 38
+    },
+    "params": {
+        "v_half": -0.01843391897812494,
+        "slope": 0.07112892260301497,
+        "e_rev": -0.04865848926215152,
+        "g": 7.928871764792709e-05,
+        "ra": 1.6953871321668457,
+        "sa": 6.978922296385085,
+        "rb": 28.959610662509697,
+        "vb": -0.04049039871375904,
+        "sb": 0.01696568094267329,
+        "rc": 3.131601435467032
+    },
+    "x0": [
+        1.6953827151603744,
+        6.978935888645883,
+        28.959634685314565,
+        -0.04049040842957317,
+        0.016965703588283122,
+        3.131580522742356
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.04,
+            0.02,
+            0.0,
+            -0.02,
+            -0.03
+        ],
+        "v_hold": -0.09,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            2,
+            2,
+            2,
+            2,
+            2
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.01843391897812494,
+        "slope": 0.07112892260301497,
+        "e_rev": -0.04865848926215152,
+        "g": 7.928871764792709e-05
+    },
+    "error": {
+        "r2": 0.9906993641901803,
+        "rmse": 4.5426164521073015e-08
+    },
+    "equation": "7.93E-05 * 1/(1+exp(-(v--18.43)/71.13)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -48.66)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 1.70*exp(-6.98*v), b = 28.96/(1+exp(-(v--40.49)/16.97)), c = 3.132"
+}

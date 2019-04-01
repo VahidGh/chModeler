@@ -1,0 +1,171 @@
+{
+    "time": "2019-02-22 01:54:53.290713",
+    "ion_channel": {
+        "create_date": "2017-01-04T07:14:42.433637Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/87, http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=537&familyId=80&familyType=IC",
+        "sequence": "MADSNLPPSSAAAPAPEPGITEQPGPRSPPPSPPGLEEPLEGTNPDVPHPDLAPVAFFCLRQTTSPRNWCIKMVCNPWFECVSMLVILLNCVTLGMYQPCDDMECLSDRCKILQVFDDFIFIFFAMEMVLKMVALGIFGKKCYLGDTWNRLDFFIVMAGMVEYSLDLQNINLSAIRTVRVLRPLKAINRVPSMRILVNLLLDTLPMLGNVLLLCFFVFFIFGIIGVQLWAGLLRNRCFLEENFTIQGDVALPPYYQPEEDDEMPFICSLTGDNGIMGCHEIPPLKEQGRECCLSKDDVYDFGAGRQDLNASGLCVNWNRYYNVCRTGNANPHKGAINFDNIGYAWIVIFQVITLEGWVEIMYYVMDAHSFYNFIYFILLIIVGSFFMINLCLVVIATQFSETKQREHRLMLEQRQRYLSSSTVASYAEPGDCYEEIFQYVCHILRKAKRRALGLYQALQNRRQAMGPGTPAPAKPGPHAKEPSHCKLCPRHSPLDPTPHTLVQPISAILASDPSSCPHCQHEAGRRPSGLGSTDSGQEGSGSGGSAEAEANGDGPQSSEDGVSSDLGKEEEQEDGAARLCGDVWRETREKLRGIVDSKYFNRGIMMAILVNTVSMGIEHHEQPEELTNILEICNVVFTSMFALEMILKLAAFGLFDYLRNPYNIFDSIIVIISIWEIVGQADGGLSVLRTFRLLRVLKLVRFMPALRRQLVVLMKTMDNVATFCMLLMLFIFIFSILGMHIFGCKFSLRTDTGDTVPDRKNFDSLLWAIVTVFQILTQEDWNVVLYNGMASTTPWASLYFVALMTFGNYVLFNLLVAILVEGFQAEGDANRSYSDEDQSSSNLEEFDKLPEGLDNSRDLKLCPIPMTPNGHLDPSLPLGAHLGPAGTMGTAPRLSLQPDPVLVALDSRKSSVMSLGRMSYDQRSLSSSRSSYYGPWGRSGTWASRRSSWNSLKHKPPSAEHESLLSGEGGGSCVRACEGAREEAPTRTAPLHAPHAHHAHHGPHLAHRHRHHRRTLSLDTRDSVDLGELVPVVGAHSRAAWRGAGQAPGHEDCNGRMPNIAKDVFTKMDDCRDRGEDEEEIDYTLCFRVRKMIDVYKPDWCEVREDWSVYLFSPENKFRILCQTIIAHKLFDYVVLAFIFLNCITIALERPQIEAGSTERIFLTVSNYIFTAIFVGEMTLKVVSLGLYFGEQAYLRSSWNVLDGFLVFVSIIDIVVSVASAGGAKILGVLRVLRLLRTLRPLRVISRAPGLKLVVETLISSLKPIGNIVLICCAFFIIFGILGVQLFKGKFYHCLGVDTRNITNRSDCVAANYRWVHHKYNFDNLGQALMSLFVLASKDGWVNIMYNGLDAVAVDQQPVTNHNPWMLLYFISFLLIVSFFVLNMFVGVVVENFHKCRQHQEAEEARRREEKRLRRLEKKRRKAQRLPYYATYCPTRLLIHSMCTSHYLDIFITFIICLNVVTMSLEHYNQPTSLETALKYCNYMFTTVFVLEAVLKLVAFGLRRFFKDRWNQLDLAIVLLSVMGITLEEIEINAALPINPTIIRIMRVLRIARVLKLLKMATGMRALLDTVVQALPQVGNLGLLFMLLFFIYAALGVELFGKLVCNDENPCEGMSRHATFENFGMAFLTLFQVSTGDNWNGIMKDTLRDCTHDERSCLSSLQFVSPLYFVSFVLTAQFVLINVVVAVLMKHLDDSNKEAQEDAEMDAEIELEMAHGLGPCPGPCPGPCPCPWPLAPVLARGCPLVLLGATGARIGRGRCWRRHRESPVPSTRYSPAQETLWLDSVSLIIKDSLEGELTIIDNLSGSVFHHYASPDGCGKCHHDKQEVQLAETEAFSLNSDRSSSILLGDDLSLEDPTACPPGRKDSKGELDPPEPMRVGDLGECFFPLSSTAVSPDPENFLCEMEEIPFNPVQSWLKHDSSQAPPSPFSPDGSSPLLQMPAEFFHPAVSASQKGPEKGTGTGTLPKIALQGSWASLRSPSVNCTLLRQATGSDTSLDASPSSSAGSLQTTLEDSLTLSDSPRRALGPPVQVPGPRASLSPATRRRLSLRGRGLFSLRGLRAHQRSHSSGGSTSPGCTHHDSMDPSDEEGRGGAGGGGAGSEHSETLSSLSLTSLFCLPPTLPPPGLTPARKFNSTSSLAAGPGRPGSTVSARGLVRSPSWAADRSKDPPGQAQLVSGLGSSAPGPQPPPGESTDAASKRKR",
+        "uniprot_id": "Q9Z0Y8-1",
+        "conductance": null,
+        "references": [
+            154
+        ],
+        "refSeq_id": "NP_064469",
+        "full_name": "Cacna1i calcium voltage-gated channel subunit alpha1 I [ Rattus norvegicus (Norway rat) ]",
+        "id": 155,
+        "aliases": "KIAA1120, \u03b11I, CavT.3, rCav3.3, alpha-1I",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-18T10:48:11.074093Z",
+        "member": "1I",
+        "gene_symbol": "Cacna1i",
+        "animal": "Rattus norvegicus (Rat)",
+        "username": 1,
+        "ion_type": "Ca2+",
+        "gene_id": "56827",
+        "current_type": "A-type",
+        "subfamily": "NA",
+        "class_symbol": "Cav3.3",
+        "channel_type": "Voltage-gated calcium channels",
+        "channel_name": "CACNA1I_RAT"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/167/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 127,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/167/t_vs_i.pickle",
+        "reference": 154,
+        "y_axis_toSI": 1e-06,
+        "comments": "10 mM Ba, 5.F I/V, peak: -20",
+        "figure_ref_address": "5.B-left",
+        "x_axis_unit": "ms",
+        "ion_channel": 155,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/18/CACNA1I_RAT.png",
+        "figure_ref_caption": "Nickel does not block outward currents. Representative traces obtained during an I-V protocol are shown for control and in the presence of 300 mM NiCl2. (B) Currents recorded from a1I-injected oocytes under control conditions (left) and in the presence of NiCl2 (right). (C, D) data from A and B, respectively, for test depolarizations to 220 and 160 mV in the absence and presence of NiCl2 (dark lines) are superimposed. Average results for a1G are plotted in E, and those obtained for a1I are shown in F.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 167
+    },
+    "params": {
+        "v_half": -0.03273674280302893,
+        "slope": 0.006525900401366948,
+        "e_rev": 0.025610194174332048,
+        "g": 6.380295134926634e-05,
+        "ra": 0.4708790291074928,
+        "sa": -13.448407669543334,
+        "rb": 31.26664369556556,
+        "vb": -0.016159994278400425,
+        "sb": 0.013494610086540801,
+        "rc": 1.4335347606519232e-14
+    },
+    "x0": [
+        0.4708673397596974,
+        -13.448260316574158,
+        31.26600205772339,
+        -0.016160361902080828,
+        0.013494586195685077,
+        1.7493061044985115e-27
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.07,
+            0.05,
+            0.03,
+            0.01,
+            -0.01,
+            -0.02,
+            -0.03,
+            -0.04,
+            -0.05,
+            -0.06
+        ],
+        "v_hold": -0.09,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70,
+            80,
+            90,
+            100
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            2,
+            3,
+            9,
+            3,
+            3,
+            3,
+            4,
+            5,
+            6,
+            8
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.03273674280302893,
+        "slope": 0.006525900401366948,
+        "e_rev": 0.025610194174332048,
+        "g": 6.380295134926634e-05
+    },
+    "error": {
+        "r2": 0.9617735537819263,
+        "rmse": 9.68335339787022e-08
+    },
+    "equation": "6.38E-05 * 1/(1+exp(-(v--32.74)/6.53)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - 25.61)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 0.47*exp(--13.45*v), b = 31.27/(1+exp(-(v--16.16)/13.49)), c = 0.000"
+}

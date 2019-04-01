@@ -1,0 +1,7 @@
+README.md
+setup.py
+chModeler.egg-info/PKG-INFO
+chModeler.egg-info/SOURCES.txt
+chModeler.egg-info/dependency_links.txt
+chModeler.egg-info/requires.txt
+chModeler.egg-info/top_level.txt

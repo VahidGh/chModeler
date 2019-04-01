@@ -1,0 +1,151 @@
+{
+    "time": "2019-02-22 00:57:09.609713",
+    "ion_channel": {
+        "create_date": "2016-08-12T08:32:18.836379Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC140",
+        "sequence": "MLPVLTQSNRTTSEQSLYNTKTNNKSSPFRNGEPVCNPVSSPVKNPNIDDNNNKKVIINVSGKKFETYLTTLMKFPDSLLGDPKKRNLFLNKQTGEYFFDRHRKAFNGILYYYQSNGVLECPFGLSESIFIQEVLFFEIDNTALLENSSQEENENSHELPSNPYLCKIWVLFEQPSSSIYAKIVAIISVLVILISIVVFCLETIPSLNPDKPEGSHMRVTWFIINTICNSWFTLEYLLRLIASPNKLQFVKSTLNIVDLVSIIPYYVTATVGENDSGSIAVLRVVRVIRVIRIFKLTRHSRGLHILANTISASLHELCMLVLFLAIGVVLFSSAAYYAESANSQTGFKSIPHGFWWAVVTMTTVGYGDLFPSTYFGKMVGALCAISGVLVIALPVPVIVSNFEYYYKEEQNRRQREHELQKKELLDGQLNPIRDSIRMMTEASIILAGGTDNEEGDRQTPDNNINAMLKTQNKYQNQFTFLIKSTQDDEMADYVNLCHVVKMTIKTKNTS",
+        "uniprot_id": "Q26095-1",
+        "conductance": null,
+        "references": [
+            20
+        ],
+        "refSeq_id": "AAB02604",
+        "full_name": "jShak2 potassium channel homolog [Polyorchis penicillatus]",
+        "id": 17,
+        "aliases": "Jellyfish  Shaker 2",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2016-08-12T08:32:18.837458Z",
+        "member": "",
+        "gene_symbol": "jShak2",
+        "animal": "Polyorchis penicillatus (penicillate jellyfish)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "",
+        "current_type": "A-type",
+        "subfamily": "A",
+        "class_symbol": "Kv1",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "jShak2_POLPE"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/29/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 15,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/29/t_vs_i.pickle",
+        "reference": 20,
+        "y_axis_toSI": 1e-06,
+        "comments": "",
+        "figure_ref_address": "3B",
+        "x_axis_unit": "ms",
+        "ion_channel": 17,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2016/08/12/Selection_028.png",
+        "figure_ref_caption": "Families of outward currents recorded from Xenopus  oocytes injected with cRNAs from jShak1 (A), jShak2 (B), Drosophila Shaker B (C), and Drosophila Shaker H37 (D); 200 msec test pulses were applied from -40 mV to +60 mV in 20 mV increments for jShak1 and jShak2, or from -60 mV to +60 mV in 20 mV increments for Shaker B and \nShaker H37. Holding potentials were -90 mV and each pulse was preceded by a 6 set prepulse to -130 mV to allow for complete recovery  from inactivation between pulses. Current amplitude calibration bars are shown for each set of traces, and a time calibration bar is also provided. Currents were leak subtracted, and capacitative transient currents were clipped.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 29
+    },
+    "params": {
+        "v_half": 0.020227216913454627,
+        "slope": 0.015214193768030326,
+        "e_rev": -0.0959695554725145,
+        "g": 7.29501329324256e-05,
+        "ra": 6.363106875581891,
+        "sa": -23.78947062791467,
+        "rb": 5.063418290253912,
+        "vb": 0.041312208926916304,
+        "sb": 0.0015444795052506244,
+        "rc": 3.7074482734449394
+    },
+    "x0": [
+        2.4759894641269735,
+        -56.37750546977031,
+        12.067735210996773,
+        0.0007549352173267134,
+        0.009274864558802845,
+        0.37249810436167635
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.06,
+            0.04,
+            0.02,
+            0.0,
+            -0.02,
+            -0.04
+        ],
+        "v_hold": -0.09,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            3,
+            3,
+            3,
+            4,
+            9,
+            9
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": 0.020227216913454627,
+        "slope": 0.015214193768030326,
+        "e_rev": -0.0959695554725145,
+        "g": 7.29501329324256e-05
+    },
+    "error": {
+        "r2": 0.9859680031446022,
+        "rmse": 1.446691284541724e-07
+    },
+    "equation": "7.30E-05 * 1/(1+exp(-(v-20.23)/15.21)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -95.97)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 6.36*exp(--23.79*v), b = 5.06/(1+exp(-(v-41.31)/1.54)), c = 3.707"
+}

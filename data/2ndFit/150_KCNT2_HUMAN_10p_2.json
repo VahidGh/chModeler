@@ -1,0 +1,156 @@
+{
+    "time": "2019-02-22 01:45:14.632714",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.324186Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/70, http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=386&familyId=69&familyType=IC",
+        "sequence": "MVDLESEVPPLPPRYRFRDLLLGDQGWQNDDRVQVEFYMNENTFKERLKLFFIKNQRSSLRIRLFNFSLKLLSCLLYIIRVLLENPSQGNEWSHIFWVNRSLPLWGLQVSVALISLFETILLGYLSYKGNIWEQILRIPFILEIINAVPFIISIFWPSLRNLFVPVFLNCWLAKHALENMINDLHRAIQRTQSAMFNQVLILISTLLCLIFTCICGIQHLERIGKKLNLFDSLYFCIVTFSTVGFGDVTPETWSSKLFVVAMICVALVVLPIQFEQLAYLWMERQKSGGNYSRHRAQTEKHVVLCVSSLKIDLLMDFLNEFYAHPRLQDYYVVILCPTEMDVQVRRVLQIPMWSQRVIYLQGSALKDQDLLRAKMDDAEACFILSSRCEVDRTSSDHQTILRAWAVKDFAPNCPLYVQILKPENKFHIKFADHVVCEEEFKYAMLALNCICPATSTLITLLVHTSRGQEGQQSPEQWQKMYGRCSGNEVYHIVLEESTFFAEYEGKSFTYASFHAHKKFGVCLIGVRREDNKNILLNPGPRYIMNSTDICFYINITKEENSAFKNQDQQRKSNVSRSFYHGPSRLPVHSIIASMGTVAIDLQDTSCRSASGPTLSLPTEGSKEIRRPSIAPVLEVADTSSIQTCDLLSDQSEDETTPDEEMSSNLEYAKGYPPYSPYIGSSPTFCHLLHEKVPFCCLRLDKSCQHNYYEDAKAYGFKNKLIIVAAETAGNGLYNFIVPLRAYYRPKKELNPIVLLLDNPPDMHFLDAICWFPMVYYMVGSIDNLDDLLRCGVTFAANMVVVDKESTMSAEEDYMADAKTIVNVQTLFRLFSSLSIITELTHPANMRFMQFRAKDCYSLALSKLEKKERERGSNLAFMFRLPFAAGRVFSISMLDTLLYQSFVKDYMISITRLLLGLDTTPGSGFLCSMKITADDLWIRTYARLYQKLCSSTGDVPIGIYRTESQKLTTSESQISISVEEWEDTKDSKEQGHHRSNHRNSTSSDQSDHPLLRRKSMQWARRLSRKGPKHSGKTAEKITQQRLNLYRRSERQELAELVKNRMKHLGLSTVGYDEMNDHQSTLSYILINPSPDTRIELNDVVYLIRPDPLAYLPNSEPSRRNSICNVTGQDSREETQL",
+        "uniprot_id": "Q6UVM3-1",
+        "conductance": 59.0,
+        "references": [
+            125
+        ],
+        "refSeq_id": "NP_940905",
+        "full_name": "KCNT2 potassium sodium-activated channel subfamily T member 2 [ Homo sapiens (human) ]",
+        "id": 138,
+        "aliases": "SLICK, hKCa4.2, SLO2.1, hKNa1.2",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-16T10:47:59.756316Z",
+        "member": "2",
+        "gene_symbol": "KCNT2",
+        "animal": "Homo sapiens (Human)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "343450",
+        "current_type": "Delayed rectifier",
+        "subfamily": "NT",
+        "class_symbol": "KCa4.2",
+        "channel_type": "Calcium-activated potassium channels",
+        "channel_name": "KCNT2_HUMAN"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/150/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 63,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/150/t_vs_i.pickle",
+        "reference": 125,
+        "y_axis_toSI": 1e-06,
+        "comments": "80 mM Na, 2.C-1 I/V",
+        "figure_ref_address": "2.A-1",
+        "x_axis_unit": "ms",
+        "ion_channel": 138,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/16/KCNT2_HUMAN.png",
+        "figure_ref_caption": "Functional properties of Slo2 channels expressed in Xenopus oocytes. A, Whole-cell currents of Slo2 channels. Records were obtained with two-microelectrode voltage clamp. Vh was \u00e2\u02c6\u201980 mV, in 10 mV voltage steps.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 150
+    },
+    "params": {
+        "v_half": 0.19999999999999998,
+        "slope": 0.08140030143431691,
+        "e_rev": -0.07169099380738435,
+        "g": 0.001453260272986446,
+        "ra": 3.454953097306467,
+        "sa": 4.719406076176474,
+        "rb": 7.053818658837827,
+        "vb": -0.08081570108218436,
+        "sb": 0.001000000616455246,
+        "rc": 0.32258840737836836
+    },
+    "x0": [
+        3.454928408921677,
+        4.719419005470268,
+        7.053811279747266,
+        -0.08081570352941254,
+        0.0010000010338912203,
+        0.3225726674597171
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.02,
+            0.0,
+            -0.02,
+            -0.04,
+            -0.06,
+            -0.08,
+            -0.1
+        ],
+        "v_hold": -0.08,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42,
+            49
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            1
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": 0.19999999999999998,
+        "slope": 0.08140030143431691,
+        "e_rev": -0.07169099380738435,
+        "g": 0.001453260272986446
+    },
+    "error": {
+        "r2": 0.9947229506854514,
+        "rmse": 1.223795624201681e-07
+    },
+    "equation": "1.45E-03 * 1/(1+exp(-(v-200.00)/81.40)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -71.69)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 3.45*exp(-4.72*v), b = 7.05/(1+exp(-(v--80.82)/1.00)), c = 0.323"
+}

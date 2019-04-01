@@ -1,0 +1,156 @@
+{
+    "time": "2019-02-22 01:38:51.516720",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.152734Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/55, http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=443&familyId=74",
+        "sequence": "MDSSNCKVIAPLLSQRYRRMVTKDGHSTLQMDGAQRGLAYLRDAWGILMDMRWRWMMLVFSASFVVHWLVFAVLWYVLAEMNGDLELDHDAPPENHTICVKYITSFTAAFSFSLETQLTIGYGTMFPSGDCPSAIALLAIQMLLGLMLEAFITGAFVAKIARPKNRAFSIRFTDTAVVAHMDGKPNLIFQVANTRPSPLTSVRVSAVLYQERENGKLYQTSVDFHLDGISSDECPFFIFPLTYYHSITPSSPLATLLQHENPSHFELVVFLSAMQEGTGEICQRRTSYLPSEIMLHHCFASLLTRGSKGEYQIKMENFDKTVPEFPTPLVSKSPNRTDLDIHINGQSIDNFQISETGLTE",
+        "uniprot_id": "O60928-1",
+        "conductance": 0.05,
+        "references": [
+            110
+        ],
+        "refSeq_id": "CAA06878",
+        "full_name": "KCNJ13 potassium voltage-gated channel subfamily J member 13 [ Homo sapiens (human) ]",
+        "id": 115,
+        "aliases": "hKir7.1",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-14T11:53:04.711858Z",
+        "member": "13",
+        "gene_symbol": "KCNJ13",
+        "animal": "Homo sapiens (Human)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "3769",
+        "current_type": "Inwardly-rectifying",
+        "subfamily": "J",
+        "class_symbol": "kir7.1",
+        "channel_type": "Inwardly rectifying potassium channels",
+        "channel_name": "KCNJ13_HUMAN"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/127/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 100,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/127/t_vs_i.pickle",
+        "reference": 110,
+        "y_axis_toSI": 1e-06,
+        "comments": "6.B I/V, 6.C I_norm/V",
+        "figure_ref_address": "6.A-3",
+        "x_axis_unit": "ms",
+        "ion_channel": 115,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/14/KCNJ13_HUMAN.png",
+        "figure_ref_caption": "Whole-cell voltage-clamp responses ofXenopus oocytes expressing Kir7.1 channels.A, Macroscopic currents in response to 500 msec voltage steps between \u00e2\u02c6\u201980 and \u00e2\u02c6\u2019140 mV from a holding potential ofV h = 0 mV in 2, 25, and 96 mm[K+]e, as indicated.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 127
+    },
+    "params": {
+        "v_half": -0.19999999999999998,
+        "slope": -0.09118011802388476,
+        "e_rev": -0.018957590268741154,
+        "g": 0.0008044996669678881,
+        "ra": 197.77796172114816,
+        "sa": -0.42522601047102787,
+        "rb": 171.06814547070564,
+        "vb": -0.12367096235157253,
+        "sb": 0.006578214689737334,
+        "rc": 496.3813751444784
+    },
+    "x0": [
+        180.73073218923176,
+        -1.4150571433883137,
+        165.34025620430714,
+        -0.10053165244346061,
+        0.0010720046335794605,
+        499.99997978301315
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.08,
+            0.04,
+            0.0,
+            -0.04,
+            -0.08,
+            -0.12,
+            -0.14
+        ],
+        "v_hold": 0.0,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            1,
+            1,
+            2,
+            3,
+            5,
+            3,
+            9
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.19999999999999998,
+        "slope": -0.09118011802388476,
+        "e_rev": -0.018957590268741154,
+        "g": 0.0008044996669678881
+    },
+    "error": {
+        "r2": 0.9951900542032615,
+        "rmse": 3.8077726772081274e-07
+    },
+    "equation": "8.04E-04 * 1/(1+exp(-(v--200.00)/-91.18)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -18.96)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 197.78*exp(--0.43*v), b = 171.07/(1+exp(-(v--123.67)/6.58)), c = 496.381"
+}

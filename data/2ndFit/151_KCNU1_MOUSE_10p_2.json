@@ -1,0 +1,157 @@
+{
+    "time": "2019-02-22 01:46:43.765714",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.326902Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/71, http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=387&familyId=69&familyType=IC",
+        "sequence": "MSQTLLDSLNQKELTETSCTIEIQAAFILSSLATFFGGLIILFLFRIALKSSRSWKYVKGPRGLLELFSSRRIEANPLRKLYFHGVFRQRIEMLLSAQTVVGQVLVILVFVLSIGSLVIYFINSMDPVRRCSSYEDKIVHGDLSFNAFFSFYFGLRFWAAEDKIKFWLEMNSIVDIFTIPPTFISYYLKSNWLGLRFLRALRLLELPKILQILQVIKTSNSVKLSKLLSIVISTWFTAAGFLHLVENSGDPWLNGRNSQTMSYFESIYLVTATMSTVGFGDVVAKTSLGRIFIVFFTLGSLILFANYIPEMVELFSTRKKYTKPYEAVKGKKFIVVCGNITVDSVTAFLRNFLHWKSGEINIEIVFLGETLPCLELETLLKCHTSCTNFVCGTALKFEDLKRVAVENSEACLILANHFCSDLHDEDNSNIMRVLSIKNYYPQTRVIIQILQSQNKVFLSKIPNWDWSAGDNILCFAELKLGFIAQGCLVPGLCTFLTTLFIEQNQKVFPKHPWQKHFLNGLKNKILTQRLSNDFVGMTFPQVSRLCFVKLNLMLIAIQHKPFFHSCCTLILNPSSQVRLNKDTLGFFIADSSKAVKRAFFYCSNCHSDVCNPELIGKCNCKIKSRQQLIAPTIMVMKSSLTDFTTSSHIHASMSTEIHTCFSREQPSLITITTNRPTTNDTVDDTDMLDSSGMFHWCRAMPLDKVVLKRSEKAKHEFQNHIVVCVFGDAQCTLVGLRNFVMPLRASNYTRQELKDIVFIGSLEYFQREWRFLRNFPKIHIMPGSALYMGDLIAVNVEQCSMCVILATPYKALSSQILVDTEAIMATLNIQSLRITSPTPGSSKSEVKPSSAFDSKERKQRYKQIPILTELKNPSNIHFIEQMGGLDGMLKGTSLHLSTSFSTGAVFSDTFLDSLLATSFYNYHVVELLQMLVTGGISSEMEHYLVKEKPYKTTDDYEAIKSGRTRCKLGLLSLDQTVLSGINPRKTFGQLFCGSLDNFGILCVGLYRMIDEEEPSQEHKRFVITRPSNECHLLPSDLVFCAIPFNTTCGKSDSSPSIQAQNNSTNATTPLAQGSNFFDSHHADESHDLYPVDDTGERWSQHHHSRVYPLDTLDASDIVQEK",
+        "uniprot_id": "O54982-1",
+        "conductance": 90.0,
+        "references": [
+            126,
+            127
+        ],
+        "refSeq_id": "NP_032458",
+        "full_name": "Kcnu1 potassium channel, subfamily U, member 1 [ Mus musculus (house mouse) ]",
+        "id": 139,
+        "aliases": "Slo3, mSlo3, Kcnma3, mKCa5.1",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-17T06:01:27.713236Z",
+        "member": "1",
+        "gene_symbol": "Kcnu1",
+        "animal": "Mus musculus (Mouse)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "16532",
+        "current_type": "Delayed rectifier",
+        "subfamily": "NU",
+        "class_symbol": "KCa5.1",
+        "channel_type": "Calcium-activated potassium channels",
+        "channel_name": "KCNU1_MOUSE"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/151/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 113,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/151/t_vs_i.pickle",
+        "reference": 127,
+        "y_axis_toSI": 1e-06,
+        "comments": "16940555: nA >240mV pH>8; Ca-independent, PH-dependent, 2.A I_norm/PH, 3 I/V/PH",
+        "figure_ref_address": "4.A-1",
+        "x_axis_unit": "ms",
+        "ion_channel": 139,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/17/KCNU1_MOUSE.png",
+        "figure_ref_caption": "mSlo3 whole cell currents from Xenopus oocytes. A, manipulation of intracellular pH alters current amplitude. Left, control currents at start of experiment. Middle, diminished current amplitude after intracellular acidification (12.5-min perfusion with NaHCO3 replacing NaCl in nd96). Right, recovery during alkalization (10-min perfusion with nd96 supplemented with 30 mM NH4Cl). Voltage families are from \u00e2\u02c6\u201980 to +60 mV in 10-mV increments.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 151
+    },
+    "params": {
+        "v_half": 0.03785319947767587,
+        "slope": 0.02997577979771733,
+        "e_rev": -0.06361032524810714,
+        "g": 0.0006194233287237511,
+        "ra": 10.71189819597559,
+        "sa": -6.771028031186517,
+        "rb": 35.80460981228672,
+        "vb": -0.07683327869637879,
+        "sb": 0.0017889541320600312,
+        "rc": 2.1171013047755527e-25
+    },
+    "x0": [
+        7.631868356194576,
+        -24.414721999829446,
+        44.16229809625542,
+        -0.032669202497722746,
+        0.010549582544322275,
+        1.2019985979563048e-16
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.06,
+            0.04,
+            0.02,
+            0.0,
+            -0.02,
+            -0.04,
+            -0.08
+        ],
+        "v_hold": -0.08,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42,
+            49
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            6,
+            6,
+            6,
+            5,
+            1,
+            1
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": 0.03785319947767587,
+        "slope": 0.02997577979771733,
+        "e_rev": -0.06361032524810714,
+        "g": 0.0006194233287237511
+    },
+    "error": {
+        "r2": 0.9984704978346631,
+        "rmse": 2.4542203739865316e-07
+    },
+    "equation": "6.19E-04 * 1/(1+exp(-(v-37.85)/29.98)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -63.61)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 10.71*exp(--6.77*v), b = 35.80/(1+exp(-(v--76.83)/1.79)), c = 0.000"
+}

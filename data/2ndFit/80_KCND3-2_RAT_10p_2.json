@@ -1,0 +1,151 @@
+{
+    "time": "2019-02-22 01:19:48.191713",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:24.923681Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC169",
+        "sequence": "MAAGVAAWLPFARAAAIGWMPVANCPMPLAPADKNKRQDELIVLNVSGRRFQTWRTTLERYPDTLLGSTEKEFFFNEDTKEYFFDRDPEVFRCVLNFYRTGKLHYPRYECISAYDDELAFYGILPEIIGDCCYEEYKDRKRENAERLMDDNESENNQESMPSLSFRQTMWRAFENPHTSTLALVFYYVTGFFIAVSVITNVVETVPCGTVPGSKELPCGERYSVAFFCLDTACVMIFTVEYLLRLFAAPSRYRFIRSVMSIIDVVAIMPYYIGLVMTNNEDVSGAFVTLRVFRVFRIFKFSRHSQGLRILGYTLKSCASELGFLLFSLTMAIIIFATVMFYAEKGSSASKFTSIPASFWYTIVTMTTLGYGDMVPKTIAGKIFGSICSLSGVLVIALPVPVIVSNFSRIYHQNQRADKRRAQKKARLARIRVAKTGSSNAYLHSKRNGLLNEALELTGTPEEEHMGKTTSLIESQHHHLLHCLEKTTNHEFIDEQMFEQNCMESSMQNYPSTRSPSLSSHSGLTTTCCSRRSKKTTHLPNSNLPATRLRSMQELSTIHIQGSEQPSLTTSRSSLNLKADDGLRPNCKTSQITTAIISIPTPPALTPEGESRPPPASPGPNTNIPSITSNVVKVSAL",
+        "uniprot_id": "Q62897-2",
+        "conductance": null,
+        "references": [
+            67
+        ],
+        "refSeq_id": "NP_001257892",
+        "full_name": "Kcnd3 potassium voltage-gated channel subfamily D member 3, isoform 2 [ Rattus norvegicus (Norway rat) ]",
+        "id": 68,
+        "aliases": "rKv4.3",
+        "isoform": "2",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-10T20:51:19.731773Z",
+        "member": "3",
+        "gene_symbol": "Kcnd3",
+        "animal": "Rattus norvegicus (Rat)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "65195",
+        "current_type": "A-type",
+        "subfamily": "D",
+        "class_symbol": "Kv4.3",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCND3-2_RAT"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/80/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 58,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/80/t_vs_i.pickle",
+        "reference": 67,
+        "y_axis_toSI": 1e-06,
+        "comments": "2.B I/V, 2.C I_norm_inact/V",
+        "figure_ref_address": "2.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 68,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/10/KCND3-2_RAT.jpg",
+        "figure_ref_caption": "Kinetic properties of the rat Kv4.3 channel expressed in Xenopus oocytes. A, Voltage-clamp recordings of Kv4.3 currents. Recordings show current responses to voltage steps over the range \u00e2\u02c6\u201960 to +60 mV in 20 mV increments, from a holding potential of \u00e2\u02c6\u201990 mV.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 80
+    },
+    "params": {
+        "v_half": -0.012877119999524875,
+        "slope": 0.030931357054884236,
+        "e_rev": -0.044365379639706236,
+        "g": 0.00015657319569660366,
+        "ra": 1.1028264153099585,
+        "sa": -3.9416630689375953,
+        "rb": 58.09655806551286,
+        "vb": -0.0078485675409055,
+        "sb": 0.019706234778148285,
+        "rc": 6.547084211922474e-15
+    },
+    "x0": [
+        1.1028307749582156,
+        -3.9416996911934863,
+        58.096777282961256,
+        -0.007848402792952666,
+        0.01970624025598411,
+        7.606679477719596e-20
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.06,
+            0.04,
+            0.02,
+            0.0,
+            -0.02,
+            -0.04
+        ],
+        "v_hold": -0.09,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            2,
+            2,
+            2,
+            3,
+            4,
+            6
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.012877119999524875,
+        "slope": 0.030931357054884236,
+        "e_rev": -0.044365379639706236,
+        "g": 0.00015657319569660366
+    },
+    "error": {
+        "r2": 0.9823154418489354,
+        "rmse": 2.099552475709995e-07
+    },
+    "equation": "1.57E-04 * 1/(1+exp(-(v--12.88)/30.93)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -44.37)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 1.10*exp(--3.94*v), b = 58.10/(1+exp(-(v--7.85)/19.71)), c = 0.000"
+}

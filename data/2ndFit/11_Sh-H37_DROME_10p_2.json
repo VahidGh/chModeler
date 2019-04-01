@@ -1,0 +1,177 @@
+{
+    "time": "2019-02-22 00:56:36.237714",
+    "ion_channel": {
+        "create_date": "2016-07-07T21:15:53.442319Z",
+        "links": "",
+        "sequence": "MGPHTGPATAPGAAVERSQLSQASPPLLCDRSLPKLSSQDEEGGAGHGFGGGPQHFEPIPHDHDFCERVVINVSGLRFETQLRTLNQFPDTLLGDPARRLRYFDPLRNEYFFDRSRPSFDAILYYYQSGGRLRRPVNVPLDVFSEEIKFYELGDQAINKFREDEGFIKEEERPLPDNEKQRKVWLLFEYPESSQAARVVAIISVFVILLSIVIFCLETLPEFKHYKVFNTTTNGTKIEEDEVPDITDPFFLIETLCIIWFTFELTVRFLACPNKLNFCRDVMNVIDIIAIIPYFITLATVVAEEEDTLNLPKAPVSPQDKSSNQAMSLAILRVIRLVRVFRIFKLSRHSKGLQILGRTLKASMRELGLLIFFLFIGVVLFSSAVYFAEAGSENSFFKSIPDAFWWAVVTMTTVGYGDMTPVGFWGKIVGSLCVVAGVLTIALPVPVIVSNFNYFYHREADREEMQSQNFNHVTSCSYLPGALGQHLKKSSLSESSSDIMDLDDGIDATTPGLTDHTGRHMVPFLRTQQSFEKQQLQLQLQLQQQSQSPHGQQMTQQQQLGQNGLRSTNSLQLRHNNAMAVSIETDV",
+        "uniprot_id": "P08510",
+        "conductance": 10.0,
+        "references": [
+            4,
+            6
+        ],
+        "refSeq_id": "",
+        "full_name": "Sh Shaker [ Drosophila melanogaster (fruit fly) ]",
+        "id": 4,
+        "aliases": "H37",
+        "isoform": "H37",
+        "channelworm_gene": null,
+        "comments": "The most similar protein: CAA30143.1",
+        "last_update": "2016-07-08T10:25:26.387135Z",
+        "member": "",
+        "gene_symbol": "Sh",
+        "animal": "Drosophila melanogaster (Fruit fly)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "32780",
+        "current_type": "A-type",
+        "subfamily": "A",
+        "class_symbol": "Kv1",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "Sh-H37_DROME"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/11/t_vs_i.png",
+        "y_axis_unit": "nA",
+        "patch_clamp": 5,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/11/t_vs_i.pickle",
+        "reference": 4,
+        "y_axis_toSI": 1e-09,
+        "comments": "",
+        "figure_ref_address": "1E",
+        "x_axis_unit": "ms",
+        "ion_channel": 4,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2016/07/08/Selection_005.png",
+        "figure_ref_caption": "(C-F) Ion currents recorded in oocytes injected with H4 (C and D) or H37 (E and F) RNA with a two-microelectrode voltage clamp. The membrane potential was held at -90 mV followed by a 1-s hyperpolarizing prepulse to -120 mV, then stepped to test potentials ranging from -50 to +50 mV in 10 mV increments. Test pulses were applied at a frequency of one every 5 s for H4- and one every 30 s for H37-injected oocytes. Only the currents during the test depolarizations are shown here. Currents in C, E, and F were recorded at 20\u00c2\u00b0C or in D at 10\u00c2\u00b0C.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 11
+    },
+    "params": {
+        "v_half": -0.018554119685965344,
+        "slope": 0.011466638968131259,
+        "e_rev": -0.07693712835287704,
+        "g": 2.3387805797587704e-05,
+        "ra": 16.766657622391655,
+        "sa": -33.48175229206461,
+        "rb": 96.29907624384346,
+        "vb": 0.043674151896296254,
+        "sb": 0.010028422458373865,
+        "rc": 13.252303662665602
+    },
+    "x0": [
+        16.76662882607789,
+        -33.481757056519086,
+        96.29826488603636,
+        0.04367399800207198,
+        0.010028386190903104,
+        13.252241854523525
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.05,
+            0.04,
+            0.03,
+            0.02,
+            0.01,
+            0.0,
+            -0.01,
+            -0.02,
+            -0.03,
+            -0.04,
+            -0.05
+        ],
+        "v_hold": -0.09,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70,
+            80,
+            90,
+            100,
+            110
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            4,
+            7,
+            4,
+            1,
+            1
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.018554119685965344,
+        "slope": 0.011466638968131259,
+        "e_rev": -0.07693712835287704,
+        "g": 2.3387805797587704e-05
+    },
+    "error": {
+        "r2": 0.9883019021805478,
+        "rmse": 3.985647853964823e-08
+    },
+    "equation": "2.34E-05 * 1/(1+exp(-(v--18.55)/11.47)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -76.94)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 16.77*exp(--33.48*v), b = 96.30/(1+exp(-(v-43.67)/10.03)), c = 13.252"
+}

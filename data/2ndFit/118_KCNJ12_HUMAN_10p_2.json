@@ -1,0 +1,157 @@
+{
+    "time": "2019-02-22 01:30:31.180713",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.125922Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/43",
+        "sequence": "MTAASRANPYSIVSSEEDGLHLVTMSGANGFGNGKVHTRRRCRNRFVKKNGQCNIEFANMDEKSQRYLADMFTTCVDIRWRYMLLIFSLAFLASWLLFGIIFWVIAVAHGDLEPAEGRGRTPCVMQVHGFMAAFLFSIETQTTIGYGLRCVTEECPVAVFMVVAQSIVGCIIDSFMIGAIMAKMARPKKRAQTLLFSHNAVVALRDGKLCLMWRVGNLRKSHIVEAHVRAQLIKPRVTEEGEYIPLDQIDIDVGFDKGLDRIFLVSPITILHEIDEASPLFGISQDLETDDFEIVVILEGMVEATAMTTQARSSYLANEILWGHRFEPVLFEEKNQYKIDYSHFHKTYEVPSTPRCSAKDLVENKFLLPSANSFCYENELAFLSRDEEDEADGDQDGRSRDGLSPQARHDFDRLQAGGGVLEQRPYRRESEI",
+        "uniprot_id": "Q14500",
+        "conductance": 36.0,
+        "references": [
+            98,
+            99
+        ],
+        "refSeq_id": "AAA65122",
+        "full_name": "KCNJ12 potassium voltage-gated channel subfamily J member 12 [ Homo sapiens (human) ]",
+        "id": 106,
+        "aliases": "IRK2, hIRK, IRK-2, KCNJN1, hKir2.2",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-13T16:52:10.162970Z",
+        "member": "12",
+        "gene_symbol": "KCNJ12",
+        "animal": "Homo sapiens (Human)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "3768",
+        "current_type": "Inwardly-rectifying",
+        "subfamily": "J",
+        "class_symbol": "Kir2.2",
+        "channel_type": "Inwardly rectifying potassium channels",
+        "channel_name": "KCNJ12_HUMAN"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/118/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 93,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/118/t_vs_i.pickle",
+        "reference": 99,
+        "y_axis_toSI": 1e-06,
+        "comments": "1.C I/V",
+        "figure_ref_address": "1.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 106,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/13/KCNJ12_HUMAN.jpg",
+        "figure_ref_caption": "Human Kir2.2 currents are activated by protein kinase A. Original Kir2.2 current traces from representative experiments are displayed in panels (A), (B), (D), (E). The first measurement was obtained under control conditions (A, D) and the second after 40 min of superfusion with protein kinase A activators forskolin (B) and Ro-20-1724 (D). Both substances induced a marked increase of Kir2.2 currents. Corresponding normalised current\u00e2\u20ac\u201cvoltage curves from all measurements are plotted in panels (C) and (F). Protocol: holding potential \u00e2\u02c6\u201980 mV; test pulses from \u00e2\u02c6\u2019120 to +40 mV in 10 mV increments (400 ms).",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 118
+    },
+    "params": {
+        "v_half": -0.12614855077936085,
+        "slope": -0.03613396104442435,
+        "e_rev": -0.07991076871986377,
+        "g": 0.0009567639758300767,
+        "ra": 87.59579219118622,
+        "sa": -28.5503919438798,
+        "rb": 499.99999999999994,
+        "vb": -0.06811405125125698,
+        "sb": 0.0010000000000000002,
+        "rc": 18.237384182311843
+    },
+    "x0": [
+        16.76662882607789,
+        -33.481757056519086,
+        96.29826488603636,
+        0.04367399800207198,
+        0.010028386190903104,
+        13.252241854523525
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.04,
+            -0.07,
+            -0.08,
+            -0.09,
+            -0.1,
+            -0.11,
+            -0.12
+        ],
+        "v_hold": -0.08,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            5,
+            7,
+            2,
+            1,
+            3,
+            3,
+            2
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.12614855077936085,
+        "slope": -0.03613396104442435,
+        "e_rev": -0.07991076871986377,
+        "g": 0.0009567639758300767
+    },
+    "error": {
+        "r2": 0.9967005375181643,
+        "rmse": 1.499499452383038e-07
+    },
+    "equation": "9.57E-04 * 1/(1+exp(-(v--126.15)/-36.13)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -79.91)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 87.60*exp(--28.55*v), b = 500.00/(1+exp(-(v--68.11)/1.00)), c = 18.237"
+}

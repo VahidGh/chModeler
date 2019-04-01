@@ -1,0 +1,162 @@
+{
+    "time": "2019-02-22 01:32:58.459713",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.093880Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/37",
+        "sequence": "MPVRRGHVAPQNTFLGTIIRKFEGQNKKFIIANARVQNCAIIYCNDGFCEMTGFSRPDVMQKPCTCDFLHGPETKRHDIAQIAQALLGSEERKVEVTYYHKNGSTFICNTHIIPVKNQEGVAMMFIINFEYVTDEDNAASPERVNPILPVKSVNRKLFGFKFPGLRVLTYRKQSLPQEDPDVVVIDSSKHSDDSVAMKHFKSPTKESCSPSEADDTKALIQPSQCSPLVNISGPLDHSSPKRQWDRLYPDMLQSSSQLTHSRSRESLCSIRRASSVHDIEGFNVHPKNIFRDRHASEDNGRNVKGPFNHIKSSLLGSTSDSNLNKYSTINKIPQLTLNFSDVKTEKKNTSPPSSDKTIIAPKVKERTHNVTEKVTQVLSLGADVLPEYKLQTPRINKFTILHYSPFKAVWDWLILLLVIYTAIFTPYSAAFLLNDREEQKRRECGYSCSPLNVVDLIVDIMFIIDILINFRTTYVNQNEEVVSDPAKIAVHYFKGWFLIDMVAAIPFDLLIFGSGSDETTTLIGLLKTARLLRLVRVARKLDRYSEYGAAVLMLLMCIFALIAHWLACIWYAIGNVERPYLTDKIGWLDSLGTQIGKRYNDSDSSSGPSIKDKYVTALYFTFSSLTSVGFGNVSPNTNSEKIFSICVMLIGSLMYASIFGNVSAIIQRLYSGTARYHMQMLRVKEFIRFHQIPNPLRQRLEEYFQHAWTYTNGIDMNMVLKGFPECLQADICLHLNQTLLQNCKAFRGASKGCLRALAMKFKTTHAPPGDTLVHCGDVLTALYFLSRGSIEILKDDIVVAILGKNDIFGEMVHLYAKPGKSNADVRALTYCDLHKIQREDLLEVLDMYPEFSDHFLTNLELTFNLRHESAKSQSINDSEGDTCKLRRRRLSFESEGDKDFSKENSANDADDSTDTIRRYQSSKKHFEEKKSRSSSFISSIDDEQKPLFLGTVDSTPRMVKASRHHGEEAAPPSGRIHTDKRSHSCKDITDTHSWEREHARAQPEECSPSGLQRAAWGISETESDLTYGEVEQRLDLLQEQLNRLESQMTTDIQAILQLLQKQTTVVPPAYSMVTAGAEYQRPILRLLRTSHPRASIKTDRSFSPSSQCPEFLDLEKSKLKSKESLSSGKRLNTASEDNLTSLLKQDSDASSELDPRQRKSYLHPIRHPSLPDSSLSTVGILGLHRHVSDPGLPGK",
+        "uniprot_id": "O54852-1",
+        "conductance": null,
+        "references": [
+            88,
+            89
+        ],
+        "refSeq_id": "NP_571987",
+        "full_name": "Kcnh7 potassium voltage-gated channel subfamily H member 7 [ Rattus norvegicus (Norway rat) ]",
+        "id": 96,
+        "aliases": "ERG3, rERG3, rKv11.3",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-13T08:56:29.481527Z",
+        "member": "7",
+        "gene_symbol": "Kcnh7",
+        "animal": "Rattus norvegicus (Rat)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "170739",
+        "current_type": "A-type",
+        "subfamily": "H",
+        "class_symbol": "Kv11.3",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCNH7_RAT"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/108/t_vs_i.png",
+        "y_axis_unit": "nA",
+        "patch_clamp": 83,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/108/t_vs_i.pickle",
+        "reference": 89,
+        "y_axis_toSI": 1e-09,
+        "comments": "7.A I_norm/V, 7.C I/V. IA-Id 10-7 points",
+        "figure_ref_address": "5.A-3,B-3",
+        "x_axis_unit": "ms",
+        "ion_channel": 96,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/13/KCNH7_RAT.png",
+        "figure_ref_caption": "Activation rates of the erg1,erg2, and erg3 channels.A, B, Current traces showing channel activation and deactivation in response to voltage steps to various potentials from a holding potential of \u00e2\u02c6\u201990 mV. Tail currents were recorded at \u00e2\u02c6\u201970 mV. Note the much faster time scale forerg3 as compared with the erg1 anderg2 channels. Current records were leakage-subtracted.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 108
+    },
+    "params": {
+        "v_half": -0.04185728103576816,
+        "slope": 0.004719982348955028,
+        "e_rev": -0.1373675532315318,
+        "g": 1.1925728506112022e-05,
+        "ra": 1.8060518784141901,
+        "sa": 6.3819563591347555,
+        "rb": 165.7569257214629,
+        "vb": 0.04927835584263693,
+        "sb": 0.02428609364002838,
+        "rc": 1.0536342299364901e-21
+    },
+    "x0": [
+        1.806050913621371,
+        6.381973249469696,
+        165.75680397252077,
+        0.04927835391421263,
+        0.02428609944651235,
+        3.8102018341072847e-16
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.03,
+            0.01,
+            -0.01,
+            -0.02,
+            -0.03,
+            -0.04,
+            -0.05,
+            -0.06
+        ],
+        "v_hold": -0.09,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70,
+            80
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            2,
+            3,
+            3,
+            9,
+            9,
+            9,
+            9,
+            2
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.04185728103576816,
+        "slope": 0.004719982348955028,
+        "e_rev": -0.1373675532315318,
+        "g": 1.1925728506112022e-05
+    },
+    "error": {
+        "r2": 0.987617301175201,
+        "rmse": 2.6616953220342166e-08
+    },
+    "equation": "1.19E-05 * 1/(1+exp(-(v--41.86)/4.72)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -137.37)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 1.81*exp(-6.38*v), b = 165.76/(1+exp(-(v-49.28)/24.29)), c = 0.000"
+}

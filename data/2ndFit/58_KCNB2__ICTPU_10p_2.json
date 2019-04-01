@@ -1,0 +1,146 @@
+{
+    "time": "2019-02-22 01:10:40.760714",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:24.787663Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC226",
+        "sequence": "MADKVGLGVPKTSSRSSTSLPPEPIEIIRTKARTRRVRINVGGLNHEVLWRTLDRLPRTRLGKLRDCNTHELLMEVCDDYSLNENEYFFDRHPGAFTSILNFYRTGKLHMMEEMCALSFGQELDYWGIDEIYLESCCQARYHQKKEQMNEEQRREAETLRERDGEGEFDHSCCPDKRKKLWDLLEKPSSSVAAKILAIISILFIILSTIALSLNTLPELQVIDEFGQANDNPQLAHIEAVCIAWFTMEYLLRFLSSPNKWKFFKGPLNVIDLLAILPYYVTIFLTESNKSVLQFQNVRRVVQIFRIMRILRILKLARHSTGLQSLGFTLRRSYNELGLLILFLAMGIMIFSSLVFFAEKDEDATKFTSIPASFWWATITMTTVGYGDIYPQTLLGKIVGGLCCIAGVLVIALPIPIIVNNFSEFYKEQKRQEKAIKRREALERAKRNGSIVSMNLKDAFARSMELIDVVVEKSEDKPSFDNHLSPSRWGIPKRASSDASLRPFDRKVGSRECFKSSSPQHLNVQKLEEMYNQMSKARSLSDLDKNQNASGPKLEAQNAKSGRQRNRPVSDVPHMASTDSFGSCTDELREASKLTPSSKDDDKRSVKNTTSLVESSNPVETPLDTFQISPEQRSQFDYAPSGHVTYNEDEECIVDDNTFLIQSINPGMRVNFLESTDDVPLTPPSTSSAQELSISLLEDDNSPEQESSTPFPESVILARIPEQGLILSPKLPVGDFHPNETLSLLEEHERESTEEDIAGTSIPSPKFTAQNCTQDGVGDNAEGKTESNQSGHIVDNHMFTPEIHLMPGDGDISQTSM",
+        "uniprot_id": "Q98SV4-1",
+        "conductance": null,
+        "references": [
+            48
+        ],
+        "refSeq_id": "NP_001186999",
+        "full_name": "kcnb2 potassium voltage-gated channel subfamily B member 2 [ Ictalurus punctatus (channel catfish) ]",
+        "id": 46,
+        "aliases": "Kv2-catfish",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-09T11:25:26.010208Z",
+        "member": "2",
+        "gene_symbol": "kcnb2",
+        "animal": "Ictalurus punctatus (channel catfish)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "100303714",
+        "current_type": "Delayed rectifier",
+        "subfamily": "B",
+        "class_symbol": "Kv2.2",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCNB2__ICTPU"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/58/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 41,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/58/t_vs_i.pickle",
+        "reference": 48,
+        "y_axis_toSI": 1e-06,
+        "comments": "6.B I/V",
+        "figure_ref_address": "6.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 46,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/09/KCNB2_ICTPU.png",
+        "figure_ref_caption": "Functional expression of Kv2-catfish as measured by two-electrode voltage clamp recording from Xenopus oocytes injected with Kv2-catfish cRNA. (a) Outward currents evoked by 200 ms voltage steps from a holding potential of \u00e2\u02c6\u2019\u00e2\u20ac\u016070 mV to levels between \u00e2\u02c6\u2019\u00e2\u20ac\u016090 and +\u00e2\u20ac\u016050 mV in 20 mV increments 4 days after injection with 0.1 ng cRNA per oocyte.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 58
+    },
+    "params": {
+        "v_half": -0.0012527599500355262,
+        "slope": 0.015120963874633351,
+        "e_rev": -0.03871011151044041,
+        "g": 9.486668919964197e-05,
+        "ra": 11.671451115648463,
+        "sa": -2.6800308204867975,
+        "rb": 65.9153620551912,
+        "vb": 0.007980814225317354,
+        "sb": 0.013852585805395414,
+        "rc": 2.2937608245704426e-15
+    },
+    "x0": [
+        11.670466784289616,
+        -2.6819721305812965,
+        65.91542135611296,
+        0.007981697497303264,
+        0.013852273577627815,
+        1.949346294466224e-12
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.05,
+            0.03,
+            0.01,
+            -0.01,
+            -0.03
+        ],
+        "v_hold": -0.07,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            5,
+            5,
+            5,
+            6,
+            2
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.0012527599500355262,
+        "slope": 0.015120963874633351,
+        "e_rev": -0.03871011151044041,
+        "g": 9.486668919964197e-05
+    },
+    "error": {
+        "r2": 0.982038787788414,
+        "rmse": 1.536871902642725e-07
+    },
+    "equation": "9.49E-05 * 1/(1+exp(-(v--1.25)/15.12)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -38.71)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 11.67*exp(--2.68*v), b = 65.92/(1+exp(-(v-7.98)/13.85)), c = 0.000"
+}

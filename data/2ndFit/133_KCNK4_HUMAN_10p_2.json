@@ -1,0 +1,151 @@
+{
+    "time": "2019-02-22 01:41:32.292714",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.205876Z",
+        "links": "",
+        "sequence": "MRSTTLLALLALVLLYLVSGALVFRALEQPHEQQAQRELGEVREKFLRAHPCVSDQELGLLIKEVADALGGGADPETNSTSNSSHSAWDLGSAFFFSGTIITTIGYGNVALRTDAGRLFCIFYALVGIPLFGILLAGVGDRLGSSLRHGIGHIEAIFLKWHVPPELVRVLSAMLFLLIGCLLFVLTPTFVFCYMEDWSKLEAIYFVIVTLTTVGFGDYVAGADPRQDSPAYQPLVWFWILLGLAYFASVLTTIGNWLRVVSRRTRAEMGGLTAQAASWTGTVTARVTQRAGPAAPPPEKEQPLLPPPPCPAQPLGRPRSPSPPEKAQPPSPPTASALDYPSENLAFIDESSDTQSERGCPLPRAPRGRRRPNPPRKPVRPRGPGRPRDKGVPV",
+        "uniprot_id": "Q9NYG8-1",
+        "conductance": null,
+        "references": [
+            113
+        ],
+        "refSeq_id": "NP_001304019",
+        "full_name": "KCNK4 potassium two pore domain channel subfamily K member 4 [ Homo sapiens (human) ]",
+        "id": 121,
+        "aliases": "TRAAK, hK2p4.1, TRAAK1",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-15T11:47:55.450426Z",
+        "member": "1",
+        "gene_symbol": "KCNK4",
+        "animal": "Homo sapiens (Human)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "50801",
+        "current_type": "A-type",
+        "subfamily": "K",
+        "class_symbol": "K2p4.1",
+        "channel_type": "Two-P potassium channels",
+        "channel_name": "KCNK4_HUMAN"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/133/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 104,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/133/t_vs_i.pickle",
+        "reference": 113,
+        "y_axis_toSI": 1e-06,
+        "comments": "100 mM K, arachidonic acid-stimulated voltage-insensitive",
+        "figure_ref_address": "2-2-right",
+        "x_axis_unit": "ms",
+        "ion_channel": 121,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/15/KCNK4_HUMAN.jpg",
+        "figure_ref_caption": "Synopsis of genistein effects on functional human K2P family members. Representative control measurements and recordings after application of 100\u00e2\u20ac\u2030\u00ce\u00bcM genistein (6\u00e2\u20ac\u2030min) are shown.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 133
+    },
+    "params": {
+        "v_half": 0.18734041229830092,
+        "slope": 0.09999999999999999,
+        "e_rev": -0.0736799530291669,
+        "g": 0.0002509823771590341,
+        "ra": 18.720549976883273,
+        "sa": -32.933120912754475,
+        "rb": 499.99999999998823,
+        "vb": 0.03241253977238889,
+        "sb": 0.013615203654115173,
+        "rc": 1.728518730011926
+    },
+    "x0": [
+        18.717767484481612,
+        -32.93544718812536,
+        499.99999999999994,
+        0.03241387477515527,
+        0.013614992913262734,
+        1.7279077215925585
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.06,
+            0.02,
+            -0.02,
+            -0.06,
+            -0.08,
+            -0.14
+        ],
+        "v_hold": -0.08,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            5,
+            1,
+            4,
+            1,
+            9,
+            9
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": 0.18734041229830092,
+        "slope": 0.09999999999999999,
+        "e_rev": -0.0736799530291669,
+        "g": 0.0002509823771590341
+    },
+    "error": {
+        "r2": 0.9984358938957704,
+        "rmse": 4.486702331805786e-08
+    },
+    "equation": "2.51E-04 * 1/(1+exp(-(v-187.34)/100.00)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -73.68)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 18.72*exp(--32.93*v), b = 500.00/(1+exp(-(v-32.41)/13.62)), c = 1.729"
+}

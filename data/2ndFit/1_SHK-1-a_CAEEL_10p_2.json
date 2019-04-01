@@ -1,0 +1,173 @@
+{
+    "time": "2019-02-22 00:53:05.465714",
+    "ion_channel": {
+        "create_date": "2016-06-28T17:25:04.031590Z",
+        "links": "",
+        "sequence": "MRFGGQRRCIESSDDNDSIDSMSIQQKNKEKEEWKWAQSLASRAAEMASGNSEEGKGMLLRNGDDRIRLPSPQRGTPDTSSTQGHPYTDQIVTINVSGMRFQTFESTLSRYPNSLLGDRNKRQHFFVSDTNEFFFDRHRTTFESILYIYQSGGRVKRPEIVPIDIFLKEMRFFQMGDDLLEEFWIAEGYEKPKEVMMPNNKTQRKIWELMEYPDSSLSARIIAFISIAVIALSIISFCWETVPSDIEEKPINNSATAELLDEMDEKHYSPFFWIELMCILWFTIELILRFISCPCKVTFATSVLNIIDFVAIAPFFVNFFFADTSKSNSSMSFAVLRVLRLVRVFRVFKLSRHSVGLQILGKTFRSSVQEFCLLIFFMAIALVLFASGMYFAEQGEPNSKFTSIPASFWFVLVTMTTVGYGDLVPLSPFGKVVGGMCAMIGVLTLALPVPIIVANFKHFYRQENRLASMKSKGDDADDDIA",
+        "uniprot_id": "Q8I4B0-4",
+        "conductance": null,
+        "references": [
+            1,
+            2,
+            3
+        ],
+        "refSeq_id": "NP_496104.2",
+        "full_name": "Potassium voltage-gated channel protein shk-1 [Caenorhabditis elegans]",
+        "id": 1,
+        "aliases": "",
+        "isoform": "a",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2016-07-01T13:35:53.123424Z",
+        "member": "",
+        "gene_symbol": "shk-1",
+        "animal": "Caenorhabditis elegans (C. elegans)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "174536",
+        "current_type": "A-type",
+        "subfamily": "A",
+        "class_symbol": "Kv1",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "SHK-1-a_CAEEL"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/1/T_vs_I.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 1,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/1/T_vs_I.pickle",
+        "reference": 1,
+        "y_axis_toSI": 1e-06,
+        "comments": "According to Fig 2C, protocol should be from -80 to 50 (60 is for shl-1)",
+        "figure_ref_address": "2B",
+        "x_axis_unit": "ms",
+        "ion_channel": 1,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2016/07/01/Selection_001.png",
+        "figure_ref_caption": "B, left, currents from SHK-1 isoform a heterologously expressed in Xenopus oocytes obtained under voltage clamp at a holding potential of \u00e2\u20ac\u201c100 mV with 10-mV steps from \u00e2\u20ac\u201c80 to +60 mV",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 1
+    },
+    "params": {
+        "v_half": -0.00603273219828657,
+        "slope": 0.007276709665194965,
+        "e_rev": -0.06990628614304294,
+        "g": 0.0001236783254467116,
+        "ra": 1.2241632384130219,
+        "sa": -34.56953918733376,
+        "rb": 39.679310529010806,
+        "vb": 0.05808593968830903,
+        "sb": 0.015282936808498956,
+        "rc": 0.49728106421530055
+    },
+    "x0": [
+        1.2241639787235634,
+        -34.569954589901286,
+        39.68272370277005,
+        0.05808709650918747,
+        0.01528297006562524,
+        0.4972601532810204
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.05,
+            0.04,
+            0.03,
+            0.02,
+            0.01,
+            0.0,
+            -0.01,
+            -0.02,
+            -0.03,
+            -0.08
+        ],
+        "v_hold": -0.1,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42,
+            49,
+            56,
+            63,
+            70
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            5,
+            5,
+            5,
+            4,
+            4,
+            5,
+            4,
+            4,
+            4,
+            1
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.00603273219828657,
+        "slope": 0.007276709665194965,
+        "e_rev": -0.06990628614304294,
+        "g": 0.0001236783254467116
+    },
+    "error": {
+        "r2": 0.9909390852559862,
+        "rmse": 2.0299712869509095e-07
+    },
+    "equation": "1.24E-04 * 1/(1+exp(-(v--6.03)/7.28)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -69.91)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 1.22*exp(--34.57*v), b = 39.68/(1+exp(-(v-58.09)/15.28)), c = 0.497"
+}

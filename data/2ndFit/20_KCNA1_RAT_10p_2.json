@@ -1,0 +1,148 @@
+{
+    "time": "2019-02-22 00:52:51.129720",
+    "ion_channel": {
+        "create_date": "2016-07-15T10:40:52.652954Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC3, \r\nhttp://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=538&familyId=81&familyType=IC, \r\nhttp://channelpedia.epfl.ch/ionchannels/1,",
+        "sequence": "MTVMSGENADEASAAPGHPQDGSYPRQADHDDHECCERVVINISGLRFETQLKTLAQFPNTLLGNPKKRMRYFDPLRNEYFFDRNRPSFDAILYYYQSGGRLRRPVNVPLDMFSEEIKFYELGEEAMEKFREDEGFIKEEERPLPEKEYQRQVWLLFEYPESSGPARVIAIVSVMVILISIVIFCLETLPELKDDKDFTGTIHRIDNTTVIYTSNIFTDPFFIVETLCIIWFSFELVVRFFACPSKTDFFKNIMNFIDIVAIIPYFITLGTEIAEQEGNQKGEQATSLAILRVIRLVRVFRIFKLSRHSKGLQILGQTLKASMRELGLLIFFLFIGVILFSSAVYFAEAEEAESHFSSIPDAFWWAVVSMTTVGYGDMYPVTIGGKIVGSLCAIAGVLTIALPVPVIVSNFNYFYHRETEGEEQAQLLHVSSPNLASDSDLSRRSSSTISKSEYMEIEEDMNNSIAHYRQANIRTGNCTATDQNCVNKSKLLTDV",
+        "uniprot_id": "P10499",
+        "conductance": 8.7,
+        "references": [
+            9,
+            10,
+            11
+        ],
+        "refSeq_id": "NP_775118.1",
+        "full_name": "Kcna1 potassium voltage-gated channel subfamily A member 1 [ Rattus norvegicus (Norway rat) ]",
+        "id": 8,
+        "aliases": "RBK1, RCK1",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2016-07-15T14:18:03.861246Z",
+        "member": "1",
+        "gene_symbol": "Kcna1",
+        "animal": "Rattus norvegicus (Rat)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "24520",
+        "current_type": "Delayed rectifier",
+        "subfamily": "A",
+        "class_symbol": "Kv1.1",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCNA1_RAT"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/20/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 8,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/20/t_vs_i.pickle",
+        "reference": 9,
+        "y_axis_toSI": 1e-06,
+        "comments": "Fig 2.B (25 ms) shows delayed rectifier, and 2A (2500 ms) slow inactivation.\nFig 2.C G/G_max available.",
+        "figure_ref_address": "2A",
+        "x_axis_unit": "ms",
+        "ion_channel": 8,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2016/07/15/Selection_017.png",
+        "figure_ref_caption": "Fig. 2. Oocytes injected with RBK-1 mRNA show transient outward current when depolarized. (A and B) Currents evoked by depolarizing voltage-command pulses from a holding potential of -80 mV (records are single sweeps, leak not subtracted). The depolarizing step was 2.5 s in duration and was to the potential (in millivolts) indicated beside each trace. (B) is the rising phase of the current at faster recording speed.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 20
+    },
+    "params": {
+        "v_half": -0.03847015305472864,
+        "slope": 0.012700118986876409,
+        "e_rev": -0.07074583535731784,
+        "g": 0.0005274506884402123,
+        "ra": 9.089076037842755,
+        "sa": -0.5509815676066567,
+        "rb": 54.07603338203722,
+        "vb": -0.05728650347618884,
+        "sb": 0.001000004588714298,
+        "rc": 4.295580432408705e-19
+    },
+    "x0": [
+        0.23118543356969515,
+        -9.250703327196112,
+        15.68400473295814,
+        -0.043798693954099445,
+        0.019733746272685718,
+        2.8241246676045725e-12
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.02,
+            0.0,
+            -0.02,
+            -0.04,
+            -0.06
+        ],
+        "v_hold": -0.08,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            2,
+            2,
+            3,
+            3,
+            2
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.03847015305472864,
+        "slope": 0.012700118986876409,
+        "e_rev": -0.07074583535731784,
+        "g": 0.0005274506884402123
+    },
+    "error": {
+        "r2": 0.9842993445336552,
+        "rmse": 8.445569571194514e-07
+    },
+    "equation": "5.27E-04 * 1/(1+exp(-(v--38.47)/12.70)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -70.75)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 9.09*exp(--0.55*v), b = 54.08/(1+exp(-(v--57.29)/1.00)), c = 0.000"
+}

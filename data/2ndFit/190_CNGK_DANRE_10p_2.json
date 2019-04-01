@@ -1,0 +1,171 @@
+{
+    "time": "2019-02-22 02:11:50.908864",
+    "ion_channel": {
+        "create_date": "2017-01-04T07:14:42.506647Z",
+        "links": "",
+        "sequence": "MHDPREMKDEASIRSPKQRNVRLWSAFFSLTCLAAVLECLFELFFNSDISGLSFMRYILDVIFIINIISRFFIGYEVHGVVITDPKKVRKKYLRTWFFFDLLSVLPFQALKQVHPYMRFLEASRCLRVFRLFTIISYFSKEPDTNKVLLTAFRMFSIMALSVQFSACLWFNQVCDADYKGHKKVCTKGDNWLLLLSESNLTGISDVEWYATSVYWSVITLCTIGYGDIHATNLEESTVASVVMLLGLLAFGFSMSSLSTVISNMASLRGRFHHRIEAVLHYMMHMDLPMEIQTMVHHYYYYLWLHQKGRNITGLMDDLPNVLREDISSSCYRSLIKKAKLFRNTANGFKMALSLKLKTYTYIPGQTLAKAGEINQNLYYIKHGHVQVFSQNPEVEIATLLPGTLFGEVHLLYEIPRNVTIRASTLCEITILEHKDLLSLFDEFPEAAVQISRDAKTRLQNLRCPIEEAYIFGLASIPQNVAFEREQWINLQPREQRIFAASFEYASNQIPPMNSFWKTTFHPQSAFIKTWRYFFSWCLTVSVFLEAWVFFFTHSADAKGVFTEDWGAFYFVFKVLIYIVAAFDIFVNLRTDVFTKDGHVTDLAVIFRVYRKSWNFYYDVLALLPLELISFAFGATEPWTVSCLVRLNRLLLIRRIYLYFRQNECDLYSHLYEQRIAKCLFIFFFSLHFCAGMLYLSACDNKRCLEESWAWNAGLKPSQSSFEHYIITVYWTTTTFTSVGYGDIVPGSLIEQCLAAIVGLIGMLVLTYVIGLMCATISDRNAKRLTFQNVFSEMRQFMERHGVAASLQIRVKNYMNLLWNKYQGAAYPGGPFLMHDLSIELKHSVLMAERGELLSQIPFFSEAEQSFIQNLALTSVIYSFPEGEIIQYSNTLSTELFCILQGTCQILKDDLSEIVGHYYKGMFFGEAGFLFGKPATLTVRAMTCCKIVVIDFDKVKVLLEKHPRLKSQIKQSCANPQRYATLVEDAKKLQESQSDVQDSPTHSASMRFQGSRNSSNSKCCVEKFGNILMYAGPEEEMTRMQDVSHQRPSTVMGRAVYFFLRIFQSVFLMRSAILPWSPWYVKWEVFRSITAVAVSIATSLLFAFLHFQMELWIICYILGLFCWVDMYIRMHVAFYKENILKVDTLETACHYFKTGFLLDFITCFPWELVSWIVIPPFSENGFLVSNEYLHFYAYLRTPHILQLYRIPLLISYLESDIAAATNTITSFKLFLYSTLVLHFSTCILFASSCPAIGLYENTTNYFLPEIKHNCTPLSWVTHLDATFNIDFGTASFLQIYLMSLYFATSTLCTVGFGDIYPCLSASRAGQVFIMLIGVLFVGWLSGSVTGMLANTDALRAAYTEKAESMKLFLKSHRLTGALYNQVIGFYKFRWMCTKGFDQDKLSQYLPSSLVSDLSTVLYADFIAKVFGLKIQRTTTQESEINLLSTVEITRAGKLSLPVFEMTLSKTWLEQLENDGCFIRLLAGGVSQCLYRASDVIYKKGDCGSEVYFVEKGEVEVLSNNESKVLFKLSAGQYFGERSLLFHEPRAATIRAATNSEMYVLSQKSLHEILKYYPHIHEQMQSSADEIKDLLHEDYQIHAPARPDSAPTTFRRAGWEQLYRDHMTENEERAILRLQPLHVRLWTRVSPLLIWFLLKIFNFIRMSNNRTMDADNSFRVVYQYTGCILFTILFWAITLMSSVHSVNVYLLLLTTCTQVFQMFEIFLKFHIATYDDHRAFASDYKSTSHSYLTRKFGFAFDMACAFPFGLIIVHLVEKDSPLFLPIMIIYARIAHLPRIISLLVFMWKEEQSITSNLLCIRMIKFFVHSVLFVHCAAMLCVSFVEIYGVMSWIAEIEISDFSEMYKYAVYWIVQIYTTVGFGDILSLNLGEVMACTFIMILSKIQVIYKMGLLIATQTNKNTLQVAFEAKLQTILEYMKHERIPRQLQNRVSHFYNYQWNRNKGICTEELFRGVPRCLKMDVLMSICGEYLKSHHLFSHFTIPVMRELSARVTFRCFPVGECIYRKGDSGTEIYFLLIGKVNLCLDTRGHEVYQRLCRGTAFGDRIVIEHTRHDTAIAANYVDVAVLSKTSLASLSHLYPAAMHKLKEKLADIQQE",
+        "uniprot_id": "F1Q9L9-1",
+        "conductance": null,
+        "references": [
+            175
+        ],
+        "refSeq_id": "XP_001335499",
+        "full_name": "cngk cyclic nucleotide-gated potassium channel [ Danio rerio (zebrafish) ]",
+        "id": 178,
+        "aliases": "si:dkey-196h17.4, DrCNGK",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-22T10:35:51.940788Z",
+        "member": "",
+        "gene_symbol": "cngk",
+        "animal": "Danio rerio (zebrafish)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "795338",
+        "current_type": "Delayed rectifier",
+        "subfamily": "",
+        "class_symbol": "CNGK1",
+        "channel_type": "Cyclic nucleotide gated channels",
+        "channel_name": "CNGK_DANRE"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/190/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 143,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/190/t_vs_i.pickle",
+        "reference": 175,
+        "y_axis_toSI": 1e-06,
+        "comments": "96 mM K, 3.S1-A-right I/V, 3.S1-Aleft 7mM K",
+        "figure_ref_address": "3.S1-A-middle",
+        "x_axis_unit": "ms",
+        "ion_channel": 178,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/22/CNGK_DANRE.jpg",
+        "figure_ref_caption": "K+ dependence of heterologously expressed DrCNGK channels in oocytes and channel block by tetraethylammonium (TEA). (A) Two-Electrode Voltage-Clamp recordings of heterologously expressed DrCNGK channels in the presence of different K+ concentrations (left panel: 7 mM, middle panel: 96 mM) and corresponding IV relation (right panel).",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 190
+    },
+    "params": {
+        "v_half": -0.08707889965632741,
+        "slope": -0.09999999999999946,
+        "e_rev": -0.07745807062409801,
+        "g": 0.00019802633364187738,
+        "ra": 58.474467020971474,
+        "sa": -16.118010652006298,
+        "rb": 499.9869729089065,
+        "vb": 0.015279697847643398,
+        "sb": 0.02554752310260285,
+        "rc": 22.319821419999364
+    },
+    "x0": [
+        58.44639093564849,
+        -16.12180013370232,
+        499.9869155265992,
+        0.015288344520844382,
+        0.025550422529172757,
+        22.287861131345725
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.06,
+            0.05,
+            0.04,
+            0.02,
+            0.0,
+            -0.02,
+            -0.04,
+            -0.06,
+            -0.08,
+            -0.1
+        ],
+        "v_hold": -0.08,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42,
+            49,
+            56,
+            63,
+            70
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            6,
+            6,
+            2,
+            4,
+            4,
+            6,
+            3,
+            1,
+            6
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.08707889965632741,
+        "slope": -0.09999999999999946,
+        "e_rev": -0.07745807062409801,
+        "g": 0.00019802633364187738
+    },
+    "error": {
+        "r2": 0.993444647907445,
+        "rmse": 8.20156150214408e-08
+    },
+    "equation": "1.98E-04 * 1/(1+exp(-(v--87.08)/-100.00)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -77.46)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 58.47*exp(--16.12*v), b = 499.99/(1+exp(-(v-15.28)/25.55)), c = 22.320"
+}

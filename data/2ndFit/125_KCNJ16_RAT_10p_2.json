@@ -1,0 +1,161 @@
+{
+    "time": "2019-02-22 01:39:41.995715",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.147161Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/52, http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=440&familyId=74",
+        "sequence": "MSYYGSSYRIVNVDSKYPGYPPEHAIAEKRRARRRLLHKDGSCNVYFKHIFGEWGSYMVDIFTTLVDTKWRHMFVVFSLSYILSWLIFGSIFWLIALHHGDLLSDPDITPCVDNVHSFTAAFLFSLETQTTIGYGYRCVTEECSVAVLTVILQSILSCIINTFIIGAALAKMATARKRAQTIRFSYFALIGMRDGKLCLMWRIGDFRPNHVVEGTVRAQLLRYSEDSEGRMTMAFKDLKLVNDQIILVTPVTIVHEIDHESPLYALDRKAVAKDNFEILVTFIYTGDSTGTSHQSRSSYVPREILWGHRFHDVLEVKRKYYKVNCLQFEGSVEVYAPFCSAKQLDWKDQQLNNLEKTSPARGSCTSDTNTRRRSFSAVAMVSSCENPEETSLSPQDECKEVPYQKALLTLNRISMESQM",
+        "uniprot_id": "P52191-1",
+        "conductance": null,
+        "references": [
+            108
+        ],
+        "refSeq_id": "AAF74265",
+        "full_name": "Kcnj16 potassium voltage-gated channel subfamily J member 16 [ Rattus norvegicus (Norway rat) ]",
+        "id": 113,
+        "aliases": "BIR9, rKir5.1",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-14T08:06:23.844513Z",
+        "member": "16",
+        "gene_symbol": "Kcnj16",
+        "animal": "Rattus norvegicus (Rat)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "29719",
+        "current_type": "Inwardly-rectifying",
+        "subfamily": "J",
+        "class_symbol": "Kir5.1",
+        "channel_type": "Inwardly rectifying potassium channels",
+        "channel_name": "KCNJ16_RAT"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/125/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 99,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/125/t_vs_i.pickle",
+        "reference": 108,
+        "y_axis_toSI": 1e-06,
+        "comments": "2.D I/V. Deactivated to: 50 mV.",
+        "figure_ref_address": "2.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 113,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/14/KCNJ16_RAT.png",
+        "figure_ref_caption": "Functional consequences of the C terminus of Kir5.1. Representative current families from oocytes expressing (A) the full-length Kir5.1 and (B) Kir4.1 + Kir5.1 mRNAs. The voltage protocols are shown on top.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 125
+    },
+    "params": {
+        "v_half": 0.0713240320331566,
+        "slope": -0.09999999999999999,
+        "e_rev": -0.008649262768871834,
+        "g": 9.62233781126041e-06,
+        "ra": 10.243180702182595,
+        "sa": -6.396643368805707,
+        "rb": 124.24407730136984,
+        "vb": 0.048423543267665535,
+        "sb": 0.03152041638148484,
+        "rc": 1.8632875197436631
+    },
+    "x0": [
+        10.243193031246921,
+        -6.396658089144236,
+        124.24340886098189,
+        0.04842324802877937,
+        0.03152039774695892,
+        1.8632848717963657
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.05,
+            0.03,
+            0.01,
+            -0.01,
+            -0.03,
+            -0.05,
+            -0.07,
+            -0.11
+        ],
+        "v_hold": -0.01,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70,
+            80
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            3,
+            2,
+            4,
+            9,
+            1,
+            1,
+            1,
+            1
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": 0.0713240320331566,
+        "slope": -0.09999999999999999,
+        "e_rev": -0.008649262768871834,
+        "g": 9.62233781126041e-06
+    },
+    "error": {
+        "r2": 0.9932102556483832,
+        "rmse": 8.834279639220969e-09
+    },
+    "equation": "9.62E-06 * 1/(1+exp(-(v-71.32)/-100.00)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -8.65)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 10.24*exp(--6.40*v), b = 124.24/(1+exp(-(v-48.42)/31.52)), c = 1.863"
+}

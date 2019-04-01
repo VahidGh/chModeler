@@ -1,0 +1,161 @@
+{
+    "time": "2019-02-22 02:03:22.981712",
+    "ion_channel": {
+        "create_date": "2017-01-04T07:14:42.559087Z",
+        "links": "",
+        "sequence": "MEEENLLNENLLHPNESSPEETQVTTVSKSKWTILVLAMILLLVYLTFGVCTYSFFRDQFSGTETNLFVDAFYFSIVTFSTVGYGDIVPSTSTTKILTIVLVSTGVVFLDYLLNRVVSHVLSLQENAILDRINKTRNRAIRDHIAEDGKIRLKWKLCLAFCAVGLCVGSGALFLHVFERLDWLDSVYLSVISVTTVGYGDKTFKTVEGRGFAVFWLLLSTIAMATLFLYLAEMRIDRTTVMKLPPSESEFIVFKLRESGRISEDDIKQIVREFENLEEVPSSGS",
+        "uniprot_id": "Q9FWX6-1",
+        "conductance": null,
+        "references": [
+            187
+        ],
+        "refSeq_id": "NP_171752",
+        "full_name": "TPK4 Outward rectifying potassium channel protein [ Arabidopsis thaliana (thale cress) ]",
+        "id": 190,
+        "aliases": "AtKCO4, AtTPK4, KCO4, T14P4.16, T14P4_16",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-24T09:58:52.763088Z",
+        "member": "",
+        "gene_symbol": "TPK4",
+        "animal": "Arabidopsis thaliana (thale cress)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "837846.0",
+        "current_type": "Delayed rectifier",
+        "subfamily": "",
+        "class_symbol": "Kv",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "TPK4_ARATH"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/202/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 154,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/202/t_vs_i.pickle",
+        "reference": 187,
+        "y_axis_toSI": 1e-06,
+        "comments": "30 mM K, 1.d G/V, 1.b 2. mutants. Deactivated to: -60 mV",
+        "figure_ref_address": "1.a",
+        "x_axis_unit": "ms",
+        "ion_channel": 190,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/24/TPK4_ARATH.jpg",
+        "figure_ref_caption": "Biophysical properties of TPK4 and TPK4pore2TPK5. Whole-cell currents of oocytes expressing either TPK4 (a and d) or the chimera TPK4pore2TPK5 (b and e) were recorded using the DEVC-technique. (a and b) The standard bath solution was composed of 30 mM KCl, 70 mM NMDG-Cl, 1 mM MgCl2, 0,5 mM CaCl2 and 10 mM Mes/Tris buffer pH 7.5. The membrane potential was clamped at a holding potential of \u00e2\u02c6\u201930 mV, and stepped from +60 mV to \u00e2\u02c6\u2019130 mV in 10 mV decrements. Each test pulse was followed by a step to \u00e2\u02c6\u201960 mV, before returning again to the holding potential.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 202
+    },
+    "params": {
+        "v_half": 0.051542850502226255,
+        "slope": -0.016672727400968708,
+        "e_rev": -0.028809497924986386,
+        "g": 0.00043088766330600785,
+        "ra": 123.58453788672998,
+        "sa": -5.50461955530463,
+        "rb": 499.99999999999545,
+        "vb": 0.051176471319811415,
+        "sb": 0.02117841235486067,
+        "rc": 208.09000164108542
+    },
+    "x0": [
+        78.80288003584614,
+        -12.491943085612846,
+        289.87968395595533,
+        -0.00977376611507119,
+        0.0013068625409079157,
+        41.53071831193264
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.06,
+            0.05,
+            0.04,
+            0.03,
+            -0.01,
+            -0.06,
+            -0.09,
+            -0.13
+        ],
+        "v_hold": -0.03,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42,
+            49,
+            56
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            1,
+            1,
+            1,
+            3,
+            3,
+            3,
+            3,
+            1
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": 0.051542850502226255,
+        "slope": -0.016672727400968708,
+        "e_rev": -0.028809497924986386,
+        "g": 0.00043088766330600785
+    },
+    "error": {
+        "r2": 0.9999135935465816,
+        "rmse": 8.801856320607337e-08
+    },
+    "equation": "4.31E-04 * 1/(1+exp(-(v-51.54)/-16.67)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -28.81)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 123.58*exp(--5.50*v), b = 500.00/(1+exp(-(v-51.18)/21.18)), c = 208.090"
+}

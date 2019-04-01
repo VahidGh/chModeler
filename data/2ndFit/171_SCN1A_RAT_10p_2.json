@@ -1,0 +1,162 @@
+{
+    "time": "2019-02-22 01:50:13.733714",
+    "ion_channel": {
+        "create_date": "2017-01-04T07:14:42.443586Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/120, http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=578&familyId=82&familyType=IC",
+        "sequence": "MEQTVLVPPGPDSFNFFTRESLAAIERRIAEEKAKNPKPDKKDDDENGPKPNSDLEAGKNLPFIYGDIPPEMVSEPLEDLDPYYINKKTFIVLNKGKAIFRFSATSALYILTPFNPLRKIAIKILVHSLFSMLIMCTILTNCVFMTMSNPPDWTKNVEYTFTGIYTFESLIKIIARGFCLEDFTFLRDPWNWLDFTVITFAYVTEFVDLGNVSALRTFRVLRALKTISVIPGLKTIVGALIQSVKKLSDVMILTVFCLSVFALIGLQLFMGNLRNKCVQWPPTNASLEEHSIEKNVTTDYNGTLVNETVFEFDWKSYIQDSRYHYFLEGVLDALLCGNSSDAGQCPEGYMCVKAGRNPNYGYTSFDTFSWAFLSLFRLMTQDFWENLYQLTLRAAGKTYMIFFVLVIFLGSFYLINLILAVVAMAYEEQNQATLEEAEQKEAEFQQMLEQLKKQQEAAQQAAAATASEHSREPSAAGRLSDSSSEASKLSSKSAKERRNRRKKRKQKEQSGGEEKDDDEFHKSESEDSIRRKGFRFSIEGNRLTYEKRYSSPHQSLLSIRGSLFSPRRNSRTSLFSFRGRAKDVGSENDFADDEHSTFEDNESRRDSLFVPRRHGERRNSNLSQTSRSSRMLAGLPANGKMHSTVDCNGVVSLVGGPSVPTSPVGQLLPEVIIDKPATDDNGTTTETEMRKRRSSSFHVSMDFLEDPSQRQRAMSIASILTNTVEELEESRQKCPPCWYKFSNIFLIWDCSPYWLKVKHIVNLVVMDPFVDLAITICIVLNTLFMAMEHYPMTEHFNHVLTVGNLVFTGIFTAEMFLKIIAMDPYYYFQEGWNIFDGFIVTLSLVELGLANVEGLSVLRSFRLLRVFKLAKSWPTLNMLIKIIGNSVGALGNLTLVLAIIVFIFAVVGMQLFGKSYKDCVCKIATDCKLPRWHMNDFFHSFLIVFRVLCGEWIETMWDCMEVAGQAMCLTVFMMVMVIRNLVVLNLFLALLLSSFSADNLAATDDDNEMNNLQIAVDRMHKGVAYVKRKIYEFIQQSFVRKQKILDEIKPLDDLNNRKDNCTSNHTTEIGKDLDCLKDVNGTTSGIGTGSSVEKYIIDESDYMSFINNPSLTVTVPIAVGESDFENLNTEDFSSESDLEESKEKLNESSSSSEGSTVDIGAPAEEQPVMEPEETLEPEACFTEGCVQRFKCCQISVEEGRGKQWWNLRRTCFRIVEHNWFETFIVFMILLSSGALAFEDIYIDQRKTIKTMLEYADKVFTYIFILEMLLKWVAYGYQTYFTNAWCWLDFLIVDVSLVSLTANALGYSELGAIKSLRTLRALRPLRALSRFEGMRVVVNALLGAIPSIMNVLLVCLIFWLIFSIMGVNLFAGKFYHCVNTTTGDTFEITEVNNHSDCLKLIERNETARWKNVKVNFDNVGFGYLSLLQVATFKGWMDIMYAAVDSRNVELQPKYEESLYMYLYFVIFIIFGSFFTLNLFIGVIIDNFNQQKKKFGGQDIFMTEEQKKYYNAMKKLGSKKPQKPIPRPGNKFQGMVFDFVTRQVFDISIMILICLNMVTMMVETDDQSDYVTSILSRINLVFIVLFTGECVLKLISLRHYYFTIGWNIFDFVVVILSIVGMFLAELIEKYFVSPTLFRVIRLARIGRILRLIKGAKGIRTLLFALMMSLPALFNIGLLLFLVMFIYAIFGMSNFAYVKREVGIDDMFNFETFGNSMICLFQITTSAGWDGLLAPILNSKPPDCDPNKVNPGSSVKGDCGNPSVGIFFFVSYIIISFLVVVNMYIAVILENFSVATEESAEPLSEDDFEMFYEVWEKFDPDATQFMEFEKLSQFAAALEPPLNLPQPNKLQLIAMDLPMVSGDRIHCLDILFAFTKRVLGESGEMDALRIQMEERFMASNPSKVSYQPITTTLKRKQEEVSAVIIQRAYRRHLLKRTVKQASFTYNKNKLKGGANLLVKEDMIIDRINENSITEKTDLTMSTAACPPSYDRVTKPIVEKHEQEGKDEKAKGK",
+        "uniprot_id": "P04774-1",
+        "conductance": null,
+        "references": [
+            160,
+            161
+        ],
+        "refSeq_id": "NP_110502",
+        "full_name": "Scn1a sodium voltage-gated channel alpha subunit 1 [ Rattus norvegicus (Norway rat) ]",
+        "id": 159,
+        "aliases": "Rat-I, Rat1, rNav1.1",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-19T16:39:15.412966Z",
+        "member": "",
+        "gene_symbol": "Scn1a",
+        "animal": "Rattus norvegicus (Rat)",
+        "username": 1,
+        "ion_type": "Na+",
+        "gene_id": "81574",
+        "current_type": "A-type",
+        "subfamily": "1A",
+        "class_symbol": "Nav1.1",
+        "channel_type": "Voltage-gated sodium channels",
+        "channel_name": "SCN1A_RAT"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/171/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 131,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/171/t_vs_i.pickle",
+        "reference": 161,
+        "y_axis_toSI": 1e-06,
+        "comments": "No aux, 5.A Gact/inact/V",
+        "figure_ref_address": "2.A-left",
+        "x_axis_unit": "ms",
+        "ion_channel": 159,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/19/SCN1A_RAT.png",
+        "figure_ref_caption": "Representative Rat1 and Rat2 sodium channel currents. Rat1 and Rat2 sodium currents are compared for (A) \u00ce\u00b1 subunits alone, (B) \u00ce\u00b1 + \u00ce\u00b21 subunits, (C) \u00ce\u00b1 + \u00ce\u00b22 subunits, and (D) \u00ce\u00b1 + \u00ce\u00b21 + \u00ce\u00b22 subunits. Rat1 and Rat2 sodium channels were expressed in Xenopus oocytes, and currents were recorded using a cut-open oocyte voltage clamp at 20\u00c2\u00b0C as described in Materials and Methods. Currents were elicited by membrane depolarizations ranging from \u00e2\u02c6\u201965 to +25 mV in 10 mV increments from a holding potential of \u00e2\u02c6\u2019100 mV. Calibration: 10 msec, 0.5 \u00ce\u00bcA.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 171
+    },
+    "params": {
+        "v_half": -0.016178923593649273,
+        "slope": 0.004317327939895887,
+        "e_rev": 0.05020521808991397,
+        "g": 5.7036072528478267e-05,
+        "ra": 128.8245654570226,
+        "sa": -54.380289322691375,
+        "rb": 358.5202017450519,
+        "vb": 0.02010012355340048,
+        "sb": 0.010810219579228751,
+        "rc": 12.469211892057027
+    },
+    "x0": [
+        128.82473004329145,
+        -54.37895718871136,
+        358.4564973510899,
+        0.02009739232243954,
+        0.010809693662073731,
+        12.47132876365925
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.025,
+            0.015,
+            0.005,
+            -0.005,
+            -0.015,
+            -0.025,
+            -0.035,
+            -0.045
+        ],
+        "v_hold": -0.1,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70,
+            80
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            3,
+            3,
+            3,
+            4,
+            4,
+            3,
+            2,
+            8
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.016178923593649273,
+        "slope": 0.004317327939895887,
+        "e_rev": 0.05020521808991397,
+        "g": 5.7036072528478267e-05
+    },
+    "error": {
+        "r2": 0.9568223635874871,
+        "rmse": 7.57428715787921e-08
+    },
+    "equation": "5.70E-05 * 1/(1+exp(-(v--16.18)/4.32)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - 50.21)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 128.82*exp(--54.38*v), b = 358.52/(1+exp(-(v-20.10)/10.81)), c = 12.469"
+}

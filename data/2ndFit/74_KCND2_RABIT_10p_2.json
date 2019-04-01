@@ -1,0 +1,156 @@
+{
+    "time": "2019-02-22 01:17:55.090713",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:24.876369Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC761",
+        "sequence": "MAAGVAAWLPFARAAAIGWMPVASGPMPAPPRQERKRTQDALIVLNVSGTRFQTWQDTLERYPDTLLGSSERDFFYHPETQQYFFDRDPDIFRHILNFYRTGKLHYPRHECISAYDEELAFFGLIPEIIGDCCYEEYKDRRRENAERLQDDADTDNTCESALPTMTARQRVWRAFENPHTSTMALVFYYVTGFFIAVSVIANVVETVPCGSSPGHIKELPCGERYAVAFFCLDTACVMIFTVEYLLRLAAAPSRYRFVRSVMSIIDVVAILPYYIGLVMTDNEDVSGAFVTLRVFRVFRIFKFSRHSQGLRILGYTLKSCASELGFLLFSLTMAIIIFATVMFYAEKGSSASKFTSIPAAFWYTIVTMTTLGYGDMVPKTIAGKIFGSICSLSGVLVIALPVPVIVSNFSRIYHQNQRADKRRAQKKARLARIRAAKSGSANAYMQSKRNGLLSNQLQSSEEEPAFVSKSGSSFETQHHHLLHCLEKTTNHEFVDEQVFEESCMEVATVNRPSSHSPSLSSQQGVTSTCCSRRHKKTFRIPNANVSGSQRGSVQELSTIQIRCVERTPLSNSRSSLNAKMEECVKLNCEQPYVTTAIISIPTPPVTTPEGDDRPESPEYSGGNIVRVSAL",
+        "uniprot_id": "P59995-1",
+        "conductance": 4.0,
+        "references": [
+            30
+        ],
+        "refSeq_id": "NP_001075587",
+        "full_name": "KCND2 potassium voltage-gated channel subfamily D member 2 [ Oryctolagus cuniculus (rabbit) ]",
+        "id": 62,
+        "aliases": "Kv4.2",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-10T17:38:45.018888Z",
+        "member": "2",
+        "gene_symbol": "KCND2",
+        "animal": "Oryctolagus cuniculus (rabbit)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "100008841",
+        "current_type": "A-type",
+        "subfamily": "D",
+        "class_symbol": "Kv4.2",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCND2_RABIT"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/74/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 24,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/74/t_vs_i.pickle",
+        "reference": 30,
+        "y_axis_toSI": 1e-06,
+        "comments": "2.C I/V, 2.F I_norm/V, 3. I_inact/V",
+        "figure_ref_address": "2.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 62,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/10/KCND2_RABIT.png",
+        "figure_ref_caption": "The effect of Cd2+ on activation of Kv4.2- and Kv1.4-based currents in Xenopus oocytes. Currents were elicited with a series of 500-ms depolarizing steps (\u00e2\u20ac\u201c60 to +80 mV) in 10-mV increments from a holding potential of \u00e2\u20ac\u201c100 mV, as shown in the insets to F and G. Families of outward currents recorded from Xenopus oocytes expressing Kv4.2 and Kv1.4 are shown in A and B, respectively (for clarity only currents elicited following steps to \u00e2\u20ac\u201c60, \u00e2\u20ac\u201c40, \u00e2\u20ac\u201c20, 0, 20, 40, 60 and 80 mV are shown). The left-hand panels of A and B show currents recorded in the absence of Cd2+ and the right-hand panels show currents recorded in the presence of 500 uM Cd2+.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 74
+    },
+    "params": {
+        "v_half": -0.0025486208414467514,
+        "slope": 0.037415071007208534,
+        "e_rev": -0.044478676878239226,
+        "g": 0.010481865198844082,
+        "ra": 499.99999999999994,
+        "sa": -16.854718475372096,
+        "rb": 499.9999999999739,
+        "vb": 0.060447971044623384,
+        "sb": 0.0010000000509740854,
+        "rc": 184.0571818181289
+    },
+    "x0": [
+        34.29287640085365,
+        3.5867541349077006,
+        14.824302797682668,
+        -0.11656247725322581,
+        0.0014084270093204176,
+        42.919072038265966
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.08,
+            0.06,
+            0.04,
+            0.02,
+            0.0,
+            -0.02,
+            -0.04
+        ],
+        "v_hold": -0.1,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            3,
+            1
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.0025486208414467514,
+        "slope": 0.037415071007208534,
+        "e_rev": -0.044478676878239226,
+        "g": 0.010481865198844082
+    },
+    "error": {
+        "r2": 0.9754682801708808,
+        "rmse": 1.9333402004541922e-05
+    },
+    "equation": "1.05E-02 * 1/(1+exp(-(v--2.55)/37.42)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -44.48)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 500.00*exp(--16.85*v), b = 500.00/(1+exp(-(v-60.45)/1.00)), c = 184.057"
+}

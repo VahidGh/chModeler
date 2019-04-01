@@ -1,0 +1,151 @@
+{
+    "time": "2019-02-22 01:07:30.725713",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:24.769601Z",
+        "links": "",
+        "sequence": "MAIAISQAVLAHRNSAATFTVPGSTEQLKFHNYRVTGNMISGAAQQHKKRLVPLRRTDAMTVAERRNYQILDDIFRSGASDCFQQVSSADNGSPQFLKLNIGGTSFMILIDAILRADTTTFLSRFVQLTHTARLKVADAYISADDAYYFQRSPTSFEAVFOYYATGVVHRPSEICPASFLSELDFWRISHQHVGSCCADIIPQKREEEKEEEKVDDTTFDKLMCGKLRRRMWTFLERPGSSMQAKAFELSSTLFVAISVMGLSFGTIPDFQVTHLMPPHNETVVLPNGTVTVVQKVEQMRVEHPAFVFTERICIAFFTVEYCLRFFAAPRKLRFALKPLNLVDLLAIVPFYLELLLTLCGVDDRKLRDLRWAFLVVRILRVLRVIRIIKLGRFSSGLQTFGMTLQRSQKQLQMMTIVLLTGVVFFSTMIYFLEKDEEGTPFTSIPAAYWWCIVTMTTVGYGDAVPATTMGKIIASAAIMCGVLVLALPITIIVDNFIKVAQDEQQAEQQKNDQQSEQLALEAMLNAHD",
+        "uniprot_id": "Q5WRQ6",
+        "conductance": 67.0,
+        "references": [
+            42
+        ],
+        "refSeq_id": "",
+        "full_name": "exp-2 hypothetical protein [ Caenorhabditis elegans ]",
+        "id": 38,
+        "aliases": "CELE_F12F3.1, exp-2",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "38 aa+Q5WRQ6-1. Similar to Kv2 family, functionality same as HERG",
+        "last_update": "2017-01-09T07:36:50.905165Z",
+        "member": "",
+        "gene_symbol": "exp-2",
+        "animal": "Caenorhabditis elegans (C. elegans)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "179003",
+        "current_type": "Inwardly-rectifying",
+        "subfamily": "B",
+        "class_symbol": "Kv2",
+        "channel_type": "Inwardly rectifying potassium channels",
+        "channel_name": "EXP-2_CAEEL"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/50/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 34,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/50/t_vs_i.pickle",
+        "reference": 42,
+        "y_axis_toSI": 1e-06,
+        "comments": "100mM KCl, 3.C I/V/KCL, 5. tau/V",
+        "figure_ref_address": "3.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 38,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/09/EXP-2_CAEEL.png",
+        "figure_ref_caption": "Instantaneous I\u00e2\u20ac\u201cV relationship of EXP-2. A, EXP-2 channels were activated and inactivated by 1 sec prepulses to 20 mV and then allowed to recover from inactivation at \u00e2\u02c6\u201980 mV for 40 msec. After recovery from inactivation, the instantaneous current through open channels was determined for the beginning of 1 sec test pulses applied in 10 mV increments ranging from \u00e2\u02c6\u2019120 to 60 mV. The arrow points to current decline attributable to rapid channel inactivation at \u00e2\u02c6\u201960 mV. No outward currents could be detected at positive potentials.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 50
+    },
+    "params": {
+        "v_half": -0.061859259605091275,
+        "slope": -0.04098118466088736,
+        "e_rev": -0.014861370784218281,
+        "g": 0.00032646145343276356,
+        "ra": 144.97570503113153,
+        "sa": -47.365227866168844,
+        "rb": 499.999999999997,
+        "vb": -0.0486589647916301,
+        "sb": 0.009185223235149798,
+        "rc": 19.500422352372894
+    },
+    "x0": [
+        144.97535930539516,
+        -47.36560675669808,
+        499.99999999999994,
+        -0.0486588571411073,
+        0.009185162300330858,
+        19.500291657119416
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            -0.02,
+            -0.04,
+            -0.06,
+            -0.08,
+            -0.1,
+            -0.12
+        ],
+        "v_hold": 0.0,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            1,
+            2,
+            2,
+            1,
+            3,
+            3
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.061859259605091275,
+        "slope": -0.04098118466088736,
+        "e_rev": -0.014861370784218281,
+        "g": 0.00032646145343276356
+    },
+    "error": {
+        "r2": 0.9928934970515948,
+        "rmse": 2.9104268692126654e-07
+    },
+    "equation": "3.26E-04 * 1/(1+exp(-(v--61.86)/-40.98)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -14.86)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 144.98*exp(--47.37*v), b = 500.00/(1+exp(-(v--48.66)/9.19)), c = 19.500"
+}

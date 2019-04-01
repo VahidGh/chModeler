@@ -1,0 +1,151 @@
+{
+    "time": "2019-02-22 02:14:23.835738",
+    "ion_channel": {
+        "create_date": "2017-01-04T07:14:42.545199Z",
+        "links": "",
+        "sequence": "MGRLRRRQEIIDHEEEESNDDVSSRRGKLSLAETFRWLDSSEHRRIETDGHNDYKYIIHPKNRWYKAWEMFILVWAIYSSLFTPMEFGFFRGLPERLFVLDIVGQIAFLVDIVLQFFVAYRDTQSYRTVYKPTRIAFRYLKSHFLMDFIGCFPWDLIYKASGKHELVRYLLWIRLFRVRKVVEFFQRLEKDTRINYLFTRILKLLFVEVYCTHTAACIFYYLATTLPPEQEGYTWIGSLKLGDYSYENFREIDLWKRYTTALYFAIVTMATVGYGDIHAVNLREMIFVMIYVSFDMVLGAYLIGNVTALIVKGSNTERFRDKMNDLISFMNRKKLGRDLRSQITGHVRLQYDSHYTDTVMLQDIPASIRAKIAQLLYLPYIKKVPLFKGCSTEFINQIVIRLHEEYFLPGEVITEQGNVVDHLYFVCEGLLEALVTKTDGSEESVTLLGPHTSFGDISIICNISQPFTVRVCELCHLLRLDKQSFSNILEIYFHDGRTILNNIMEEKESNDRIKKLESDIVIHIGKQEAELALKVNSAAFQGDFYQLKSLIRSGADPNKTDYDGRSPLHLAACRGYEDITLFLIQEGVDVNLKDKFGHTPLFEAVKAGQEGVIGLLVKEGASFNLEDSGNFLCTTVAKGDSDFLKRLLSSGMNPNSEDYDHRTPLHVAASEGLFLMAKMLVEAGASVISKDRWGNSPLDEARLCGNKKLIKLLEDVKNAQSSIYPSSLRELQEERIERRKCTVFPFHPQEAKEERSRKHGVVVWVPSNLEKLIVTAAKELGLSDGASFVLLSEDQGRITDIDMISDGHKLYMISDTTDQT",
+        "uniprot_id": "Q94A76",
+        "conductance": 13.4,
+        "references": [
+            183
+        ],
+        "refSeq_id": "CAC17380",
+        "full_name": "GORK gated outwardly-rectifying K+ channel [ Arabidopsis thaliana (thale cress) ]",
+        "id": 186,
+        "aliases": "MPA22.4, MPA22_4, AtGORK",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-23T11:24:15.258653Z",
+        "member": "",
+        "gene_symbol": "GORK",
+        "animal": "Arabidopsis thaliana (thale cress)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "833728",
+        "current_type": "Delayed rectifier",
+        "subfamily": "",
+        "class_symbol": "Kv",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "GORK_ARATH"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/198/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 150,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/198/t_vs_i.pickle",
+        "reference": 183,
+        "y_axis_toSI": 1e-06,
+        "comments": "30 mM K, 3.D G/K/V",
+        "figure_ref_address": "3.A-left",
+        "x_axis_unit": "ms",
+        "ion_channel": 186,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/23/GORK_ARATH.jpg",
+        "figure_ref_caption": "Heterologous expression of GORK in Xenopus oocytes. A: GORK mediates outward currents in GORK-cRNA-injected oocytes. Left: Using the double-electrode voltage-clamp technique, time-dependent, outwardly rectifying currents were elicited upon depolarizing voltage steps between \u00e2\u02c6\u2019120 mV and +60 mV in 10 mV increments, starting from a holding potential of \u00e2\u02c6\u2019100 mV. These currents were never observed in control oocytes.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 198
+    },
+    "params": {
+        "v_half": 0.013077082000100543,
+        "slope": 0.02255252823102163,
+        "e_rev": -0.029895269673092806,
+        "g": 7.299143290592139e-05,
+        "ra": 0.43208309363450137,
+        "sa": 1.9440984841216746,
+        "rb": 1.368097685872747,
+        "vb": -0.01046185980943948,
+        "sb": 0.025643288911485932,
+        "rc": 3.9504177325608165e-16
+    },
+    "x0": [
+        0.4320903159144465,
+        1.9444994676464518,
+        1.368094226641491,
+        -0.010462763314335183,
+        0.02564348322105414,
+        1.8727432602953737e-27
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.06,
+            0.04,
+            0.02,
+            0.0,
+            -0.02,
+            -0.1
+        ],
+        "v_hold": -0.1,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            6,
+            6,
+            6,
+            5,
+            1
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": 0.013077082000100543,
+        "slope": 0.02255252823102163,
+        "e_rev": -0.029895269673092806,
+        "g": 7.299143290592139e-05
+    },
+    "error": {
+        "r2": 0.9982154954526509,
+        "rmse": 3.0066942739135265e-08
+    },
+    "equation": "7.30E-05 * 1/(1+exp(-(v-13.08)/22.55)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -29.90)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 0.43*exp(-1.94*v), b = 1.37/(1+exp(-(v--10.46)/25.64)), c = 0.000"
+}

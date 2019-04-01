@@ -1,0 +1,142 @@
+{
+    "time": "2019-02-22 01:48:16.832713",
+    "ion_channel": {
+        "create_date": "2017-01-04T07:14:42.404615Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/88, http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=529&familyId=80&familyType=IC",
+        "sequence": "MNANAAAGLAPEHIPTPGAALSWQAAIDAARQAKLMGSAGNATISTVSSTQRKRQQYGKPKKQGSTTATRPPRALLCLTLKNPIRRACISIVEWKPFEIIILLTIFANCVALAIYIPFPEDDSNATNSNLERVEYLFLIIFTVEAFLKVIAYGLLFHPNAYLRNGWNLLDFIIVVVGLFSAILEQATKADGANALGGKGAGFDVKALRAFRVLRPLRLVSGVPSLQVVLNSIIKAMVPLLHIALLVLFVIIIYAIIGLELFMGKMHKTCYNQEGIADVPAEDDPSPCALETGHGRQCQNGTVCKPGWDGPKHGITNFDNFAFAMLTVFQCITMEGWTDVLYWMQDAMGYELPWVYFVSLVIFGSFFVLNLVLGVLSGEFSKEREKAKARGDFQKLREKQQLEEDLKGYLDWITQAEDIDPENEDEGMDEEKPRNMSMPTSETESVNTENVAGGDIEGENCGARLAHRISKSKFSRYWRRWNRFCRRKCRAAVKSNVFYWLVIFLVFLNTLTIASEHYNQPNWLTEVQDTANKALLALFTAEMLLKMYSLGLQAYFVSLFNRFDCFVVCGGILETILVETKIMSPLGISVLRCVRLLRIFKITRYWNSLSNLVASLLNSVRSIASLLLLLFLFIIIFSLLGMQLFGGKFNFDEMQTRRSTFDNFPQSLLTVFQILTGEDWNSVMYDGIMAYGGPSFPGMLVCIYFIILFICGNYILLNVFLAIAVDNLADAESLTSAQKEEEEEKERKKLARTASPEKKQELVEKPAVGESKEEKIELKSITADGESPPATKINMDDLQPNENEDKSPYPNPETTGEEDEEEPEMPVGPRPRPLSELHLKEKAVPMPEASAFFIFSSNNRFRLQCHRIVNDTIFTNLILFFILLSSISLAAEDPVQHTSFRNHILFYFDIVFTTIFTIEIALKMTAYGAFLHKGSFCRNYFNILDLLVVSVSLISFGIQSSAINVVKILRVLRVLRPLRAINRAKGLKHVVQCVFVAIRTIGNIVIVTTLLQFMFACIGVQLFKGKLYTCSDSSKQTEAECKGNYITYKDGEVDHPIIQPRSWENSKFDFDNVLAAMMALFTVSTFEGWPELLYRSIDSHTEDKGPIYNYRVEISIFFIIYIIIIAFFMMNIFVGFVIVTFQEQGEQEYKNCELDKNQRQCVEYALKARPLRRYIPKNQHQYKVWYVVNSTYFEYLMFVLILLNTICLAMQHYGQSCLFKIAMNILNMLFTGLFTVEMILKLIAFKPKGYFSDPWNVFDFLIVIGSIIDVILSETNPAEHTQCSPSMNAEENSRISITFFRLFRVMRLVKLLSRGEGIRTLLWTFIKSFQALPYVALLIVMLFFIYAVIGMQVFGKIALNDTTEINRNNNFQTFPQAVLLLFRCATGEAWQDIMLACMPGKKCAPESEPSNSTEGETPCGSSFAVFYFISFYMLCAFLIINLFVAVIMDNFDYLTRDWSILGPHHLDEFKRIWAEYDPEAKGRIKHLDVVTLLRRIQPPLGFGKLCPHRVACKRLVSMNMPLNSDGTVMFNATLFALVRTALRIKTEGNLEQANEELRAIIKKIWKRTSMKLLDQVVPPAGDDEVTVGKFYATFLIQEYFRKFKKRKEQGLVGKPSQRNALSLQAGLRTLHDIGPEIRRAISGDLTAEEELDKAMKEAVSAASEDDIFRRAGGLFGNHVSYYQSDGRSAFPQTFTTQRPLHINKAGSSQGDTESPSHEKLVDSTFTPSSYSSTGSNANINNANNTALGRLPRPAGYPSTVSTVEGHGPPLSPAIRVQEVAWKLSSNRMHCCDMLDGGTFPPALGPRRAPPCLHQQLQGSLAGLREDTPCIVPGHASLCCSSRVGEWLPAGCTAPQHARCHSRESQAAMAGQEETSQDETYEVKMNHDTEACSEPSLLSTEMLSYQDDENRQLTLPEEDKRDIRQSPKRGFLRSASLGRRASFHLECLKRQKDRGGDISQKTVLPLHLVHHQALAVAGLSPLLQRSHSPASFPRPFATPPATPGSRGWPPQPVPTLRLEGVESSEKLNSSFPSIHCGSWAETTPGGGGSSAARRVRPVSLMVPSQAGAPGRQFHGSASSLVEAVLISEGLGQFAQDPKFIEVTTQELADACDMTIEEMESAADNILSGGAPQSPNGALLPFVNCRDAGQDRAGGEEDAGCVRARGRPSEEELQDSRVYVSSL",
+        "uniprot_id": "Q13936-18",
+        "conductance": null,
+        "references": [
+            133,
+            134
+        ],
+        "refSeq_id": "AAA02501",
+        "full_name": "CACNA1C calcium voltage-gated channel subunit alpha1 C [ Homo sapiens (human) ]",
+        "id": 146,
+        "aliases": "TS, LQT8, CACH2, CACN2, hCaV1.2, CCHL1A1, CACNL1A1, hHT-1",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-17T10:48:35.359386Z",
+        "member": "1C",
+        "gene_symbol": "CACNA1C",
+        "animal": "Homo sapiens (Human)",
+        "username": 1,
+        "ion_type": "Ca2+",
+        "gene_id": "775",
+        "current_type": "Delayed rectifier",
+        "subfamily": "NA",
+        "class_symbol": "Cav1.2",
+        "channel_type": "Voltage-gated calcium channels",
+        "channel_name": "CACNA1C_HUMAN"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/158/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 118,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/158/t_vs_i.pickle",
+        "reference": 134,
+        "y_axis_toSI": 1e-06,
+        "comments": "40 mM Ba, 6.B I/V, 6.C I_inact/V",
+        "figure_ref_address": "6.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 146,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/17/CACNA1C_HUMAN.png",
+        "figure_ref_caption": "Whole-cell and single Ca2+ channel currents from oocytes injected with the human al subunit cRNA. (A) Families of currents in response to depolarizing voltage steps in the absence and presence of 1 ,uM (-)-S202-791. Currents were elicited from -20 to +50 mV in 10-mV increments. The holding potential was -80 mV.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 158
+    },
+    "params": {
+        "v_half": 0.013972705635473965,
+        "slope": 0.008932427346567566,
+        "e_rev": 0.07678727696685879,
+        "g": 7.515237087728816e-06,
+        "ra": 2.317131473395937,
+        "sa": 7.539578525956655,
+        "rb": 1.7077885839908133,
+        "vb": -0.04885392977165116,
+        "sb": 0.0010000001,
+        "rc": 6.8551172833526435
+    },
+    "x0": [
+        2.317131474410792,
+        7.539578553470118,
+        1.707788544883365,
+        -0.04885392977165116,
+        0.0010000000000001494,
+        6.85511727470821
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.04,
+            0.02,
+            0.0,
+            -0.02
+        ],
+        "v_hold": -0.08,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            3,
+            3,
+            2,
+            4
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": 0.013972705635473965,
+        "slope": 0.008932427346567566,
+        "e_rev": 0.07678727696685879,
+        "g": 7.515237087728816e-06
+    },
+    "error": {
+        "r2": 0.99822147121711,
+        "rmse": 1.7546635434260587e-09
+    },
+    "equation": "7.52E-06 * 1/(1+exp(-(v-13.97)/8.93)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - 76.79)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 2.32*exp(-7.54*v), b = 1.71/(1+exp(-(v--48.85)/1.00)), c = 6.855"
+}

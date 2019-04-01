@@ -1,0 +1,161 @@
+{
+    "time": "2019-02-22 01:12:51.236721",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:24.840499Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/14, http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=551&familyId=81",
+        "sequence": "MISSVCVSSYRGRKSGNKPPSKTCLKEEMAKGEASEKIIINVGGTRHETYRSTLRTLPGTRLAWLADPDGGGRPETDGGGVGSSGSSGGGGCEFFFDRHPGVFAYVLNYYRTGKLHCPADVCGPLFEEELTFWGIDETDVEPCCWMTYRQHRDAEEALDIFESPDGGGSGAGPSDEAGDDERELALQRLGPHEGGAGHGAGSGGCRGWQPRMWALFEDPYSSRAARVVAFASLFFILVSITTFCLETHEAFNIDRNVTEILRVGNITSVHFRREVETEPILTYIEGVCVLWFTLEFLVRIVCCPDTLDFVKNLLNIIDFVAILPFYLEVGLSGLSSKAARDVLGFLRVVRFVRILRIFKLTRHFVGLRVLGHTLRASTNEFLLLIIFLALGVLIFATMIYYAERIGARPSDPRGNDHTDFKNIPIGFWWAVVTMTTLGYGDMYPKTWSGMLVGALCALAGVLTIAMPVPVIVNNFGMYYSLAMAKQKLPKKRKKHVPRPAQLESPMYCKSEETSPRDSTCSDTSPPAREEGMIERKRAGEIRGWEGKSLFPQWPREFPNGPQTLGFGMCFVWGFPKHKDVPL",
+        "uniprot_id": "Q03721-2",
+        "conductance": 14.0,
+        "references": [
+            57
+        ],
+        "refSeq_id": "AAI01770",
+        "full_name": "KCNC4 potassium voltage-gated channel subfamily C member 4 [ Homo sapiens (human) ]",
+        "id": 55,
+        "aliases": "hKv3.4, HKSHIIIC",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-10T10:38:08.880558Z",
+        "member": "4",
+        "gene_symbol": "KCNC4",
+        "animal": "Homo sapiens (Human)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "3749",
+        "current_type": "A-type",
+        "subfamily": "C",
+        "class_symbol": "Kv3.4",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCNC4_HUMAN"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/67/t_vs_i.png",
+        "y_axis_unit": "nA",
+        "patch_clamp": 49,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/67/t_vs_i.pickle",
+        "reference": 57,
+        "y_axis_toSI": 1e-09,
+        "comments": "3.B I_norm/V, 3.E I_inact/V",
+        "figure_ref_address": "3.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 55,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/10/KCNC4_HUMAN.jpg",
+        "figure_ref_caption": "Electrophysiological properties of ion currents expressed by RNA transcripts of HKShIIIC. A: Currents  recorded under voltage clamp. Depolarizing pulses, from -60 to +60 mV in 10 mV increments, were delivered at a rate of every 10 sec from a holding potential of -100 mV. The oocytes were bathed in ND96 solution and the electrodes filled with 3 M KC1.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 67
+    },
+    "params": {
+        "v_half": 0.02882179510199841,
+        "slope": 0.012764081648509772,
+        "e_rev": -0.19999999999999998,
+        "g": 6.7406643782442604e-06,
+        "ra": 8.129219318030795,
+        "sa": -36.664743696529854,
+        "rb": 390.51120678962457,
+        "vb": 0.10224855597596703,
+        "sb": 0.014026062792982782,
+        "rc": 10.659170326332614
+    },
+    "x0": [
+        8.129203437797628,
+        -36.66479926943948,
+        390.1450037099106,
+        0.10223381838220744,
+        0.01402572874106087,
+        10.659166675656339
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.06,
+            0.05,
+            0.04,
+            0.03,
+            0.02,
+            0.01,
+            0.0,
+            -0.01
+        ],
+        "v_hold": -0.1,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70,
+            80
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            2,
+            3,
+            3,
+            3,
+            4,
+            5,
+            6,
+            2
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": 0.02882179510199841,
+        "slope": 0.012764081648509772,
+        "e_rev": -0.19999999999999998,
+        "g": 6.7406643782442604e-06
+    },
+    "error": {
+        "r2": 0.9944131295830193,
+        "rmse": 1.2827004062116135e-08
+    },
+    "equation": "6.74E-06 * 1/(1+exp(-(v-28.82)/12.76)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -200.00)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 8.13*exp(--36.66*v), b = 390.51/(1+exp(-(v-102.25)/14.03)), c = 10.659"
+}

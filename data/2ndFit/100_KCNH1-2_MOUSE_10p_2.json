@@ -1,0 +1,156 @@
+{
+    "time": "2019-02-22 01:30:00.868713",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.057838Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/33",
+        "sequence": "MTMAGGRRGLVAPQNTFLENIVRRSNDTNFVLGNAQIVDWPIVYSNDGFCKLSGYHRAEVMQKSSACSFMYGELTDKDTVEKVRQTFENYEMNSFEILMYKKNRTPVWFFVKIAPIRNEQDKVVLFLCTFSDITAFKQPIEDDSCKGWGKFARLTRALTSSRGVLQQLAPSVQKGENVHKHSRLAEVLQLGSDILPQYKQEAPKTPPHIILHYCVFKTTWDWIILILTFYTAILVPYNVSFKTRQNNVAWLVVDSIVDVIFLVDIVLNFHTTFVGPAGEVISDPKLIRMNYLKTWFVIDLLSCLPYDVINAFENVDEGISSLFSSLKVVRLLRLGRVARKLDHYIEYGAAVLVLLVCVFGLAAHWMACIWYSIGDYEIFDEDTKTIRNNSWLYQLALDIGTPYQFNGSGSGKWEGGPSKNSVYISSLYFTMTSLTSVGFGNIAPSTDIEKIFAVAIMMIGSLLYATIFGNVTTIFQQMYANTNRYHEMLNSVRDFLKLYQVPKGLSERVMDYIVSTWSMSRGIDTEKVLQICPKDMRADICVHLNRKVFKEHPAFRLASDGCLRALAMEFQTVHCAPGDLIYHAGESVDSLCFVVSGSLEVIQDDEVVAILGKGDVFGDVFWKEATLAQSCANVRALTYCDLHVIKRDALQKVLEFYSAFSHSFSRNLILTYNLRKRIVFRKISDVKREEEERMKRKNEAPLILPPDHPVRRLFQRFRQQKEARLAAERGGRDLDDLDVEKGNALTDHTSANHSLVKASVVTVRESPATPVSFQAATTSTVSDHAKLHAPGSECLGPKAVSCDPAKRKGWARFKDACGKGEDWNKVSKAESMETLPERTKAPGEATLKKTDSCDSGITKSDLRLDNVGETRSPQDRSPILAEVKHSFYPIPEQTLQATVLEVKYELKEDIKALNAKMTSIEKQLSEILRILMSRGSAQSPQETGEISRPQSPESDRDIFGAS",
+        "uniprot_id": "Q32MR7-1",
+        "conductance": null,
+        "references": [
+            83
+        ],
+        "refSeq_id": "AAI09013",
+        "full_name": "Kcnh1 potassium voltage-gated channel, subfamily H (eag-related), member 1 [ Mus musculus (house mouse) ]",
+        "id": 88,
+        "aliases": "EAG1, M-eag, mKv10.1",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-12T08:37:16.019064Z",
+        "member": "1",
+        "gene_symbol": "Kcnh1",
+        "animal": "Mus musculus (Mouse)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "16510",
+        "current_type": "Delayed rectifier",
+        "subfamily": "H",
+        "class_symbol": "Kv10.1",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCNH1-2_MOUSE"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/100/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 63,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/100/t_vs_i.pickle",
+        "reference": 83,
+        "y_axis_toSI": 1e-06,
+        "comments": "3.B G/V. Deactivated to: -40",
+        "figure_ref_address": "3.A-right",
+        "x_axis_unit": "ms",
+        "ion_channel": 88,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/12/KCNH1-2_MOUSE.png",
+        "figure_ref_caption": "Comparison of NvEag and MmEag1 voltage-activation properties. (A) NvEag and MmEag1 current traces at pH 7 elicited by 1 s voltage steps from \u00e2\u02c6\u2019100 mV to 40 mV (in 20 mV increments) from a holding voltage of \u00e2\u02c6\u2019100 mV.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 100
+    },
+    "params": {
+        "v_half": -0.0180258243417786,
+        "slope": 0.02767644720667024,
+        "e_rev": -0.10214357831312094,
+        "g": 0.0005145869718619175,
+        "ra": 1.2544609703106782,
+        "sa": -47.83800773213494,
+        "rb": 40.02690897092817,
+        "vb": 0.03709222498027761,
+        "sb": 0.012461435698388186,
+        "rc": 0.14598906450108934
+    },
+    "x0": [
+        1.2543630616534054,
+        -47.840638805767774,
+        40.02735284313988,
+        0.03709169557019075,
+        0.012460740315544137,
+        0.1459502659303381
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.04,
+            0.02,
+            0.0,
+            -0.02,
+            -0.04,
+            -0.06,
+            -0.08
+        ],
+        "v_hold": -0.08,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42,
+            49
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.0180258243417786,
+        "slope": 0.02767644720667024,
+        "e_rev": -0.10214357831312094,
+        "g": 0.0005145869718619175
+    },
+    "error": {
+        "r2": 0.9977966059086234,
+        "rmse": 4.276440067415434e-07
+    },
+    "equation": "5.15E-04 * 1/(1+exp(-(v--18.03)/27.68)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -102.14)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 1.25*exp(--47.84*v), b = 40.03/(1+exp(-(v-37.09)/12.46)), c = 0.146"
+}

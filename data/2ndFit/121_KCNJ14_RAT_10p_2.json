@@ -1,0 +1,151 @@
+{
+    "time": "2019-02-22 01:32:13.112720",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.134257Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/45, http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=433&familyId=74",
+        "sequence": "MGLARALRRLSGALEPGNSRAGDEEEAGAGLCRNGWAPGPVAGNRRRGRFVKKDGHCNVRFVNLGGQGARYLSDLFTTCVDVRWRWMCLLFSCSFLASWLLFGLTFWLIASLHGDLAAPPPPAPCFSQVASFLAAFLFALETQTSIGYGVRSVTEECPAAVAAVVLQCIAGCVLDAFVVGAVMAKMAKPKKRNETLVFSENAVVALRDRRLCLMWRVGNLRRSHLVEAHVRAQLLQPRVTPEGEYIPLDHQDVDVGFDGGTDRIFLVSPITIVHEIDSASPLYELGRAELARADFELVVILEGMVEATAMTTQCRSSYLPGELLWGHRFEPVLFQRGSQYEVDYRHFHRTYEVPGTPVCSAKELDERAEQASHSPKSSFPGSLAAFCYENELALSCCQEEDEEEDTKEGTSAETPDRAASPQALTPTLALTLPP",
+        "uniprot_id": "O70596-1",
+        "conductance": 15.0,
+        "references": [
+            102
+        ],
+        "refSeq_id": "NP_733836",
+        "full_name": "Kcnj14 potassium voltage-gated channel subfamily J member 14 [ Rattus norvegicus (Norway rat) ]",
+        "id": 109,
+        "aliases": "IRK-4, rKir2.4",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-14T06:15:10.165383Z",
+        "member": "14",
+        "gene_symbol": "Kcnj14",
+        "animal": "Rattus norvegicus (Rat)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "276720",
+        "current_type": "Inwardly-rectifying",
+        "subfamily": "J",
+        "class_symbol": "Kir2.4",
+        "channel_type": "Inwardly rectifying potassium channels",
+        "channel_name": "KCNJ14_RAT"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/121/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 96,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/121/t_vs_i.pickle",
+        "reference": 102,
+        "y_axis_toSI": 1e-06,
+        "comments": "4.C I/V",
+        "figure_ref_address": "4.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 109,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/14/KCNJ14_RAT.png",
+        "figure_ref_caption": "Macroscopic Kir2.4 inwardly rectifying currents inXenopus oocytes. A, Current responses of an oocyte expressing Kir2.4 to voltage steps of 500 msec duration between +80 mV and \u00e2\u02c6\u2019140 mV from a holding potential of Vh = 0 mV. [K+]e = 96 mM.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 121
+    },
+    "params": {
+        "v_half": -0.02613434909199597,
+        "slope": -0.040443408094060614,
+        "e_rev": 0.011847811362383,
+        "g": 0.0004298215870848395,
+        "ra": 184.21185355514172,
+        "sa": 0.6701744567450585,
+        "rb": 499.99999999999994,
+        "vb": -0.03808299083474889,
+        "sb": 0.00137881615458193,
+        "rc": 499.99999999999994
+    },
+    "x0": [
+        8.229517884669535,
+        12.691513510895525,
+        217.99100653296063,
+        -0.01165638974954565,
+        0.019080092289009927,
+        3.688362809732517e-11
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.08,
+            0.04,
+            0.0,
+            -0.04,
+            -0.08,
+            -0.12
+        ],
+        "v_hold": 0.0,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            1,
+            1,
+            9,
+            9,
+            9,
+            9
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.02613434909199597,
+        "slope": -0.040443408094060614,
+        "e_rev": 0.011847811362383,
+        "g": 0.0004298215870848395
+    },
+    "error": {
+        "r2": 0.9989638938336208,
+        "rmse": 2.6303178219633604e-07
+    },
+    "equation": "4.30E-04 * 1/(1+exp(-(v--26.13)/-40.44)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - 11.85)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 184.21*exp(-0.67*v), b = 500.00/(1+exp(-(v--38.08)/1.38)), c = 500.000"
+}

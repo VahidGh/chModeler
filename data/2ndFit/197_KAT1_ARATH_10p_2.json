@@ -1,0 +1,151 @@
+{
+    "time": "2019-02-22 02:08:07.003720",
+    "ion_channel": {
+        "create_date": "2017-01-04T07:14:42.536238Z",
+        "links": "",
+        "sequence": "MSISWTRNFFERFCVEEYNIDTIKQSSFLSADLLPSLGARINQSTKLRKHIISPFNPRYRAWEMWLVLLVIYSAWICPFQFAFITYKKDAIFIIDNIVNGFFAIDIILTFFVAYLDSHSYLLVDSPKKIAIRYLSTWFAFDVCSTAPFQPLSLLFNYNGSELGFRILSMLRLWRLRRVSSLFARLEKDIRFNYFWIRCTKLISVTLFAIHCAGCFNYLIADRYPNPRKTWIGAVYPNFKEASLWNRYVTALYWSITTLTTTGYGDFHAENPREMLFDIFFMMFNLGLTAYLIGNMTNLVVHWTSRTRTFRDSVRAASEFASRNQLPHDIQDQMLSHICLKFKTEGLKQQETLNNLPKAIRSSIANYLFFPIVHNIYLFQGVSRNFLFQLVSDIDAEYFPPKEDIILQNEAPTDLYILVSGAVDFTVYVDGHDQFQGKAVIGETFGEVGVLYYRPQPFTVRTTELSQILRISRTSLMSAMHAHADDGRVIMNNLFMKLRGQQSIAIDDSNTSGHENRDFKSMGWEEWRDSRKDGYGLDVTNPTSDTALMDAIHKEDTEMVKKILKEQKIERAKVERSSSETAGRSYANDSSKKDPYCSSSNQIIKPCKREEKRVTIHMMSESKNGKLILLPSSIEELLRLASEKFGGCNFTKITNADNAEIDDLDVIWDGDHLYFSSN",
+        "uniprot_id": "Q39128-1",
+        "conductance": 28.0,
+        "references": [
+            182
+        ],
+        "refSeq_id": "AAA32824",
+        "full_name": "KAT1 potassium channel protein [ Arabidopsis thaliana (thale cress) ]",
+        "id": 185,
+        "aliases": "AtKAT1, MPL12.2, MPL12_2",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-23T10:44:07.978631Z",
+        "member": "",
+        "gene_symbol": "KAT1",
+        "animal": "Arabidopsis thaliana (thale cress)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "834666",
+        "current_type": "Delayed rectifier",
+        "subfamily": "",
+        "class_symbol": "Kv",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KAT1_ARATH"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/197/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 149,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/197/t_vs_i.pickle",
+        "reference": 182,
+        "y_axis_toSI": 1e-06,
+        "comments": "118 mM K, 1.D I/V, 2. Ion/V",
+        "figure_ref_address": "1.B",
+        "x_axis_unit": "ms",
+        "ion_channel": 185,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/23/KAT1_ARATH.jpg",
+        "figure_ref_caption": "Arabidopsis thaliana KAT1 cDNA confers functional expression of hyperpolarization-activated currents in Xenopus oocytes. Currents were elicited in response to hyperpolarizing pulses from a holding potential of -60 mV in uninjected oocytes (A) and in oocytes injected with KAT1 mRNA (B) with K+ Ringer solution in the bathing medium.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 197
+    },
+    "params": {
+        "v_half": -0.16040836695102692,
+        "slope": -0.035240064123700794,
+        "e_rev": -0.06832892110824078,
+        "g": 5.410435623516521e-05,
+        "ra": 1.5384719362983126,
+        "sa": 0.25819238305098385,
+        "rb": 317.23510925675265,
+        "vb": -0.05772063792286992,
+        "sb": 0.001000000126618456,
+        "rc": 5.766705798578001
+    },
+    "x0": [
+        1.538471936576028,
+        0.25819238293626384,
+        317.2337672687604,
+        -0.057720214576531134,
+        0.001000187654496042,
+        5.766705800192575
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            -0.06,
+            -0.08,
+            -0.1,
+            -0.12,
+            -0.14,
+            -0.16
+        ],
+        "v_hold": -0.06,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            3,
+            6,
+            6,
+            6,
+            6
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.16040836695102692,
+        "slope": -0.035240064123700794,
+        "e_rev": -0.06832892110824078,
+        "g": 5.410435623516521e-05
+    },
+    "error": {
+        "r2": 0.9975935718433901,
+        "rmse": 1.3566652418290983e-08
+    },
+    "equation": "5.41E-05 * 1/(1+exp(-(v--160.41)/-35.24)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -68.33)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 1.54*exp(-0.26*v), b = 317.24/(1+exp(-(v--57.72)/1.00)), c = 5.767"
+}

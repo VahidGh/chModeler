@@ -1,0 +1,156 @@
+{
+    "time": "2019-02-22 01:08:07.102713",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:24.776819Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC161",
+        "sequence": "MPGWMNKHGSRSTTSLPPDPMDIIRSKACSRRVKVNVGGLAHEVLWRTLDRLPRTRLGKLRDCNTNECLMEICDDYNLEENEYFFDRHPGAFTSILNFYRTGKLHMMEEMCALSFSQELDYWGIDEIYLESCCQARYHQKKEQMNEELKREAETLREKEGDEFDNTCCADKRKKLWDLLEKPNSSVAAKILAIISILFIVLSTIALSLNTLPDLQAIDEFGQTTDNAQLAHVEAVCIAWFTMEYLLRFLSSPNKWKFFKGPLNVIDLLAILPYYVTIFLTESNKSVLQFQNVRRVVQIFRIMRILRILKLARHSTGLQSLGFTLRRSYNELGLLILFLAMGIMIFSSLVFFAEKDEDDTKFKSIPASFWWATITMTTVGYGDIYPKTLLGKIVGGLCCIAGVLVIALPIPIIVNNFSEFYKEQKRQEKAVKRREALERAKRNGSIVSMNMKDAFARSVELMDVVVEKTDETSGRKDKVQDNHLSPSRWKWKKRTLSETSSNKSFDAKEQGSPEKTRSGSSPQNLNVQQLEDIYNKMAKTQSQPILNSKDLNQPSKPAEELEMGSIPGPTVPMLATHREGFIDMRSMSSIDSFISCTAEFPESGRFSHSPLAILPYRMNVNSGQNTSHGYKESRVRPLSSDVSRESFTEVHPKTDLSRHATYILESPKTLVKVKNPLMLRSLKVNFLEGETSSLLPAPNVLSPTSHRQEGPSNQDTSFIYEHSVQSPETSLYTTASARTPSKSPEKHMAIDFTFHDANVHKYIDADTDDEGQLLDGLDSSPSKELLGTMSPKYNITKSGHRTQRDNVHRGDKNHLEGAPFLSSSRYVGQNCIYATEGMTGRRQGNLETVKMENHISPQVHVLPGGGGGHSNKHNPSI",
+        "uniprot_id": "Q91593-1",
+        "conductance": null,
+        "references": [
+            45
+        ],
+        "refSeq_id": "NP_001079257",
+        "full_name": "kcnb1.L potassium channel, voltage gated Shab related subfamily B, member 1 L homeolog [ Xenopus laevis (African clawed frog) ]",
+        "id": 41,
+        "aliases": "XShab9, xKv2.1",
+        "isoform": "L",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-09T08:54:47.667153Z",
+        "member": "1",
+        "gene_symbol": "kcnb1.L",
+        "animal": "Xenopus laevis (African clawed frog)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "378535",
+        "current_type": "Delayed rectifier",
+        "subfamily": "B",
+        "class_symbol": "Kv2.1",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCNB1_XENLA"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/53/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 37,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/53/t_vs_i.pickle",
+        "reference": 45,
+        "y_axis_toSI": 1e-06,
+        "comments": "2.F I_norm/V",
+        "figure_ref_address": "2.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 41,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/09/KCNB1_XENLA.png",
+        "figure_ref_caption": "Xenopus Kv2.1 and Kv2.2 mRNAs induce expression of delayed rectifier-type potassium currents in Xenopus oocytes. For A-C, currents were generated in response to 60 msec voltage steps to potentials ranging from -50 to +100 mV from a holding potential of -80 mV; leak-subtracted currents. are shown (see Materials and Methods). A, Kv2.1 mRNA induces expression of delayed rectifier-type potassium currents in Xenopus oocytes. The average current size at +20 mV is 1.1 +/- 0.6 uA (mean +/- SD; n = 7) for 1.7 ng of injected cRNA. B, Kv2.2 mRNA-induced current is sustained for the duration of the depolarizing pulse. The average current size at +20 mV is 1.3 +/- 0.3 uA (mean +/- SD; n = 6) for 1 ng of injected cRNA.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 53
+    },
+    "params": {
+        "v_half": -0.0603170360140208,
+        "slope": 0.042958104823837454,
+        "e_rev": -0.021755779197653157,
+        "g": 0.00016558738469768053,
+        "ra": 20.65684239004231,
+        "sa": 2.514697338188621,
+        "rb": 77.43975634278901,
+        "vb": 0.008202055854297102,
+        "sb": 0.016706189571483576,
+        "rc": 2.1091747744107775e-12
+    },
+    "x0": [
+        20.651971432493987,
+        2.5121253687397966,
+        77.44156405039446,
+        0.008212172837369134,
+        0.016707733052626492,
+        4.338426483008065e-07
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.1,
+            0.08,
+            0.06,
+            0.04,
+            0.02,
+            0.0,
+            -0.01
+        ],
+        "v_hold": -0.08,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42,
+            49
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            6,
+            6,
+            5,
+            6,
+            6,
+            6
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.0603170360140208,
+        "slope": 0.042958104823837454,
+        "e_rev": -0.021755779197653157,
+        "g": 0.00016558738469768053
+    },
+    "error": {
+        "r2": 0.9639467611581459,
+        "rmse": 4.789906807672218e-07
+    },
+    "equation": "1.66E-04 * 1/(1+exp(-(v--60.32)/42.96)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -21.76)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 20.66*exp(-2.51*v), b = 77.44/(1+exp(-(v-8.20)/16.71)), c = 0.000"
+}

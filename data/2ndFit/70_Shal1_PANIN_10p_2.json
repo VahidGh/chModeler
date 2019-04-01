@@ -1,0 +1,156 @@
+{
+    "time": "2019-02-22 01:12:03.348714",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:24.851822Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC210",
+        "sequence": "MASVAAWLPFARAAAIGWVPIANNPLPAPPIPKDKRRPDDEKLLINVSGRRFETWRNTLEKYPDTLLGSNEREFFYDEETKEYFFDRDPDIFRHILNYYRTGKLHYPKHECLTSYDEELAFFGIIPDVIGDCCYEDYRDRKRENAERLLDDKLSESGEQDKYVYRTIRERMWRAFENPHTSTAALVFYYVTGFFIAVSVMANVVETVPCGRLPGKKESQPCGERYKIIFFCGDTACVMIFTAEYLLRMFAAPDRCKFVRSVMSIIDVVAILPYYIGLGITDNDDVSGAFVTLRVFRVFRIFKFSRHSQGLRILGYTLKSCASELGFLVFSLAMAIIIFATVMFYAEKNVEDTTFTSIPSAFWYTIVTMTTLGYGDMVPHTPTGKIVGGVCSLSGVLVIALPVPVIVSNFSRIYHQNQRADKRKAQKKARLARIRIAKASSGAAFVSKKKAAEARLAAQESGLEMDEFTKEEDIFEMQHHHLLRCLEKTTDREFVELEVPYNGQPNRPGSASPPQSRSPSLSSHTNFTVTCCGRRFGGKSYQVGKKA",
+        "uniprot_id": "Q26040-1",
+        "conductance": null,
+        "references": [
+            58
+        ],
+        "refSeq_id": "AAA81592",
+        "full_name": "shal1 potassium channel [Panulirus interruptus (California spiny lobster) (Palinurus interruptus)]",
+        "id": 58,
+        "aliases": "lshal, lKv4",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-10T15:47:12.437461Z",
+        "member": "",
+        "gene_symbol": "Kv4",
+        "animal": "Panulirus interruptus (California spiny lobster)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "",
+        "current_type": "A-type",
+        "subfamily": "D",
+        "class_symbol": "Kv4",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "Shal1_PANIN"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/70/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 51,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/70/t_vs_i.pickle",
+        "reference": 58,
+        "y_axis_toSI": 1e-06,
+        "comments": "4.B G,I_inact/V, 575 aa in ref",
+        "figure_ref_address": "4.1",
+        "x_axis_unit": "ms",
+        "ion_channel": 58,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/10/Shal1_PANIN.png",
+        "figure_ref_caption": "Characterization of Punulirus shal. A, Family of Punulirus shal current traces. Current traces are from voltage-clamp recordings of Xenopus oocytes injected with K/S10 cRNA. The cells were held at -50 mV, and outward currents were evoked by a hyperpolarizing prepulse to -90 mV for 1.5 sec, followed by a series of depolarizing test pulses for 1.35 sec.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 70
+    },
+    "params": {
+        "v_half": -0.006390727586369518,
+        "slope": 0.010025789848163703,
+        "e_rev": -0.027302219589367575,
+        "g": 0.000301164647064586,
+        "ra": 1.1508384827116316,
+        "sa": 17.988010861978733,
+        "rb": 36.79158715324502,
+        "vb": -0.011794502430098878,
+        "sb": 0.00580657408172794,
+        "rc": 1.5966100202252655
+    },
+    "x0": [
+        1.150864881887337,
+        17.988413292156483,
+        36.79157959193158,
+        -0.011794517038426305,
+        0.0058064425097829825,
+        1.596680263471517
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.04,
+            0.03,
+            0.02,
+            0.01,
+            0.0,
+            -0.01,
+            -0.02
+        ],
+        "v_hold": -0.05,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            1,
+            1,
+            1,
+            1,
+            2,
+            3,
+            1
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.006390727586369518,
+        "slope": 0.010025789848163703,
+        "e_rev": -0.027302219589367575,
+        "g": 0.000301164647064586
+    },
+    "error": {
+        "r2": 0.9818408571705054,
+        "rmse": 2.494814811557351e-07
+    },
+    "equation": "3.01E-04 * 1/(1+exp(-(v--6.39)/10.03)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -27.30)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 1.15*exp(-17.99*v), b = 36.79/(1+exp(-(v--11.79)/5.81)), c = 1.597"
+}

@@ -1,0 +1,157 @@
+{
+    "time": "2019-02-22 01:47:43.541714",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.321467Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/69, http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=385&familyId=69&familyType=IC",
+        "sequence": "MARAKLPRSPSEGKAGPGDTPAGSAAPEEPHGLSPLLPTRGGGSVGSDVGQRLHVEDFSLDSSLSQVQVEFYVNENTFKERLKLFFIKNQRSSLRIRLFNFSLKLLTCLLYIVRVLLDNPDQGIGCWGCTKYNYTFNGSSSEFHWAPILWVERKMALWVIQVIVATISFLETMLLIYLSYKGNIWEQIFHVSFVLEMINTLPFIITVFWPPLRNLFIPVFLNCWLAKHALENMINDFHRAILRTQSAMFNQVLILFCTLLCLVFTGTCGIQHLERAGGNLNLLTSFYFCIVTFSTVGFGDVTPKIWPSQLLVVILICVTLVVLPLQFEELVYLWMERQKSGGNYSRHRARTEKHVVLCVSSLKIDLLMDFLNEFYAHPRLQDYYVVILCPSEMDVQVRRVLQIPLWSQRVIYLQGSALKDQDLMRAKMDNGEACFILSSRNEVDRTAADHQTILRAWAVKDFAPNCPLYVQILKPENKFHVKFADHVVCEEECKYAMLALNCICPATSTLITLLVHTSRGQEGQESPEQWQRMYGRCSGNEVYHIRMGDSKFFREYEGKSFTYAAFHAHKKYGVCLIGLKREENKSILLNPGPRHILAASDTCFYINITKEENSAFIFKQEEKQNRRGLAGQALYEGPSRLPVHSIIASMVAMDLQNTDCRPSQGGSGGGGGKLTLPTENGSGSRRPSIAPVLELADSSALLPCDLLSDQSEDEVTPSDDEGLSVVEYVKGYPPNSPYIGSSPTLCHLLPVKAPFCCLRLDKGCKHNSYEDAKAYGFKNKLIIVSAETAGNGLYNFIVPLRAYYRSRRELNPIVLLLDNKPDHHFLEAICCFPMVYYMEGSVDNLDSLLQCGIIYADNLVVVDKESTMSAEEDYMADAKTIVNVQTMFRLFPSLSITTELTHPSNMRFMQFRAKDSYSLALSKLEKQERENGSNLAFMFRLPFAAGRVFSISMLDTLLYQSFVKDYMITITRLLLGLDTTPGSGYLCAMKVTEDDLWIRTYGRLFQKLCSSSAEIPIGIYRTECHVFSSEPHDLRAQSQISVNMEDCEDTREAKGPWGTRAASGGGSTHGRHGGSADPVEHPLLRRKSLQWARKLSRKSSKQAGKAPMTTDWITQQRLSLYRRSERQELSELVKNRMKHLGLPTTGYEDVANLTASDVMNRVNLGYLQDEMNDHHQNTLSYVLINPPPDTRLEPNDIVYLIRSDPLAHVTSSSQSRKSSCSNKLSSCNPETRDETQL",
+        "uniprot_id": "Q9Z258-1",
+        "conductance": 88.0,
+        "references": [
+            123,
+            124
+        ],
+        "refSeq_id": "NP_068625",
+        "full_name": "Kcnt1 potassium sodium-activated channel subfamily T member 1 [ Rattus norvegicus (Norway rat) ]",
+        "id": 137,
+        "aliases": "Slack, rSlo2, rSlo2.2, rKNa1.1, rKCa4.1",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-16T10:18:27.030775Z",
+        "member": "1",
+        "gene_symbol": "Kcnt1",
+        "animal": "Rattus norvegicus (Rat)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "60444",
+        "current_type": "Delayed rectifier",
+        "subfamily": "NT",
+        "class_symbol": "KCa4.1",
+        "channel_type": "Calcium-activated potassium channels",
+        "channel_name": "KCNT1_RAT"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/149/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 112,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/149/t_vs_i.pickle",
+        "reference": 124,
+        "y_axis_toSI": 1e-06,
+        "comments": "50 mM Na, 4.B I_norm/V, 2.A-iv I_norm/NA",
+        "figure_ref_address": "4.A-i",
+        "x_axis_unit": "ms",
+        "ion_channel": 137,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/16/KCNT1_RAT.png",
+        "figure_ref_caption": "Whole Cell rSLO-2 Currents from Heterologous Expression in Xenopus Oocytes Compared with Currents from Macropatches. (A) (i) Current traces from a Xenopus oocyte injected with rSlo2 cRNA and analyzed with the two-electrode voltage clamp method. Approximately 15 \u00ce\u00bcA of outward current was present while uninjected control oocytes expressed less than 100 nA of current. Voltage steps (\u00e2\u02c6\u201980 to +40 mV) were applied in 10 mV increments from a holding potential of \u00e2\u02c6\u201970 mV. Fitting the time-dependent rise of current at +80 mV with a single exponential produced a time constant of approximately 70 ms. Recording pipettes were filled with 3 M KCl, and the oocyte bath solution contained (in mM) 96 NaCl, 2 KCl, 1.8 CaCl2, 1 MgCl2, 5 HEPES (pH 7.5) with NaOH.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 149
+    },
+    "params": {
+        "v_half": -0.03648945282919698,
+        "slope": 0.029596369739752854,
+        "e_rev": -0.10144800674196904,
+        "g": 0.0002662317109139103,
+        "ra": 3.6628830495060414,
+        "sa": -4.866522353172495,
+        "rb": 5.902222078598243,
+        "vb": -0.06373715722230724,
+        "sb": 0.0010000000000006453,
+        "rc": 1.8254100867317105
+    },
+    "x0": [
+        1.3471771224922637,
+        -10.436777999197554,
+        7.64562631183375,
+        0.019208970762556045,
+        0.028896726674672087,
+        1.8464118761095088e-20
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.04,
+            0.02,
+            0.0,
+            -0.02,
+            -0.04,
+            -0.06,
+            -0.08
+        ],
+        "v_hold": -0.07,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42,
+            49
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            6,
+            6,
+            6,
+            1,
+            6,
+            6
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.03648945282919698,
+        "slope": 0.029596369739752854,
+        "e_rev": -0.10144800674196904,
+        "g": 0.0002662317109139103
+    },
+    "error": {
+        "r2": 0.9819390516831571,
+        "rmse": 5.492857625680691e-07
+    },
+    "equation": "2.66E-04 * 1/(1+exp(-(v--36.49)/29.60)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -101.45)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 3.66*exp(--4.87*v), b = 5.90/(1+exp(-(v--63.74)/1.00)), c = 1.825"
+}

@@ -1,0 +1,151 @@
+{
+    "time": "2019-02-22 01:23:03.156716",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.029452Z",
+        "links": "",
+        "sequence": "MPAGRRGLVVPQNTFLENIVRRSNGLHPNFILGNAQILGNPIVYASDGFCKLTGFSRSEVMKKSSDCTFLHGEHTSNESMKEIHDALINKQALQLEIIIYKKDGLAMWVLLHIGPIVNEKGEVVLFLMTIKDITEYKDPIPGTGGAKGWARLNKSLTRHKTVLVAFKQKSASQKNAQQITHLMSLNDDIIPQYKQEIPETPPRVILHYNTFKTSWDWVILILTLYTTVSVPFMVCFAYNSEPLNILDMIVDWLFIADIVLNFHTTYVGKDGEIIDDPRLIRLNYLKTWFVLDLVSSLPYGVLYFIPKSEMEQTIANLLSFLRVFRLLRLGRVARKIDKYLEYGASTFFLLMLSFCLVAHWMACMFYVIATKYDKYDVHCWLYILADQIGMQYKKNGNSTEYDYTNTGPTIAARYVSALYYTLTSLTTIGFGNISPNTTAEKLFGCVTMLLGSILFSLIFGQVSAILQQSQKNTAKYHSIIDNMRQFSKLYKLPSVLADRIIDYFMSTWASNKGIDTDEVLKYCPKDLQADICVHLNRVVLENNLAFRDAPMGVKRAIARNFWICHVAPNDRIIHHGESLDVLYFIARGSLEVKQGEAVVGLLGEGDVFGDNVCNEPTVGQSAVDVHALTYCDLHCIQRDALLEVLEFYPEFAMKFAKNLQLSYNLRDEVGIPRNY",
+        "uniprot_id": "A7SHR1-1",
+        "conductance": null,
+        "references": [
+            83
+        ],
+        "refSeq_id": "XP_001628843",
+        "full_name": "eag hypothetical protein [ Nematostella vectensis (starlet sea anemone) ]",
+        "id": 85,
+        "aliases": "NvEag",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "KO:KCNH5, JGI:118813",
+        "last_update": "2017-01-12T07:48:58.162541Z",
+        "member": "",
+        "gene_symbol": "eag",
+        "animal": "Nematostella vectensis (starlet sea anemone)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "5508227",
+        "current_type": "Delayed rectifier",
+        "subfamily": "H",
+        "class_symbol": "Kv10",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "EAG_NEMVE"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/97/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 75,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/97/t_vs_i.pickle",
+        "reference": 83,
+        "y_axis_toSI": 1e-06,
+        "comments": "3.B G/V. Deactivated to: -40",
+        "figure_ref_address": "3.A-left",
+        "x_axis_unit": "ms",
+        "ion_channel": 85,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/12/EAG_NEMVE.png",
+        "figure_ref_caption": "Comparison of NvEag and MmEag1 voltage-activation properties. (A) NvEag and MmEag1 current traces at pH 7 elicited by 1 s voltage steps from \u00e2\u02c6\u2019100 mV to 40 mV (in 20 mV increments) from a holding voltage of \u00e2\u02c6\u2019100 mV.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 97
+    },
+    "params": {
+        "v_half": -0.006330161675676683,
+        "slope": 0.021471202843451484,
+        "e_rev": -0.07241847909447975,
+        "g": 8.75097495835367e-05,
+        "ra": 2.74522429033975,
+        "sa": -19.666354587118605,
+        "rb": 7.14364534688646,
+        "vb": 0.020071093905203015,
+        "sb": 0.0010010641322909667,
+        "rc": 7.374453924236787
+    },
+    "x0": [
+        1.150864881887337,
+        17.988413292156483,
+        36.79157959193158,
+        -0.011794517038426305,
+        0.0058064425097829825,
+        1.596680263471517
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.04,
+            0.02,
+            0.0,
+            -0.02,
+            -0.04,
+            -0.06
+        ],
+        "v_hold": -0.1,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            5,
+            5,
+            5,
+            5,
+            4,
+            3
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.006330161675676683,
+        "slope": 0.021471202843451484,
+        "e_rev": -0.07241847909447975,
+        "g": 8.75097495835367e-05
+    },
+    "error": {
+        "r2": 0.9990306160217599,
+        "rmse": 3.91188195339822e-08
+    },
+    "equation": "8.75E-05 * 1/(1+exp(-(v--6.33)/21.47)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -72.42)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 2.75*exp(--19.67*v), b = 7.14/(1+exp(-(v-20.07)/1.00)), c = 7.374"
+}

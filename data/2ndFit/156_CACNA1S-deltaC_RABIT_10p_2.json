@@ -1,0 +1,147 @@
+{
+    "time": "2019-02-22 01:43:42.386715",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.347356Z",
+        "links": "",
+        "sequence": "MEPSSPQDEGLRKKQPKKPLPEVLPRPPRALFCLTLQNPLRKACISIVEWKPFETIILLTIFANCVALAVYLPMPEDDNNSLNLGLEKLEYFFLTVFSIEAAMKIIAYGFLFHQDAYLRSGWNVLDFIIVFLGVFTAILEQVNVIQSNTAPMSSKGAGLDVKALRAFRVLRPLRLVSGVPSLQVVLNSIFKAMLPLFHIALLVLFMVIIYAIIGLELFKGKMHKTCYYIGTDIVATVENEKPSPCARTGSGRPCTINGSECRGGWPGPNHGITHFDNFGFSMLTVYQCITMEGWTDVLYWVNDAIGNEWPWIYFVTLILLGSFFILNLVLGVLSGEFTKEREKAKSRGTFQKLREKQQLEEDLRGYMSWITQGEVMDVEDLREGKLSLEEGGSDTESLYEIEGLNKIIQFIRHWRQWNRVFRWKCHDLVKSRVFYWLVILIVALNTLSIASEHHNQPLWLTHLQDIANRVLLSLFTIEMLLKMYGLGLRQYFMSIFNRFDCFVVCSGILELLLVESGAMTPLGISVLRCIRLLRLFKITKYWTSLSNLVASLLNSIRSIASLLLLLFLFIIIFALLGMQLFGGRYDFEDTEVRRSNFDNFPQALISVFQVLTGEDWNSVMYNGIMAYGGPSYPGVLVCIYFIILFVCGNYILLNVFLAIAVDNLAEAESLTSAQKAKAEERKRRKMSRGLPDKTEEEKSVMAKKLEQKPKGEGIPTTAKLKVDEFESNVNEVKDPYPSADFPGDDEEDEPEIPVSPRPRPLAELQLKEKAVPIPEASSFFIFSPTNKVRVLCHRIVNATWFTNFILLFILLSSAALAAEDPIRAESVRNQILGYFDIAFTSVFTVEIVLKMTTYGAFLHKGSFCRNYFNILDLLVVAVSLISMGLESSTISVVKILRVLRVLRPLRAINRAKGLKHVVQCVFVAIRTIGNIVLVTTLLQFMFACIGVQLFKGKFFSCNDLSKMTEEECRGYYYVYKDGDPTQMELRPRQWIHNDFHFDNVLSAMMSLFTVSTFEGWPQLLYRAIDSNEEDMGPVYNNRVEMAIFFIIYIILIAFFMMNIFVGFVIVTFQEQGETEYKNCELDKNQRQCVQYALKARPLRCYIPKNPYQYQVWYVVTSSYFEYLMFALIMLNTICLGMQHYHQSEEMNHISDILNVAFTIIFTLEMILKLLAFKARGYFGDPWNVFDFLIVIGSIIDVILSEIDTFLASSGGLYCLGGGCGNVDPDESARISSAFFRLFRVMRLIKLLSRAEGVRTLLWTFIKSFQALPYVALLIVMLFFIYAVIGMQMFGKIALVDGTQINRNNNFQTFPQAVLLLFRCATGEAWQEILLACSYGKLCDPESDYAPGEEYTCGTNFAYYYFISFYMLCAFLIINLFVAVIMDNFDYLTRDWSILGPHHLDEFKAIWAEYDPEAKGRIKHLDVVTLLRRIQPPLGFGKFCPHRVACKRLVGMNMPLNSDGTVTFNATLFALVRTALKIKTEGNFEQANEELRAIIKKIWKRTSMKLLDQVIPPIGDDEVTVGKFYATFLIQEHFRKFMKRQEEYYGYRPKKDTVQIQAGLRTIEEEAAPEIRRTISGDLTAEEELERAMVEAAMEERIFRRTGGLFGQVDTFLERTNSLPPVMANQRPLQFAEIEMEELESPVFLEDFPQDARTNPLARANTNNANANVAYGNSNHSNNQMFSSVHCEREFPGEAETP",
+        "uniprot_id": "P07293",
+        "conductance": null,
+        "references": [
+            130,
+            131
+        ],
+        "refSeq_id": "",
+        "full_name": "CACNA1S calcium voltage-gated channel subunit alpha1 S [ Oryctolagus cuniculus (rabbit) ]",
+        "id": 144,
+        "aliases": "CACH1, CACNL1A3, rabCav1.1, alpha1s-deltaC1698",
+        "isoform": "deltaC",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-17T08:17:48.314192Z",
+        "member": "1S",
+        "gene_symbol": "CACNA1S",
+        "animal": "Oryctolagus cuniculus (rabbit)",
+        "username": 1,
+        "ion_type": "Ca2+",
+        "gene_id": "100009585",
+        "current_type": "Delayed rectifier",
+        "subfamily": "NA",
+        "class_symbol": "Cav1.1",
+        "channel_type": "Voltage-gated calcium channels",
+        "channel_name": "CACNA1S-deltaC_RABIT"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/156/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 116,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/156/t_vs_i.pickle",
+        "reference": 131,
+        "y_axis_toSI": 1e-06,
+        "comments": "10mM Ba, B1b+a2d+g, 1.B I/V, 3.B G/V, 4. Inactivation",
+        "figure_ref_address": "1.A-1",
+        "x_axis_unit": "ms",
+        "ion_channel": 144,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/17/CACNA1S-deltaC_RABIT.png",
+        "figure_ref_caption": "L-type channel expression in Xenopus laevis oocytes. A, Ba2+ currents were evoked by step depolarizations to several test potentials (shown in the inset) from a holding potential of -90 mV when the three auxiliary Ca2+ channel subunits (\u00ce\u00b21b, \u00ce\u00b12\u00ce\u00b4 and \u00ce\u00b3) were expressed with \u00ce\u00b11S\u00ce\u201dC (left panel), with \u00ce\u00b11S (upper right panel), or alone (lower right panel). Currents were recorded in 10 mm Ba2+ bath solution, leak subtracted on-line, and filtered at 1 kHz. At the onset and offset of the voltage step, 3 ms of each current trace was blanked in order to remove the residual capacitive transient. The dotted lines show the zero current level.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 156
+    },
+    "params": {
+        "v_half": -0.003475368302411848,
+        "slope": 0.009989700201297325,
+        "e_rev": 0.19999999999999016,
+        "g": 5.200259799665419e-06,
+        "ra": 15.457269510096255,
+        "sa": 16.93742095645267,
+        "rb": 7.246497564506625,
+        "vb": -0.028001578988851545,
+        "sb": 0.01701538630324951,
+        "rc": 33.489519605711905
+    },
+    "x0": [
+        15.457590841744876,
+        16.93708929340877,
+        7.246282936848572,
+        -0.027998636102267844,
+        0.017006391000719476,
+        33.48990586887615
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.02,
+            0.0,
+            -0.02,
+            -0.04,
+            -0.08
+        ],
+        "v_hold": -0.08,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            4,
+            5,
+            6,
+            6,
+            6
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.003475368302411848,
+        "slope": 0.009989700201297325,
+        "e_rev": 0.19999999999999016,
+        "g": 5.200259799665419e-06
+    },
+    "error": {
+        "r2": 0.9961046801343174,
+        "rmse": 7.68569757837783e-09
+    },
+    "equation": "5.20E-06 * 1/(1+exp(-(v--3.48)/9.99)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - 200.00)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 15.46*exp(-16.94*v), b = 7.25/(1+exp(-(v--28.00)/17.02)), c = 33.490"
+}

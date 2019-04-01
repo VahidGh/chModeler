@@ -1,0 +1,151 @@
+{
+    "time": "2019-02-22 01:15:34.443713",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:24.843127Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC1821",
+        "sequence": "MASVAAWLPFARAAAIGWVPIATHPLPPPPMPKDRRKTDDEKLLINVSGRRFETWRNTLEKYPDTLLGSNEREFFYDEDCKEYFFDRDPDIFRHILNYYRTGKLHYPKHECLTSYDEELAFFGIMPDVIGDCCYEDYRDRKRENAERLMDDKLSENGDQNLQQLTNMRQKMWRAFENPHTSTSALVFYYVTGFFIAVSVMANVVETVPCGHRPGRAGTLPCGERYKIVFFCLDTACVMIFTAEYLLRLFAAPDRCKFVRSVMSIIDVVAIMPYYIGLGITDNDDVSGAFVTLRVFRVFRIFKFSRHSQGLRILGYTLKSCASELGFLVFSLAMAIIIFATVMFYAEKNVNGTNFTSIPAAFWYTIVTMTTLGYGDMVPETIAGKIVGGVCSLSGVLVIALPVPVIVSNFSRIYHQNQRADKRKAQRKARLARIRIAKASSGAAFVSKKKAAEARWAAQESGIELDDNYRDEDIFELQHHHLLRCLEKTTDREFVELEIPFNGQPKRPGSPSPMASPAHSTNSAAGLLQSCCGRCCSQRYQACGKYMPAASNAQNSQNNQPMDGTYLVEASF",
+        "uniprot_id": "P17971-2",
+        "conductance": null,
+        "references": [
+            56
+        ],
+        "refSeq_id": "NP_001097646",
+        "full_name": "Shal Shaker cognate l, Isoform B [ Drosophila melanogaster (fruit fly) ]",
+        "id": 56,
+        "aliases": "Shal, Shal1, fShal, dShal, Kv4",
+        "isoform": "B",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-10T10:59:37.730495Z",
+        "member": "",
+        "gene_symbol": "Shal",
+        "animal": "Drosophila melanogaster (Fruit fly)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "40129",
+        "current_type": "A-type",
+        "subfamily": "D",
+        "class_symbol": "Kv4",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "Shal1_DROME"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/68/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 50,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/68/t_vs_i.pickle",
+        "reference": 56,
+        "y_axis_toSI": 1e-06,
+        "comments": "3.C G/V, 3.D I_inact/V",
+        "figure_ref_address": "3.B",
+        "x_axis_unit": "ms",
+        "ion_channel": 56,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/10/Shal1_DROME.png",
+        "figure_ref_caption": "Comparison of the jShal1 and dShal currents. Families of outward currents are shown for Xenopusoocytes expressing either jShal1 (A) or dShal (B). Currents were recorded in response to 1 sec test pulses from \u00e2\u02c6\u201990 mV to +50 mV in 20 mV increments. Five second prepulses to \u00e2\u02c6\u2019140 mV (from a holding potential of \u00e2\u02c6\u201990 mV) preceded each test pulse to ensure complete recovery from inactivation",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 68
+    },
+    "params": {
+        "v_half": -0.017397105235147745,
+        "slope": 0.01588515720977659,
+        "e_rev": -0.06221121993761843,
+        "g": 0.0001745208876339926,
+        "ra": 0.9470519748944948,
+        "sa": 6.631422550795569,
+        "rb": 19.684681685706135,
+        "vb": -0.034855152614812986,
+        "sb": 0.01677960468552602,
+        "rc": 2.3103899073527496
+    },
+    "x0": [
+        0.8974948752688893,
+        10.203025553533006,
+        32.7354135737078,
+        -0.02571138742826483,
+        0.029281292137273814,
+        3.861285502353936
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.05,
+            0.03,
+            0.01,
+            -0.01,
+            -0.03,
+            -0.05
+        ],
+        "v_hold": -0.09,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            1,
+            1,
+            2,
+            3,
+            3,
+            9
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.017397105235147745,
+        "slope": 0.01588515720977659,
+        "e_rev": -0.06221121993761843,
+        "g": 0.0001745208876339926
+    },
+    "error": {
+        "r2": 0.988325577274336,
+        "rmse": 2.2654932328985375e-07
+    },
+    "equation": "1.75E-04 * 1/(1+exp(-(v--17.40)/15.89)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -62.21)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 0.95*exp(-6.63*v), b = 19.68/(1+exp(-(v--34.86)/16.78)), c = 2.310"
+}

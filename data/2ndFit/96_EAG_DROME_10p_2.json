@@ -1,0 +1,151 @@
+{
+    "time": "2019-02-22 01:26:13.357713",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.021581Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC3899",
+        "sequence": "MPGGRRGLVAPQNTFLENIIRRSNSQPDSSFLLANAQIVDFPIVYCNESFCKISGYNRAEVMQKSCRYVCGFMYGELTDKETVGRLEYTLENQQQDQFEILLYKKNNLQCGCALSQFGKAQTQETPLWLLLQVAPIRNERDLVVLFLLTFRDITALKQPIDSEDTKGVLGLSKFAKLARSVTRSRQFSAHLPTLKDPTKQSNLAHMMSLSADIMPQYRQEAPKTPPHILLHYCAFKAIWDWVILCLTFYTAIMVPYNVAFKNKTSEDVSLLVVDSIVDVIFFIDIVLNFHTTFVGPGGEVVSDPKVIRMNYLKSWFIIDLLSCLPYDVFNAFDRDEDGIGSLFSALKVVRLLRLGRVVRKLDRYLEYGAAMLILLLCFYMLVAHWLACIWYSIGRSDADNGIQYSWLWKLANVTQSPYSYIWSNDTGPELVNGPSRKSMYVTALYFTMTCMTSVGFGNVAAETDNEKVFTICMMIIAALLYATIFGHVTTIIQQMTSATAKYHDMLNNVREFMKLHEVPKALSERVMDYVVSTWAMTKGLDTEKVLNYCPKDMKADICVHLNRKVFNEHPAFRLASDGCLRALAMHFMMSHSAPGDLLYHTGESIDSLCFIVTGSLEVIQDDEVVAILGKGDVFGDQFWKDSAVGQSAANVRALTYCDLHAIKRDKLLEVLDFYSAFANSFARNLVLTYNLRHRLIFRKVADVKREKELAERRKNEPQLPQNQDHLVRKIFSKFRRTPQVQAGSKELVGGSGQSDVEKGDGEVERTKVFPKAPKLQASQATLARQDTIDEGGEVDSSPPSRDSRVVIEGAAVSSATVGPSPPVATTSSAAAGAGVSGGPGSGGTVVAIVTKADRNLALERERQIEMASSRATTSDTYDTGLRETPPTLAQRDLIATVLDMKVDVRLELQRMQQRIGRIEDLLGELVKRLAPGAGSGGNAPDNSSGQTTPGDEICAGCGAGGGGTPTTQAPPTSAVTSPVDTVITISSPGASGSGSGTGAGAGSAVAGAGGAGLLNPGATVVSSAGGNGLGPLMLKKRRSKSRKAPAPPKQTLASTAGTATAAPAGVAGSGMTSSAPASADQQQQHQSTADQSPTTPGAELLHLRLLEEDFTAAQLPSTSSGGAGGGGGSGSGATPTTPPPTTAGGSGSGTPTSTTATTTPTGSGTATRGKLDFL",
+        "uniprot_id": "Q02280-1",
+        "conductance": 4.9,
+        "references": [
+            82
+        ],
+        "refSeq_id": "NP_511158",
+        "full_name": "eag ether a go-go, isoform A [ Drosophila melanogaster (fruit fly) ]",
+        "id": 84,
+        "aliases": "eag, fKv10",
+        "isoform": "A",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-11T13:48:58.955831Z",
+        "member": "",
+        "gene_symbol": "eag",
+        "animal": "Drosophila melanogaster (Fruit fly)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "32428",
+        "current_type": "Delayed rectifier",
+        "subfamily": "H",
+        "class_symbol": "Kv10",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "EAG_DROME"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/96/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 74,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/96/t_vs_i.pickle",
+        "reference": 82,
+        "y_axis_toSI": 1e-06,
+        "comments": "1.b I/V",
+        "figure_ref_address": "1.a",
+        "x_axis_unit": "ms",
+        "ion_channel": 84,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/11/EAG_DROME.png",
+        "figure_ref_caption": "None",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 96
+    },
+    "params": {
+        "v_half": 0.0024496109027848556,
+        "slope": 0.021713498855766337,
+        "e_rev": -0.05428395129085057,
+        "g": 0.00016586447522132464,
+        "ra": 0.9346933664293274,
+        "sa": -36.56271044026883,
+        "rb": 499.99977017063,
+        "vb": 0.11102326555704119,
+        "sb": 0.018946895888719454,
+        "rc": 1.0328458570336725
+    },
+    "x0": [
+        0.9346569926630232,
+        -36.56331141395336,
+        499.97003647673193,
+        0.111021288506827,
+        0.018946618723153723,
+        1.032754270711934
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.06,
+            0.04,
+            0.02,
+            0.0,
+            -0.02,
+            -0.04
+        ],
+        "v_hold": -0.08,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": 0.0024496109027848556,
+        "slope": 0.021713498855766337,
+        "e_rev": -0.05428395129085057,
+        "g": 0.00016586447522132464
+    },
+    "error": {
+        "r2": 0.9937006983665028,
+        "rmse": 1.59784692570907e-07
+    },
+    "equation": "1.66E-04 * 1/(1+exp(-(v-2.45)/21.71)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -54.28)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 0.93*exp(--36.56*v), b = 500.00/(1+exp(-(v-111.02)/18.95)), c = 1.033"
+}

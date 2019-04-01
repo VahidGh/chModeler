@@ -1,0 +1,162 @@
+{
+    "time": "2019-02-22 01:10:15.960720",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:24.812079Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC25",
+        "sequence": "MNLINMDSENRVVLNVGGIRHETYKATLKKIPATRLSRLTEALANYDPILNEYFFDRHPGVFAQVLNYYRTGKLHYPTDVCGPLFEEELEFWGLDSNQVEPCCWMTYTQHRDTQETLAVLDRLDLDTEKPSEEELARKFGFEEDYYKGTISWWQEMKPRIWSLFDEPYSSNAAKTIGVVSVFFICISILSFCLKTHPDMRVPIVRNITVKTANGSNGWFLDKTQTNAHIAFFYIECVCNAWFTFEILVRFISSPNKWEFIKSSVNIIDYIATLSFYIDLVLQRFASHLENADILEFFSIIRIMRLFKLTRHSSGLKILIQTFRASAKELTLLVFFLVLGIVIFASLVYYAERIQPNPHNDFNSIPLGLWWALVTMTTVGYGDMAPKTYIGMFVGALCALAGVLTIALPVPVIVSNFAMYYSHTQARAKLPKKRRRVLPVEQPRQPRLPGAPGGVSGCGTPGSGPHSGPMGSGGTGPRRMNNKTKDLVSPKSDMAFSFD",
+        "uniprot_id": "P17972-1",
+        "conductance": null,
+        "references": [
+            40,
+            41
+        ],
+        "refSeq_id": "NP_476721",
+        "full_name": "Shaw Shaker cognate w [ Drosophila melanogaster (fruit fly) ]",
+        "id": 49,
+        "aliases": "Shaw, Shaw2, fShaw, Kv3",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-10T07:54:38.623296Z",
+        "member": "",
+        "gene_symbol": "Shaw",
+        "animal": "Drosophila melanogaster (Fruit fly)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "33599",
+        "current_type": "Delayed rectifier",
+        "subfamily": "C",
+        "class_symbol": "Kv3",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "Shaw2_DROME"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/61/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 33,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/61/t_vs_i.pickle",
+        "reference": 41,
+        "y_axis_toSI": 1e-06,
+        "comments": "2.H I/V, 3.A I_inact/V",
+        "figure_ref_address": "2.D",
+        "x_axis_unit": "ms",
+        "ion_channel": 49,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/10/Shab11-Shaw2-Shal2_DROME.png",
+        "figure_ref_caption": "Expression of K+ currents in Xenopus oocytes injected with ShakerH37 (Shaker), Shal2 (Shal), Shabll (Shab), and Shaw2 (Shaw) cRNAs. (A to D) Outward currents recorded in response to 1-s voltage-step depolarizations ranging between -80 and +20 mV in 10-mV steps from a holding potential of -90 mV. For clarity, the capacitative currents were deleted. Records were leak subtracted assuming a linear leak current. (E to H) The corresponding peak current-voltage relations are shown for  (E) Shaker (A), (F) Shal (0), (G) Shab (0), and (H) Shaw (G) The Shaker, Shal, and Shab currents turn on abruptly at about -50 mV, whereas the Shaw current has a more gradual response to voltage.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 61
+    },
+    "params": {
+        "v_half": 0.0012536711449076872,
+        "slope": 0.03691086705814225,
+        "e_rev": -0.06641011251178627,
+        "g": 4.825399583972179e-05,
+        "ra": 3.392975604374971,
+        "sa": -63.78212908732696,
+        "rb": 104.72684756408535,
+        "vb": 0.027162960080286666,
+        "sb": 0.010914455586682846,
+        "rc": 0.08079723788379835
+    },
+    "x0": [
+        3.39294388464518,
+        -63.78188786956634,
+        104.72531338544556,
+        0.027163004058185093,
+        0.010914482748144159,
+        0.08079827330756634
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.02,
+            0.01,
+            0.0,
+            -0.01,
+            -0.02,
+            -0.03,
+            -0.04,
+            -0.05
+        ],
+        "v_hold": -0.09,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42,
+            49,
+            56
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            5
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": 0.0012536711449076872,
+        "slope": 0.03691086705814225,
+        "e_rev": -0.06641011251178627,
+        "g": 4.825399583972179e-05
+    },
+    "error": {
+        "r2": 0.9934181632680895,
+        "rmse": 2.562302447154776e-08
+    },
+    "equation": "4.83E-05 * 1/(1+exp(-(v-1.25)/36.91)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -66.41)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 3.39*exp(--63.78*v), b = 104.73/(1+exp(-(v-27.16)/10.91)), c = 0.081"
+}

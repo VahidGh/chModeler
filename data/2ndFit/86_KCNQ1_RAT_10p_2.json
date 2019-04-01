@@ -1,0 +1,151 @@
+{
+    "time": "2019-02-22 01:20:00.552714",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:24.964521Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC48, http://channelpedia.epfl.ch/ionchannels/23",
+        "sequence": "MDTASSPPNAERKRAGWGRLLGARRGSAGLAKKCPFSLELAEGGPTGGTVYAPIAPTGAPGLAPPMSPPVSPVPAPADLGPRPRVSLDPRVSIYSTRRPLLARTHIQGRVYNFLERPTGWKCFVYHFTVFLIVLVCLIFSVLSTIEQYAALATGTLFWMEIVLVVFFGTEYVVRLWSAGCRSKYVGIWGRLRFARKPISIIDLIVVVASMVVLCVGSKGQVFATSAIRGIRFLQILRMLHVDRQGGTWRLLGSVVFIHRQELITTLYIGFLGLIFSSYFVYLAEKDAVNESGRIEFGSYADALWWGVVTVTTIGYGDKVPQTWVGKTIASCFSVFAISFFALPAGILGSGFALKVQQKQRQKHFNRQIPAAASLIQTAWRCYAAENPDSSTWKIYVRKPARSHTLLSPSPKPKKSVMVKKKKFKLDKDNGLSPGEKIFNVPHITCDPPEDRRPDHFSIDGYDSSVRKSPTLLEVSTPHFLRTNSFAEDLDLEGETLLTPITHVSQLRDHHRATIKVIRRMQYFVAKKKFQQARKPYDVRDVIEQYSQGHLNLMVRIKELQRRLDQSIGKPSLFIPISEKSKDRGSNTIGARLNRVEDKVTQLDQRLVIITDMLHQLLSLQQGGPTCNNRSQVVASDERGSINPELFLPSNSLPTYEQLTVPQTGPDEGS",
+        "uniprot_id": "Q9Z0N7-1",
+        "conductance": 3.0,
+        "references": [
+            72
+        ],
+        "refSeq_id": "NP_114462",
+        "full_name": "Kcnq1 potassium voltage-gated channel subfamily Q member 1 [ Rattus norvegicus (Norway rat) ]",
+        "id": 74,
+        "aliases": "rKvLQT1, rKv7.1",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-11T10:46:47.886243Z",
+        "member": "1",
+        "gene_symbol": "Kcnq1",
+        "animal": "Rattus norvegicus (Rat)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "84020",
+        "current_type": "Delayed rectifier",
+        "subfamily": "Q",
+        "class_symbol": "Kv7.1",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCNQ1_RAT"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/86/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 64,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/86/t_vs_i.pickle",
+        "reference": 72,
+        "y_axis_toSI": 1e-06,
+        "comments": "2.B I/V",
+        "figure_ref_address": "2.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 74,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/11/KCNQ1_RAT.jpg",
+        "figure_ref_caption": "Expression of rKVLQT1 in Xenopus oocytes. (A) Whole cell currents activated by depolarizing voltages pulses applied in 20 mV increments from \u00e2\u02c6\u201980 to +40 mV in control oocytes, or oocytes expressing rKVLQT1 or coexpressing rKVLQT1 and hIsK.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 86
+    },
+    "params": {
+        "v_half": -0.02218972856968302,
+        "slope": 0.015361687905298129,
+        "e_rev": -0.10383687908568298,
+        "g": 3.990356796335023e-05,
+        "ra": 0.31917169335475376,
+        "sa": -8.696164068656746,
+        "rb": 1.3133839127704379,
+        "vb": -0.00031009298631750996,
+        "sb": 0.03180285737178136,
+        "rc": 5.899588023339129e-16
+    },
+    "x0": [
+        8.315581769981057,
+        -13.006278694058704,
+        38.33684266857849,
+        -0.0053611517100973964,
+        0.012753451106427581,
+        1.1555431494955196e-25
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.04,
+            0.02,
+            0.0,
+            -0.02,
+            -0.04,
+            -0.06
+        ],
+        "v_hold": -0.08,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            4
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.02218972856968302,
+        "slope": 0.015361687905298129,
+        "e_rev": -0.10383687908568298,
+        "g": 3.990356796335023e-05
+    },
+    "error": {
+        "r2": 0.9923032232269184,
+        "rmse": 6.503347765746845e-08
+    },
+    "equation": "3.99E-05 * 1/(1+exp(-(v--22.19)/15.36)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -103.84)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 0.32*exp(--8.70*v), b = 1.31/(1+exp(-(v--0.31)/31.80)), c = 0.000"
+}

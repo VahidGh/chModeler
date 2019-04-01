@@ -1,0 +1,151 @@
+{
+    "time": "2019-02-22 01:50:11.680713",
+    "ion_channel": {
+        "create_date": "2017-01-04T07:14:42.484755Z",
+        "links": "",
+        "sequence": "MNYRDVSKVHFGGDDVSLYGTPKEELGPGQLCVGAAGAPPGVEPKPSFLKNQLQALFQPTDNRLAMKLFGSKKALMKERIRQKAAGHWIIHPCSNFRFYWDLCMLFLLVANLIILPVAISFFNDDLSTRWIAFNCLSDTIFLIDIVVNFRTGIMQQDNSEQVILDPKLIARHYLKTWFLLDLISSVPLDYIFLIFNKYRDKEDFNESFQILQAGRALRILRLAKLLSLVRLLRLSRLVRYVSQWEEVYFLNMASVFMRIFNLISMMLLIGHWSGCLQFLVPMLQGFPSNSWVAINELQDSFWLEQYSWALFKAMSHMLCIGYGRFPPQSLTDMWLTMLSMICGATCYALFLGHATNLIQSLDSSRRQYREKLKQVEEYMAYRKLPRELRTRITEYFEHRYQGKFFDEEMILGELSEKLREDVINYNCRSLVASVPFFANADPGFVSEVVTKLKYEVFLPGDIIIKEGTIGNKMYFIQEGIVDIVMSNGEVATSLSDGSYFGEICLLTNARRTASVRAETYCNLFSLSVEHFNTVLDSYPLMRRTMESVAAERLNKIGKNPSIVSNREDLTNDCKTVNAIVNALASVASTEQCDGGTSSEESMMGHDGSSMKGGGRHHHHHHHHNLLDLGSIGKALAKGHLPRPKSENNFALSLDTPSPLNRNRPSFHKSDTFHKDTSFQ",
+        "uniprot_id": "Q06IP7-1",
+        "conductance": null,
+        "references": [
+            174
+        ],
+        "refSeq_id": "ABI94036",
+        "full_name": "PIIH Hyperpolarization-activated cyclic nucleotide-modulated cation channel splice variant A-II [Panulirus argus (Caribbean spiny lobster)]",
+        "id": 173,
+        "aliases": "PIIH-A-II",
+        "isoform": "A-II",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-22T07:39:27.265580Z",
+        "member": "",
+        "gene_symbol": "PIIH",
+        "animal": "Panulirus argus (Caribbean spiny lobster)",
+        "username": 1,
+        "ion_type": "Cation",
+        "gene_id": "",
+        "current_type": "Delayed rectifier",
+        "subfamily": "",
+        "class_symbol": "Hv1",
+        "channel_type": "Voltage-gated proton channels",
+        "channel_name": "PIIH-A-II_PANAR"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/185/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 142,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/185/t_vs_i.pickle",
+        "reference": 174,
+        "y_axis_toSI": 1e-06,
+        "comments": "2.C G/V",
+        "figure_ref_address": "2.B-2",
+        "x_axis_unit": "ms",
+        "ion_channel": 173,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/22/PIIH-A-II_PANAR.png",
+        "figure_ref_caption": "Alternative splicing in the pore-forming region of PIIH results in markedly different current properties but does not change the channel's ion permeability.  B and C: determination of the voltage dependence of PIIH A-I and PIIH A-II activation. B: H currents recorded in PIIH A-I- and PIIH A-II-injected oocytes. The cells were held at \u00e2\u20ac\u201c40 mV, and a series of 8- s pulses was applied from \u00e2\u20ac\u201c50 to \u00e2\u20ac\u201c120 mV in 5-mV increments. Inset: voltage protocol.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 185
+    },
+    "params": {
+        "v_half": -0.08734706262410113,
+        "slope": -0.008661237779569002,
+        "e_rev": -0.053244284202950076,
+        "g": 1.8579698044546515e-05,
+        "ra": 0.031199888200401142,
+        "sa": 20.461181119425554,
+        "rb": 111.23888131577517,
+        "vb": -0.033024755576961384,
+        "sb": 0.0012809691306780357,
+        "rc": 0.9139926145490371
+    },
+    "x0": [
+        0.03119989108537423,
+        20.46118085669959,
+        111.23860269058615,
+        -0.03301681786628523,
+        0.0012824274936687194,
+        0.9139927114484654
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            -0.07,
+            -0.08,
+            -0.09,
+            -0.1,
+            -0.11,
+            -0.12
+        ],
+        "v_hold": -0.04,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            5,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.08734706262410113,
+        "slope": -0.008661237779569002,
+        "e_rev": -0.053244284202950076,
+        "g": 1.8579698044546515e-05
+    },
+    "error": {
+        "r2": 0.9960881336826858,
+        "rmse": 9.952170363307315e-09
+    },
+    "equation": "1.86E-05 * 1/(1+exp(-(v--87.35)/-8.66)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -53.24)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 0.03*exp(-20.46*v), b = 111.24/(1+exp(-(v--33.02)/1.28)), c = 0.914"
+}

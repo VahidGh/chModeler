@@ -1,0 +1,146 @@
+{
+    "time": "2019-02-22 01:28:28.355715",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.079566Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/35, http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=572&familyId=81",
+        "sequence": "MPVRRGHVAPQNTFLDTIIRKFEGQSRKFIIANARVENCAVIYCNDGFCELCGYSRAEVMQRPCTCDFLHGPRTQRRAAAQIAQALLGAEERKVEIAFYRKDGSCFLCLVDVVPVKNEDGAVIMFILNFEVVMEKDMVGSPAHDTNHRGPPTSWLAPGRAKTFRLKLPALLALTARESSVRSGGAGGAGAPGAVVVDVDLTPAAPSSESLALDEVTAMDNHVAGLGPAEERRALVGPGSPPRSAPGQLPSPRAHSLNPDASGSSCSLARTRSRESCASVRRASSADDIEAMRAGVLPPPPRHASTGAMHPLRSGLLNSTSDSDLVRYRTISKIPQITLNFVDLKGDPFLASPTSDREIIAPKIKERTHNVTEKVTQVLSLGADVLPEYKLQAPRIHRWTILHYSPFKAVWDWLILLLVIYTAVFTPYSAAFLLKETEEGPPATECGYACQPLAVVDLIVDIMFIVDILINFRTTYVNANEEVVSHPGRIAVHYFKGWFLIDMVAAIPFDLLIFGSGSEELIGLLKTARLLRLVRVARKLDRYSEYGAAVLFLLMCTFALIAHWLACIWYAIGNMEQPHMDSRIGWLHNLGDQIGKPYNSSGLGGPSIKDKYVTALYFTFSSLTSVGFGNVSPNTNSEKIFSICVMLIGSLMYASIFGNVSAIIQRLYSGTARYHTQMLRVREFIRFHQIPNPLRQRLEEYFQHAWSYTNGIDMNAVLKGFPECLQADICLHLNRSLLQHCKPFRGATKGCLRALAMKFKTTHAPPGDTLVHAGDLLTALYFISRGSIEILRGDVVVAILGKNDIFGEPLNLYARPGKSNGDVRALTYCDLHKIHRDDLLEVLDMYPEFSDHFWSSLEITFNLRDTNMIPGSPGSTELEGGFSRQRKRKLSFRRRTDKDTEQPGEVSALGPGRAGAGPSSRGRPGGPWGESPSSGPSSPESSEDEGPGRSSSPLRLVPFSSPRPPGEPPGGEPLMEDCEKSSDTCNPLSGAFSGVSNIFSFWGDSRGRQYQELPRCPAPTPSLLNIPLSSPGRRPRGDVESRLDALQRQLNRLETRLSADMATVLQLLQRQMTLVPPAYSAVTTPGPGPTSTSPLLPVSPLPTLTLDSLSQVSQFMACEELPPGAPELPQEGPTRRLSLPGQLGALTSQPLHRHGSDPGS",
+        "uniprot_id": "Q12809-1",
+        "conductance": null,
+        "references": [
+            87
+        ],
+        "refSeq_id": "NP_000229",
+        "full_name": "KCNH2 potassium voltage-gated channel subfamily H member 2 [ Homo sapiens (human) ]",
+        "id": 92,
+        "aliases": "ERG1, HERG, LQT2, SQT1, ERG-1, H-ERG, HERG1, hKv11.1",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-12T10:20:57.476069Z",
+        "member": "2",
+        "gene_symbol": "KCNH2",
+        "animal": "Homo sapiens (Human)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "3757",
+        "current_type": "Delayed rectifier",
+        "subfamily": "H",
+        "class_symbol": "Kv11.1",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCNH2_HUMAN"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/104/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 80,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/104/t_vs_i.pickle",
+        "reference": 87,
+        "y_axis_toSI": 1e-06,
+        "comments": "1.E I_norm/V, 6. inactivation",
+        "figure_ref_address": "1.B",
+        "x_axis_unit": "ms",
+        "ion_channel": 92,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/12/KCNH2_HUMAN.jpg",
+        "figure_ref_caption": "Properties of HERG expressed in Xenopus oocytes exposed to 2 and 98 mm K+o A, typical IHERG currents recorded in 2 mm K+o in response to a series of depolarizing P1 pulses for 3000 ms to potentials ranging between \u00e2\u02c6\u2019100 and +50 mV followed by a 5000 ms P2 pulse to \u00e2\u02c6\u201940 mV (Vh=\u00e2\u02c6\u201980 mV). B, currents recorded from the same oocyte as in A but with 98 mm K+o in response to a series of depolarizing P1 pulses for 3000 ms to potentials ranging between \u00e2\u02c6\u2019100 and +50 mV and returned directly to Vh (\u00e2\u20ac\u201c80 mV).",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 104
+    },
+    "params": {
+        "v_half": 0.004912367585451481,
+        "slope": 0.016884630174091874,
+        "e_rev": -0.19999999999999998,
+        "g": 5.21009573400794e-06,
+        "ra": 9.469893744657647,
+        "sa": 0.32558955695829245,
+        "rb": 11.222512009138176,
+        "vb": 0.009766610787035834,
+        "sb": 0.001000109046404254,
+        "rc": 96.08636441616719
+    },
+    "x0": [
+        9.469958514901718,
+        0.32557982720552775,
+        11.222581905256044,
+        0.009766614108300565,
+        0.0010001198296238998,
+        96.08696518479464
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.03,
+            0.01,
+            -0.01,
+            -0.03,
+            -0.05
+        ],
+        "v_hold": -0.08,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            1,
+            1,
+            9,
+            5,
+            9
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": 0.004912367585451481,
+        "slope": 0.016884630174091874,
+        "e_rev": -0.19999999999999998,
+        "g": 5.21009573400794e-06
+    },
+    "error": {
+        "r2": 0.9684305758312315,
+        "rmse": 1.457028811740202e-08
+    },
+    "equation": "5.21E-06 * 1/(1+exp(-(v-4.91)/16.88)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -200.00)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 9.47*exp(-0.33*v), b = 11.22/(1+exp(-(v-9.77)/1.00)), c = 96.086"
+}

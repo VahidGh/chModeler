@@ -1,0 +1,156 @@
+{
+    "time": "2019-02-22 01:21:58.210726",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:24.931630Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC171, http://channelpedia.epfl.ch/ionchannels/17",
+        "sequence": "MAAGVAAWLPFARAAAIGWMPVANCPMPLAPADKNKRQDELIVLNVSGRRFQTWRTTLERYPDTLLGSTEKEFFFNEDTKEYFFDRDPEVFRCVLNFYRTGKLHYPRYECISAYDDELAFYGILPEIIGDCCYEEYKDRKRENAERLMDDNDSENNQESMPSLSFRQTMWRAFENPHTSTLALVFYYVTGFFIAVSVITNVVETVPCGTVPGSKELPCGERYSVAFFCLDTACVMIFTVEYLLRLFAAPSRYRFIRSVMSIIDVVAIMPYYIGLVMTNNEDVSGAFVTLRVFRVFRIFKFSRHSQGLRILGYTLKSCASELGFLLFSLTMAIIIFATVMFYAEKGSSASKFTSIPASFWYTIVTMTTLGYGDMVPKTIAGKIFGSICSLSGVLVIALPVPVIVSNFSRIYHQNQRADKRRAQKKARLARIRVAKTGSSNAYLHSKRNGLLNEALELTGTPEEEQMGKTTSLIESQHHHLLHCLEKTTGLSYLVDDPLLSVRTSTIKNHEFIDEQMFEQNCMESSMQNYPSTRSPSLSSHSGLTTTCCSRRSKKTTHLPNSNLPATRLRSMQELSTLHIQGSEQPSLTTSRSSLNLKADDGLRPNCKTSQITTAIISIPTPPALTPEGESRPPPASPGPNTNIPSITSNVVKVSAL",
+        "uniprot_id": "Q9Z0V1-1",
+        "conductance": 4.0,
+        "references": [
+            68
+        ],
+        "refSeq_id": "NP_064315",
+        "full_name": "Kcnd3 potassium voltage-gated channel, Shal-related family, member 3, long [ Mus musculus (house mouse) ]",
+        "id": 69,
+        "aliases": "Kv4.3L, mKv4.3",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-11T06:32:50.983342Z",
+        "member": "3",
+        "gene_symbol": "Kcnd3",
+        "animal": "Mus musculus (Mouse)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "56543",
+        "current_type": "A-type",
+        "subfamily": "D",
+        "class_symbol": "Kv4.3",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCND3-L_MOUSE"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/81/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 59,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/81/t_vs_i.pickle",
+        "reference": 68,
+        "y_axis_toSI": 1e-06,
+        "comments": "4.B I_norm/V, 4.D Inactivation",
+        "figure_ref_address": "2.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 69,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/11/kcnd3-L_mouse.jpg",
+        "figure_ref_caption": "The KIS domain of KChIP4a eliminates fast inactivation of Kv4. (A) Representative current traces of Kv4.3 alone, Kv4.3/KChIP4a, and Kv4.3/KChIP1 recorded from Xenopus oocytes. (Inset) Kv4.3 and Kv4.3/KChIP4a currents evoked by voltages from -90 mV to +45 mV at 15-mV increments.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 81
+    },
+    "params": {
+        "v_half": -0.030466294086500863,
+        "slope": 0.02684016684669042,
+        "e_rev": -0.04828159610621121,
+        "g": 0.00042633692351868354,
+        "ra": 1.5275407551709546,
+        "sa": -3.8774270272858096,
+        "rb": 67.32950431559507,
+        "vb": -0.01957026351852549,
+        "sb": 0.019685932903371055,
+        "rc": 1.015140932335818e-14
+    },
+    "x0": [
+        1.5275543723194318,
+        -3.8772614939107735,
+        67.32961519106613,
+        -0.019570379163571423,
+        0.01968601566382558,
+        5.037073235317271e-15
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.045,
+            0.03,
+            0.015,
+            0.0,
+            -0.015,
+            -0.03,
+            -0.045
+        ],
+        "v_hold": -0.1,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            3,
+            2,
+            3,
+            3,
+            3,
+            3,
+            4
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.030466294086500863,
+        "slope": 0.02684016684669042,
+        "e_rev": -0.04828159610621121,
+        "g": 0.00042633692351868354
+    },
+    "error": {
+        "r2": 0.9833283377800223,
+        "rmse": 5.138426256159824e-07
+    },
+    "equation": "4.26E-04 * 1/(1+exp(-(v--30.47)/26.84)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -48.28)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 1.53*exp(--3.88*v), b = 67.33/(1+exp(-(v--19.57)/19.69)), c = 0.000"
+}

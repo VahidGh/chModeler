@@ -1,0 +1,151 @@
+{
+    "time": "2019-02-22 01:30:18.072713",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.103234Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/38",
+        "sequence": "MPVMKGLLAPQNTFLDTIATRFDGTHSNFILANAQVAKGFPIVYCSDGFCELAGFARTEVMQKSCSCKFLFGVETNEQLMLQIEKSLEEKTEFKGEIMFYKKNGSPFWCLLDIVPIKNEKGDVVLFLASFKDITDTKVKITPEDKKEDKVKGRSRAGTHFDSARRRSRAVLYHISGHLQRREKNKLKINNNVFVDKPAFPEYKVSDAKKSKFILLHFSTFKAGWDWLILLATFYVAVTVPYNVCFIGNDDLSTTRSTTVSDIAVEILFIIDIILNFRTTYVSKSGQVIFEARSICIHYVTTWFIIDLIAALPFDLLYAFNVTVVSLVHLLKTVRLLRLLRLLQKLDRYSQHSTIVLTLLMSMFALLAHWMACIWYVIGKMEREDNSLLKWEVGWLHELGKRLESPYYGNNTLGGPSIRSAYIAALYFTLSSLTSVGFGNVSANTDAEKIFSICTMLIGALMHALVFGNVTAIIQRMYSRWSLYHTRTKDLKDFIRVHHLPQQLKQRMLEYFQTTWSVNNGIDSNELLKDFPDELRSDITMHLNKEILQLSLFECASRGCLRSLSLHIKTSFCAPGEYLLRQGDALQAIYFVCSGSMEVLKDSMVLAILGKGDLIGANLSIKDQVIKTNADVKALTYCDLQCIILKGLFEVLDLYPEYAHKFVEDIQHDLTYNLREGHESDVISRLSNKSMVSQSEPKGNGNINKRLPSIVEDEEEEEEGEEEEAVSLSPICTRGSSSRNKKVGSNKAYLGLSLKQLASGTVPFHSPIRVSRSNSPKTKQEIDPPNHNKRKEKNLKLQLSTLNNAGPPDLSPRIVDGIEDGNSSEESQTFDFGSERIRSEPRISPPLGDPEIGAAVLFIKAEETKQQINKLNSEVTTLTQEVSQLGKDMRNVIQLLENVLSPQQPSRFCSLHSTSVCPSRESLQTRTSWSAHQPCLHLQTGGAAYTQAQLCSSNITSDIWSVDPSSVGSSPQRTGAHEQNPADSELYHSPSLDYSPSHYQVVQEGHLQFLRCISPHSDSTLTPLQSISATLSSSVCSSSETSLHLVLPSRSEEGSFSQGTVSSFSLENLPGSWNQEGMASASTKPLENLPLEVVTSTAEVKDNKAINV",
+        "uniprot_id": "Q96L42-1",
+        "conductance": null,
+        "references": [
+            92
+        ],
+        "refSeq_id": "NP_653234",
+        "full_name": "KCNH8 potassium voltage-gated channel subfamily H member 8 [ Homo sapiens (human) ]",
+        "id": 99,
+        "aliases": "Elk1, Elk3, Ets-1, hElk1, hKv12.1",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-13T09:42:37.483052Z",
+        "member": "8",
+        "gene_symbol": "KCNH8",
+        "animal": "Homo sapiens (Human)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "131096",
+        "current_type": "Delayed rectifier",
+        "subfamily": "H",
+        "class_symbol": "Kv12.1",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCNH8_HUMAN"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/111/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 86,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/111/t_vs_i.pickle",
+        "reference": 92,
+        "y_axis_toSI": 1e-06,
+        "comments": "4.C I_norm/V. Deactivated to: -60 mV.",
+        "figure_ref_address": "4.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 99,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/13/KCNH8_HUMAN.jpg",
+        "figure_ref_caption": "Characterization of human KCNH8 in Xenopus oocytes. A and B: representative 2-electrode whole cell voltage-clamp recordings from a Xenopus oocyte injected with KCNH8 cRNA. Currents were elicited with a series of 3-s depolarizing steps (-100 to +10 mV in 10-mV increments) from a holding potential of -100 mV in regular ND96 (A) and high-K+ ND96 (B) solutions.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 111
+    },
+    "params": {
+        "v_half": -0.059215056214463914,
+        "slope": 0.020933849501916936,
+        "e_rev": -0.0969926343219976,
+        "g": 6.130378293214183e-05,
+        "ra": 2.4759901379261007,
+        "sa": -56.37748088548389,
+        "rb": 12.06773502482681,
+        "vb": 0.0007549462926317124,
+        "sb": 0.009274869331796045,
+        "rc": 0.3724997353324572
+    },
+    "x0": [
+        2.4759894641269735,
+        -56.37750546977031,
+        12.067735210996773,
+        0.0007549352173267134,
+        0.009274864558802845,
+        0.37249810436167635
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.01,
+            -0.01,
+            -0.03,
+            -0.05,
+            -0.07,
+            -0.09
+        ],
+        "v_hold": -0.1,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            4,
+            5,
+            6,
+            6,
+            6,
+            3
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.059215056214463914,
+        "slope": 0.020933849501916936,
+        "e_rev": -0.0969926343219976,
+        "g": 6.130378293214183e-05
+    },
+    "error": {
+        "r2": 0.9978269215818233,
+        "rmse": 4.2465893299956906e-08
+    },
+    "equation": "6.13E-05 * 1/(1+exp(-(v--59.22)/20.93)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -96.99)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 2.48*exp(--56.38*v), b = 12.07/(1+exp(-(v-0.75)/9.27)), c = 0.372"
+}

@@ -1,0 +1,156 @@
+{
+    "time": "2019-02-22 01:08:07.195713",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:24.772561Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC149",
+        "sequence": "MMLPVNDRRASVAVPSWSSGPFLSGAGSDRGSDLTSATSLAASRNASLRHQRRQHPSSVGIRRRDPSLSANTSASDHHRHFPHRHPRHRHRRHPPPLLSSTTAASTRDPASATSGSVRKQSGRSEVKIAPGPIVSGGGGGSIQLAASPAVVQPTGSIVAGGNNNLPLQGGGGGGGGGGVGGGGVVGVGVGDMSSALRRPFYAASSIGSPPDPASILRSGEVSRRVILNVGGVKHEVLWRTLDRVPHTRLGKLKDCNTHDAIVDLCDDYSLAENEYFFDRHPRSFASILNFYRTGKLHLVEEMCVLAFSEDLEYWGVDELYLESCCQHKYHQKKEHVFEEIRKEAESLRKGEDEDFGTGSFAKWRQRVWDLLEKPTTSMAARVLAIVSILFVVLSTVALTLNTIPGLKGEGEHEGADNPQLAIVEAVCIGWFTLEYLGRFWASPNKWKFFKGPLNIIDLLAILPYFISLGLTETNKSTTEQFQNVRRVVRVFRIMRVLRILKLARHSTGLQSLGYTLQRSYKELGLLMMFLAIGILLFSSLAYFAEKDEPGTKYVSIPETFWWAAITMTTVGYGDICPTTILGKVVGGVCCICGVLVVALPIPIIVNNFAEFYKDQMRREKALKRKEALERAKRNGSIVSFHSVNLRDAFAKSVDLMDVASEVPRNDWDTNSVETRSMSSPPPCVMRGSNPNTPKLSGQGGTPNFDCKENQENPSNTNLLDIDEESLHRMTTTQASNEPSLQNQFEFPSDAMTDLDCDNKGCIEMKTLPRQESTASTDTYASCFTHPQSSPSITGRPNDASNQANICVNPLEEPSYQGQLPSYESVIQSDFINCPSNHENGNINYQKAPPLGRAVCQSFSGSVNRPSDQIVQKIEDGLTATWPGIQSFPSPRLIATTRLKSPVCPTIYP",
+        "uniprot_id": "O18476-1",
+        "conductance": 30.0,
+        "references": [
+            43
+        ],
+        "refSeq_id": "CAA74748",
+        "full_name": "Kv2 voltage-gated potassium channel [Doryteuthis pealeii (Longfin inshore squid) (Loligo pealeii)]",
+        "id": 39,
+        "aliases": "sqKv2",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-09T07:50:56.952161Z",
+        "member": "",
+        "gene_symbol": "Kv2",
+        "animal": "Doryteuthis pealeii (Longfin inshore squid) (Loligo pealeii)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "",
+        "current_type": "Delayed rectifier",
+        "subfamily": "B",
+        "class_symbol": "Kv2",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "Kv2_DORPE"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/51/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 35,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/51/t_vs_i.pickle",
+        "reference": 43,
+        "y_axis_toSI": 1e-06,
+        "comments": "3.B I_norm/V",
+        "figure_ref_address": "3.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 39,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/09/Kv2_DORPE.jpg",
+        "figure_ref_caption": "Functional Expression of sqKv2. (A) Macroscopic ionic currents recorded from Xenopus oocytes expressing sqKv2 using the cut-open oocyte voltage clamp. The oocyte was held at \u00e2\u02c6\u201990 mV and depolarized for 150 ms to potentials ranging from \u00e2\u02c6\u201960 to +70 mV in 5 mV increments. Every other trace is shown. Linear leak and capacitive currents were eliminated using the P/\u00e2\u02c6\u20194 subtraction procedure",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 51
+    },
+    "params": {
+        "v_half": -0.045701157066383315,
+        "slope": 0.01035427858989564,
+        "e_rev": -0.01942286097087268,
+        "g": 4.9417369228458746e-05,
+        "ra": 77.96345757041924,
+        "sa": 13.88077357384887,
+        "rb": 136.63630037355875,
+        "vb": -0.07358846256386267,
+        "sb": 0.0010000000000000002,
+        "rc": 4.618073749961603e-15
+    },
+    "x0": [
+        4.998475039528325,
+        9.03754915618485,
+        13.987592794246435,
+        -0.08033960819573296,
+        0.0010000018678738775,
+        22.788105797429033
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.07,
+            0.05,
+            0.03,
+            0.01,
+            -0.01,
+            -0.02,
+            -0.06
+        ],
+        "v_hold": -0.09,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42,
+            49
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            5,
+            5,
+            5,
+            6,
+            5,
+            6,
+            6
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.045701157066383315,
+        "slope": 0.01035427858989564,
+        "e_rev": -0.01942286097087268,
+        "g": 4.9417369228458746e-05
+    },
+    "error": {
+        "r2": 0.9900935293743842,
+        "rmse": 6.219430274323457e-08
+    },
+    "equation": "4.94E-05 * 1/(1+exp(-(v--45.70)/10.35)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -19.42)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 77.96*exp(-13.88*v), b = 136.64/(1+exp(-(v--73.59)/1.00)), c = 0.000"
+}

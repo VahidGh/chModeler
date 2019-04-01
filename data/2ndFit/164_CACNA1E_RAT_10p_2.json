@@ -1,0 +1,143 @@
+{
+    "time": "2019-02-22 01:46:58.326714",
+    "ion_channel": {
+        "create_date": "2017-01-04T07:14:42.424851Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/82, http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=534&familyId=80&familyType=IC",
+        "sequence": "MALYNPIPVRQNCFTVNRSLFIFGEDNIVRKYAKKLIDWPPFEYMILATIIANCIVLALEQHLPEDDKTPMSRRLEKTEPYFIGIFCFEAGIKIVALGFIFHKGSYLRNGWNVMDFIVVLSGILATAGTHFNTHVDLRTLRAVRVLRPLKLVSGIPSLQIVLKSIMKAMVPLLQIGLLLFFAILMFAIIGLEFYSGKLHRACFMNNSGILEGFDPPHPCGVQGCPAGYECKDWIGPNDGITQFDNILFAVLTVFQCITMEGWTTVLYNTNDALGATWNWLYFIPLIIIGSFFVLNLVLGVLSGEFAKERERVENRRAFMKLRRQQQIERELNGYRAWIDKAEEVMLAEENKNSGTSALEVLRRATIKRSRTEAMTRDSSDEHCVDISSVGTPLARASIKSTKVDGASYFRHKERLLRISIRHMVKSQVFYWIVLSVVALNTACVAIVHHNQPQWLTHLLYYAEFLFLGLFLLEMSLKMYGMGPRLYFHSSFNCFDFGVTVGSIFEVVWAIFRPGTSFGISVLRALRLLRIFKITKYWASLRNLVVSLMSSMKSIISLLFLLFLFIVVFALLGMQLFGGRFNFNDGTPSANFDTFPAAIMTVFQILTGEDWNEVMYNGIRSQGGVSSGMWSAIYFIVLTLFGNYTLLNVFLAIAVDNLANAQELTKDEQEEEEAFNQKHALQKAKEVSPMSAPNMPSIERDRRRRHHMSMWEPRSSHLRERRRRHHMSVWEQRTSQLRRHMQMSSQEALNKEEAPPMNPLNPLNPLSPLNPLNAHPSLYRRPRPIEGLALGLGLEKCEEERISRGGSLKGDIGGLTSVLDNQRSPLSLGKREPPWLPRSCHGNCDPTQQETGGGETVVTFEDRARHRQSQRRSRHRRVRTEGKESASASRSRSASQERSLDEGVSIDGEKEHEPQSSHRSKEPTIHEEERTQDLRRTNSLMVPRGSGLVGALDEAETPLVQPQPELEVGKDAALTEQEAEGSSEQALLADVQLDVGRGISQSEPDLSCMTTNMDKATTESTSVTVAIPDVDPLVDSTVVNISNKTDGEASPLKEAETKEEEEEVEKKKQKKEKRETGKAMVPHSSMFIFSTTNPIRKACHYIVNLRYFEMCILLVIAASSIALAAEDPVLTNSERNKVLRYFDYVFTGVFTFEMVIKMIDQGLILQDGSYFRDLWNILDFVVVVGALVAFALANALGTNKGRDIKTIKSLRVLRVLRPLKTIKRLPKLKAVFDCVVTSLKNVFNILIVYKLFMFIFAVIAVQLFKGKFFYCTDSSKDTEKECIGNYVDHEKNKMEVKGREWKRHEFHYDNIIWALLTLFTVSTGEGWPQVLQHSVDVTEEDRGPSRSNRMEMSIFYVVYFVVFPFFFVNIFVALIIITFQEQGDKMMEECSLEKNERACIDFAISAKPLTRYMPQNRHTFQYRVWHFVVSPSFEYTIMAMIALNTVVLMMKYYSAPWTYELALKYLNIAFTMVFSLECVLKVIAFGFLNYFRDTWNIFDFITVIGSITEIILTDSKLVNTSGFNMSFLKLFRAARLIKLLRQGYTIRILLWTFVQSFKALPYVCLLIAMLFFIYAIIGMQVFGNIKLDEESHINRHNNFRSFFGSLMLLFRSATGEAWQEIMLSCLGEKGCEPDTTAPSGQNESERCGTDLAYVYFVSFIFFCSFLMLNLFVAVIMDNFEYLTRDSSILGPHHLDEFVRVWAEYDRAACGRIHYTEMYEMLTLMSPPLGLGKRCPSKVAYKRLVLMNMPVAEDMTVHFTSTLMALIRTALDIKIAKGGADRQQLDSELQKETLAIWPHLSQKMLDLLVPMPKASDLTVGKIYAAMMIMDYYKQSKVKKQRQQLEEQKNAPMFQRMEPSSLPQEIISNAKALPYLQQDPVSGLSGRSGYPSMSPLSPQEIFQLACMDPADDGQFQEQQSLVVTDPSSMRRSFSTIRDKRSNSSWLEEFSMERSSENTYKSRRRSYHSSLRLSAHRLNSDSGHKSDTHRSGGRERGRSKERKHLLSPDVSRCNSEERGTQADWESPERRQSRSPSEGRSQTPNRQGTGSLSESSIPSISDTSTPRRSRRQLPPVPPKPRPLLSYSSLMRHTGGISPPPDGSEGGSPLASQALESNSACLTESSNSLHPQQGQHPSPQHYISEPYLALHEDSHASDCGEEETLTFEAAVATSLGRSNTIGSAPPLRHSWQMPNGHYRRRRLGGLGLAMMCGAVSDLLSDTEEDDKC",
+        "uniprot_id": "Q07652-1",
+        "conductance": null,
+        "references": [
+            144,
+            148,
+            149
+        ],
+        "refSeq_id": "AAA40855",
+        "full_name": "Cacna1e calcium voltage-gated channel subunit alpha1 E [ Rattus norvegicus (Norway rat) ]",
+        "id": 152,
+        "aliases": "RBE-II, rCav2.3; CACHA1E",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-18T05:52:35.495654Z",
+        "member": "1E",
+        "gene_symbol": "Cacna1e",
+        "animal": "Rattus norvegicus (Rat)",
+        "username": 1,
+        "ion_type": "Ca2+",
+        "gene_id": "54234",
+        "current_type": "A-type",
+        "subfamily": "NA",
+        "class_symbol": "Cav2.3",
+        "channel_type": "Voltage-gated calcium channels",
+        "channel_name": "CACNA1E_RAT"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/164/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 124,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/164/t_vs_i.pickle",
+        "reference": 149,
+        "y_axis_toSI": 1e-06,
+        "comments": "No aux, 4 mM Ba, 2.B I/V, 3. G/V act/Inactivation +- B1",
+        "figure_ref_address": "2.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 152,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/18/CACNA1E_RAT.png",
+        "figure_ref_caption": "Macroscopic properties and pharmacology of the rbE-II IBa (A) Whole cell IBa of the rbE-II a1 subunit alone. Shown is a family of current traces evoked from a holding potential of -100 mV to several test potentials (in millivolts).",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 164
+    },
+    "params": {
+        "v_half": -0.024981616263405566,
+        "slope": 0.006052291688866276,
+        "e_rev": 0.19999999999999998,
+        "g": 1.0529854651223953e-05,
+        "ra": 1.1049624402009282,
+        "sa": 23.49449924358452,
+        "rb": 2.8291571444293404,
+        "vb": -0.043787717526161694,
+        "sb": 0.004410121540992749,
+        "rc": 14.87756625239755
+    },
+    "x0": [
+        1.1050228678384377,
+        23.493959857499103,
+        2.8293887415269885,
+        -0.04378336130145978,
+        0.004407317630617446,
+        14.877519020622216
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            -0.01,
+            -0.02,
+            -0.03,
+            -0.04
+        ],
+        "v_hold": -0.1,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            3,
+            3,
+            4,
+            3
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.024981616263405566,
+        "slope": 0.006052291688866276,
+        "e_rev": 0.19999999999999998,
+        "g": 1.0529854651223953e-05
+    },
+    "error": {
+        "r2": 0.9846982367209441,
+        "rmse": 3.084341552581113e-08
+    },
+    "equation": "1.05E-05 * 1/(1+exp(-(v--24.98)/6.05)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - 200.00)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 1.10*exp(-23.49*v), b = 2.83/(1+exp(-(v--43.79)/4.41)), c = 14.878"
+}

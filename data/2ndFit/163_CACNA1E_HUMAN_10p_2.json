@@ -1,0 +1,162 @@
+{
+    "time": "2019-02-22 01:44:10.574715",
+    "ion_channel": {
+        "create_date": "2017-01-04T07:14:42.422148Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/82, http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=534&familyId=80&familyType=IC",
+        "sequence": "MARFGEAVVARPGSGDGDSDQSRNRQGTPVPASGQAAAYKQTKAQRARTMALYNPIPVRQNCFTVNRSLFIFGEDNIVRKYAKKLIDWPPFEYMILATIIANCIVLALEQHLPEDDKTPMSRRLEKTEPYFIGIFCFEAGIKIVALGFIFHKGSYLRNGWNVMDFIVVLSGILATAGTHFNTHVDLRTLRAVRVLRPLKLVSGIPSLQIVLKSIMKAMVPLLQIGLLLFFAILMFAIIGLEFYSGKLHRACFMNNSGILEGFDPPHPCGVQGCPAGYECKDWIGPNDGITQFDNILFAVLTVFQCITMEGWTTVLYNTNDALGATWNWLYFIPLIIIGSFFVLNLVLGVLSGEFAKERERVENRRAFMKLRRQQQIERELNGYRAWIDKAEEVMLAEENKNAGTSALEVLRRATIKRSRTEAMTRDSSDEHCVDISSVGTPLARASIKSAKVDGVSYFRHKERLLRISIRHMVKSQVFYWIVLSLVALNTACVAIVHHNQPQWLTHLLYYAEFLFLGLFLLEMSLKMYGMGPRLYFHSSFNCFDFGVTVGSIFEVVWAIFRPGTSFGISVLRALRLLRIFKITKYWASLRNLVVSLMSSMKSIISLLFLLFLFIVVFALLGMQLFGGRFNFNDGTPSANFDTFPAAIMTVFQILTGEDWNEVMYNGIRSQGGVSSGMWSAIYFIVLTLFGNYTLLNVFLAIAVDNLANAQELTKDEQEEEEAFNQKHALQKAKEVSPMSAPNMPSIERDRRRRHHMSMWEPRSSHLRERRRRHHMSVWEQRTSQLRKHMQMSSQEALNREEAPTMNPLNPLNPLSSLNPLNAHPSLYRRPRAIEGLALGLALEKFEEERISRGGSLKGDGGDRSSALDNQRTPLSLGQREPPWLARPCHGNCDPTQQEAGGGEAVVTFEDRARHRQSQRRSRHRRVRTEGKESSSASRSRSASQERSLDEAMPTEGEKDHELRGNHGAKEPTIQEERAQDLRRTNSLMVSRGSGLAGGLDEADTPLVLPHPELEVGKHVVLTEQEPEGSSEQALLGNVQLDMGRVISQSEPDLSCITANTDKATTESTSVTVAIPDVDPLVDSTVVHISNKTDGEASPLKEAEIREDEEEVEKKKQKKEKRETGKAMVPHSSMFIFSTTNPIRRACHYIVNLRYFEMCILLVIAASSIALAAEDPVLTNSERNKVLRYFDYVFTGVFTFEMVIKMIDQGLILQDGSYFRDLWNILDFVVVVGALVAFALANALGTNKGRDIKTIKSLRVLRVLRPLKTIKRLPKLKAVFDCVVTSLKNVFNILIVYKLFMFIFAVIAVQLFKGKFFYCTDSSKDTEKECIGNYVDHEKNKMEVKGREWKRHEFHYDNIIWALLTLFTVSTGEGWPQVLQHSVDVTEEDRGPSRSNRMEMSIFYVVYFVVFPFFFVNIFVALIIITFQEQGDKMMEECSLEKNERACIDFAISAKPLTRYMPQNRHTFQYRVWHFVVSPSFEYTIMAMIALNTVVLMMKYYSAPCTYELALKYLNIAFTMVFSLECVLKVIAFGFLNYFRDTWNIFDFITVIGSITEIILTDSKLVNTSGFNMSFLKLFRAARLIKLLRQGYTIRILLWTFVQSFKALPYVCLLIAMLFFIYAIIGMQVFGNIKLDEESHINRHNNFRSFFGSLMLLFRSATGEAWQEIMLSCLGEKGCEPDTTAPSGQNENERCGTDLAYVYFVSFIFFCSFLMLNLFVAVIMDNFEYLTRDSSILGPHHLDEFVRVWAEYDRAACGRIHYTEMYEMLTLMSPPLGLGKRCPSKVAYKRLVLMNMPVAEDMTVHFTSTLMALIRTALDIKIAKGGADRQQLDSELQKETLAIWPHLSQKMLDLLVPMPKASDLTVGKIYAAMMIMDYYKQSKVKKQRQQLEEQKNAPMFQRMEPSSLPQEIIANAKALPYLQQDPVSGLSGRSGYPSMSPLSPQDIFQLACMDPADDGQFQERQSLEPEVSELKSVQPSNHGIYLPSDTQEHAGSGRASSMPRLTVDPQVVTDPSSMRRSFSTIRDKRSNSSWLEEFSMERSSENTYKSRRRSYHSSLRLSAHRLNSDSGHKSDTHRSGGRERGRSKERKHLLSPDVSRCNSEERGTQADWESPERRQSRSPSEGRSQTPNRQGTGSLSESSIPSVSDTSTPRRSRRQLPPVPPKPRPLLSYSSLIRHAGSISPPADGSEEGSPLTSQALESNNACLTESSNSPHPQQSQHASPQRYISEPYLALHEDSHASDCGEEETLTFEAAVATSLGRSNTIGSAPPLRHSWQMPNGHYRRRRRGGPGPGMMCGAVNNLLSDTEEDDKC",
+        "uniprot_id": "Q15878-1",
+        "conductance": null,
+        "references": [
+            146,
+            147
+        ],
+        "refSeq_id": "NP_001192222",
+        "full_name": "CACNA1E calcium voltage-gated channel subunit alpha1 E [ Homo sapiens (human) ]",
+        "id": 151,
+        "aliases": "BII, CACH6, gm139, hCav2.3, CACNL1A6, alpha-1E",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-17T13:17:04.195118Z",
+        "member": "1E",
+        "gene_symbol": "CACNA1E",
+        "animal": "Homo sapiens (Human)",
+        "username": 1,
+        "ion_type": "Ca2+",
+        "gene_id": "777",
+        "current_type": "A-type",
+        "subfamily": "NA",
+        "class_symbol": "Cav2.3",
+        "channel_type": "Voltage-gated calcium channels",
+        "channel_name": "CACNA1E_HUMAN"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/163/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 123,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/163/t_vs_i.pickle",
+        "reference": 147,
+        "y_axis_toSI": 1e-06,
+        "comments": "No aux, 10 mM Ba/Ca, 1.4 G/V, 2. Inactivation",
+        "figure_ref_address": "1.3",
+        "x_axis_unit": "ms",
+        "ion_channel": 151,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/17/CACNA1E_HUMAN.png",
+        "figure_ref_caption": "The whole-cell current a1E kinetics are relatively insensitive to the nature of the charge carrier. The current traces were measured after injection of the a1E subunit alone in the presence of (10 mM): 120 Li+ (upper left); 10 Ba2+ (upper right); and 10 Ca2+ (lower left) after injection of 10 Bapta. Holding potential was \u00e2\u02c6\u201980 mV throughout. 450 msec voltage pulses were applied from \u00e2\u02c6\u201960 to +30 mV. Inactivation time constants were tinact = 217 msec (120 mM Li+ ); t1 inact = 20 and t2 inact = 158 msec (10 mM Ba2+); t1 inact = 21 and t2 inact = 137 msec (10 mM Ca2+) at Vm = \u00e2\u02c6\u201910 mV. Capacitive transients were erased for the first ms after the voltage step. Corresponding normalized peak I-V relationships are shown at the lower right. Current traces recorded in the presence of Li+ (v) activated around \u00e2\u02c6\u201950 mV and peaked at \u00e2\u02c6\u201920 mV. Current traces recorded in the presence of 10 mM Ba2+ (rectangle) and 10 mM Ca2+ (circle) activated around \u00e2\u02c6\u201940 mV and peaked at 0 mV. Current and time scales are 1 mA and 100 msec throughout.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 163
+    },
+    "params": {
+        "v_half": -0.012834502343581498,
+        "slope": 0.005775773851571178,
+        "e_rev": 0.043235821388720154,
+        "g": 0.00015420269547582196,
+        "ra": 1.3389557778988916,
+        "sa": 13.094870287670275,
+        "rb": 5.423665342868958,
+        "vb": -0.019379127033432995,
+        "sb": 0.0027848890358294774,
+        "rc": 15.140820975104338
+    },
+    "x0": [
+        1.3389605648614642,
+        13.094812174366973,
+        5.423697514204961,
+        -0.01937912709180026,
+        0.0027848975012551088,
+        15.14080644403872
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.03,
+            0.02,
+            0.01,
+            0.0,
+            -0.01,
+            -0.02,
+            -0.03,
+            -0.04
+        ],
+        "v_hold": -0.08,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70,
+            80
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            2,
+            2,
+            2,
+            2,
+            2,
+            3,
+            2,
+            1
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.012834502343581498,
+        "slope": 0.005775773851571178,
+        "e_rev": 0.043235821388720154,
+        "g": 0.00015420269547582196
+    },
+    "error": {
+        "r2": 0.9935037956976195,
+        "rmse": 5.5229182814429474e-08
+    },
+    "equation": "1.54E-04 * 1/(1+exp(-(v--12.83)/5.78)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - 43.24)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 1.34*exp(-13.09*v), b = 5.42/(1+exp(-(v--19.38)/2.78)), c = 15.141"
+}

@@ -1,0 +1,153 @@
+{
+    "time": "2019-02-22 01:33:26.485714",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.158424Z",
+        "links": "",
+        "sequence": "MLQSLAGSSCVRLVERHRSAWCFGFLVLGYLLYLVFGAVVFSSVELPYEDLLRQELRKLKRRFLEEHECLSEQQLEQFLGRVLEASNYGVSVLSNASGNWNWDFTSALFFASTVLSTTGYGHTVPLSDGGKAFCIIYSVIGIPFTLLFLTAVVQRITVHVTRRPVLYFHIRWGFSKQVVAIVHAVLLGFVTVSCFFFIPAAVFSVLEDDWNFLESFYFCFISLSTIGLGDYVPGEGYNQKFRELYKIGITCYLLLGLIAMLVVLETFCELHELKKFRKMFYVKKDKDEDQVHIIEHDQLSFSSITDQAAGMKEDQKQNEPFVATQSSACVDGPANH",
+        "uniprot_id": "O00180-1",
+        "conductance": 34.0,
+        "references": [
+            112,
+            113,
+            116
+        ],
+        "refSeq_id": "NP_002236",
+        "full_name": "KCNK1 potassium two pore domain channel subfamily K member 1 [ Homo sapiens (human) ]",
+        "id": 117,
+        "aliases": "K2P1, KCNO1, TWIK1, hK2p1.1, TWIK-1",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-14T13:14:04.534623Z",
+        "member": "1",
+        "gene_symbol": "KCNK1",
+        "animal": "Homo sapiens (Human)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "3775",
+        "current_type": "Inwardly-rectifying",
+        "subfamily": "K",
+        "class_symbol": "K2p1.1",
+        "channel_type": "Two-P potassium channels",
+        "channel_name": "KCNK1_HUMAN"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/129/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 103,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/129/t_vs_i.pickle",
+        "reference": 112,
+        "y_axis_toSI": 1e-06,
+        "comments": "1.G I/V, 4mM K, non voltage-activated!",
+        "figure_ref_address": "1.E",
+        "x_axis_unit": "ms",
+        "ion_channel": 117,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/14/KCNK1_HUMAN.jpg",
+        "figure_ref_caption": "K2P1 Reaches the Plasma Membrane but Remains Electrically Silent. (E) Wild-type K2P1. Current trace from a representative oocyte. Protocol: holding \u00e2\u02c6\u201980 mV, 1 s test pulses from \u00e2\u02c6\u2019120 mV to +80 mV with 2.5 s interpulse interval, sampled and filtered at 5 kHz and 1 kHz, respectively. Bath solution with 4 mM potassium. Scale bars, 1 \u00ce\u00bcA, 200 ms.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 129
+    },
+    "params": {
+        "v_half": 0.19888206979141207,
+        "slope": -5.5952566567752995e-05,
+        "e_rev": -0.06014336917766601,
+        "g": 5.2486772486088e-06,
+        "ra": 8.150916092198996,
+        "sa": -19.45259196402051,
+        "rb": 188.3013210734565,
+        "vb": -0.02996983112499166,
+        "sb": 0.010595936993714196,
+        "rc": 9.970013236896973e-15
+    },
+    "x0": [
+        8.150952734357604,
+        -19.452413702147208,
+        188.29979389459777,
+        -0.029971035876295068,
+        0.01059575172552991,
+        6.897518877395308e-14
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.08,
+            0.04,
+            0.0,
+            -0.04,
+            -0.08,
+            -0.12
+        ],
+        "v_hold": -0.08,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": 0.19888206979141207,
+        "slope": -5.5952566567752995e-05,
+        "e_rev": -0.06014336917766601,
+        "g": 5.2486772486088e-06
+    },
+    "error": {
+        "r2": 0.9602236781035103,
+        "rmse": 2.4215386173965185e-08
+    },
+    "equation": "5.25E-06 * 1/(1+exp(-(v-198.88)/-0.06)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -60.14)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 8.15*exp(--19.45*v), b = 188.30/(1+exp(-(v--29.97)/10.60)), c = 0.000"
+}

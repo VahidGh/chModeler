@@ -1,0 +1,146 @@
+{
+    "time": "2019-02-22 01:11:53.287720",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:24.783363Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC158, http://channelpedia.epfl.ch/ionchannels/9",
+        "sequence": "MPAGMTKHGSRSTSSLPPEPMEIVRSKACSRRVRLNVGGLAHEVLWRTLDRLPRTRLGKLRDCNTHDSLLQVCDDYSLEDNEYFFDRHPGAFTSILNFYRTGRLHMMEEMCALSFSQELDYWGIDEIYLESCCQARYHQKKEQMNEELKREAETLREREGEEFDNTCCAEKRKKLWDLLEKPNSSVAAKILAIISIMFIVLSTIALSLNTLPELQSLDEFGQSTDNPQLAHVEAVCIAWFTMEYLLRFLSSPKKWKFFKGPLNAIDLLAILPYYVTIFLTESNKSVLQFQNVRRVVQIFRIMRILRILKLARHSTGLQSLGFTLRRSYNELGLLILFLAMGIMIFSSLVFFAEKDEDDTKFKSIPASFWWATITMTTVGYGDIYPKTLLGKIVGGLCCIAGVLVIALPIPIIVNNFSEFYKEQKRQEKAIKRREALERAKRNGSIVSMNMKDAFARSIEMMDIVVEKNGEGVAKKDKVQDNHLSPNKWKWTKRALSETSSSKSFETKEQGSPEKARSSSSPQHLNVQQLQDMYSKMAKTQSQPILNTKEMAPQSQPQEELEMGSMPSPVAPLPTRTEGVIDMRSMSSIDSFISCATDFPEATRFSHSPLASLSGKSGGSTAPEVGWRGALGASGGRLMETNPIPEASRSGFFVESPRSSMKTHNPMKLRALKVNFLEGDPTPLLPALGLYHDPLRNRGGARAAVAGLECASLLDKPVLSPESSIYTTASARTPPRSPEKHTAIAFNFEAGVHQYIDTDTDDEGQLLYSVDSSLPKSLHGSTSPKFSLGARTEKNHFESSPLPTSPKFLRPNCVYASEGLPGKGPGAQEKCKLENHTSPDVHMLPGGGAHGSTRDQSI",
+        "uniprot_id": "Q03717-1",
+        "conductance": 8.0,
+        "references": [
+            39
+        ],
+        "refSeq_id": "AAA40112",
+        "full_name": "Kcnb1 potassium voltage gated channel, Shab-related subfamily, member 1 [ Mus musculus (house mouse) ]",
+        "id": 44,
+        "aliases": "kcnb1, mShab",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-09T10:39:03.128311Z",
+        "member": "1",
+        "gene_symbol": "Kcnb1",
+        "animal": "Mus musculus (Mouse)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "16500",
+        "current_type": "A-type",
+        "subfamily": "B",
+        "class_symbol": "Kv2.1",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCNB1_MOUSE"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/56/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 40,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/56/t_vs_i.pickle",
+        "reference": 39,
+        "y_axis_toSI": 1e-06,
+        "comments": "3.A-bl I/V, 3.B I_norm/V",
+        "figure_ref_address": "3.A-ul",
+        "x_axis_unit": "ms",
+        "ion_channel": 44,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/09/kcnb1_mouse.jpg",
+        "figure_ref_caption": "Activation properties of mShab and fshab currents. A, Comparison of current-voltage relationships of mShab1 (left) and fShab (right) expressed in Xenopus oocytes. Voltage-clamp currents (upper traces) are shown in response to 1 set depolarizing pulses from a holding potential of -90 mV. The membrane was depolarized in increments of 10 mV until a membrane potential of +50 mV was reached. Arrows indicate onset of the voltage jump. The currents were linear leak subtracted, but the capacitative current was not subtracted. The interval between trials was 10 sec. Because the mShab1 current recovers from inactivation more slowly than the fShab current (see Results), the membrane was hyperpolarized to - 120 mV for 5 set during the initial half of the interval between trials in mShab1 experiments to speed up recovery from inactivation. Because the recovery process is steeply voltage dependent (see Results), virtually all mShab1 channels are available for activation at the end of the 5-set prepulse at - 120 mV. The results for mShab1 were the same when the membrane was at -90 mV during the interval between trials; however, the interval between trials had to be lengthened to allow all the channels to recover from inactivation (15-20 set).",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 56
+    },
+    "params": {
+        "v_half": -0.06615503063472152,
+        "slope": 0.05310256789417254,
+        "e_rev": -0.03508136688816356,
+        "g": 8.75432961536946e-05,
+        "ra": 4.375582854769478,
+        "sa": -11.500663129597418,
+        "rb": 41.16792020404546,
+        "vb": 0.016607934195428564,
+        "sb": 0.023523234120452857,
+        "rc": 6.902393396439933e-15
+    },
+    "x0": [
+        4.375612520909683,
+        -11.500626113308774,
+        41.168026829194595,
+        0.01660782028857058,
+        0.0235231861525277,
+        1.018101391525109e-19
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.05,
+            0.03,
+            0.01,
+            -0.01,
+            -0.03
+        ],
+        "v_hold": -0.09,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            5,
+            5,
+            5,
+            5,
+            4
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.06615503063472152,
+        "slope": 0.05310256789417254,
+        "e_rev": -0.03508136688816356,
+        "g": 8.75432961536946e-05
+    },
+    "error": {
+        "r2": 0.9962918120512303,
+        "rmse": 5.711791561712916e-08
+    },
+    "equation": "8.75E-05 * 1/(1+exp(-(v--66.16)/53.10)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -35.08)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 4.38*exp(--11.50*v), b = 41.17/(1+exp(-(v-16.61)/23.52)), c = 0.000"
+}

@@ -1,0 +1,146 @@
+{
+    "time": "2019-02-22 01:28:17.745714",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.100495Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/38",
+        "sequence": "MPVMKGLLAPQNTFLDTIATRFDGTHSNFILANAQVAKGFPIVYCSDGFCELAGFARTEVMQKSCSCKFLFGVETNEQLMLQIEKSLEEKVEFKGEIMFYKKNGAPFWCLLDIVPIKNEKGDVVLFLASFKDITDTKVKITSEDKKEDRAKGRSRAGSHFDSARRRSRAVLYHISGHLQRREKNKLKINNNVFVDKPAFPEYKVSDAKKSKFILLHFSTFKAGWDWLILLATFYVAVTVPYNVCFIGNEDLSTTRSTTVSDIAVEILFIIDIILNFRTTYVSKSGQVIFEARSICIHYVTTWFIIDLIAALPFDLLYAFNVTVVSLVHLLKTVRLLRLLRLLQKLDRYSQHSTIVLTLLMSMFALLAHWMACIWYVIGKMEREDNSLLKWEVGWLHELGKRLESPYYGNNTLGGPSIRSAYIAALYFTLSSLTSVGFGNVSANTDAEKIFSICTMLIGALMHALVFGNVTAIIQRMYSRWSLYHTRTKDLKDFIRVHHLPQQLKQRMLEYFQTTWSVNNGIDSNELLKDFPDELRSDITMHLNKEILQLSLFECASRGCLRSLSLHIKTSFCAPGEYLLRQGDALQAIYFVCSGSMEVLKDSMVLAILGKGDLIGANLSIKDQVIKTNADVKALTYCDLQCIILKGLFEVLGLYPEYAHKFVEDIQHDLTYNLREGHESDVISRLSNKSTVPQAEPKGNGSIKKRLPSIVEDEEEEEVEEEETTSLSPIYTRGSSVSHSKKTGSSKSYLGLSLKQLTSGTVPFHSPIRVSSANSPKTKQEADPPNHGTRKEKNLKVQLCSLGTAGTPELSPRIVDGIEDGNSSEETQTFDFGSEQIRPEPRISPSLGESEIGAAFLFIKAEETKQQINKLNSEVTTLTQEVSQLGKDMRSIMQLLENILSPQQPSQFCSLHPTSICPSRESFQTRVSWSAHQPCLHLQANGAHLYHGNVTSDIWSVDPSLVGSNPQRTEAHEQSPVDSELHHSPNLAYSPSHCQVIQEGHLQFLRCISPHSDTTLTPLQSISATLSSSVCSSSETSLHLVLPSRSEEGSITHGPVSSFSLENLPGSWDREGMMSASTEPLENFPVEVVTSTADVKDSKAINV",
+        "uniprot_id": "Q9QWS8-1",
+        "conductance": null,
+        "references": [
+            91
+        ],
+        "refSeq_id": "NP_659563",
+        "full_name": "Kcnh8 potassium voltage-gated channel subfamily H member 8 [ Rattus norvegicus (Norway rat) ]",
+        "id": 98,
+        "aliases": "Elk1, Elk3, Ets-1, rElk1, rKv12.1",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-13T09:29:00.795040Z",
+        "member": "8",
+        "gene_symbol": "Kcnh8",
+        "animal": "Rattus norvegicus (Rat)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "246325",
+        "current_type": "Delayed rectifier",
+        "subfamily": "H",
+        "class_symbol": "Kv12.1",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCNH8_RAT"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/110/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 85,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/110/t_vs_i.pickle",
+        "reference": 91,
+        "y_axis_toSI": 1e-06,
+        "comments": "2.B I_norm/V, 2.C Deactivation",
+        "figure_ref_address": "2.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 98,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/13/KCNH8_RAT.png",
+        "figure_ref_caption": "Properties of the rat elk1 channel expressed in Xenopus oocytes. A, voltage-clamp recordings of elk1 currents. Recordings show current responses to voltage steps over the range -60 to +40 mV in 10 mV increments, from a holding potential of -70 mV. Tail currents were recorded at -50 mV.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 110
+    },
+    "params": {
+        "v_half": 0.01404479805635346,
+        "slope": 0.013960550085730045,
+        "e_rev": -0.19999999999998166,
+        "g": 2.9510770127069552e-05,
+        "ra": 0.08841075090886182,
+        "sa": -39.995539723880945,
+        "rb": 0.646029645991951,
+        "vb": 0.02125779866409792,
+        "sb": 0.0010000033542766963,
+        "rc": 0.3208007179549952
+    },
+    "x0": [
+        0.08841438244148517,
+        -39.9946868621937,
+        0.646011965146836,
+        0.02162751107852797,
+        0.0012939236869623791,
+        0.320843873806974
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.04,
+            0.02,
+            0.0,
+            -0.02,
+            -0.04
+        ],
+        "v_hold": -0.07,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": 0.01404479805635346,
+        "slope": 0.013960550085730045,
+        "e_rev": -0.19999999999998166,
+        "g": 2.9510770127069552e-05
+    },
+    "error": {
+        "r2": 0.9951382665282791,
+        "rmse": 5.534429347230743e-08
+    },
+    "equation": "2.95E-05 * 1/(1+exp(-(v-14.04)/13.96)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -200.00)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 0.09*exp(--40.00*v), b = 0.65/(1+exp(-(v-21.26)/1.00)), c = 0.321"
+}

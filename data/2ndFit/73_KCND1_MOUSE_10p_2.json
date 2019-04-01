@@ -1,0 +1,146 @@
+{
+    "time": "2019-02-22 01:18:05.503713",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:24.869971Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC146, http://channelpedia.epfl.ch/ionchannels/15",
+        "sequence": "MAAGVATWLPFARAAAVGWLPLAQQPLPPAPEVKASRGDEVLVVNVSGRRFETWKNTLDRYPDTLLGSSEKEFFYDAESGEYFFDRDPDMFRHVLNFYRTGRLHCPRQECIQAFDEELAFYGLVPELVGDCCLEEYRDRKKENAERLAEDEEAEQAGEGPALPAGSSLRQRLWRAFENPHTSTAALVFYYVTGFFIAVSVIANVVETIPCRGTPRWPSKEQSCGDRFPTAFFCMDTACVLIFTGEYLLRLFAAPSRCRFLRSVMSLIDVVAILPYYIGLFVPKNDDVSGAFVTLRVFRVFRIFKFSRHSQGLRILGYTLKSCASELGFLLFSLTMAIIIFATVMFYAEKGTSKTNFTSIPAAFWYTIVTMTTLGYGDMVPSTIAGKIFGSICSLSGVLVIALPVPVIVSNFSRIYHQNQRADKRRAQQKVRLARIRLAKSGTTNAFLQYKQNGGLEDSGSGDGQMLCVRSRSAFEQQHHHLLHCLEKTTCHEFTDELTFSEALGAVSLGGRTSRSTSVSSQPMGPGSLFSSCCSRRVNRRAIRLANSTASVSRGSMQELDTLAGLRRSPAPQTRSSLNAKPHDSLDLNCDSRDFVAAIISIPTPPANTPDESQPSSPSGGGGSGGTPNTTLRNSSLGTPCLLPETVKISSL",
+        "uniprot_id": "Q03719-1",
+        "conductance": 3.7,
+        "references": [
+            61
+        ],
+        "refSeq_id": "NP_032449",
+        "full_name": "Kcnd1 potassium voltage-gated channel, Shal-related family, member 1 [ Mus musculus (house mouse) ]",
+        "id": 61,
+        "aliases": "mShal, mKv4.1",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-10T17:13:52.841426Z",
+        "member": "1",
+        "gene_symbol": "Kcnd1",
+        "animal": "Mus musculus (Mouse)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "16506",
+        "current_type": "A-type",
+        "subfamily": "D",
+        "class_symbol": "Kv4.1",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCND1_MOUSE"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/73/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 53,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/73/t_vs_i.pickle",
+        "reference": 61,
+        "y_axis_toSI": 1e-06,
+        "comments": "1.E inactivation",
+        "figure_ref_address": "1.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 61,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/10/kcnd1_mouse.jpg",
+        "figure_ref_caption": "Outward currents mediated by Kv4.1 and Kv4.3 channels. A and B, from a holding potential of \u00e2\u02c6\u2019100 mV, control Kv4.1 or Kv4.3 currents were evoked by step depolarizations from \u00e2\u02c6\u201980 to +50 mV, in 10 mV intervals. The interpulse interval was 5 s. Note that Kv4.3 currents exhibit a larger fast phase in the development of inactivation.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 73
+    },
+    "params": {
+        "v_half": -0.02626745946221591,
+        "slope": 0.016562100871604007,
+        "e_rev": -0.04187802689801843,
+        "g": 0.0005000595765523226,
+        "ra": 0.8864621411843695,
+        "sa": 21.28940637123474,
+        "rb": 5.048348476762444,
+        "vb": -0.056191366930533344,
+        "sb": 0.001000014608874957,
+        "rc": 18.17778754324093
+    },
+    "x0": [
+        0.8864664570918284,
+        21.289713677758474,
+        5.048167768661304,
+        -0.05995090518159157,
+        0.0010189438695679775,
+        18.178178689178544
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.05,
+            0.03,
+            0.01,
+            -0.01,
+            -0.03
+        ],
+        "v_hold": -0.1,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            1,
+            1,
+            1,
+            2,
+            2
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.02626745946221591,
+        "slope": 0.016562100871604007,
+        "e_rev": -0.04187802689801843,
+        "g": 0.0005000595765523226
+    },
+    "error": {
+        "r2": 0.9554707136744743,
+        "rmse": 9.399227264457207e-07
+    },
+    "equation": "5.00E-04 * 1/(1+exp(-(v--26.27)/16.56)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -41.88)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 0.89*exp(-21.29*v), b = 5.05/(1+exp(-(v--56.19)/1.00)), c = 18.178"
+}

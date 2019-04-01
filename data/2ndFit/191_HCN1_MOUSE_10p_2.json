@@ -1,0 +1,152 @@
+{
+    "time": "2019-02-22 02:03:51.675725",
+    "ion_channel": {
+        "create_date": "2017-01-04T07:14:42.512205Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/61, http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=400&familyId=71&familyType=IC",
+        "sequence": "MEGGGKPNSASNSRDDGNSVFPSKAPATGPVAADKRLGTPPGGGAAGKEHGNSVCFKVDGGGGEEPAGSFEDAEGPRRQYGFMQRQFTSMLQPGVNKFSLRMFGSQKAVEKEQERVKTAGFWIIHPYSDFRFYWDLIMLIMMVGNLVIIPVGITFFTEQTTTPWIIFNVASDTVFLLDLIMNFRTGTVNEDSSEIILDPKVIKMNYLKSWFVVDFISSIPVDYIFLIVEKGMDSEVYKTARALRIVRFTKILSLLRLLRLSRLIRYIHQWEEIFHMTYDLASAVVRIFNLIGMMLLLCHWDGCLQFLVPLLQDFPPDCWVSLNEMVNDSWGKQYSYALFKAMSHMLCIGYGAQAPVSMSDLWITMLSMIVGATCYAMFVGHATALIQSLDSSRRQYQEKYKQVEQYMSFHKLPADMRQKIHDYYEHRYQGKIFDEENILSELNDPLREEIVNFNCRKLVATMPLFANADPNFVTAMLSKLRFEVFQPGDYIIREGAVGKKMYFIQHGVAGVITKSSKEMKLTDGSYFGEICLLTKGRRTASVRADTYCRLYSLSVDNFNEVLEEYPMMRRAFETVAIDRLDRIGKKNSILLQKFQKDLNTGVFNNQENEILKQIVKHDREMVQAIPPINYPQMTALNCTSSTTTPTSRMRTQSPPVYTATSLSHSNLHSPSPSTQTPQPSAILSPCSYTTAVCSPPIQSPLATRTFHYASPTASQLSLMQQPQQQLPQSQVQQTQTQTQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQPQTPGSSTPKNEVHKSTQALHNTNLTKEVRPLSASQPSLPHEVSTLISRPHPTVGESLASIPQPVAAVHSTGLQAGSRSTVPQRVTLFRQMSSGAIPPNRGVPPAPPPPAAVQRESPSVLNTDPDAEKPRFASNL",
+        "uniprot_id": "O88704-1",
+        "conductance": null,
+        "references": [
+            176,
+            177
+        ],
+        "refSeq_id": "NP_034538",
+        "full_name": "Hcn1 hyperpolarization-activated, cyclic nucleotide-gated K+ 1 [ Mus musculus (house mouse) ]",
+        "id": 179,
+        "aliases": "BCNG1, HAC2, mHCN1",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-22T12:24:00.160311Z",
+        "member": "",
+        "gene_symbol": "Hcn1",
+        "animal": "Mus musculus (Mouse)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "15165",
+        "current_type": "Delayed rectifier",
+        "subfamily": "",
+        "class_symbol": "Hcn1",
+        "channel_type": "Voltage-gated proton channels",
+        "channel_name": "HCN1_MOUSE"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/191/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 144,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/191/t_vs_i.pickle",
+        "reference": 177,
+        "y_axis_toSI": 1e-06,
+        "comments": "3.A G/V, 4. cAMP",
+        "figure_ref_address": "1.A-left",
+        "x_axis_unit": "ms",
+        "ion_channel": 179,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/22/HCN1_MOUSE.png",
+        "figure_ref_caption": "Coexpression of HCN1 and HCN2 results in currents recorded from intact oocytes with novel kinetics that cannot be accounted for by expression of two independent populations of homomeric HCN channels. (A) Currents recorded by two microelectrode voltage clamp elicited by 10-s hyperpolarizations in oocytes injected with cRNA of either HCN1 (left), HCN2 (right) alone, or with a 1:1 mixture of HCN1 and HCN2 (HCN1 + HCN2) (middle). Holding potential was \u00e2\u02c6\u201930 mV, and the voltage was stepped to negative potentials from \u00e2\u02c6\u201935 mV in 10-mV increments to \u00e2\u02c6\u2019105 mV. Tail currents were measured at \u00e2\u02c6\u201940 mV",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 191
+    },
+    "params": {
+        "v_half": -0.061422781009704754,
+        "slope": -0.009148576485711924,
+        "e_rev": -0.033940901968303,
+        "g": 0.0002418675385745683,
+        "ra": 1.3712407635668291,
+        "sa": 11.260552549900654,
+        "rb": 5.740426448675922,
+        "vb": -0.036962017850943454,
+        "sb": 0.0010000000000153664,
+        "rc": 13.593050499448058
+    },
+    "x0": [
+        1.8435772020268533,
+        -3.2956307490541787,
+        0.2145308275318209,
+        -0.07581754939820874,
+        0.0010645773044422131,
+        5.907207817658212
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            -0.035,
+            -0.045,
+            -0.055,
+            -0.065,
+            -0.085,
+            -0.105
+        ],
+        "v_hold": -0.03,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            4,
+            5,
+            5,
+            5,
+            5
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.061422781009704754,
+        "slope": -0.009148576485711924,
+        "e_rev": -0.033940901968303,
+        "g": 0.0002418675385745683
+    },
+    "error": {
+        "r2": 0.9982107626558206,
+        "rmse": 1.049030132121822e-07
+    },
+    "equation": "2.42E-04 * 1/(1+exp(-(v--61.42)/-9.15)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -33.94)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 1.37*exp(-11.26*v), b = 5.74/(1+exp(-(v--36.96)/1.00)), c = 13.593"
+}

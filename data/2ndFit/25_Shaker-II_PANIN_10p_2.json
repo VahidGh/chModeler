@@ -1,0 +1,161 @@
+{
+    "time": "2019-02-22 00:59:04.083714",
+    "ion_channel": {
+        "create_date": "2016-08-05T15:55:32.079944Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC277",
+        "sequence": "MHAMNALFENNLGFLMMPLSLPKLSSQDDDGPPQTNFIGTGNFEPIPHDHDFCERVVINISGLRFETQLRTLNQFPDTLLGDPARRIRYFDPLRNEYFFDRNRPSFDAILYYYQSGGRLRRPVNVPLDVFAEEIKFYELGEVAINKFREDEGFIKEEERPLPENEFQRKVWLLFEYPESSQNARVVAIISVFVILLSIVIFCLETLPEFKHYKVFNTTTNGTVVEEDEVPEVTDPFFLIETICIVWFSTELLVRFFASPLKGAFLKDVMNIIDIVAIIPYFITLATVVAEEESEELVIPAETLSPHEKGSNQAMSLAILRVIRLVRVFRIFKLSRHSKGLQILGRTLKASMRELGLLIFFLFIGVVLFSSAVYFADAGSERSCFKSIPDAFWWAVVTMTTVGYGDMRPVGVWGKIVGSLCAIAGVLTIALPVPVIVSNFNYFYHRETDQEEMQSQNFNHVTSCPYLPGTVGQHLKKDSLSESSSDIMELEEGMLLQHDLSKKQNCNPRHNNNINAMSIETDV",
+        "uniprot_id": "O61335",
+        "conductance": null,
+        "references": [
+            17
+        ],
+        "refSeq_id": "AAC05910",
+        "full_name": "shaker potassium channel [Panulirus interruptus]",
+        "id": 13,
+        "aliases": "Shaker B(II)",
+        "isoform": "II",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2016-08-05T16:00:14.279057Z",
+        "member": "",
+        "gene_symbol": "shaker",
+        "animal": "Panulirus interruptus (California spiny lobster)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "",
+        "current_type": "A-type",
+        "subfamily": "A",
+        "class_symbol": "Kv1",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "Shaker-II_PANIN"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/25/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 12,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/25/t_vs_i.pickle",
+        "reference": 17,
+        "y_axis_toSI": 1e-06,
+        "comments": "B(I) and B(II) differ by only four of their 515 amino acids, with three of the changes occurring in the extracellular loop connecting S5 to the P region and the fourth occurring at the 3\u00e2\u20ac\u00b2 end of the P region (Gross and MacKinnon, 1996) (see Fig. 1).",
+        "figure_ref_address": "3A-2",
+        "x_axis_unit": "ms",
+        "ion_channel": 13,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2016/08/05/Selection_024.png",
+        "figure_ref_caption": "Alternatively spliced channels produce different currents. A, Current traces of B(I), B(II), and B(I/II). Electrophysiological studies were performed in Xenopusoocytes (see Materials and Methods). The traces were for 10 mV steps from a holding potential of \u00e2\u02c6\u201970 mV to between \u00e2\u02c6\u201960 and +50 mV.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 25
+    },
+    "params": {
+        "v_half": -0.011375882767317342,
+        "slope": 0.02318727306077501,
+        "e_rev": -0.046767633850742535,
+        "g": 0.0002389431620317259,
+        "ra": 2.5571594562697055,
+        "sa": -9.701122684734646,
+        "rb": 202.43827208999826,
+        "vb": 0.0005263446942402431,
+        "sb": 0.01696218133839109,
+        "rc": 2.6395273261201393e-15
+    },
+    "x0": [
+        2.557114487335586,
+        -9.701041044347052,
+        202.43521379182295,
+        0.0005262275573387589,
+        0.016962251666823563,
+        1.0813969409031272e-34
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.05,
+            0.03,
+            0.01,
+            -0.01,
+            -0.02,
+            -0.03,
+            -0.04,
+            -0.06
+        ],
+        "v_hold": -0.07,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70,
+            80
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            1,
+            1,
+            2,
+            3,
+            3,
+            4,
+            7,
+            1
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.011375882767317342,
+        "slope": 0.02318727306077501,
+        "e_rev": -0.046767633850742535,
+        "g": 0.0002389431620317259
+    },
+    "error": {
+        "r2": 0.9812009745460959,
+        "rmse": 2.629685043509342e-07
+    },
+    "equation": "2.39E-04 * 1/(1+exp(-(v--11.38)/23.19)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -46.77)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 2.56*exp(--9.70*v), b = 202.44/(1+exp(-(v-0.53)/16.96)), c = 0.000"
+}

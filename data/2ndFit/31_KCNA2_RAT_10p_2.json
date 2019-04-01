@@ -1,0 +1,157 @@
+{
+    "time": "2019-02-22 01:01:06.321714",
+    "ion_channel": {
+        "create_date": "2016-08-18T09:26:21.054487Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/2, http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=539, http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC56",
+        "sequence": "MTVATGDPVDEAAALPGHPQDTYDPEADHECCERVVINISGLRFETQLKTLAQFPETLLGDPKKRMRYFDPLRNEYFFDRNRPSFDAILYYYQSGGRLRRPVNVPLDIFSEEIRFYELGEEAMEMFREDEGYIKEEERPLPENEFQRQVWLLFEYPESSGPARIIAIVSVMVILISIVSFCLETLPIFRDENEDMHGGGVTFHTYSNSTIGYQQSTSFTDPFFIVETLCIIWFSFEFLVRFFACPSKAGFFTNIMNIIDIVAIIPYFITLGTELAEKPEDAQQGQQAMSLAILRVIRLVRVFRIFKLSRHSKGLQILGQTLKASMRELGLLIFFLFIGVILFSSAVYFAEADERDSQFPSIPDAFWWAVVSMTTVGYGDMVPTTIGGKIVGSLCAIAGVLTIALPVPVIVSNFNYFYHRETEGEEQAQYLQVTSCPKIPSSPDLKKSRSASTISKSDYMEIQEGVNNSNEDFREENLKTANCTLANTNYVNITKMLTDV",
+        "uniprot_id": "P63142-1",
+        "conductance": 18.0,
+        "references": [
+            21,
+            22
+        ],
+        "refSeq_id": "NP_037102.1",
+        "full_name": "Kcna2 potassium voltage-gated channel subfamily A member 2 [ Rattus norvegicus (Norway rat) ]",
+        "id": 19,
+        "aliases": "RAK, RBK2, RCK5, HK4",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2016-08-18T15:02:18.454439Z",
+        "member": "2",
+        "gene_symbol": "Kcna2",
+        "animal": "Rattus norvegicus (Rat)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "25468",
+        "current_type": "Delayed rectifier",
+        "subfamily": "A",
+        "class_symbol": "Kv1.2",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCNA2_RAT"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/31/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 16,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/31/t_vs_i.pickle",
+        "reference": 21,
+        "y_axis_toSI": 1e-06,
+        "comments": "Fig 2. De/inactivation",
+        "figure_ref_address": "1A",
+        "x_axis_unit": "ms",
+        "ion_channel": 19,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2016/08/18/Selection_030.png",
+        "figure_ref_caption": "Fig. 1. Representative traces and resultant I-V curves from two different oocytes expressing rKvl.2 using a standard step depolarization protocol in MBS (A) and symmetric K+ (B). The holding potential in each case was -80 mV and the cells were subjected to a series of step commands from -50 mV through +35 mV in 5 mV increments. For the I-V curves, currents were averaged over the last 50 ms of the step command period. The tail current tracing (C) is from a third representative cell in symmetric K+ bathing solution. From a holding potential of -80 mV, the cell was stepped to a potential of +80 mV for 50 ms to fully activate the channels then stepped through a series of voltages ranging from -100 mV to +80 mV in 10 mV increments. For the open-channel I-V curve, a single measurement was made 6-8 ms after the end of the activation step to allow for settling of > 90% of the capacitance transient. Scale bars: (A) 2 uA, 50 ms; (B) 5 uA, 50 ms; (C) 5 uA, 50 ms.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 31
+    },
+    "params": {
+        "v_half": -0.01267800463404968,
+        "slope": 0.007612647365481954,
+        "e_rev": -0.05197694538926375,
+        "g": 0.0011526953918989276,
+        "ra": 4.000262165175491,
+        "sa": 4.3644130405094055,
+        "rb": 16.7409777182437,
+        "vb": -0.013731186764491827,
+        "sb": 0.021524924886544807,
+        "rc": 1.7352160398915763e-15
+    },
+    "x0": [
+        4.0003334147228164,
+        4.364922786090047,
+        16.74097278032964,
+        -0.013731739913908097,
+        0.021525256345384627,
+        2.964430493957617e-13
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.035,
+            0.03,
+            0.01,
+            -0.01,
+            -0.02,
+            -0.025,
+            -0.05
+        ],
+        "v_hold": -0.08,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42,
+            49
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            5,
+            5,
+            6,
+            6,
+            6,
+            6,
+            3
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.01267800463404968,
+        "slope": 0.007612647365481954,
+        "e_rev": -0.05197694538926375,
+        "g": 0.0011526953918989276
+    },
+    "error": {
+        "r2": 0.9966657691022469,
+        "rmse": 9.125483574946909e-07
+    },
+    "equation": "1.15E-03 * 1/(1+exp(-(v--12.68)/7.61)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -51.98)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 4.00*exp(-4.36*v), b = 16.74/(1+exp(-(v--13.73)/21.52)), c = 0.000"
+}

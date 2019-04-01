@@ -1,0 +1,151 @@
+{
+    "time": "2019-02-22 01:03:39.865714",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:24.756080Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/5",
+        "sequence": "MEIALVPLENGGAMTVRGGDEARAGCGQATGGELQCPPTAGLSDGPKEPAPKGRGAQRDADSGVRPLPPLPDPGVRPLPPLPEELPRPRRPPPEDEEEEGDPGLGTVEDQALGTASLHHQRVHINISGLRFETQLGTLAQFPNTLLGDPAKRLRYFDPLRNEYFFDRNRPSFDGILYYYQSGGRLRRPVNVSLDVFADEIRFYQLGDEAMERFREDEGFIKEEEKPLPRNEFQRQVWLIFEYPESSGSARAIAIVSVLVILISIITFCLETLPEFRDERELLRHPPAPHQPPAPAPGANGSGVMAPPSGPTVAPLLPRTLADPFFIVETTCVIWFTFELLVRFFACPSKAGFSRNIMNIIDVVAIFPYFITLGTELAEQQPGGGGGGQNGQQAMSLAILRVIRLVRVFRIFKLSRHSKGLQILGKTLQASMRELGLLIFFLFIGVILFSSAVYFAEADNQGTHFSSIPDAFWWAVVTMTTVGYGDMRPITVGGKIVGSLCAIAGVLTIALPVPVIVSNFNYFYHRETDHEEPAVLKEEQGTQSQGPGLDRGVQRKVSGSRGSFCKAGGTLENADSARRGSCPLEKCNVKAKSNVDLRRSLYALCLDTSRETDL",
+        "uniprot_id": "P22460-1",
+        "conductance": null,
+        "references": [
+            34
+        ],
+        "refSeq_id": "NP_002225",
+        "full_name": "KCNA5 potassium voltage-gated channel subfamily A member 5 [ Homo sapiens (human) ]",
+        "id": 32,
+        "aliases": "HPCN1, HCK1, HK2, hKv1.5",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-08T13:30:08.691138Z",
+        "member": "5",
+        "gene_symbol": "KCNA5",
+        "animal": "Homo sapiens (Human)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "3741.0",
+        "current_type": "Delayed rectifier",
+        "subfamily": "A",
+        "class_symbol": "Kv1.5",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCNA5_HUMAN"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/44/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 29,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/44/t_vs_i.pickle",
+        "reference": 34,
+        "y_axis_toSI": 1e-06,
+        "comments": "1.C I_norm/V",
+        "figure_ref_address": "1.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 32,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/08/KCNA5_HUMAN.png",
+        "figure_ref_caption": "Effects of cortisone and hydrocortisone on human Kv1.5 channel currents. (A) Superimposed current traces for controls and after exposure to 100 uM cortisone from a series of voltage pulses from -80 mV to +50 mV of 2 s duration with 10 mV increments every 10 s from a holding potential of -100 mV.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 44
+    },
+    "params": {
+        "v_half": -0.005569112714340396,
+        "slope": 0.013256569278865895,
+        "e_rev": -0.04658894586576624,
+        "g": 0.00016154075275001618,
+        "ra": 5.84912906225004,
+        "sa": 0.5555652999845507,
+        "rb": 10.98353225339179,
+        "vb": 0.0023779549567135624,
+        "sb": 0.0068439079241091345,
+        "rc": 6.287526286414337
+    },
+    "x0": [
+        5.848762611120846,
+        0.5554890169480903,
+        10.982600535944348,
+        0.0023784520773266846,
+        0.006843826704137475,
+        6.287404229663142
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.05,
+            0.03,
+            0.01,
+            -0.01,
+            -0.02,
+            -0.08
+        ],
+        "v_hold": -0.1,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            2,
+            2,
+            3,
+            6,
+            6,
+            6
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.005569112714340396,
+        "slope": 0.013256569278865895,
+        "e_rev": -0.04658894586576624,
+        "g": 0.00016154075275001618
+    },
+    "error": {
+        "r2": 0.9958136353742448,
+        "rmse": 1.461315235345902e-07
+    },
+    "equation": "1.62E-04 * 1/(1+exp(-(v--5.57)/13.26)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -46.59)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 5.85*exp(-0.56*v), b = 10.98/(1+exp(-(v-2.38)/6.84)), c = 6.288"
+}

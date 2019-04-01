@@ -1,0 +1,151 @@
+{
+    "time": "2019-02-22 01:26:35.295714",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.114050Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/42, http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=430&familyId=74",
+        "sequence": "MGSVRTNRYSIVSSEEDGMKLATMAVANGFGNGKSKVHTRQQCRSRFVKKDGHCNVQFINVGEKGQRYLADIFTTCVDIRWRWMLVIFCLAFVLSWLFFGCVFWLIALLHGDLDTSKVSKACVSEVNSFTAAFLFSIETQTTIGYGFRCVTDECPIAVFMVVFQSIVGCIIDAFIIGAVMAKMAKPKKRNETLVFSHNAVIAMRDGKLCLMWRVGNLRKSHLVEAHVRAQLLKSRITSEGEYIPLDQIDINVGFDSGIDRIFLVSPITIVHEIDEDSPLYDLSKQDIDNADFEIVVILEGMVEATAMTTQCRSSYLANEILWGHRYEPVLFEEKHYYKVDYSRFHKTYEVPNTPLCSARDLAEKKYILSNANSFCYENEVALTSKEEEEDSENGVPESTSTDSPPGIDLHNQASVPLEPRPLRRESEI",
+        "uniprot_id": "P35561-1",
+        "conductance": 21.0,
+        "references": [
+            96
+        ],
+        "refSeq_id": "NP_032451",
+        "full_name": "Kcnj2 potassium inwardly-rectifying channel, subfamily J, member 2 [ Mus musculus (house mouse) ]",
+        "id": 103,
+        "aliases": "IRK1, Kcnf1, MB-IRK1, mKir2.1",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-13T15:34:01.211281Z",
+        "member": "2",
+        "gene_symbol": "Kcnj2",
+        "animal": "Mus musculus (Mouse)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "16518",
+        "current_type": "Inwardly-rectifying",
+        "subfamily": "J",
+        "class_symbol": "Kir2.1",
+        "channel_type": "Inwardly rectifying potassium channels",
+        "channel_name": "KCNJ2_MOUSE"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/115/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 90,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/115/t_vs_i.pickle",
+        "reference": 96,
+        "y_axis_toSI": 1e-06,
+        "comments": "1.e I/V",
+        "figure_ref_address": "1.c",
+        "x_axis_unit": "ms",
+        "ion_channel": 103,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/13/KCNJ2_MOUSE.jpg",
+        "figure_ref_caption": "None",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 115
+    },
+    "params": {
+        "v_half": -0.0012920809850765693,
+        "slope": -0.026629716396313403,
+        "e_rev": 0.00032173893469676185,
+        "g": 9.767540923263637e-05,
+        "ra": 19.001194921229658,
+        "sa": -1.1763150601388788,
+        "rb": 143.59151198648863,
+        "vb": 0.0026788510693237914,
+        "sb": 0.001000000000714726,
+        "rc": 28.78881173062097
+    },
+    "x0": [
+        19.001190734898973,
+        -1.1763147455223346,
+        143.59150274057887,
+        0.0026788513288952052,
+        0.0010000000005535121,
+        28.78880596955899
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.05,
+            0.02,
+            -0.01,
+            -0.04,
+            -0.07,
+            -0.1
+        ],
+        "v_hold": 0.0,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.0012920809850765693,
+        "slope": -0.026629716396313403,
+        "e_rev": 0.00032173893469676185,
+        "g": 9.767540923263637e-05
+    },
+    "error": {
+        "r2": 0.9990215290312585,
+        "rmse": 4.4739754944927625e-08
+    },
+    "equation": "9.77E-05 * 1/(1+exp(-(v--1.29)/-26.63)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - 0.32)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 19.00*exp(--1.18*v), b = 143.59/(1+exp(-(v-2.68)/1.00)), c = 28.789"
+}

@@ -1,0 +1,146 @@
+{
+    "time": "2019-02-22 01:58:52.397716",
+    "ion_channel": {
+        "create_date": "2017-01-04T07:14:42.456485Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/124, http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=582&familyId=82&familyType=IC",
+        "sequence": "MANLLLPRGTSSFRRFTRESLAAIEKRMAEKQARGGSATSQESREGLQEEEAPRPQLDLQASKKLPDLYGNPPRELIGEPLEDLDPFYSTQKTFIVLNKGKTIFRFSATNALYVLSPFHPVRRAAVKILVHSLFSMLIMCTILTNCVFMAQHDPPPWTKYVEYTFTAIYTFESLVKILARGFCLHAFTFLRDPWNWLDFSVIVMAYTTEFVDLGNVSALRTFRVLRALKTISVISGLKTIVGALIQSVKKLADVMVLTVFCLSVFALIGLQLFMGNLRHKCVRNFTELNGTNGSVEADGLVWNSLDVYLNDPANYLLKNGTTDVLLCGNSSDAGTCPEGYRCLKAGENPDHGYTSFDSFAWAFLALFRLMTQDCWERLYQQTLRSAGKIYMIFFMLVIFLGSFYLVNLILAVVAMAYEEQNQATIAETEEKEKRFQEAMEMLKKEHEALTIRGVDTVSRSSLEMSPLAPVTNHERKSKRRKRLSSGTEDGGDDRLPKSDSEDGPRALNQLSLTHGLSRTSMRPRSSRGSIFTFRRRDQGSEADFADDENSTAGESESHRTSLLVPWPLRHPSAQGQPGPGASAPGYVLNGKRNSTVDCNGVVSLLGAGDAEATSPGSYLLRPMVLDRPPDTTTPSEEPGGPQMLTPQAPCADGFEEPGARQRALSAVSVLTSALEELEESHRKCPPCWNRFAQHYLIWECCPLWMSIKQKVKFVVMDPFADLTITMCIVLNTLFMALEHYNMTAEFEEMLQVGNLVFTGIFTAEMTFKIIALDPYYYFQQGWNIFDSIIVILSLMELGLSRMGNLSVLRSFRLLRVFKLAKSWPTLNTLIKIIGNSVGALGNLTLVLAIIVFIFAVVGMQLFGKNYSELRHRISDSGLLPRWHMMDFFHAFLIIFRILCGEWIETMWDCMEVSGQSLCLLVFLLVMVIGNLVVLNLFLALLLSSFSADNLTAPDEDGEMNNLQLALARIQRGLRFVKRTTWDFCCGILRRRPKKPAALATHSQLPSCITAPRSPPPPEVEKVPPARKETRFEEDKRPGQGTPGDSEPVCVPIAVAESDTEDQEEDEENSLGTEEESSKQESQVVSGGHEPYQEPRAWSQVSETTSSEAGASTSQADWQQEQKTEPQAPGCGETPEDSYSEGSTADMTNTADLLEQIPDLGEDVKDPEDCFTEGCVRRCPCCMVDTTQSPGKVWWRLRKTCYRIVEHSWFETFIIFMILLSSGALAFEDIYLEERKTIKVLLEYADKMFTYVFVLEMLLKWVAYGFKKYFTNAWCWLDFLIVDVSLVSLVANTLGFAEMGPIKSLRTLRALRPLRALSRFEGMRVVVNALVGAIPSIMNVLLVCLIFWLIFSIMGVNLFAGKFGRCINQTEGDLPLNYTIVNNKSECESFNVTGELYWTKVKVNFDNVGAGYLALLQVATFKGWMDIMYAAVDSRGYEEQPQWEDNLYMYIYFVVFIIFGSFFTLNLFIGVIIDNFNQQKKKLGGQDIFMTEEQKKYYNAMKKLGSKKPQKPIPRPLNKYQGFIFDIVTKQAFDVTIMFLICLNMVTMMVETDDQSPEKVNILAKINLLFVAIFTGECIVKMAALRHYYFTNSWNIFDFVVVILSIVGTVLSDIIQKYFFSPTLFRVIRLARIGRILRLIRGAKGIRTLLFALMMSLPALFNIGLLLFLVMFIYSIFGMANFAYVKWEAGIDDMFNFQTFANSMLCLFQITTSAGWDGLLSPILNTGPPYCDPNLPNSNGSRGNCGSPAVGILFFTTYIIISFLIVVNMYIAIILENFSVATEESTEPLSEDDFDMFYEIWEKFDPEATQFIEYLALSDFADALSEPLRIAKPNQISLINMDLPMVSGDRIHCMDILFAFTKRVLGESGEMDALKIQMEEKFMAANPSKISYEPITTTLRRKHEEVSATVIQRAFRRHLLQRSVKHASFLFRQQAGGSGLSDEDAPEREGLIAYMMNGNFSRRSAPLSSSSISSTSFPPSYDSVTRATSDNLPVRASDYSRSEDLADFPPSPDRDRESIV",
+        "uniprot_id": "P15389-1",
+        "conductance": 20.0,
+        "references": [
+            164
+        ],
+        "refSeq_id": "NP_037257",
+        "full_name": "Scn5a sodium voltage-gated channel alpha subunit 5 [ Rattus norvegicus (Norway rat) ]",
+        "id": 163,
+        "aliases": "Skm2, SkMII, rNav1.5",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-20T09:53:25.596890Z",
+        "member": "",
+        "gene_symbol": "Scn5a",
+        "animal": "Rattus norvegicus (Rat)",
+        "username": 1,
+        "ion_type": "Na+",
+        "gene_id": "25665",
+        "current_type": "A-type",
+        "subfamily": "5A",
+        "class_symbol": "Nav1.5",
+        "channel_type": "Voltage-gated sodium channels",
+        "channel_name": "SCN5A_RAT"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/175/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 134,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/175/t_vs_i.pickle",
+        "reference": 164,
+        "y_axis_toSI": 1e-06,
+        "comments": "No aux, 1.C I_norm/V",
+        "figure_ref_address": "1.B",
+        "x_axis_unit": "ms",
+        "ion_channel": 163,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/20/SCN5A_RAT.png",
+        "figure_ref_caption": "Inactivation of the rat SkM1 and SkM2 sodium currents expressed in Xenopus oocytes. (A) Current traces recorded using a double-pulse protocol (C, inset) when rat SkM1 was expressed in oocytes. The double pulse was delivered in an interval of 6 s from a holding potential of -90 mV. (B) Current traces recorded using the same voltage protocol when rat SkM2 was expressed.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 175
+    },
+    "params": {
+        "v_half": -0.07687506394006725,
+        "slope": 0.015485334785648293,
+        "e_rev": 0.19999999999999998,
+        "g": 3.6192149551446797e-06,
+        "ra": 0.0010000000000000002,
+        "sa": 138.5522149252128,
+        "rb": 499.99999999997783,
+        "vb": -0.08882458513859295,
+        "sb": 0.0010000000000002388,
+        "rc": 499.999999996798
+    },
+    "x0": [
+        184.21188937394032,
+        0.6701724893589884,
+        499.99999999988313,
+        -0.03860838586749518,
+        0.0010009234811835838,
+        499.9999999999623
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            -0.02,
+            -0.04,
+            -0.06,
+            -0.08,
+            -0.1
+        ],
+        "v_hold": -0.09,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            3,
+            2,
+            3,
+            2,
+            1
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.07687506394006725,
+        "slope": 0.015485334785648293,
+        "e_rev": 0.19999999999999998,
+        "g": 3.6192149551446797e-06
+    },
+    "error": {
+        "r2": 0.8886304541708159,
+        "rmse": 4.2258240991570356e-08
+    },
+    "equation": "3.62E-06 * 1/(1+exp(-(v--76.88)/15.49)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - 200.00)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 0.00*exp(-138.55*v), b = 500.00/(1+exp(-(v--88.82)/1.00)), c = 500.000"
+}

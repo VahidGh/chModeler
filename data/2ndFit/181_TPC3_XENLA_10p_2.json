@@ -1,0 +1,171 @@
+{
+    "time": "2019-02-22 02:03:55.107725",
+    "ion_channel": {
+        "create_date": "2017-01-04T07:14:42.475016Z",
+        "links": "",
+        "sequence": "MSEAEVTSNGNFSRGENGRTEGESHIDVDIADEQNLLLAVAFVYDAQYNRNIHFETSPEAVRLYYFYNHWLMQVATYFFITVDLLLAVFEEPAVFPLPFLATSIVEVLCLLAFFGRLVHFSKVTPLSIFWKDTKNICVMVTIGLNLIDLIIYGALSIAEIQSVRWSRVLRPIYLINFAESRQIRRAFRSIRNTLPEIMYVFLLFMFSVLLFSLMALQLLGKRNLKTAEGEPYFANYLDVVFNLYVLVTTANSPDVMMPAYDHNPWYAIFFIAYIILNTYIFMSVFLAVVYNNYRKHLKNEIRKLAYMKRRKMVDAFNTLKVKVGSEFVIKEDKWKMLVKLVAPDISNSHRELLLRVSDEEQNGYVGKDAFIRLADLLNIKVITMKTRKHPLESWMPHVYKSAWSRFIRRVVQHKGFVYAYDGIILVNAIFIALDESNPLISNAEWVFLAFYLVEILLKLYTYDPRSFFAKNQFWNWFDTLIIVAALIATIMNTSLKSVGQYSSQQVLDIVFIIRVLRLIRIIDSIQRFRVIMNTLLNILPTMLTFSGLLIAIYYVFAIVGMEIFSGKIRFFPENSTDPYAQECGTSALKDSAFAKSKYCKNNFNDLGSAFIVLVELTVVNQWHVLANGFSLVTHTAARLYFIAFHIVIVILIINIFVAFILEAFFVEYSLEKSEVETAIEKKIQELGMAVQEDAPPENLVENMESCETDAGTFGETTQKGLMFRIASKRYRTVDALLQRMFEAEIPPGDEGPPIEDIVNLSPNDLYIHNPTFDTAA",
+        "uniprot_id": "",
+        "conductance": null,
+        "references": [
+            172
+        ],
+        "refSeq_id": "XP_018120624",
+        "full_name": "PREDICTED: two pore calcium channel protein 1-like isoform X1 [ Xenopus laevis (African clawed frog) ]",
+        "id": 169,
+        "aliases": "xlTPC3",
+        "isoform": "X1",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-21T13:10:34.556968Z",
+        "member": "",
+        "gene_symbol": "tpc3",
+        "animal": "Xenopus laevis (African clawed frog)",
+        "username": 1,
+        "ion_type": "Na+",
+        "gene_id": "108717789",
+        "current_type": "Delayed rectifier",
+        "subfamily": "",
+        "class_symbol": "TPC3",
+        "channel_type": "Two pore segment channels",
+        "channel_name": "TPC3_XENLA"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/181/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 139,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/181/t_vs_i.pickle",
+        "reference": 172,
+        "y_axis_toSI": 1e-06,
+        "comments": "8.f I/V",
+        "figure_ref_address": "8.e",
+        "x_axis_unit": "ms",
+        "ion_channel": 169,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/21/TPC3_XENLA.png",
+        "figure_ref_caption": "Two-electrode voltage-clamp recordings were performed with Xenopus oocytes without (a\u00e2\u20ac\u201cc) or with (d\u00e2\u20ac\u201cf) xlTPC3 RNA injection. (a,b,d,e) Representative currents recorded with a voltage-step protocol (\u00e2\u02c6\u201950\u00e2\u20ac\u2030to +80\u00e2\u20ac\u2030mV with a 10-mV step, Vh=\u00e2\u02c6\u201960\u00e2\u20ac\u2030mV, shown in a) before (a,d) and after (b,e) the oocyte was \u00e2\u20ac\u02dcinduced\u00e2\u20ac\u2122 with a 60-s depolarization of +50\u00e2\u20ac\u2030mV. Capacitive transient currents are masked for clarity.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 181
+    },
+    "params": {
+        "v_half": 0.026808485596498264,
+        "slope": 0.006144509631225161,
+        "e_rev": 0.05685766020051892,
+        "g": 0.00038297543839906724,
+        "ra": 0.13411312611263398,
+        "sa": -85.3281418423099,
+        "rb": 291.8505646614975,
+        "vb": 0.05678908539265976,
+        "sb": 0.00682600298873125,
+        "rc": 0.11755209480034708
+    },
+    "x0": [
+        1.3389605648614642,
+        13.094812174366973,
+        5.423697514204961,
+        -0.01937912709180026,
+        0.0027848975012551088,
+        15.14080644403872
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.08,
+            0.07,
+            0.06,
+            0.05,
+            0.04,
+            0.03,
+            0.02,
+            0.01,
+            0.0,
+            -0.02
+        ],
+        "v_hold": -0.06,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42,
+            49,
+            56,
+            63,
+            70
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            4,
+            4,
+            2,
+            6,
+            6,
+            6,
+            5,
+            4,
+            5,
+            1
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": 0.026808485596498264,
+        "slope": 0.006144509631225161,
+        "e_rev": 0.05685766020051892,
+        "g": 0.00038297543839906724
+    },
+    "error": {
+        "r2": 0.9893453852620856,
+        "rmse": 1.673003180430414e-07
+    },
+    "equation": "3.83E-04 * 1/(1+exp(-(v-26.81)/6.14)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - 56.86)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 0.13*exp(--85.33*v), b = 291.85/(1+exp(-(v-56.79)/6.83)), c = 0.118"
+}

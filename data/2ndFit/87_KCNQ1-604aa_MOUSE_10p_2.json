@@ -1,0 +1,151 @@
+{
+    "time": "2019-02-22 01:20:53.619714",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:24.968875Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC49, channelpedia.epfl.ch/ionchannels/23",
+        "sequence": "MSTPVSPAPAPADLGPRPRVSLDPRVSIYSARRPLLARTHIQGRVYNFLERPTGWKCFVYHFTVFLIVLVCLIFSVLSTIEQYAALATGTLFWMEIVLVVFFGTEYVVRLWSAGCRSKYVGIWGRLRFARKPISIIDLIVVVASMVVLCVGSKGQVFATSAIRGIRFLQILRMLHVDRQGGTWRLLGSVVFIHRQELITTLYIGFLGLIFSSYFVYLAEKDAVNESGRIEFGSYADALWWGVVTVTTIGYGDKVPQTWVGKTIASCFSVFAISFFALPAGILGSGFALKVQQKQRQKHFNRQIPAAASLIQTAWRCYAAENPDSATWKIYVRKPARSHTLLSPSPKPKKSVMVKKKKFKLDKDNGMSPGEKMFNVPHITYDPPEDRRPDHFSIDGYDSSVRKSPTLLELSTPHFLRTNSFAEDLDLEGETLLTPITHVSQLRDHHRATIKVIRRMQYFVAKKKFQQARKPYDVRDVIEQYSQGHLNLMVRIKELQRRLDQSIGKPSLFIPISEKSKDRGSNTIGARLNRVEDKVTQLDQRLVIITDMLHQLLSMQQGGPTCNSRSQVVASNEGGSINPELFLPSNSLPTYEQLTVPQTGPDEGS",
+        "uniprot_id": "P97414",
+        "conductance": null,
+        "references": [
+            73
+        ],
+        "refSeq_id": "AAB36518",
+        "full_name": "Kcnq1 potassium voltage-gated channel, subfamily Q, member 1 [ Mus musculus (house mouse) ]",
+        "id": 75,
+        "aliases": "mKvLQT1, mKv7.1",
+        "isoform": "604aa",
+        "channelworm_gene": null,
+        "comments": "Partial protein (377aa), Corrected: NP_001116347",
+        "last_update": "2017-01-11T11:33:35.293607Z",
+        "member": "1",
+        "gene_symbol": "Kcnq1",
+        "animal": "Mus musculus (Mouse)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "16535",
+        "current_type": "Delayed rectifier",
+        "subfamily": "Q",
+        "class_symbol": "Kv7.1",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCNQ1-604aa_MOUSE"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/87/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 65,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/87/t_vs_i.pickle",
+        "reference": 73,
+        "y_axis_toSI": 1e-06,
+        "comments": "",
+        "figure_ref_address": "3.C",
+        "x_axis_unit": "ms",
+        "ion_channel": 75,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/11/KCNQ1_MOUSE.png",
+        "figure_ref_caption": "None",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 87
+    },
+    "params": {
+        "v_half": -0.034993405278227876,
+        "slope": 0.011543269975045069,
+        "e_rev": -0.09397735694074423,
+        "g": 3.9754758062302003e-05,
+        "ra": 0.507158182773845,
+        "sa": -39.85368529421767,
+        "rb": 22.700546820853305,
+        "vb": 0.0492517658152231,
+        "sb": 0.013619699687647804,
+        "rc": 0.5196009530806192
+    },
+    "x0": [
+        28.856369460943025,
+        20.244543117513096,
+        499.99999999639516,
+        -0.03251781454855558,
+        0.012904838350256234,
+        81.07872812833969
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.04,
+            0.02,
+            0.0,
+            -0.02,
+            -0.04,
+            -0.06
+        ],
+        "v_hold": -0.08,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            6,
+            5,
+            6,
+            6,
+            4
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.034993405278227876,
+        "slope": 0.011543269975045069,
+        "e_rev": -0.09397735694074423,
+        "g": 3.9754758062302003e-05
+    },
+    "error": {
+        "r2": 0.995435343903258,
+        "rmse": 4.9616098910076965e-08
+    },
+    "equation": "3.98E-05 * 1/(1+exp(-(v--34.99)/11.54)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -93.98)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 0.51*exp(--39.85*v), b = 22.70/(1+exp(-(v-49.25)/13.62)), c = 0.520"
+}

@@ -1,0 +1,162 @@
+{
+    "time": "2019-02-22 00:55:28.723713",
+    "ion_channel": {
+        "create_date": "2016-07-09T18:51:27.098789Z",
+        "links": "",
+        "sequence": "MTMWQSGGMGGHGSQNNPWMKLMGIVHKERRHTENVQSQSGSNERNLNQSLPKLSSQDEEGGAGHGFGGGPQHFEPIPHDHDFCERVVINVSGLRFETQLRTLNQFPDTLLGDPARRLRYFDPLRNEYFFDRSRPSFDAILYYYQSGGRLRRPVNVPLDVFSEEIKFYELGDQAINKFREDEGFIKEEERPLPDNEKQRKVWLLFEYPESSQAARVVAIISVFVILLSIVIFCLETLPEFKHYKVFNTTTNGTKIEEDEVPDITDPFFLIETLCIIWFTFELTVRFLACPNKLNFCRDVMNVIDIIAIIPYFITLATVVAEEEDTLNLPKAPVSPQDKSSNQAMSLAILRVIRLVRVFRIFKLSRHSKGLQILGRTLKASMRELGLLIFFLFIGVVLFSSAVYFAEAGSENSFFKSIPDAFWWAVVTMTTVGYGDMTPVGVWGKIVGSLCAIAGVLTIALPVPVIVSNFNYFYHRETDQEEMQSQNFNHVTSCPYLPGTLGQHMKKSSLSESSSDMMDLDDGVESTPGLTETHPGRSAVAPFLGAQQQQQQQPVASSLSMSIDKQLQHPLQHVTQTQLYQQQQQQQQQQQNGFKQQQQQTQQQLQQQQSHTINASAAAATSGSGSSGLTMRHNNALAVSIETDV",
+        "uniprot_id": "P08510-3",
+        "conductance": null,
+        "references": [
+            5,
+            8
+        ],
+        "refSeq_id": "NP_001188668.1",
+        "full_name": "Sh Shaker, isoform I [ Drosophila melanogaster (fruit fly) ]",
+        "id": 7,
+        "aliases": "ShD1, ShD, ShBeta, ShI, ShC",
+        "isoform": "Beta",
+        "channelworm_gene": null,
+        "comments": "WVRVHFRFGFVGKLERCCHCHSFFDRNRIWETAAK removed from the 5 end original ShD1, according to the Experimental Procedures.",
+        "last_update": "2016-07-09T18:55:07.151530Z",
+        "member": "",
+        "gene_symbol": "Sh",
+        "animal": "Drosophila melanogaster (Fruit fly)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "32780",
+        "current_type": "A-type",
+        "subfamily": "A",
+        "class_symbol": "Kv1",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "Sh-D1_DROME"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/19/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 7,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/19/t_vs_i.pickle",
+        "reference": 5,
+        "y_axis_toSI": 1e-06,
+        "comments": "",
+        "figure_ref_address": "1B-4",
+        "x_axis_unit": "ms",
+        "ion_channel": 7,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2016/07/09/Selection_015.png",
+        "figure_ref_caption": "(B) Examples of transient outward currents in oocytes injected with the four Shaker mRNAs. The membrane potentials of oocytes expressing ShA,  ShB, and ShD mRNA were stepped from -80 mV to a series of potentials between -30 and 40 mV in 10 mV increments. To promote recovery from inactivation in the ShA oocyte, its membrane was hyperpolarized 10 times to -120 mV with 80 ms pulses before each depolarizing pulse. The membrane potential of the oocyte injected with ShC mRNA was stepped from -80 mV to 40 mV. Because of the very slow rate of recovery from inactivation of the ShC current, it is difficult to obtain a  complete current-voltage series. Linear leakage current has been subtracted from each record.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 19
+    },
+    "params": {
+        "v_half": -0.026483583243864767,
+        "slope": 0.01318004029331071,
+        "e_rev": -0.040038009219549794,
+        "g": 0.00010136516989230604,
+        "ra": 13.702744225112475,
+        "sa": 5.296066886852736,
+        "rb": 149.67541160194457,
+        "vb": -0.015056119381938066,
+        "sb": 0.013294950656063195,
+        "rc": 1.1457683784422941e-14
+    },
+    "x0": [
+        13.702653526571831,
+        5.295973814705274,
+        149.6751629008614,
+        -0.015056106892695409,
+        0.013295047805793726,
+        3.1065301021440754e-19
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.04,
+            0.03,
+            0.02,
+            0.01,
+            0.0,
+            -0.01,
+            -0.02,
+            -0.03
+        ],
+        "v_hold": -0.08,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70,
+            80
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            2,
+            3,
+            3,
+            3,
+            3,
+            4,
+            9,
+            9
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.026483583243864767,
+        "slope": 0.01318004029331071,
+        "e_rev": -0.040038009219549794,
+        "g": 0.00010136516989230604
+    },
+    "error": {
+        "r2": 0.9936676189065743,
+        "rmse": 7.211595395715866e-08
+    },
+    "equation": "1.01E-04 * 1/(1+exp(-(v--26.48)/13.18)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -40.04)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 13.70*exp(-5.30*v), b = 149.68/(1+exp(-(v--15.06)/13.29)), c = 0.000"
+}

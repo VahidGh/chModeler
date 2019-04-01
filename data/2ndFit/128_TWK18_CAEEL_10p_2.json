@@ -1,0 +1,151 @@
+{
+    "time": "2019-02-22 01:36:20.381713",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.155490Z",
+        "links": "",
+        "sequence": "MAIVAQGVSTILTTFQKTFKGLLPLIILVAYTLLGAWIFWMIEGENEREMLIEQQKERDELIRRTVYKINQLQIKRQRRLMTAEEEYNRTAKVLTTFQETLGIVPADMDKDIHWTFLGSIFYCMTVYTTIGYGNIVPGTGWGRFATILYAFIGIPLTVLSLYCLGSLFAKGCKMLWRFFLKSTRVVSKDLSNKISEAADNIEEGTTAITPSAEKTENNDDDLLSFPISGLLLITVIWVIFCAVLFTFLEEWDFGTSLYFTLISFTTIGFGDILPSDYDFMPIVGVLLLIGLSLVSTVMTLIQQQIEALASGMKDNIDQEYARALNEAREDGEVDEHVDPEEDPENNKKSFDAVISRMNWSKRGLYYLLPDSQKKELAKQSEKKMGRKSIKIQTDNDLLETLIREEILKAELNNEMHKYTAPRSSHQPKLVYSDVREKEVPIEVVRVEHFNHGNEDYLEHDI",
+        "uniprot_id": "Q18120-1",
+        "conductance": 130.0,
+        "references": [
+            111
+        ],
+        "refSeq_id": "NP_509516",
+        "full_name": "twk-18 TWiK family of potassium channels protein 18 [ Caenorhabditis elegans ]",
+        "id": 116,
+        "aliases": "Twk-18, K2p",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-14T12:31:11.383931Z",
+        "member": "",
+        "gene_symbol": "twk-18",
+        "animal": "Caenorhabditis elegans (C. elegans)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "181139",
+        "current_type": "Delayed rectifier",
+        "subfamily": "K",
+        "class_symbol": "K2p1",
+        "channel_type": "Two-P potassium channels",
+        "channel_name": "TWK18_CAEEL"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/128/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 102,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/128/t_vs_i.pickle",
+        "reference": 111,
+        "y_axis_toSI": 1e-06,
+        "comments": "",
+        "figure_ref_address": "3.A-1",
+        "x_axis_unit": "ms",
+        "ion_channel": 116,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/14/TWK18_CAEEL.png",
+        "figure_ref_caption": "Wild-type and mutant TWK-18 whole-cell currents. TWK-18 channels express an outwardly rectifying current.A, Oocytes were injected with 50 nl of 2 \u00ce\u00bcg/\u00ce\u00bcl wild-type TWK-18 or TWK-18(cn110) cRNA or 0.1 \u00ce\u00bcg/\u00ce\u00bcl TWK-18(e1913) cRNA. The bath solution contained ND96 with 1 mm DIDS to inhibit endogenous chloride currents. The oocytes were recorded at 35\u00c2\u00b0C and held at \u00e2\u02c6\u201980 mV and then stepped from \u00e2\u02c6\u2019100 to +40 mV in 10 mV increments. Current\u00e2\u20ac\u201cvoltage relations from thetraces on the left are plotted on theright and reflect similar outward rectification for both the wild-type and mutant TWK-18 channels.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 128
+    },
+    "params": {
+        "v_half": 0.04261285081393967,
+        "slope": 0.03146877333534568,
+        "e_rev": -0.13824444073289532,
+        "g": 7.961001580038596e-05,
+        "ra": 6.264323583635215,
+        "sa": -86.42510919148008,
+        "rb": 499.99999999999994,
+        "vb": 0.027892451971709965,
+        "sb": 0.00814162822719201,
+        "rc": 0.03288756786589292
+    },
+    "x0": [
+        6.264319771658541,
+        -86.42512154684339,
+        499.99999999995373,
+        0.02789245677665875,
+        0.008141628098180219,
+        0.03288749510144834
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.04,
+            0.02,
+            0.0,
+            -0.02,
+            -0.04,
+            -0.08
+        ],
+        "v_hold": -0.08,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            1,
+            6,
+            7,
+            1,
+            6,
+            8
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": 0.04261285081393967,
+        "slope": 0.03146877333534568,
+        "e_rev": -0.13824444073289532,
+        "g": 7.961001580038596e-05
+    },
+    "error": {
+        "r2": 0.9948344563774533,
+        "rmse": 6.807256926481841e-08
+    },
+    "equation": "7.96E-05 * 1/(1+exp(-(v-42.61)/31.47)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -138.24)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 6.26*exp(--86.43*v), b = 500.00/(1+exp(-(v-27.89)/8.14)), c = 0.033"
+}

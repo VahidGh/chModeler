@@ -1,0 +1,146 @@
+{
+    "time": "2019-02-22 01:03:54.869713",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:24.758088Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC15, http://channelpedia.epfl.ch/ionchannels/5",
+        "sequence": "MEISLVPLENGSAMTLRGGGEAGASCVQTPRGECGCPPTSGLNNQSKETLLRGRTTLEDANQGGRPLPPMAQELPQPRRLSAEDEEGEGDPGLGTVEEDQAPQDAGSLHHQRVLINISGLRFETQLGTLAQFPNTLLGDPAKRLHYFDPLRNEYFFDRNRPSFDGILYYYQSGGRLRRPVNVSLDVFADEIRFYQLGDEAMERFREDEGFIKEEEKPLPRNEFQRQVWLIFEYPESSGSARAIAIVSVLVILISIITFCLETLPEFRDERELLRHPPVPPQPPAPAPGINGSVSGALSSGPTVAPLLPRTLADPFFIVETTCVIWFTFELLVRFFACPSKAEFSRNIMNIIDVVAIFPYFITLGTELAEQQPGGGGQNGQQAMSLAILRVIRLVRVFRIFKLSRHSKGLQILGKTLQASMRELGLLIFFLFIGVILFSSAVYFAEADNHGSHFSSIPDAFWWAVVTMTTVGYGDMRPITVGGKIVGSLCAIAGVLTIALPVPVIVSNFNYFYHRETDHEEQAALKEEQGNQRRESGLDTGGQRKVSCSKASFCKTGGSLESSDSIRRGSCPLEKCHLKAKSNVDLRRSLYALCLDTSRETDL",
+        "uniprot_id": "P19024-1",
+        "conductance": null,
+        "references": [
+            35
+        ],
+        "refSeq_id": "NP_037104",
+        "full_name": "Kcna5 potassium voltage-gated channel subfamily A member 5 [ Rattus norvegicus (Norway rat) ]",
+        "id": 33,
+        "aliases": "RCK7, RK4",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-08T13:58:54.979539Z",
+        "member": "5",
+        "gene_symbol": "Kcna5",
+        "animal": "Rattus norvegicus (Rat)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "25470.0",
+        "current_type": "Delayed rectifier",
+        "subfamily": "A",
+        "class_symbol": "Kv1.5",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCNA5_RAT"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/45/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 30,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/45/t_vs_i.pickle",
+        "reference": 35,
+        "y_axis_toSI": 1e-06,
+        "comments": "6.D I_norm/V",
+        "figure_ref_address": "6.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 33,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/08/kcna5_rat.png",
+        "figure_ref_caption": "Expression of Kv1, Kv2, and Kv3 in Xenopus Ooocytes Cells were voltage-clamped at -80 mV, and currents were elicited with 200 ms depolarizing pulses in 10 mV increments to +40 mV. Current records from Kv1 are shown in (A), from Kv2 in (B), and from Kv3 in (C). Time scale is 30 ms. Current scale is 0.5, 3, and 1 uA for (A), (B), and (C), respectively.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 45
+    },
+    "params": {
+        "v_half": -0.002560036427717987,
+        "slope": 0.016541394082369057,
+        "e_rev": -0.07682768464453157,
+        "g": 8.203730216376563e-05,
+        "ra": 14.538961557174565,
+        "sa": 0.3585319771700028,
+        "rb": 71.54185848438995,
+        "vb": -0.015131388646261418,
+        "sb": 0.010163169068364753,
+        "rc": 6.827593667418586e-12
+    },
+    "x0": [
+        8.821329947166415,
+        26.948948576215756,
+        203.56414096646643,
+        -0.01208167556612149,
+        0.011466502913407168,
+        8.050702353656152e-16
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.04,
+            0.02,
+            0.0,
+            -0.02,
+            -0.04
+        ],
+        "v_hold": -0.08,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            5,
+            5,
+            5,
+            6,
+            6
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.002560036427717987,
+        "slope": 0.016541394082369057,
+        "e_rev": -0.07682768464453157,
+        "g": 8.203730216376563e-05
+    },
+    "error": {
+        "r2": 0.9839642894316537,
+        "rmse": 1.5967715537304113e-07
+    },
+    "equation": "8.20E-05 * 1/(1+exp(-(v--2.56)/16.54)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -76.83)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 14.54*exp(-0.36*v), b = 71.54/(1+exp(-(v--15.13)/10.16)), c = 0.000"
+}

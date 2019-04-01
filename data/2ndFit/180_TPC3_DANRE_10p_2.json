@@ -1,0 +1,166 @@
+{
+    "time": "2019-02-22 01:53:13.620720",
+    "ion_channel": {
+        "create_date": "2017-01-04T07:14:42.471395Z",
+        "links": "",
+        "sequence": "MSEGKTEKTSHTLTKDEGFTNGGNHVPSNVTDQMTEKFDLATVYVSDAKYNRNIFFDTSPQAVKLYLLYNHWFMQTLVYVFIIINLALALFEDPAVVPLPIWATSTIETICLSAFTVRIIHYAKVIPKDKFWKDPKNICIIIIVTLSFIDMVIYGALKATGHYGIRWSRVLRPLLLVNVTEGRQLRRAFRSIRNALPQISYVFFLFMFSVLVFSLMALKLFGKRGLLTINGSPYFTDYMDIVFDLYVLVTTANSPDVMMPAYNSSVYFTIFFILYIVINTYTFMSFFLAVVYNNYKKYLKEEVRQLVKAKRIKMCRAFSLLQENRGEGGEPVVTQANWNHLVKLVKPKISTAHRELLWSVLDDQNKGHIGKFAFVQLADLLSIQVITVKSQAHPIQICFPSLYNSLPSRFIRQMVHHRVFVYAYDLIILVNAVFIGLDEENPVVSNAEWGFLALYMLEILLKLYATEPRAFFARHQFWNWFDTIIVVSALFGTIINSALKHSGGYTSRQVLDIVFILRVLRLIRVVDSIKRFRAIINTLIKIGPTILTFGQLILVVYYIFAMVGMELFKGKIQFFEPNSTSPDREYCGNPLLKSTSFAKLNYCKNNFNDVISSFILLLELTVVNQWHVLTSGFTAVTHVSARLFFVIFHIVVVIIIINIFVAFILEAFLVEYTVDKSELQTSLEKKIEELELNVQQDGVDTGLVDAMETNDSDLGSSEDGKRKPSLMFKIASRRSRTVDGLLQRMFETDLRPEDFNEEELDNTNFSNPVFDSV",
+        "uniprot_id": "C4IXV6-1",
+        "conductance": null,
+        "references": [
+            172
+        ],
+        "refSeq_id": "NP_001170916",
+        "full_name": "tpc3 two pore channel 3 [ Danio rerio (zebrafish) ]",
+        "id": 168,
+        "aliases": "drTPC3",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-21T13:10:10.656231Z",
+        "member": "",
+        "gene_symbol": "tpc3",
+        "animal": "Danio rerio (zebrafish)",
+        "username": 1,
+        "ion_type": "Na+",
+        "gene_id": "557460",
+        "current_type": "Delayed rectifier",
+        "subfamily": "",
+        "class_symbol": "TPC3",
+        "channel_type": "Two pore segment channels",
+        "channel_name": "TPC3_DANRE"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/180/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 139,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/180/t_vs_i.pickle",
+        "reference": 172,
+        "y_axis_toSI": 1e-06,
+        "comments": "8.c I/V",
+        "figure_ref_address": "8.b",
+        "x_axis_unit": "ms",
+        "ion_channel": 168,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/21/TPC3_DANRE.png",
+        "figure_ref_caption": "Two-electrode voltage-clamp recordings were performed with Xenopus oocytes without (a\u00e2\u20ac\u201cc) or with (d\u00e2\u20ac\u201cf) xlTPC3 RNA injection. (a,b,d,e) Representative currents recorded with a voltage-step protocol (\u00e2\u02c6\u201950\u00e2\u20ac\u2030to +80\u00e2\u20ac\u2030mV with a 10-mV step, Vh=\u00e2\u02c6\u201960\u00e2\u20ac\u2030mV, shown in a) before (a,d) and after (b,e) the oocyte was \u00e2\u20ac\u02dcinduced\u00e2\u20ac\u2122 with a 60-s depolarization of +50\u00e2\u20ac\u2030mV. Capacitive transient currents are masked for clarity.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 180
+    },
+    "params": {
+        "v_half": 0.049995706533759024,
+        "slope": 0.0001846107274065442,
+        "e_rev": 0.06489177489178259,
+        "g": 7.300740740743533e-05,
+        "ra": 0.0010000000000000002,
+        "sa": -138.82156698077432,
+        "rb": 152.35325225304786,
+        "vb": 0.07392546832701573,
+        "sb": 0.005549205468049011,
+        "rc": 4.650238804842895e-41
+    },
+    "x0": [
+        8.315581769981057,
+        -13.006278694058704,
+        38.33684266857849,
+        -0.0053611517100973964,
+        0.012753451106427581,
+        1.1555431494955196e-25
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.08,
+            0.07,
+            0.06,
+            0.05,
+            0.04,
+            0.03,
+            0.02,
+            0.0,
+            -0.02
+        ],
+        "v_hold": -0.06,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70,
+            80,
+            90
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            9,
+            1,
+            8,
+            9,
+            1,
+            1,
+            3,
+            9,
+            9
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": 0.049995706533759024,
+        "slope": 0.0001846107274065442,
+        "e_rev": 0.06489177489178259,
+        "g": 7.300740740743533e-05
+    },
+    "error": {
+        "r2": 0.8266716335278195,
+        "rmse": 6.744331284346753e-08
+    },
+    "equation": "7.30E-05 * 1/(1+exp(-(v-50.00)/0.18)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - 64.89)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 0.00*exp(--138.82*v), b = 152.35/(1+exp(-(v-73.93)/5.55)), c = 0.000"
+}

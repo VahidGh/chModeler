@@ -1,0 +1,156 @@
+{
+    "time": "2019-02-22 01:19:43.792714",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:24.894912Z",
+        "links": "http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC197, http://channelpedia.epfl.ch/ionchannels/16",
+        "sequence": "MAAGVAAWLPFARAAAIGWMPVASGPMPAPPRQERKRTQDALIVLNVSGTRFQTWQDTLERYPDTLLGSSERDFFYHPETQQYFFDRDPDIFRHILNFYRTGKLHYPRHECISAYDEELAFFGLIPEIIGDCCYEEYKDRRRENAERLQDDADTDNTGESALPTMTARQRVWRAFENPHTSTMALVFYYVTGFFIAVSVIANVVETVPCGSSPGHIKELPCGERYAVAFFCLDTACVMIFTVEYLLRLAAAPSRYRFVRSVMSIIDVVAILPYYIGLVMTDNEDVSGAFVTLRVFRVFRIFKFSRHSQGLRILGYTLKSCASELGFLLFSLTMAIIIFATVMFYAEKGSSASKFTSIPAAFWYTIVTMTTLGYGDMVPKTIAGKIFGSICSLSGVLVIALPVPVIVSNFSRIYHQNQRADKRRAQKKARLARIRAAKSGSANAYMQSKRNGLLSNQLQSSEDEPAFVSKSGSSFETQHHHLLHCLEKTTNHEFVDEQVFEESCMEVATVNRPSSHSPSLSSQQGVTSTCCSRRHKKTFRIPNANVSGSHRGSVQELSTIQIRCVERTPLSNSRSSLNAKMEECVKLNCEQPYVTTAIISIPTPPVTTPEGDDRPESPEYSGGNIVRVSAL",
+        "uniprot_id": "Q63881-1",
+        "conductance": null,
+        "references": [
+            63
+        ],
+        "refSeq_id": "NP_113918",
+        "full_name": "Kcnd2 potassium voltage-gated channel subfamily D member 2 [ Rattus norvegicus (Norway rat) ]",
+        "id": 64,
+        "aliases": "RK5, rKv4.2, Shal1",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-10T19:29:05.646820Z",
+        "member": "2",
+        "gene_symbol": "Kcnd2",
+        "animal": "Rattus norvegicus (Rat)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "65180",
+        "current_type": "A-type",
+        "subfamily": "D",
+        "class_symbol": "Kv4.2",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCND2_RAT"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/76/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 55,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/76/t_vs_i.pickle",
+        "reference": 63,
+        "y_axis_toSI": 1e-06,
+        "comments": "1.B G/V, 2 inac/V",
+        "figure_ref_address": "1.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 64,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/10/KCND2_RAT.png",
+        "figure_ref_caption": "Currents in Xenopus oocyms injected with mRNA derived from RK5 cDNA. In (A) a voltage-dependent transient current was evoked in recsponse to 160 ms test pulses from a holding potential of -90 mV to test voltages ranging from -60 mV to +60 mV in 20 mV increments. A small non-inactivating current seen in uninjectcd oocytcs has been subtracted.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 76
+    },
+    "params": {
+        "v_half": -0.011341970119991652,
+        "slope": 0.030577258686363188,
+        "e_rev": -0.05289430021075831,
+        "g": 3.67082028305891e-05,
+        "ra": 2.681918018183309,
+        "sa": 10.957643197083199,
+        "rb": 79.44291433312443,
+        "vb": -0.012846786370815304,
+        "sb": 0.025719119198513232,
+        "rc": 10.812544141740462
+    },
+    "x0": [
+        2.681926633885953,
+        10.95775601117883,
+        79.44278562222895,
+        -0.0128468302374255,
+        0.02571930087971927,
+        10.812662147505625
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.06,
+            0.04,
+            0.02,
+            0.0,
+            -0.02,
+            -0.04,
+            -0.06
+        ],
+        "v_hold": -0.09,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            9
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.011341970119991652,
+        "slope": 0.030577258686363188,
+        "e_rev": -0.05289430021075831,
+        "g": 3.67082028305891e-05
+    },
+    "error": {
+        "r2": 0.9905278172577036,
+        "rmse": 3.68520039207687e-08
+    },
+    "equation": "3.67E-05 * 1/(1+exp(-(v--11.34)/30.58)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -52.89)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 2.68*exp(-10.96*v), b = 79.44/(1+exp(-(v--12.85)/25.72)), c = 10.813"
+}

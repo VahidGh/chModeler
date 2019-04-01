@@ -1,0 +1,162 @@
+{
+    "time": "2019-02-22 01:31:35.673713",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.141438Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/50, http://www.guidetopharmacology.org/GRAC/ObjectDisplayForward?objectId=438&familyId=74",
+        "sequence": "MTSVAKVYYSQTTQTESRPLVAPGIRRRRVLTKDGRSNVRMEHIADKRFLYLKDLWTTFIDMQWRYKLLLFSATFAGTWFLFGVVWYLVAVAHGDLLELGPPANHTPCVVQVHTLTGAFLFSLESQTTIGYGFRYISEECPLAIVLLIAQLVLTTILEIFITGTFLAKIARPKKRAETIRFSQHAVVAYHNGKLCLMIRVANMRKSLLIGCQVTGKLLQTHQTKEGENIRLNQVNVTFQVDTASDSPFLILPLTFYHVVDETSPLKDLPLRSGEGDFELVLILSGTVESTSATCQVRTSYLPEEILWGYEFTPAISLSASGKYVADFSLFDQVVKVASPGGLRDSTVRYGDPEKLKLEESLREQAEKEGSALSVRISNV",
+        "uniprot_id": "P49655-1",
+        "conductance": 21.0,
+        "references": [
+            104,
+            105
+        ],
+        "refSeq_id": "NP_113790",
+        "full_name": "Kcnj10 potassium voltage-gated channel subfamily J member 10 [ Rattus norvegicus (Norway rat) ]",
+        "id": 111,
+        "aliases": "BIRK1, kab-2, rKir4.1",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-14T07:17:04.592674Z",
+        "member": "10",
+        "gene_symbol": "Kcnj10",
+        "animal": "Rattus norvegicus (Rat)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "29718",
+        "current_type": "Inwardly-rectifying",
+        "subfamily": "J",
+        "class_symbol": "Kir4.1",
+        "channel_type": "Inwardly rectifying potassium channels",
+        "channel_name": "KCNJ10_RAT"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/123/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 91,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/123/t_vs_i.pickle",
+        "reference": 105,
+        "y_axis_toSI": 1e-06,
+        "comments": "2.B I/V",
+        "figure_ref_address": "2.A-1",
+        "x_axis_unit": "ms",
+        "ion_channel": 111,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/14/KCNJ10_RAT.png",
+        "figure_ref_caption": "Cell currents recorded from Xenopus oocytes expressing the KAB-2 clone. A, the effect of varying external K+ concentration. The holding potential was set at the zero current level in each solution, i.e. at 0 mV in 90 mM K+, at \u00e2\u02c6\u201917.4 mV in 45 mM K+, at \u00e2\u02c6\u201937.9 mV in 20 mM K+, and at \u00e2\u02c6\u201955.3 mV in 10 mM K+; the values correspond to the equilibrium potential for K+ at each concentration of external K+, with an assumption that the intracellular K+ concentration of oocytes is 90 mM (Dascal, 1987). Traces elicited by steps from each holding potential to +50, +20, \u00e2\u02c6\u201910, \u00e2\u02c6\u201940, \u00e2\u02c6\u201970, \u00e2\u02c6\u2019100, \u00e2\u02c6\u2019130, and \u00e2\u02c6\u2019160 mV are shown.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 123
+    },
+    "params": {
+        "v_half": 0.04477670451405642,
+        "slope": -0.03917519637508455,
+        "e_rev": -8.347201591602726e-05,
+        "g": 5.5060804276240345e-05,
+        "ra": 5.03801710612539,
+        "sa": 4.079002078094285,
+        "rb": 2.3358888138495875,
+        "vb": 0.0011531227210295348,
+        "sb": 0.0010000069222583592,
+        "rc": 14.057524740924492
+    },
+    "x0": [
+        0.4320903159144465,
+        1.9444994676464518,
+        1.368094226641491,
+        -0.010462763314335183,
+        0.02564348322105414,
+        1.8727432602953737e-27
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.05,
+            0.02,
+            -0.01,
+            -0.04,
+            -0.07,
+            -0.1,
+            -0.13,
+            -0.16
+        ],
+        "v_hold": 0.0,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60,
+            70,
+            80
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            1,
+            2,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": 0.04477670451405642,
+        "slope": -0.03917519637508455,
+        "e_rev": -8.347201591602726e-05,
+        "g": 5.5060804276240345e-05
+    },
+    "error": {
+        "r2": 0.9989445271575887,
+        "rmse": 4.241419650907806e-08
+    },
+    "equation": "5.51E-05 * 1/(1+exp(-(v-44.78)/-39.18)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -0.08)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 5.04*exp(-4.08*v), b = 2.34/(1+exp(-(v-1.15)/1.00)), c = 14.058"
+}

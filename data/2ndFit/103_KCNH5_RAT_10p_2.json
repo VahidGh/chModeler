@@ -1,0 +1,151 @@
+{
+    "time": "2019-02-22 01:28:19.848722",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.074589Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/34",
+        "sequence": "MPGGKRGLVAPQNTFLENIVRRSSESSFLLGNAQIVDWPVVYSNDGFCKLSGYHRADVMQKSSTCSFMYGELTDKKTIEKVRQTFDNYESNCFEVLLYKKNRTPVWFYMQIAPIRNEHEKVVLFLCTFKDITLFKQPIEDDSTKGWTKFARLTRALTNSRSVLQQLTPMNKTETVHKHSRLAEVLQLGSDILPQYKQEAPKTPPHIILHYCAFKTTWDWVILILTFYTAIMVPYNVSFKTKQNNIAWLVLDSVVDVIFLVDIVLNFHTTFVGPGGEVISDPKLIRMNYLKTWFVIDLLSCLPYDIINAFENVDEGISSLFSSLKVVRLLRLGRVARKLDHYLEYGAAVLVLLVCVFGLVAHWLACIWYSIGDYEVIDEVTNTIQIDSWLYQLALSIGTPYRYNTSAGIWEGGPSKDSLYVSSLYFTMTSLTTIGFGNIAPTTDVEKMFSVAMMMVGSLLYATIFGNVTTIFQQMYANTNRYHEMLNNVRDFLKLYQVPKGLSERVMDYIVSTWSMSKGIDTEKVLSICPKDMRADICVHLNRKVFNEHPAFRLASDGCLRALAVEFQTIHCAPGDLIYHAGESVDALCFVVSGSLEVIQDEEVVAILGKGDVFGDIFWKETTLAHACANVRALTYCDLHIIKREALLKVLDFYTAFANSFSRNLTLTCNLRKRIIFRKISDVKKEEEERLRQKNEVTLSIPVDHPVRKLFQKFKQQKELRNQGSAQSDPERSQLQVESRPLQNGASITGTSVVTVSQITPIQTSLAYVKTSETLKQNNRDAMELKPNGGAEPKCLKVNSPIRMKNGNGKGWLRLKNNMGAHEEKKEEWNNVTKAESMGLLSEDPKGSDSENSVTKNPLRKTDSCDSGITKSDLRLDKAGEARSPLEHSPSQADAKHPFYPIPEQALQTTLQEVKHELKEDIQLLSCRMTALEKQVAEILKLLSEKSVPQTSSPKPQIPLQVPPQIPCQDIFSVSRPESPESDKDEINF",
+        "uniprot_id": "Q9EPI9-1",
+        "conductance": null,
+        "references": [
+            86
+        ],
+        "refSeq_id": "NP_598294",
+        "full_name": "Kcnh5 potassium voltage-gated channel subfamily H member 5 [ Rattus norvegicus (Norway rat) ]",
+        "id": 91,
+        "aliases": "EAG2, rEAG2, rKv10.2",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-12T17:23:14.716386Z",
+        "member": "5",
+        "gene_symbol": "Kcnh5",
+        "animal": "Rattus norvegicus (Rat)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "171146",
+        "current_type": "Delayed rectifier",
+        "subfamily": "H",
+        "class_symbol": "Kv10.2",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCNH5_RAT"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/103/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 79,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/103/t_vs_i.pickle",
+        "reference": 86,
+        "y_axis_toSI": 1e-06,
+        "comments": "5.C I/V",
+        "figure_ref_address": "5.A",
+        "x_axis_unit": "ms",
+        "ion_channel": 91,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/12/KCNH5_RAT.png",
+        "figure_ref_caption": "Eag2 expresses non-inactivating, subthreshold-activating K+ currents in Xenopus oocytes. Expression of Eag2 currents by two-electrode voltage clamp. A, B, An oocyte injected with Eag2 cRNA was held at 290 mV, and a family of currents was measured using test potentials ranging from 2120 to 140 mV. The duration of the test potentials was 214 msec in A and 7.4 sec in B.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 103
+    },
+    "params": {
+        "v_half": 0.02370509153390553,
+        "slope": 0.048329107868988384,
+        "e_rev": -0.09240093330969493,
+        "g": 5.217577778190049e-05,
+        "ra": 7.9289101434011755,
+        "sa": 0.678122679811252,
+        "rb": 6.9165447647202045,
+        "vb": -0.06250021351425168,
+        "sb": 0.0010000009693092477,
+        "rc": 6.5194298684745435
+    },
+    "x0": [
+        7.928910143399305,
+        0.6781226798251093,
+        6.916544764709468,
+        -0.06250030241265286,
+        0.0010000345866504727,
+        6.519429868481181
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.04,
+            0.02,
+            0.0,
+            -0.02,
+            -0.04,
+            -0.06
+        ],
+        "v_hold": -0.09,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": 0.02370509153390553,
+        "slope": 0.048329107868988384,
+        "e_rev": -0.09240093330969493,
+        "g": 5.217577778190049e-05
+    },
+    "error": {
+        "r2": 0.9973160190283973,
+        "rmse": 2.3046431243235667e-08
+    },
+    "equation": "5.22E-05 * 1/(1+exp(-(v-23.71)/48.33)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -92.40)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 7.93*exp(-0.68*v), b = 6.92/(1+exp(-(v--62.50)/1.00)), c = 6.519"
+}

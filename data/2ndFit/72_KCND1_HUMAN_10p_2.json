@@ -1,0 +1,151 @@
+{
+    "time": "2019-02-22 01:16:43.405713",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:24.863558Z",
+        "links": "http://channelpedia.epfl.ch/ionchannels/15, http://vkcdb.biology.ualberta.ca/view_record.php?vkcid=VKC323",
+        "sequence": "MAAGLATWLPFARAAAVGWLPLAQQPLPPAPGVKASRGDEVLVVNVSGRRFETWKNTLDRYPDTLLGSSEKEFFYDADSGEYFFDRDPDMFRHVLNFYRTGRLHCPRQECIQAFDEELAFYGLVPELVGDCCLEEYRDRKKENAERLAEDEEAEQAGDGPALPAGSSLRQRLWRAFENPHTSTAALVFYYVTGFFIAVSVIANVVETIPCRGSARRSSREQPCGERFPQAFFCMDTACVLIFTGEYLLRLFAAPSRCRFLRSVMSLIDVVAILPYYIGLLVPKNDDVSGAFVTLRVFRVFRIFKFSRHSQGLRILGYTLKSCASELGFLLFSLTMAIIIFATVMFYAEKGTNKTNFTSIPAAFWYTIVTMTTLGYGDMVPSTIAGKIFGSICSLSGVLVIALPVPVIVSNFSRIYHQNQRADKRRAQQKVRLARIRLAKSGTTNAFLQYKQNGGLEDSGSGEEQALCVRNRSAFEQQHHHLLHCLEKTTCHEFTDELTFSEALGAVSPGGRTSRSTSVSSQPVGPGSLLSSCCPRRAKRRAIRLANSTASVSRGSMQELDMLAGLRRSHAPQSRSSLNAKPHDSLDLNCDSRDFVAAIISIPTPPANTPDESQPSSPGGGGRAGSTLRNSSLGTPCLFPETVKISSL",
+        "uniprot_id": "Q9NSA2-1",
+        "conductance": null,
+        "references": [
+            59
+        ],
+        "refSeq_id": "NP_004970",
+        "full_name": "KCND1 potassium voltage-gated channel subfamily D member 1 [ Homo sapiens (human) ]",
+        "id": 60,
+        "aliases": "Kv4.1, hKv4.1",
+        "isoform": "",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-10T16:32:56.771825Z",
+        "member": "1",
+        "gene_symbol": "KCND1",
+        "animal": "Homo sapiens (Human)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "3750",
+        "current_type": "A-type",
+        "subfamily": "D",
+        "class_symbol": "Kv4.1",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "KCND1_HUMAN"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/72/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 52,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/72/t_vs_i.pickle",
+        "reference": 59,
+        "y_axis_toSI": 1e-06,
+        "comments": "1.D I/V",
+        "figure_ref_address": "1.B",
+        "x_axis_unit": "ms",
+        "ion_channel": 60,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/10/KCND1_HUMAN.png",
+        "figure_ref_caption": "Differential effects of KChIP1 on Kv4.2 and Kv4.1 currents expressed in Xenopus oocytes. Depolarizing voltage steps were applied from \u00e2\u02c6\u2019100 to +60 mV (1000 ms duration) in 10-mV increments (at 15-s intervals, to allow full recovery from inactivation) from a holding potential of \u00e2\u02c6\u2019120 mV. A, B: Representative traces of Kv4.2 (A) and Kv4.1 (B) currents in the absence (left) or presence (right) of KChIP1. C, D: Averaged I\u00e2\u20ac\u201cV relationship of peak currents with (\u00e2\u20ac\u00a2) or without (\u00e2\u2014\u2039) KChIP1 (means\u00c2\u00b1S.E.M. of six to eight experiments).",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 72
+    },
+    "params": {
+        "v_half": -0.03494888589204934,
+        "slope": 0.0157644223689082,
+        "e_rev": -0.05406259676845287,
+        "g": 0.0001677652941323863,
+        "ra": 0.23118542827893424,
+        "sa": -9.250661671057049,
+        "rb": 15.68398863892354,
+        "vb": -0.04379886423686681,
+        "sb": 0.019733735112817685,
+        "rc": 3.477135973399188e-14
+    },
+    "x0": [
+        0.23118543356969515,
+        -9.250703327196112,
+        15.68400473295814,
+        -0.043798693954099445,
+        0.019733746272685718,
+        2.8241246676045725e-12
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.06,
+            0.04,
+            0.02,
+            0.0,
+            -0.02,
+            -0.04
+        ],
+        "v_hold": -0.12,
+        "trace_size": [
+            0,
+            10,
+            20,
+            30,
+            40,
+            50,
+            60
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            9,
+            9,
+            9,
+            9,
+            9,
+            9
+        ],
+        "peak": [
+            1,
+            2,
+            2,
+            2,
+            3,
+            2
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.03494888589204934,
+        "slope": 0.0157644223689082,
+        "e_rev": -0.05406259676845287,
+        "g": 0.0001677652941323863
+    },
+    "error": {
+        "r2": 0.9803746575590805,
+        "rmse": 3.021090637000336e-07
+    },
+    "equation": "1.68E-04 * 1/(1+exp(-(v--34.95)/15.76)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -54.06)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 0.23*exp(--9.25*v), b = 15.68/(1+exp(-(v--43.80)/19.73)), c = 0.000"
+}

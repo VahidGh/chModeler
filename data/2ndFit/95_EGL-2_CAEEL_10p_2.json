@@ -1,0 +1,151 @@
+{
+    "time": "2019-02-22 01:24:27.707713",
+    "ion_channel": {
+        "create_date": "2017-01-04T06:56:25.016864Z",
+        "links": "",
+        "sequence": "MPVGKRGLVAPQNTFLENVIRRCNNADTSFILANAQVVDYPIVYCNDGFSKLVGYTRAEIMQKPCSLAFMHGEHGEVGSLQKMQEALENARTEQAEIGLCKKNKTPIWLLVHLAPIKNHKDAVVLYLCQFKDITPLKQPLDDENNKGLSRILQIARIAKSKQQFNQIETKDLHKSPGNTSSNFNQVMNLGGDMLPQYRQETPKTSPHIILHYSSFKTIWDWSILALTFYTAFMVPFNIAFKNSLRPFYLISSRENPGGGIDSVALMDSIVDVIFFADILLNFHTTFVGPGGEVVIEPSVIRQNYFKSWFLIDLLSCLPYDIFYMFKRDDERIGSLFSALKVVRLLRLGRVARKLDNYLEYGAATLLLLLCAYVIVAHWLACVWFWIGDSEVRLKMDNLALPDGWLWKLSNDLRQHYNIPLSNKTTLVGGPSRTSAYISSLYYTMSCMSTVGFGNIASNTDNEKIFGVCMMIISALLYAAIFGHMTTIIQQMTSSTVRYHEMISNVREFIKLQEIPKELAERVMDYVVSTWAMTKGIDTAKVLGYCPKDMKADICVHLNRKVFNEHSCFRLASDGCLRSLAMFLELNHAAPGDLLYHTGESVDALWFVVSGSLEVIQDDEVVAILGKGDVFGDEFWKANGSTGQSAANVRALTYSDLHMIKKDKLMDVLDFYKAFANSFARNMTLTYNLTHRMKFRKVADVKREKELDAKRKNEKLTLPNDHPIRKLLFRMRERHGPRIFPSPMFADIEKGLKKSTEISRISSLHSMIDETGGGGSSYVKSPRSKPKRPPLMKRQTVDEDALSRTSWGMDKKDREWSSLSNIKTEMKSKFDIIGERLTIIEQINSRLALLERVLIGNNGGANTPSTMPVGSFSALNESGNRLTLDAAPVARSVSWSEQHQPHWQRTSTVPPLRELEAGEWEPPIREPTPNPSTSSSRVPHIQNDEDGEARPPTRTRI",
+        "uniprot_id": "Q9XYX7-1",
+        "conductance": null,
+        "references": [
+            81
+        ],
+        "refSeq_id": "AAD28468",
+        "full_name": "Egl-2 EAG K+ channel EGL-2 [Caenorhabditis elegans]",
+        "id": 83,
+        "aliases": "Egl-2, Kv10",
+        "isoform": "a",
+        "channelworm_gene": null,
+        "comments": "",
+        "last_update": "2017-01-11T13:32:44.832549Z",
+        "member": "",
+        "gene_symbol": "egl-2",
+        "animal": "Caenorhabditis elegans (C. elegans)",
+        "username": 1,
+        "ion_type": "K+",
+        "gene_id": "178624",
+        "current_type": "Delayed rectifier",
+        "subfamily": "H",
+        "class_symbol": "Kv10",
+        "channel_type": "Voltage-gated potassium channels",
+        "channel_name": "EGL-2_CAEEL"
+    },
+    "graph": {
+        "digitized_plot": "http://127.0.0.1:8000/media/ion_channel/plots/95/t_vs_i.png",
+        "y_axis_unit": "uA",
+        "patch_clamp": 73,
+        "digitized_plot_file": "http://127.0.0.1:8000/media/ion_channel/plots/95/t_vs_i.pickle",
+        "reference": 81,
+        "y_axis_toSI": 1e-06,
+        "comments": "3.B I_norm/V, 4. I_inact/V",
+        "figure_ref_address": "3.a-1",
+        "x_axis_unit": "ms",
+        "ion_channel": 83,
+        "file": "http://127.0.0.1:8000/media/ion_channel/graph/2017/01/11/EGL-2_CAEEL.jpg",
+        "figure_ref_caption": "Functional properties of wild-type and gain-of-function EGL-2 and MEAG K+ channels in Xenopus oocytes assayed by two-electrode voltage-clamp. a, Current records from oocytes injected with wild-type egl-2, gain-of-function egl-2(A478V), and corresponding meag and meag(A492V) cRNAs. Currents evoked by families of voltage steps from a holding potential of -100 mV, in 10 mV increments [-90 to +40 mV for egl-2 and egl-2(A478V)); -90 to +50  mV  for MEAG and MEAG(A492V)]. Outward tail currents observed from wild-type EGL-2 channels resulted from a repolarization step to +50 mV. A -100 mV repolarization step was used for all other channels.",
+        "x_axis_type": "T",
+        "y_axis_type": "I",
+        "x_axis_toSI": 0.001,
+        "id": 95
+    },
+    "params": {
+        "v_half": -0.01780911742075317,
+        "slope": 0.024507766334641856,
+        "e_rev": -0.04303312785673181,
+        "g": 7.810523612874562e-05,
+        "ra": 0.3620199347799358,
+        "sa": -10.275478572797278,
+        "rb": 1.4003099445350913,
+        "vb": 0.003325196352415173,
+        "sb": 0.022081208941415978,
+        "rc": 9.578485503098336e-19
+    },
+    "x0": [
+        0.36201672013895103,
+        -10.275805367415375,
+        1.400314032605896,
+        0.003325563415796113,
+        0.022081058760352983,
+        6.907932508010496e-32
+    ],
+    "bounds": [
+        [
+            0.001,
+            -500,
+            0.001,
+            -0.3,
+            0.001,
+            0
+        ],
+        [
+            500,
+            500,
+            500,
+            0.3,
+            0.3,
+            500
+        ]
+    ],
+    "ext_args": {
+        "volt": [
+            0.04,
+            0.02,
+            0.0,
+            -0.02,
+            -0.03,
+            -0.04
+        ],
+        "v_hold": -0.1,
+        "trace_size": [
+            0,
+            7,
+            14,
+            21,
+            28,
+            35,
+            42
+        ],
+        "onset": [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
+        ],
+        "offset": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "peak": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+        ],
+        "npower": 3,
+        "kpower": 4,
+        "x_scale": [
+            1,
+            1,
+            1,
+            0.001,
+            1,
+            1
+        ],
+        "v_half": -0.01780911742075317,
+        "slope": 0.024507766334641856,
+        "e_rev": -0.04303312785673181,
+        "g": 7.810523612874562e-05
+    },
+    "error": {
+        "r2": 0.9896848880721366,
+        "rmse": 7.35150371919426e-08
+    },
+    "equation": "7.81E-05 * 1/(1+exp(-(v--17.81)/24.51)) * 4!/((4-3)!*3n!) * (p^3) * (q^1) * (V - -43.03)\np = 1-q, q = q1*q2, q1 = q1_inf-((q1_inf-q1_0)*exp(-(a+b)*t)), q2 = q2_inf-((q2_inf-q2_0)*exp(-(a+c)*t))\na = 0.36*exp(--10.28*v), b = 1.40/(1+exp(-(v-3.33)/22.08)), c = 0.000"
+}
