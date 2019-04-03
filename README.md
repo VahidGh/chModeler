@@ -34,25 +34,36 @@ This dataset is temporarily available at: http://chopen.herokuapp.com
   * And the same problems mentioned above for fitting processes
 * **Binomial Distribution And ion Channel Modeling**
   * "In probability theory and statistics, the [Binomial Distribution](https://en.wikipedia.org/wiki/Binomial_distribution) with parameters *n* and *p* is the discrete probability distribution of the number of successes in a sequence of *n* independent experiments, each asking a yes–no question, and each with its own boolean-valued outcome: success/yes/true/one (with probability *p*) or failure/no/false/zero (with probability *q = 1 − p*)."
+  
             ![alt text](https://github.com/VahidGh/chModeler/blob/master/doc/binom.png "Binomial Distribution eq.")  
   * At microscopic level, each ion channel could be only in one of two positions: either open or close. So, at macroscopic level, we can assume the number of gates in ion channels being in the activated state as a Binomial Distribution.
   * According to the Hodgkin-Huxley equation, the current passing through all (the same) voltage-gated ion channels of a cell can be described as:
+  
             ![alt text](https://github.com/VahidGh/chModeler/blob/master/doc/I.png "Current eq.")
   * Where, *Po* is the probability of ion channels being in open state at each time. So, we can write this probability as:
+  
             ![alt text](https://github.com/VahidGh/chModeler/blob/master/doc/po.png "Po eq.")
   * For each voltage, *P_peak* is the probability of ion channels at their relative peak conductances and *Pr* is the probability of ion channels being in activated state at each time.
   * We can calculate the *P_peak* at each voltage using a Boltzmann function in the form of:  
+  
             ![alt text](https://github.com/VahidGh/chModeler/blob/master/doc/p_peak.png "P_peak eq.")
   * Experimentally, it has been shown that for many voltage-gated ion channels the rate of activation to inactivation is 3:1. So, we can calculate our Binomial Distribution as: 
+  
             ![alt text](https://github.com/VahidGh/chModeler/blob/master/doc/pr.png "Pr eq.")
   * However, in order to consider both types of inactivation (fast and slow), the probability of inactivation is the product of the probability of these two types:
+  
             ![alt text](https://github.com/VahidGh/chModeler/blob/master/doc/pq.png "p&q eq.")
   * And each inactivation probability can be described as the following equations which are also being used in current ion channel modeling problems. (Please notice taht this probability could be 1 for any inactivation type if it's not applicable) 
+  
             ![alt text](https://github.com/VahidGh/chModeler/blob/master/doc/q1.png "q1 eq.")
+  
             ![alt text](https://github.com/VahidGh/chModeler/blob/master/doc/q2.png "q2 eq.")
-  * \alpha and \beta rates can be calculated as below (and *c* which is a rate constant that also could be 0) 
+  * *alpha* and *beta* rates can be calculated as below (and *c* which is a rate constant that also could be 0) 
+
             ![alt text](https://github.com/VahidGh/chModeler/blob/master/doc/a.png "alpha eq.")
+
             ![alt text](https://github.com/VahidGh/chModeler/blob/master/doc/b.png "beta eq.")
+
             ![alt text](https://github.com/VahidGh/chModeler/blob/master/doc/c.png "c eq.")
   
 * **Fitting Data Using chModeler**
