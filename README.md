@@ -124,5 +124,7 @@ python3 chModeler.py -w
 ## TODOs:
 
  * **Model Validation**: Because these models are based on digitized data from literature, voltage traces are dependent to the related experiment. So. in order to verify each model to a wide range of voltages there is a need to validate final models against a wider range of voltages.
+ * **Smarter Initial Parameter Selection**: Right now, previous models for next fittings are being selected based on R2 scores. This can be improved to select models from the same category using some classification technique.
  * **Temperature and Calcium concentration dependency**: Although the *c* constant can cover the calcium concentration dependency, it's needed to be validated.
  * **Standard data support**: This package needs to be updated to support data analysis from patch clamp machines.
+ 
