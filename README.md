@@ -35,43 +35,43 @@ This dataset is temporarily available at: http://chopen.herokuapp.com
 * **Binomial Distribution And ion Channel Modeling**
   * "In probability theory and statistics, the [Binomial Distribution](https://en.wikipedia.org/wiki/Binomial_distribution) with parameters *n* and *p* is the discrete probability distribution of the number of successes in a sequence of *n* independent experiments, each asking a yes–no question, and each with its own boolean-valued outcome: success/yes/true/one (with probability *p*) or failure/no/false/zero (with probability *q = 1 − p*)."
   
-    ![Binomial Distribution eq.](https://github.com/VahidGh/chModeler/blob/master/doc/binom.png "Binomial Distribution eq.")
+    ![$$f(k,n,p) = Pr(k;n,p) = Pr(X=k) = \binom{n}{k}p^k(1-p)^(n-k), \binom{n}{k}=\frac{n!}{k!(n-k)!}$$](https://github.com/VahidGh/chModeler/blob/master/doc/binom.png "$$f(k,n,p) = Pr(k;n,p) = Pr(X=k) = \binom{n}{k}p^k(1-p)^(n-k), \binom{n}{k}=\frac{n!}{k!(n-k)!}$$")
               
   * At microscopic level, each ion channel could be only in one of two positions: either open or close. So, at macroscopic level, we can assume the number of gates in ion channels being in the activated state as a Binomial Distribution.
   * According to the Hodgkin-Huxley equation, the current passing through all (the same) voltage-gated ion channels of a cell can be described as:
   
-    ![Current eq.](https://github.com/VahidGh/chModeler/blob/master/doc/I.png "Current eq.")
+    ![$$I = \bar{g} * Po * (V – E_{rev})$$](https://github.com/VahidGh/chModeler/blob/master/doc/I.png "$$I = \bar{g} * Po * (V – E_{rev})$$")
             
   * Where, *Po* is the probability of ion channels being in open state at each time. So, we can write this probability as:
   
-    ![alt text](https://github.com/VahidGh/chModeler/blob/master/doc/po.png "Po eq.")
+    ![$$Po = P_{peak} * Pr(3;4,p)$$](https://github.com/VahidGh/chModeler/blob/master/doc/po.png "$$Po = P_{peak} * Pr(3;4,p)$$")
     
   * For each voltage, *P_peak* is the probability of ion channels at their relative peak conductances and *Pr* is the probability of ion channels being in activated state at each time.
   * We can calculate the *P_peak* at each voltage using a Boltzmann function in the form of:  
   
-    ![alt text](https://github.com/VahidGh/chModeler/blob/master/doc/p_peak.png "P_peak eq.")
+    ![$$P_{peak} = \frac{1} { 1 + \exp(\frac{-(v - v_{half})} {slope})}$$](https://github.com/VahidGh/chModeler/blob/master/doc/p_peak.png "$$P_{peak} = \frac{1} { 1 + \exp(\frac{-(v - v_{half})} {slope})}$$")
     
   * Experimentally, it has been shown that for many voltage-gated ion channels the rate of activation to inactivation is 3:1. So, we can calculate our Binomial Distribution as: 
   
-    ![alt text](https://github.com/VahidGh/chModeler/blob/master/doc/pr.png "Pr eq.")
+    ![$$Pr = \frac{4!}{3!*1!} * p^3 * q^1$$](https://github.com/VahidGh/chModeler/blob/master/doc/pr.png "$$Pr = \frac{4!}{3!*1!} * p^3 * q^1$$")
     
   * However, in order to consider both types of inactivation (fast and slow), the probability of inactivation is the product of the probability of these two types:
   
-    ![alt text](https://github.com/VahidGh/chModeler/blob/master/doc/pq.png "p&q eq.")
+    ![$$p = 1-q, q = q1*q2$$](https://github.com/VahidGh/chModeler/blob/master/doc/pq.png "$$p = 1-q, q = q1*q2$$")
     
   * And each inactivation probability can be described as the following equations which are also being used in current ion channel modeling problems. (Please notice taht this probability could be 1 for any inactivation type if it's not applicable) 
   
-    ![alt text](https://github.com/VahidGh/chModeler/blob/master/doc/q1.png "q1 eq.")
+    ![$$q1 = q1_{\infty}-((q1_{\infty}-q1_{0})*\exp(-(\alpha+\beta)*t))$$](https://github.com/VahidGh/chModeler/blob/master/doc/q1.png "$$q1 = q1_{\infty}-((q1_{\infty}-q1_{0})*\exp(-(\alpha+\beta)*t))$$")
   
-    ![alt text](https://github.com/VahidGh/chModeler/blob/master/doc/q2.png "q2 eq.")
+    ![$$q2 = q2_{\infty}-((q2_{\infty}-q2_{0})*\exp(-(\alpha+c)*t))$$](https://github.com/VahidGh/chModeler/blob/master/doc/q2.png "$$q2 = q2_{\infty}-((q2_{\infty}-q2_{0})*\exp(-(\alpha+c)*t))$$")
     
   * *alpha* and *beta* rates can be calculated as below (and *c* which is a rate constant that also can be 0) 
 
-    ![alt text](https://github.com/VahidGh/chModeler/blob/master/doc/a.png "alpha eq.")
+    ![$$\alpha = r_{\alpha} * \exp(-s_{\alpha}*v)$$](https://github.com/VahidGh/chModeler/blob/master/doc/a.png "$$\alpha = r_{\alpha} * \exp(-s_{\alpha}*v)$$")
 
-    ![alt text](https://github.com/VahidGh/chModeler/blob/master/doc/b.png "beta eq.")
+    ![$$\beta = \frac{r_{\beta}} {1 + \exp(\frac{-(v - vh_{\beta})} {s_{\beta}})}$$](https://github.com/VahidGh/chModeler/blob/master/doc/b.png "$$\beta = \frac{r_{\beta}} {1 + \exp(\frac{-(v - vh_{\beta})} {s_{\beta}})}$$")
 
-    ![alt text](https://github.com/VahidGh/chModeler/blob/master/doc/c.png "c eq.")
+    ![$$c = r_{c}$$](https://github.com/VahidGh/chModeler/blob/master/doc/c.png "$$c = r_{c}$$")
   
 * **Fitting Data Using chModeler**
   * chModeler solves Independent m and h problem (we have p and 1-p instead)
