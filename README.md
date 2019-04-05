@@ -102,8 +102,8 @@ python3 chModeler.py -i 5
 # Do not save results and show plots for each fitting steps (True/1 and False/0 can be used alternatively) 
 python3 chModeler.py -i 5 -s False -p True
 
-# Use previous models to fit the model with r2 score threshold of 0.999 
-python3 chModeler.py -i 5 -ft 2 -r2 0.999
+# Use previous models to fit the model with r2 score threshold of 0.98 (increase r2 (e.g. 0.999) for a smaller but faster initial state.) 
+python3 chModeler.py -i 5 -ft 2 -r2 0.98
 
 # Use the model located in `data/2ndFit/18_Sh-B1_DROME_10p_2.json` to fit and plot only final results 
 python3 chModeler.py -i 5 -ft 2 -s 0 -fp 1 -mf "data\2ndFit\18_Sh-B1_DROME_10p_2.json"
