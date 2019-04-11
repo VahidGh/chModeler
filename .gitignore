@@ -81,3 +81,5 @@ chModeler.egg-info/
 
 # ignore build/ directory
 build/
+
+.ipynb_checkpoints/
