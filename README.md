@@ -1,6 +1,6 @@
 # chModeler
 
-[![Build Status](https://travis-ci.com/VahidGh/chModeler.svg)](https://travis-ci.com/VahidGh/chModeler)
+[![Build Status](https://travis-ci.com/VahidGh/chModeler.svg?token=AUxS1pcZ8QLGaaPqajio&branch=master)](https://travis-ci.com/VahidGh/chModeler)
 
 A new approach to the old Hodgkin-Huxley model for:
 Making all ion channel models comparable

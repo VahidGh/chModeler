@@ -110,32 +110,27 @@ import sys
 #There are 3 ways to initiate running chModeler:
 
 #* Sending command arguments to chModeler directly: 
-# ```bash
-# # Build model for ion channel No.5 in dataset and save the model in /data directory using default options.
+# Build model for ion channel No.5 in dataset and save the model in /data directory using default options.
 # python3 chModeler.py -i 5
 # %%
 %%time
 !{sys.executable} chModeler.py -i 5
 
 # %% [markdown]
-# ```bash
-# # Do not save results and show plots for each fitting steps (True/1 and False/0 can be used alternatively) 
-# python3 chModeler.py -i 5 -s False -p True
+# Do not save results and show plots for each fitting steps (True/1 and False/0 can be used alternatively) 
 # %%
 %%time
 !{sys.executable} chModeler.py -i 5 -s False -p True
 
 # %% [markdown]
-# ```bash
-# # Use previous models to fit the model with r2 score threshold of 0.98 (increase r2 (e.g. 0.999) for a smaller but faster initial state.) 
+# Use previous models to fit the model with r2 score threshold of 0.98 (increase r2 (e.g. 0.999) for a smaller but faster initial state.) 
 # python3 chModeler.py -i 5 -ft 2 -r2 0.98
 # %%
 %%time
 !{sys.executable} chModeler.py -i 5 -ft 2 -r2 0.98
 
 # %% [markdown]
-# ```bash
-# # Use the model located in `data/2ndFit/18_Sh-B1_DROME_10p_2.json` to fit and plot only final results 
+# Use the model located in `data/2ndFit/18_Sh-B1_DROME_10p_2.json` to fit and plot only final results 
 # python3 chModeler.py -i 5 -ft 2 -s 0 -fp 1 -mf "data\2ndFit\18_Sh-B1_DROME_10p_2.json"
 # %%
 %%time
@@ -143,20 +138,15 @@ import sys
 
 # %% [markdown]   
 # * Reading command arguments from a file: 
-# ```bash 
-# # Read the arguments from args.txt file
-# python3 chModeler.py "@args.txt" 
-# ```
+# Read the arguments from args.txt file
 # %%
 %%time
 !{sys.executable} chModeler.py "@args.txt"
 
 # %% [markdown]
 # * Running the wizard for answering questions and entering the options:
-# ```bash 
-# # Run the wizard
+# Run the wizard
 # python3 chModeler.py -w 
-# ```
 # %%
 # !{sys.executable} chModeler.py -w
 
