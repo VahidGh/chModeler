@@ -11,5 +11,5 @@ setup(
     author='Vahid Ghayoomie',
     author_email='vahidghayoomi@gmail.com',
     url='https://github.com/VahidGh/chModeler',
-    install_requires=['argparse', 'matplotlib', 'numpy', 'scipy', 'requests'],
+    install_requires=['argparse', 'matplotlib', 'numpy', 'scipy', 'requests', 'jupyter'],
 )

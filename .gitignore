@@ -31,6 +31,7 @@ pip-delete-this-directory.txt
 
 ## Directory-based project format:
 .idea/
+.vscode/
 # if you remove the above rule, at least ignore the following:
 
 # User-specific stuff:
@@ -74,9 +75,9 @@ tests/*.dat
 tests/*.xml
 
 # some lingering egg files
+dist/
 dist/*.egg
 chModeler.egg-info/
 
 # ignore build/ directory
 build/
-
