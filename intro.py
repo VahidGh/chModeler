@@ -94,7 +94,7 @@ plt.show()
 # %% [markdown]
 # ## Installation
 
-#To install and run this project within current notebook run the following cell (make sure you are using python >= 3.2):
+#To install and run this project within current notebook run the following cell (make sure you are using python >= 3.4):
 # %%
 import sys
 !{sys.executable} -m pip install .

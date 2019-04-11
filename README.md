@@ -1,6 +1,6 @@
 # chModeler
 
-[![Build Status](https://travis-ci.org/vahidgh/chModeler.svg)](https://travis-ci.org/vahidgh/chModeler)
+[![Build Status](https://travis-ci.com/VahidGh/chModeler.svg)](https://travis-ci.com/VahidGh/chModeler)
 
 A new approach to the old Hodgkin-Huxley model for:
 Making all ion channel models comparable
@@ -20,7 +20,7 @@ Run the following commands manually for a faster execution!
 
 ## Installation
 
-To install this project, clone it locally with `git` and run `pip3 install .` inside the directory (make sure you are using python >= 3.2).
+To install this project, clone it locally with `git` and run `pip3 install .` inside the directory (make sure you are using python >= 3.4).
 
 
 ## Usage
