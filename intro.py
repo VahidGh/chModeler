@@ -34,12 +34,12 @@
 #* **Binomial Distribution And ion Channel Modeling**
 #  * "In probability theory and statistics, the [Binomial Distribution](https://en.wikipedia.org/wiki/Binomial_distribution) with parameters *n* and *p* is the discrete probability distribution of the number of successes in a sequence of *n* independent experiments, each asking a yes–no question, and each with its own boolean-valued outcome: success/yes/true/one (with probability *p*) or failure/no/false/zero (with probability *q = 1 − p*)."
 #  
-#    $$f(k,n,p) = Pr(k;n,p) = Pr(X=k) = \binom{n}{k}p^k(1-p)^(n-k), \binom{n}{k}=\frac{n!}{k!(n-k)!}$$
+#    $$f(k,n,p) = Pr(k;n,p) = Pr(X=k) = \binom{n}{k}p^k(1-p)^{n-k}, \binom{n}{k}=\frac{n!}{k!(n-k)!}$$
 #              
 #  * At microscopic level, each ion channel could be only in one of two positions: either open or close. So, at macroscopic level, we can assume the number of gates in ion channels being in the activated state as a Binomial Distribution.
 #  * According to the Hodgkin-Huxley equation, the current passing through all (the same) voltage-gated ion channels of a cell can be described as:
 #  
-#    $$I = \bar{g} * Po * (V – E_{rev})$$
+#    $$I = \bar{g} * Po * (V - E_{rev})$$
 #            
 #  * Where, *Po* is the probability of ion channels being in open state at each time. So, we can write this probability as:
 #  
@@ -94,10 +94,10 @@ plt.show()
 # %% [markdown]
 # ## Installation
 
-#To install and run this project within current notebook run the following cell (make sure you are using python >= 3.4):
+#In order to install and run this project within current notebook run the following cell (make sure you are using python >= 3.4):
 # %%
-import sys
-!{sys.executable} -m pip install .
+import sys;
+!{sys.executable} -m pip install .;
 
 # %% [markdown]
 # ## Usage
@@ -107,11 +107,13 @@ import sys
 !{sys.executable} chModeler.py -h
 
 # %% [markdown]
-#There are 3 ways to initiate running chModeler:
-
-#* Sending command arguments to chModeler directly: 
+# **There are 3 ways to initiate running chModeler:**
+#
+#* **Sending command arguments to chModeler directly:** 
+#
 # Build model for ion channel No.5 in dataset and save the model in /data directory using default options.
-# python3 chModeler.py -i 5
+#
+# `python3 chModeler.py -i 5`
 # %%
 %%time
 !{sys.executable} chModeler.py -i 5
@@ -124,29 +126,34 @@ import sys
 
 # %% [markdown]
 # Use previous models to fit the model with r2 score threshold of 0.98 (increase r2 (e.g. 0.999) for a smaller but faster initial state.) 
-# python3 chModeler.py -i 5 -ft 2 -r2 0.98
+#
+# `python3 chModeler.py -i 5 -ft 2 -r2 0.98`
 # %%
 %%time
 !{sys.executable} chModeler.py -i 5 -ft 2 -r2 0.98
 
 # %% [markdown]
 # Use the model located in `data/2ndFit/18_Sh-B1_DROME_10p_2.json` to fit and plot only final results 
-# python3 chModeler.py -i 5 -ft 2 -s 0 -fp 1 -mf "data\2ndFit\18_Sh-B1_DROME_10p_2.json"
+#
+# `python3 chModeler.py -i 5 -ft 2 -s 0 -fp 1 -mf "data\2ndFit\18_Sh-B1_DROME_10p_2.json"`
 # %%
 %%time
 !{sys.executable} chModeler.py -i 5 -ft 2 -s 0 -fp 1 -mf "data\2ndFit\18_Sh-B1_DROME_10p_2.json"
 
 # %% [markdown]   
-# * Reading command arguments from a file: 
+# * **Reading command arguments from a file:**
+#  
 # Read the arguments from args.txt file
 # %%
 %%time
 !{sys.executable} chModeler.py "@args.txt"
 
 # %% [markdown]
-# * Running the wizard for answering questions and entering the options:
+# * **Running the wizard for answering questions and entering the options:**
+#
 # Run the wizard
-# python3 chModeler.py -w 
+#
+# `python3 chModeler.py -w` 
 # %%
 # !{sys.executable} chModeler.py -w
 
