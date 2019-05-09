@@ -83,3 +83,5 @@ chModeler.egg-info/
 build/
 
 .ipynb_checkpoints/
+/NeuroML2/*.dat
+/NeuroML2/*report*.txt

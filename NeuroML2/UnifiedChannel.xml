@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" 
+	 id="UnifiedChannel">
+
+  <ComponentType name="UnifiedChannel"
+                 extends="ionChannelHH"
+                 description="Unified ion channel.">
+      
+        <Dynamics>
+            <DerivedVariable name="fopen" exposure="fopen" value="1" dimension="none"/>
+            <DerivedVariable name="g" exposure="g" value="conductance" dimension="conductance"/>
+        </Dynamics>
+    
+  </ComponentType>
+
+  
+
+
+</neuroml>

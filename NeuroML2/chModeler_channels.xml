@@ -1,0 +1,12 @@
+<Lems>
+
+    
+    <Include file="UnifiedChannel.xml"/>
+    
+    
+    <UnifiedChannel id="Kcnh1" conductance="10pS">
+
+    </UnifiedChannel> 
+        
+    
+</Lems>
