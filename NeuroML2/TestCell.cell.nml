@@ -61,7 +61,9 @@
                         
                 <channelDensity id="leak" ionChannel="passiveChan" condDensity="1.0 S_per_m2" erev="-54.3mV" ion="non_specific"/>
                 
-                <channelDensity id="kChans" ionChannel="Kcnh1" condDensity="10 S_per_m2" erev="-70mV" ion="k"/>
+                <!--<channelDensity id="kChans" ionChannel="Kcnh1" condDensity="10 S_per_m2" erev="-70mV" ion="k"/>-->
+                
+                <channelPopulation id="kChans" ionChannel="Kcnh1" number="0.00001" erev="-70mV"/>
                 
                 <!--
                 <channelDensity id="naChans" ionChannel="naChan" condDensity="120.0 mS_per_cm2" erev="50.0 mV" ion="na"/>

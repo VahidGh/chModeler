@@ -14,25 +14,35 @@
 
     <Simulation id="sim1" length="300ms" step="0.01ms" target="net1">
     
-        <Display id="d1" title="Ex5: HH cell with simple morphology: voltage" timeScale="1ms" xmin="0" xmax="300" ymin="-90" ymax="50">
+        <Display id="d1" title="Voltage" timeScale="1ms" xmin="-20" xmax="320" ymin="-90" ymax="50">
                 <Line id="v" quantity="hhpop[0]/v" scale="1mV" color="#cccccc" timeScale="1ms"/>
         </Display>
         
-        <!--
-        <Display id="d2" title="Ex5: HH cell with simple morphology: rate variables" timeScale="1ms" xmin="0" xmax="300" ymin="-0.1" ymax="1.1">
-                <Line id="n" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/kChan/n/q" scale="1"  color="#0000ff" timeScale="1ms"/>
-                <Line id="n" quantity="hhpop[0]/bioPhys1/membraneProperties/test_kchan_icg_Chans/test_kchan_icg/n/q" scale="1"  color="#0000ff" timeScale="1ms"/>
+        <Display id="d4" title="Conductance densities" timeScale="1ms" xmin="-20" xmax="320" ymin="-3" ymax="13">
+                <Line id="gleak" quantity="hhpop[0]/bioPhys1/membraneProperties/leak/gDensity" scale="1"  color="#000000" timeScale="1ms"/>
+                <Line id="gk" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/geff" scale="1"  color="#ff0000" timeScale="1ms"/>
         </Display>
+        
+        <Display id="d5" title="Rates" timeScale="1ms" xmin="-20" xmax="320" ymin="-.1" ymax="7">
+                <Line id="alpha" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/Kcnh1/alpha" scale="1"  color="#ff0000" timeScale="1ms"/>
+                <Line id="beta" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/Kcnh1/beta" scale="1"  color="#ffff00" timeScale="1ms"/>
+                <Line id="c" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/Kcnh1/c" scale="1"  color="#ff00ff" timeScale="1ms"/>
+        </Display>
+        
+        <Display id="d2" title="Variables" timeScale="1ms" xmin="0" xmax="300" ymin="-0.1" ymax="1.1">
+                <Line id="p" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/Kcnh1/p" scale="1"  color="#0000ff" timeScale="1ms"/>
+                <Line id="q" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/Kcnh1/q" scale="1"  color="#00ffff" timeScale="1ms"/>
+                <Line id="q1" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/Kcnh1/q1" scale="1"  color="#ff00ff" timeScale="1ms"/>
+                <Line id="q2" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/Kcnh1/q2" scale="1"  color="#00ff00" timeScale="1ms"/>
+        </Display>
+        
+        <!--
         
         <Display id="d3" title="Ex5: HH cell with simple morphology: current densities" timeScale="1ms" xmin="0" xmax="300" ymin="-0.1" ymax="1.1">
                 <Line id="ina" quantity="hhpop[0]/bioPhys1/membraneProperties/naChans/iDensity" scale="1"  color="#000000" timeScale="1ms"/>
                 <Line id="ik" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/iDensity" scale="1"  color="#ff0000" timeScale="1ms"/>
         </Display>
         
-        <Display id="d4" title="Ex5: HH cell with simple morphology: conductance densities" timeScale="1ms" xmin="0" xmax="300" ymin="-50" ymax="350">
-                <Line id="gna" quantity="hhpop[0]/bioPhys1/membraneProperties/naChans/gDensity" scale="1"  color="#000000" timeScale="1ms"/>
-                <Line id="gk" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/gDensity" scale="1"  color="#ff0000" timeScale="1ms"/>
-        </Display>
     
     
         <OutputFile id="of0" fileName="ex_v.dat">
