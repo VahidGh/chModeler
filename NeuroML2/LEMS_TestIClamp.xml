@@ -18,9 +18,8 @@
                 <Line id="v" quantity="hhpop[0]/v" scale="1mV" color="#cccccc" timeScale="1ms"/>
         </Display>
         
-        <Display id="d4" title="Conductance densities" timeScale="1ms" xmin="-20" xmax="320" ymin="-3" ymax="13">
-                <Line id="gleak" quantity="hhpop[0]/bioPhys1/membraneProperties/leak/gDensity" scale="1"  color="#000000" timeScale="1ms"/>
-                <Line id="gk" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/geff" scale="1"  color="#ff0000" timeScale="1ms"/>
+        <Display id="d4" title="Conductance (densities)" timeScale="1ms" xmin="-20" xmax="320" ymin="-.1e-5" ymax="4e-5">
+                <Line id="gk" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/channelg" scale="1"  color="#ff0000" timeScale="1ms"/>
         </Display>
         
         <Display id="d5" title="Rates" timeScale="1ms" xmin="-20" xmax="320" ymin="-.1" ymax="7">
@@ -34,6 +33,12 @@
                 <Line id="q" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/Kcnh1/q" scale="1"  color="#00ffff" timeScale="1ms"/>
                 <Line id="q1" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/Kcnh1/q1" scale="1"  color="#ff00ff" timeScale="1ms"/>
                 <Line id="q2" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/Kcnh1/q2" scale="1"  color="#00ff00" timeScale="1ms"/>
+        </Display>
+        
+        <Display id="d6" title="P" timeScale="1ms" xmin="0" xmax="300" ymin="-0.1" ymax="1.1">
+                <Line id="P0" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/Kcnh1/P0" scale="1"  color="#0000ff" timeScale="1ms"/>
+                <Line id="Pr" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/Kcnh1/Pr" scale="1"  color="#00ffff" timeScale="1ms"/>
+                <Line id="Ppeak" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/Kcnh1/Ppeak" scale="1"  color="#ff00ff" timeScale="1ms"/>
         </Display>
         
         <!--

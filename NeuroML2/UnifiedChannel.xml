@@ -33,12 +33,16 @@
         <Parameter name="sa" dimension="per_voltage"/>
         <Parameter name="rb" dimension="per_time"/>
         <Parameter name="vb" dimension="voltage"/>
-        <Parameter name="sb" dimension="per_voltage"/>
+        <Parameter name="sb" dimension="voltage"/>
         <Parameter name="rc" dimension="per_time"/>
         
         <Exposure name="alpha" dimension="per_time"/>
         <Exposure name="beta" dimension="per_time"/>
         <Exposure name="c" dimension="per_time"/>
+        
+        <Exposure name="P0" dimension="none"/>
+        <Exposure name="Pr" dimension="none"/>
+        <Exposure name="Ppeak" dimension="none"/>
         
         <Exposure name="p" dimension="none"/>
         <Exposure name="q" dimension="none"/>
@@ -54,11 +58,19 @@
             <DerivedVariable name="q" exposure="q" value="q1*q2" dimension="none"/>
             <DerivedVariable name="p" exposure="p" value="1-q" dimension="none"/>
             
-            <DerivedVariable name="fopen" exposure="fopen" value="1" dimension="none"/>
-            <DerivedVariable name="g" exposure="g" value="conductance" dimension="conductance"/>
+            
+            <DerivedVariable name="Pr" exposure="Pr" dimension="none" value="4 * p^3 * q^1"/>
+            <DerivedVariable name="Ppeak" exposure="Ppeak" dimension="none" value="1 / (1 + (exp(-1 * (v - v_half) / slope)))"/>
+            <DerivedVariable name="P0" exposure="P0" dimension="none" value="Pr * Ppeak"/>
+            
+            <DerivedVariable name="g" exposure="g" value="conductance * P0" dimension="conductance"/>
+            
+            
+            <TimeDerivative variable="q1" value="(alpha*(1-q1)) - (beta*q1)"/>
+            <TimeDerivative variable="q2" value="(alpha*(1-q2)) - (c*q2)"/>
             
             <DerivedVariable name="alpha" exposure="alpha" value="ra * exp(-1 * sa * v)" dimension="per_time"/>
-            <DerivedVariable name="beta" exposure="beta" value="rb / (1 + (exp(-1 * (v - v_half) / slope)))" dimension="per_time"/>
+            <DerivedVariable name="beta" exposure="beta" value="rb / (1 + (exp(-1 * (v - vb) / sb)))" dimension="per_time"/>
             <DerivedVariable name="c" exposure="c" value="rc" dimension="per_time"/>
             
         </Dynamics>
