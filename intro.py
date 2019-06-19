@@ -43,12 +43,12 @@
 #            
 #  * Where, *Po* is the probability of ion channels being in open state at each time. So, we can write this probability as:
 #  
-#    $$Po = P_{peak} * Pr(3;4,p)$$
+#    $$Po = P_{peak_{ss}} * Pr(3;4,p)$$
 #    
-#  * For each voltage, *P_peak* is the probability of ion channels at their relative peak conductances and *Pr* is the probability of ion channels being in activated state at each time.
-#  * We can calculate the *P_peak* at each voltage using a Boltzmann function in the form of:  
+#  * For each voltage, *P_peak_ss* is the probability of peak current at their steady state conductances and *Pr* is the probability of ion channels being in activated state at each time.
+#  * We can calculate the *P_peak_ss* at each voltage using a Boltzmann function in the form of:  
 #  
-#    $$P_{peak} = \frac{1} { 1 + \exp(\frac{-(v - v_{half})} {slope})}$$
+#    $$P_{peak_{ss}} = \frac{1} { 1 + \exp(\frac{-(v - v_{half})} {slope})}$$
 #    
 #  * Experimentally, it has been shown that for many voltage-gated ion channels the rate of activation to inactivation is 3:1. So, we can calculate our Binomial Distribution as: 
 #  
@@ -101,7 +101,7 @@ import sys;
 
 # %% [markdown]
 # ## Usage
-#You can run `python3 chModeler.py -h` for command-line usage help.
+#You can run `python chModeler.py -h` for command-line usage help.
 # %%
 import sys
 !{sys.executable} chModeler.py -h
@@ -113,7 +113,7 @@ import sys
 #
 # Build model for ion channel No.5 in dataset and save the model in /data directory using default options.
 #
-# `python3 chModeler.py -i 5`
+# `python chModeler.py -i 5`
 # %%
 %%time
 !{sys.executable} chModeler.py -i 5
@@ -127,7 +127,7 @@ import sys
 # %% [markdown]
 # Use previous models to fit the model with r2 score threshold of 0.98 (increase r2 (e.g. 0.999) for a smaller but faster initial state.) 
 #
-# `python3 chModeler.py -i 5 -ft 2 -r2 0.98`
+# `python chModeler.py -i 5 -ft 2 -r2 0.98`
 # %%
 %%time
 !{sys.executable} chModeler.py -i 5 -ft 2 -r2 0.98
@@ -135,10 +135,10 @@ import sys
 # %% [markdown]
 # Use the model located in `data/2ndFit/18_Sh-B1_DROME_10p_2.json` to fit and plot only final results 
 #
-# `python3 chModeler.py -i 5 -ft 2 -s 0 -fp 1 -mf "data\2ndFit\18_Sh-B1_DROME_10p_2.json"`
+# `python chModeler.py -i 5 -ft 2 -s 0 -fp 1 -mf "data/2ndFit/18_Sh-B1_DROME_10p_2.json"`
 # %%
 %%time
-!{sys.executable} chModeler.py -i 5 -ft 2 -s 0 -fp 1 -mf "data\2ndFit\18_Sh-B1_DROME_10p_2.json"
+!{sys.executable} chModeler.py -i 5 -ft 2 -s 0 -fp 1 -mf "data/2ndFit/18_Sh-B1_DROME_10p_2.json"
 
 # %% [markdown]   
 # * **Reading command arguments from a file:**
@@ -153,15 +153,8 @@ import sys
 #
 # Run the wizard
 #
-# `python3 chModeler.py -w` 
+# `python chModeler.py -w` 
 # %%
 # !{sys.executable} chModeler.py -w
 
 
-# %% [markdown]
-# ## TODOs:
-
-# * **Model Validation**: Because these models are based on digitized data from literature, voltage traces are dependent to the related experiment. So. in order to verify each model to a wide range of voltages there is a need to validate final models against a wider range of voltages.
-# * **Smarter Initial Parameter Selection**: Right now, previous models for next fittings are being selected based on R2 scores. This can be improved to select models from the same category using some classification technique.
-# * **Temperature and Calcium concentration dependency**: Although the *c* constant can cover the calcium concentration dependency, it's needed to be validated.
-# * **Standard data support**: This package needs to be updated to support data analysis from patch clamp machines.
