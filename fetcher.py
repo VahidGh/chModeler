@@ -35,8 +35,8 @@ def get_data_via_api(fig_id=None, adjust=None, plot=False, host=None):
     for graph in graphs:
         print('\nGraph: {}'.format(graph['id']))
         # Only IT curves for now
-        if not (graph['x_axis_type'] in t_type and graph['y_axis_type'] in i_type):
-            continue
+        # if not (graph['x_axis_type'] in t_type and graph['y_axis_type'] in i_type):
+            # continue
 
         graph_data_all = requests.get(LIST_API_URL.format('graph_data')).json()
         graph_data = [g for g in graph_data_all if g['graph'] == graph['id']]
@@ -146,9 +146,9 @@ def get_data_via_api(fig_id=None, adjust=None, plot=False, host=None):
             plt.margins(x=0.1, y=0.1)
             plt.legend(bbox_to_anchor=(1.01, 0.25, 0.2, 0), loc=3, mode="expand", borderaxespad=0., fontsize=8)
             # plt.show()
-            if graph.file:
+            if graph['file']:
                 import matplotlib.image as mpimg
-                img = mpimg.imread(graph.file)
+                img = mpimg.imread(graph['file'])
                 pltimg = plt.figure(2)
                 plt.imshow(img)
             plt.show()

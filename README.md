@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.com/VahidGh/chModeler.svg?token=AUxS1pcZ8QLGaaPqajio&branch=master)](https://travis-ci.com/VahidGh/chModeler)
 
+**This repo is still an under development PoC and the model is not yet fully verified.**
+
 A new approach to the old Hodgkin-Huxley model for:
 Making all ion channel models comparable
 

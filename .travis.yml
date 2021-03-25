@@ -19,4 +19,4 @@ install:
     - pip3 install .
 
 script:
-    - python chModeler.py -i 5 -s False
+    - python3 chModeler.py -i 5 -s False

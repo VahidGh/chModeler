@@ -9,11 +9,11 @@ import pickle
 import json
 import copy
 from datetime import datetime
-import pandas as pd
 import matplotlib.pyplot as plt
+# import pandas as pd
 # import plotly.plotly as py
 # import cufflinks as cf
-from modeler import analyze_voltage_clamp
+from fitter import analyze_voltage_clamp
 from fetcher import get_data_via_api
 
 PATH = os.getcwd() + '/data/'
