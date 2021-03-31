@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<neuroml xmlns="http://www.neuroml.org/schema/neuroml2" 
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+         xsi:schemaLocation="http://www.neuroml.org/schema/neuroml2 https://raw.github.com/NeuroML/NeuroML2/development/Schemas/NeuroML2/NeuroML_v2beta5.xsd" 
+	 id="UnifiedChannel">
+
+  <ComponentType name="UnifiedChannel"
+                 extends="ionChannelHH"
+                 description="Unified ion channel.">
+      
+      
+    <!--
+    
+    "params": {
+        "v_half": -0.0180258243417786,
+        "slope": 0.02767644720667024,
+        "e_rev": -0.10214357831312094,
+        "g": 0.0005145869718619175,
+        "ra": 1.2544609703106782,
+        "sa": -47.83800773213494,
+        "rb": 40.02690897092817,
+        "vb": 0.03709222498027761,
+        "sb": 0.012461435698388186,
+        "rc": 0.14598906450108934
+    },
+    
+    -->
+        <Parameter name="v_half" dimension="voltage"/>
+        <Parameter name="slope" dimension="voltage"/>
+        <!--<Parameter name="e_rev" dimension="none"/> Note: set when conductance placed on cell! -->
+        <!--<Parameter name="g" dimension="none"/> conductance is existing parameter of ionChannelHH -->
+        <Parameter name="ra" dimension="per_time"/>
+        <Parameter name="sa" dimension="per_voltage"/>
+        <Parameter name="rb" dimension="per_time"/>
+        <Parameter name="vb" dimension="voltage"/>
+        <Parameter name="sb" dimension="voltage"/>
+        <Parameter name="rc" dimension="per_time"/>
+        
+        <Exposure name="alpha" dimension="per_time"/>
+        <Exposure name="beta" dimension="per_time"/>
+        <Exposure name="c" dimension="per_time"/>
+        
+        <Exposure name="P0" dimension="none"/>
+        <Exposure name="Pr" dimension="none"/>
+        <Exposure name="Ppeak" dimension="none"/>
+        
+        <Exposure name="p" dimension="none"/>
+        <Exposure name="q" dimension="none"/>
+        
+        <Exposure name="q1" dimension="none"/>
+        <Exposure name="q2" dimension="none"/>
+      
+        <Dynamics>
+            
+            <StateVariable name="q1" exposure="q1" dimension="none"/>
+            <StateVariable name="q2" exposure="q2" dimension="none"/>
+            
+            <DerivedVariable name="q" exposure="q" value="q1*q2" dimension="none"/>
+            <DerivedVariable name="p" exposure="p" value="1-q" dimension="none"/>
+            
+            
+            <DerivedVariable name="Pr" exposure="Pr" dimension="none" value="4 * p^3 * q^1"/>
+            <DerivedVariable name="Ppeak" exposure="Ppeak" dimension="none" value="1 / (1 + (exp(-1 * (v - v_half) / slope)))"/>
+            <DerivedVariable name="P0" exposure="P0" dimension="none" value="Pr * Ppeak"/>
+            
+            <DerivedVariable name="g" exposure="g" value="conductance * P0" dimension="conductance"/>
+            
+            
+            <TimeDerivative variable="q1" value="(alpha*(1-q1)) - (beta*q1)"/>
+            <TimeDerivative variable="q2" value="(alpha*(1-q2)) - (c*q2)"/>
+            
+            <DerivedVariable name="alpha" exposure="alpha" value="ra * exp(-1 * sa * v)" dimension="per_time"/>
+            <DerivedVariable name="beta" exposure="beta" value="rb / (1 + (exp(-1 * (v - vb) / sb)))" dimension="per_time"/>
+            <DerivedVariable name="c" exposure="c" value="rc" dimension="per_time"/>
+            
+        </Dynamics>
+    
+  </ComponentType>
+
+  
+
+
+</neuroml>

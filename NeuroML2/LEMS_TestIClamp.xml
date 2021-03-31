@@ -1,0 +1,65 @@
+<Lems>
+
+
+
+    <Target component="sim1" reportFile="report.txt"/>
+
+    <Include file="Cells.xml"/>
+    <Include file="Networks.xml"/>
+    <Include file="Simulation.xml"/>
+
+    <!-- Including file with a <neuroml> root, a "real" NeuroML 2 file -->
+    <Include file="TestIClamp.net.nml"/>
+
+
+    <Simulation id="sim1" length="300ms" step="0.01ms" target="net1">
+
+        <Display id="d1" title="Voltage" timeScale="1ms" xmin="-20" xmax="320" ymin="-90" ymax="50">
+                <Line id="v" quantity="hhpop[0]/v" scale="1mV" color="#cccccc" timeScale="1ms"/>
+        </Display>
+
+        <Display id="d4" title="Conductance (densities)" timeScale="1ms" xmin="-20" xmax="320" ymin="-.1e-5" ymax="4e-5">
+                <Line id="gk" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/channelg" scale="1"  color="#ff0000" timeScale="1ms"/>
+        </Display>
+
+        <Display id="d5" title="Rates" timeScale="1ms" xmin="-20" xmax="320" ymin="-.1" ymax="7">
+                <Line id="alpha" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/Kcnh1/alpha" scale="1"  color="#ff0000" timeScale="1ms"/>
+                <Line id="beta" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/Kcnh1/beta" scale="1"  color="#ffff00" timeScale="1ms"/>
+                <Line id="c" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/Kcnh1/c" scale="1"  color="#ff00ff" timeScale="1ms"/>
+        </Display>
+
+        <Display id="d2" title="Variables" timeScale="1ms" xmin="0" xmax="300" ymin="-0.1" ymax="1.1">
+                <Line id="p" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/Kcnh1/p" scale="1"  color="#0000ff" timeScale="1ms"/>
+                <Line id="q" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/Kcnh1/q" scale="1"  color="#00ffff" timeScale="1ms"/>
+                <Line id="q1" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/Kcnh1/q1" scale="1"  color="#ff00ff" timeScale="1ms"/>
+                <Line id="q2" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/Kcnh1/q2" scale="1"  color="#00ff00" timeScale="1ms"/>
+        </Display>
+
+        <Display id="d6" title="P" timeScale="1ms" xmin="0" xmax="300" ymin="-0.1" ymax="1.1">
+                <Line id="P0" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/Kcnh1/P0" scale="1"  color="#0000ff" timeScale="1ms"/>
+                <Line id="Pr" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/Kcnh1/Pr" scale="1"  color="#00ffff" timeScale="1ms"/>
+                <Line id="Ppeak" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/Kcnh1/Ppeak" scale="1"  color="#ff00ff" timeScale="1ms"/>
+        </Display>
+
+
+
+
+        <OutputFile id="of0" fileName="ex_v.dat">
+            <OutputColumn id="v" quantity="hhpop[0]/v"/>
+        </OutputFile>
+
+        <OutputFile id="of1" fileName="ex_g.dat">
+          <OutputColumn id="g" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/channelg"/>
+        </OutputFile>
+
+        <OutputFile id="of2" fileName="ex_Rates.dat">
+          <OutputColumn id="alpha" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/Kcnh1/alpha"/>
+          <OutputColumn id="beta" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/Kcnh1/beta"/>
+          <OutputColumn id="c" quantity="hhpop[0]/bioPhys1/membraneProperties/kChans/Kcnh1/c"/>
+        </OutputFile>
+
+
+    </Simulation>
+
+
+</Lems>
